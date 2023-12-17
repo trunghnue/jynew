@@ -1,2 +1,6 @@
-Talk(114, "有问题是不是？那我就再跟你讲一些游戏的基本知识。游戏中的物品分为五大类，第四类为特殊的武器护甲。此类物品可让人配备，以增加攻击力或防御力。但该人物能否配备也需视该人物之属性适不适合而定。", "talkname114", 0);
-do return end;
+Talk(114,
+    "Có một vấn đề, phải không?Sau đó, tôi sẽ nói chuyện với bạn về kiến ​​thức cơ bản của một số trò chơi.Các mục trong trò chơi được chia thành năm loại và loại thứ tư là áo giáp vũ khí đặc biệt.Các mặt hàng như vậy có thể được trang bị để tăng tấn công hoặc phòng thủ.Nhưng liệu nhân vật có thể được trang bị hay không phụ thuộc vào việc thuộc tính của ký tự có phù hợp hay không.",
+    "talkname114", 0);
+do
+    return
+end

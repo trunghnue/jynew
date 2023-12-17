@@ -1,3 +1,3 @@
-Talk(13, "别以为我谢逊眼睛瞎了就好对付，想拿屠龙宝刀就来吧。", "talkname13", 0);
-Talk(0, "你我无冤无仇，我们干嘛动手。", "talkname0", 1);
+Talk(13, "Đừng cho rằng ta Tạ Huân là bởi vì ta mù quáng dễ dàng đối phó, muốn lấy được sát long kiếm thì cứ làm đi.", "talkname13", 0);
+Talk(0, "Bạn và tôi không có bất bình gì, vậy tại sao chúng ta phải làm gì?", "talkname0", 1);
 do return end;

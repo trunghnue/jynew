@@ -1,3 +1,3 @@
-Talk(86, "二师哥，你看这次的事棘手吗？", "talkname86", 0);
-Talk(86, "我听师父说，胡斐的刀法还练不到家，我们几个一起上应该还应付得了。只是此人轻功不错，我们得看紧点，别被他溜了。", "talkname86", 4);
+Talk(86, "Nhị sư huynh, ngươi cảm thấy lần này sự tình sẽ khó khăn sao?", "talkname86", 0);
+Talk(86, "Tôi nghe sư phụ nói rằng kiếm thuật của Hu Fei vẫn chưa hoàn hảo, chúng ta có thể cùng nhau giải quyết. Chỉ là người này rất giỏi Khinh Công nên chúng ta phải theo dõi chặt chẽ, đề phòng hắn bỏ trốn.", "talkname86", 4);
 do return end;

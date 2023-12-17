@@ -1,6 +1,6 @@
-Talk(0, "老伯，你年纪这么大了，还做这种粗活，少林寺也太不敬老尊贤了。", "talkname0", 1);
-Talk(110, "这算什么。你没听人说过，少林寺中藏龙卧虎，搞不好一个扫地僧都是身怀绝技的高手。我虽然年纪大了，这扫地的活我还做得来。只是人老了，记性就是有点不太好。我跟你讲件事，你可千万不能跟别人说哦！", "talkname110", 0);
-Talk(0, "好的。", "talkname0", 1);
-Talk(110, "前阵子我弄丢一本经书，年纪大了记性就不好，看完后就忘记摆哪去了。你可千万不能跟别人说哦！", "talkname110", 0);
-Talk(0, "我知道。", "talkname0", 1);
+Talk(0, "Lão già, lão nhân như vậy mà còn làm công việc hèn mọn như vậy, Thiếu Lâm Tự coi thường người già và bậc trí giả.", "talkname0", 1);
+Talk(110, "Cái này là cái gì. Bạn chưa từng nghe ai nói rằng trong Thiếu Lâm Tự có ẩn long và ngọa hổ, có lẽ mỗi hòa thượng càn quét đều là cao thủ có kỹ năng đặc biệt. Dù đã già nhưng tôi vẫn có thể làm được công việc quét nhà này. Chỉ là khi con người già đi, trí nhớ của họ hơi kém một chút. Tôi đang nói với bạn điều gì đó, nhưng bạn không được nói với ai khác!", "talkname110", 0);
+Talk(0, "ĐƯỢC RỒI", "talkname0", 1);
+Talk(110, "Cách đây không lâu tôi đã đánh mất một cuốn kinh thánh, càng lớn trí nhớ của tôi càng kém, đọc xong tôi quên để nó ở đâu. Bạn không bao giờ được nói với bất cứ ai khác!", "talkname110", 0);
+Talk(0, "Tôi biết.", "talkname0", 1);
 do return end;

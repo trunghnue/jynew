@@ -1,11 +1,11 @@
-Talk(93, "怎么，还想闯打狗阵吗？", "talkname93", 0);
-Talk(0, "小弟再试试。", "talkname0", 1);
+Talk(93, "Cái gì, bạn vẫn muốn lao vào cuộc chọi chó à?", "talkname93", 0);
+Talk(0, "Anh em hãy thử lại.", "talkname0", 1);
 if TryBattle(82) == true then goto label0 end;
     ModifyEvent(-2, 0, -2, -2, 580, -1, -1, -2, -2, -2, -2, -2, -2);
     ModifyEvent(-2, 1, -2, -2, 580, -1, -1, -2, -2, -2, -2, -2, -2);
     ModifyEvent(-2, 5, -2, -2, 580, -1, -1, -2, -2, -2, -2, -2, -2);
     LightScence();
-    Talk(93, "阁下这样的功夫，似乎不配见我家帮主。", "talkname93", 0);
+    Talk(93, "Với kỹ năng như thế này, có vẻ như bạn không xứng đáng gặp thủ lĩnh băng đảng của tôi.", "talkname93", 0);
     do return end;
 ::label0::
     ModifyEvent(-2, 0, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2);
@@ -31,6 +31,6 @@ if TryBattle(82) == true then goto label0 end;
     ModifyEvent(-2, 18, -2, -2, 524, -1, -1, -2, -2, -2, -2, -2, -2);
     ModifyEvent(-2, 19, -2, -2, 524, -1, -1, -2, -2, -2, -2, -2, -2);
     LightScence();
-    Talk(93, "阁下功夫不错，竟破了我丐帮之打狗阵法。乔帮主就在里面，请进，我家帮主一定很高兴认识你。", "talkname93", 0);
+    Talk(93, "Đại nhân rất giỏi võ thuật, lại còn đánh bại đội hình đánh chó của Bang Người Ăn mày của ta. Tào thủ lĩnh Kiều đang ở bên trong, mời vào. Thủ lĩnh của tôi rất vui được gặp anh.", "talkname93", 0);
     AddRepute(2);
 do return end;

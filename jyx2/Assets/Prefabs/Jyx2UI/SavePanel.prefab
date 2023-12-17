@@ -81,7 +81,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u9009\u62E9\u5B58\u6863\u4F4D"
+  m_Text: "Ch\u1ECDn v\u1ECB tr\xED l\u01B0u tr\u1EEF"
 --- !u!114 &1010155651761925387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -324,7 +324,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5BFC\u5165\u5B58\u6863"
+  m_Text: Import
 --- !u!114 &2202386889832594752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -416,7 +416,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5BFC\u51FA\u5B58\u6863"
+  m_Text: Export
 --- !u!114 &1979039097558961197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1390,6 +1390,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TopbarUI
       objectReference: {fileID: 0}
+    - target: {fileID: 6163181798029134051, guid: 9ac7a2af92d183d4eb67c84ead7ac3db,
+        type: 3}
+      propertyPath: m_Text
+      value: Back
+      objectReference: {fileID: 0}
     - target: {fileID: 6876701695403819971, guid: 9ac7a2af92d183d4eb67c84ead7ac3db,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -1407,15 +1412,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ac7a2af92d183d4eb67c84ead7ac3db, type: 3}
---- !u!224 &242811720954330560 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 6876701695403819971, guid: 9ac7a2af92d183d4eb67c84ead7ac3db,
-    type: 3}
-  m_PrefabInstance: {fileID: 6642897654807772675}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &7200678026473235148 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4602013318686858447, guid: 9ac7a2af92d183d4eb67c84ead7ac3db,
+    type: 3}
+  m_PrefabInstance: {fileID: 6642897654807772675}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &242811720954330560 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6876701695403819971, guid: 9ac7a2af92d183d4eb67c84ead7ac3db,
     type: 3}
   m_PrefabInstance: {fileID: 6642897654807772675}
   m_PrefabAsset: {fileID: 0}

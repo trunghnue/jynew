@@ -1,2 +1,2 @@
-Talk(77, "不知阁下前来峨嵋山有何贵事，需要通报掌门师叔吗？", "talkname77", 0);
+Talk(77, "Không biết ngươi tới núi Nga Mi có chuyện quan trọng vì cái gì, có cần báo cho hiệu trưởng không?", "talkname77", 0);
 do return end;

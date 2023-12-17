@@ -1,7 +1,7 @@
-Talk(86, "这里是四川青城派，闲杂人等不得进入。", "talkname86", 0);
-Talk(0, "在下久仰四川青城松风观，余观主及手下四大弟子之名声已久，今特地前来拜访。", "talkname0", 1);
-Talk(86, "是吗？算你还有点见识。我就是“青城四秀”中的侯人英。", "talkname86", 0);
-Talk(0, "“英雄豪杰，青城四秀”，今日得见侯兄，实是小弟三生之幸。", "talkname0", 1);
-Talk(86, "本派近日有大事要办，家师也不见客，你参观参观就走吧。", "talkname86", 0);
-Talk(0, "是，是，是。", "talkname0", 1);
+Talk(86, "Đây là Tứ Xuyên Thanh Thành phái, không cho người khác tiến vào.", "talkname86", 0);
+Talk(0, "Tôi đã ngưỡng mộ chùa Songfeng ở Thanh Thành, Tứ Xuyên từ lâu, Sư phụ Yu và bốn đệ tử của ông đã nổi tiếng từ lâu nên hôm nay tôi đặc biệt đến đây để tham quan.", "talkname0", 1);
+Talk(86, "Vâng? Tôi đoán bạn vẫn còn có một số kiến thức. Tôi là Hầu Nhân Anh trong "Tứ diễn Thanh Thành".", "talkname86", 0);
+Talk(0, ""Anh hùng anh hùng, bốn mỹ nhân Thanh Thành", hôm nay được gặp lại Hầu ca, thật sự là một điều may mắn.", "talkname0", 1);
+Talk(86, "Môn phái chúng ta gần đây có việc quan trọng phải làm, gia sư cũng không có tiếp khách, ngươi có thể đi thăm chúng ta.", "talkname86", 0);
+Talk(0, "Có có có.", "talkname0", 1);
 do return end;

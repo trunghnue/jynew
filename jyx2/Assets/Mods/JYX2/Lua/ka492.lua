@@ -1,16 +1,16 @@
-Talk(0, "段兄，你在这过的还好吧？", "talkname0", 1);
+Talk(0, "Anh Duẩn, anh ở đây thế nào rồi?", "talkname0", 1);
 if InTeam(76) == true then goto label0 end;
-    Talk(53, "能天天在这陪着神仙姊姊，要我做牛做马我都愿意。", "talkname53", 0);
+    Talk(53, "Nếu có thể mỗi ngày ở đây cùng tiên nữ, ta nguyện ý làm bò hoặc ngựa.", "talkname53", 0);
     do return end;
 ::label0::
-    Talk(53, "兄弟，让我加入你吧，我想跟王姑娘在一起。", "talkname53", 0);
+    Talk(53, "Anh ơi, cho em tham gia với anh nhé, em muốn ở cùng cô Vương.", "talkname53", 0);
     if AskJoin () == true then goto label1 end;
-        Talk(0, "很抱歉，段兄。王姑娘的风采也挺令小弟着迷的。", "talkname0", 1);
+        Talk(0, "Tôi xin lỗi, anh Duẩn. Phong cách của cô Vương cũng khiến em trai tôi mê mẩn.", "talkname0", 1);
         do return end;
 ::label1::
-        Talk(0, "段兄你真是个痴情种子，我们当然是一起走喽！", "talkname0", 1);
+        Talk(0, "Đoàn ca, ngươi thật là một người si mê, đương nhiên chúng ta sẽ đi cùng nhau!", "talkname0", 1);
         if TeamIsFull() == false then goto label2 end;
-            Talk(53, "你的队伍已满，我无法加入。", "talkname53", 0);
+            Talk(53, "Nhóm của bạn đã đầy đủ và tôi không thể tham gia.", "talkname53", 0);
             do return end;
 ::label2::
             DarkScence();

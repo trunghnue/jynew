@@ -1,10 +1,10 @@
-Talk(31, "三哥，就是这家伙。", "talkname31", 0);
+Talk(31, "Anh thứ ba, đây là anh chàng.", "talkname31", 0);
 
-Talk(32, "看少侠年纪轻轻，想不到武功竟能够凌驾我四弟之上，真是英雄出少年。", "talkname32", 0);
-Talk(0, "不敢当，想必阁下是三庄主秃笔翁？", "talkname0", 1);
-Talk(32, "正是老夫。", "talkname32", 0);
-Talk(31, "三哥，你一定要帮我出这口气，将那幅“溪山行旅图”给抢过来。", "talkname31", 0);
-Talk(32, "四弟，你自己丢的面子还不够啊！这位少侠，老夫不送了。", "talkname32", 0);
+Talk(32, "Nhìn anh hùng trẻ tuổi như thế nào, tôi không bao giờ nghĩ rằng kỹ năng võ thuật của anh ấy có thể vượt qua anh trai thứ tư của tôi, đúng là một anh hùng xuất hiện từ khi còn trẻ.", "talkname32", 0);
+Talk(0, "Ta không dám coi trọng, ngươi nhất định là đầu trọc của Tam thôn?", "talkname0", 1);
+Talk(32, "Tôi đây.", "talkname32", 0);
+Talk(31, "Tam ca, ngươi nhất định phải giúp ta nói lời này, giật lấy bức tranh "Du lịch Tây Sơn".", "talkname31", 0);
+Talk(32, "Tứ ca, ngươi còn chưa đủ mất mặt! Tôi sẽ không đuổi anh hùng trẻ tuổi này đi nữa.", "talkname32", 0);
 ModifyEvent(-2, 6, -2, -2, 252, 253, -2, -2, -2, -2, -2, -2, -2);
 ModifyEvent(-2, 7, -2, -2, 252, 253, -2, -2, -2, -2, -2, -2, -2);
 ModifyEvent(-2, 8, -2, -2, 280, -1, -1, -2, -2, -2, -2, -2, -2);

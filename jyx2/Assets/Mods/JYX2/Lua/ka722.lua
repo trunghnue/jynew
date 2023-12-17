@@ -2,6 +2,6 @@ if UseItem(186) == true then goto label0 end;
     do return end;
 ::label0::
     AddItemWithoutHint(186, -1);
-    Talk(73, "自来修习内功，不论是为了强身治病，还是为了做为上乘武功的根基，必当水火互济，阴阳相配。比如说练了“足少阴肾经”便当练“足少阳胆经”，少阴少阳融会调合，体力便逐步增强。若阴阳不调而相冲相克，终将走火入魔，死于非命。相传六合丁氏祖传秘方所配制的“玄冰碧火酒”具阴阳调合之功，可治疗因练功不慎而导致阴阳不调之习武之人。", "talkname73", 0);
+    Talk(73, "Muốn rèn luyện nội lực, dù là để cường tráng cơ thể, chữa bệnh hay làm nền tảng của võ công thượng thừa, nước và lửa phải bổ sung cho nhau, âm dương phải hòa hợp. Ví dụ, nếu bạn luyện tập "Kinh mạch chân Thiếu Dương", bạn có thể thực hành "Kinh tuyến túi mật của chân Thiếu Dương", Shaoyin và Shaoyang sẽ được hòa nhập và hài hòa, và thể lực của bạn sẽ dần dần tăng lên. Nếu âm dương không hòa hợp, xung đột lẫn nhau thì cuối cùng sẽ bị nhập hồn và chết. Người ta nói rằng "Rượu Huyền Băng Bihuo" được pha chế từ bí quyết tổ tiên của gia tộc Liuhe Ding có sức mạnh điều hòa âm dương, đồng thời có thể chữa trị cho những võ sinh bị mất cân bằng âm dương do luyện tập bất cẩn.", "talkname73", 0);
     Add3EventNum(-2, 0, 0, 1, -1)
 do return end;

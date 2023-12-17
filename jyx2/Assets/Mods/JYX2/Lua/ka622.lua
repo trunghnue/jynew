@@ -3,21 +3,21 @@ if UseItem(159) == true then goto label0 end;
 ::label0::
     AddEthics(2);
     AddItemWithoutHint(159, -1);
-    Talk(112, "这……这是可兰经。各位，可兰经拿回来了……奉至仁慈的阿拉之名，一切赞颂，全归阿拉，全世界的主，至仁至慈的主，报应日的君主。我们只崇拜祂，只求祂佑助，求祂引导我们上正路，祂所祜佑的路，不是受遣责者的路，也不是迷误者的路。少侠，你将敝族圣物从奸人手中夺回，我和全族人向你说声谢谢。", "talkname112", 0);
-    Talk(0, "＜装酷一点＞这没什么，找书本来就是我拿手的。", "talkname0", 1);
-    Talk(112, "少侠也在找书？", "talkname112", 0);
-    Talk(0, "是啊！有些书掉了，我就到处找找，终究会找到的。", "talkname0", 1);
-    Talk(112, "我这有一本书，不知少侠有没有在找这一本？", "talkname112", 0);
-    Talk(0, "哪一本书？", "talkname0", 1);
-    Talk(112, "书名叫什么来着？对了，叫《书剑恩仇录》。", "talkname112", 0);
-    Talk(0, "什么？《书剑恩仇录》在你这里，这正是我要找的其中一本。", "talkname0", 1);
-    Talk(112, "是吗？这本书是陈公子送我的，他说没什么好看，就摆在我这边。你要，就拿去好了。", "talkname112", 0);
-    Talk(0, "什么？太酷了吧，这本书居然随意乱丢。＜哼！那个姓陈的看得懂才有鬼，耍帅！＞", "talkname0", 1);
-    Talk(112, "提起这个，我就想起了陈公子，他说事情办完要来看我的，怎么这么久还没来。", "talkname112", 0);
-    Talk(0, "＜哇！我没望了．难道我比不上他的酷吗？＞", "talkname0", 1);
-    Talk(112, "少侠旅游各地，若有遇到一名叫陈家洛的人，麻烦告诉他，就说翠羽黄衫在等他。", "talkname112", 0);
-    Talk(0, "好，好。我会记得。＜会讲才怪＞", "talkname0", 1);
-    Talk(112, "那少侠多保重。", "talkname112", 0);
+    Talk(112, "Đây...đây là kinh Koran. Mọi người ơi, Kinh Qur'an đã trở lại... Nhân danh Allah, Đấng Nhân từ nhất, mọi lời ca ngợi đều thuộc về Allah, Chúa tể của Thế giới, Đấng Nhân từ nhất, Chúa của Ngày trừng phạt. Chúng ta chỉ tôn thờ Ngài, chỉ tìm kiếm sự giúp đỡ của Ngài và cầu xin Ngài hướng dẫn chúng ta đi trên con đường đúng đắn. Con đường Ngài ban phước cho chúng ta không phải là con đường của người bị quở trách, cũng không phải là con đường của kẻ lạc lối. Anh hùng trẻ tuổi, anh đã lấy lại vật thiêng của tộc chúng tôi từ tay kẻ phản bội, tôi và cả tộc xin gửi lời cảm ơn đến anh.", "talkname112", 0);
+    Talk(0, "＜Giả vờ ngầu＞Không sao đâu, tìm sách là việc tôi giỏi.", "talkname0", 1);
+    Talk(112, "Thiếu Hiệp cũng đang tìm sách?", "talkname112", 0);
+    Talk(0, "Đúng! Một số cuốn sách bị rơi xuống nên tôi đã tìm kiếm khắp nơi và cuối cùng tôi cũng tìm thấy chúng.", "talkname0", 1);
+    Talk(112, "Tôi có một cuốn sách ở đây, không biết anh hùng trẻ tuổi có tìm cuốn này không?", "talkname112", 0);
+    Talk(0, "Cuốn sách nào?", "talkname0", 1);
+    Talk(112, "Tên cuốn sách là gì? Nhân tiện, nó có tên là "Cuốn sách về kiếm và thù địch".", "talkname112", 0);
+    Talk(0, "Cái gì? "Sách Kiếm và Thù" đang ở đây cùng bạn. Đây chính xác là một trong những cuốn sách tôi đang tìm kiếm.", "talkname0", 1);
+    Talk(112, "Vâng? Cuốn sách này được anh Trần tặng cho tôi, anh ấy nói không có gì thú vị nên đặt nó ở đây với tôi. Nếu bạn muốn nó, chỉ cần lấy nó.", "talkname112", 0);
+    Talk(0, "Cái gì? Thật tuyệt biết bao khi cuốn sách này được ném đi khắp nơi một cách ngẫu nhiên. <Hừm! Người đàn ông tên Chen đó chỉ thông minh và ngầu nếu anh ta hiểu được! ＞", "talkname0", 1);
+    Talk(112, "Nói đến đây tôi nghĩ đến anh Trần, anh ấy nói sau khi xong việc sẽ đến gặp tôi, nhưng sao lâu quá không đến?", "talkname112", 0);
+    Talk(0, "<Chà! Tôi không có hy vọng. Tôi không ngầu bằng anh ấy sao? ＞", "talkname0", 1);
+    Talk(112, "Anh hùng trẻ tuổi đang đi du lịch khắp nơi, nếu bạn gặp một người tên Chen Jialuo, hãy nói với anh ta và nói rằng chiếc lông xanh và chiếc áo vàng đang đợi anh ta.", "talkname112", 0);
+    Talk(0, "Tốt. Tôi sẽ nhớ. ＜Thật kỳ lạ khi có thể nói được＞", "talkname0", 1);
+    Talk(112, "Hãy bảo trọng nhé, anh hùng trẻ tuổi.", "talkname112", 0);
     AddItem(152, 1);
     ModifyEvent(-2, -2, -2, -2, 623, -1, -1, -2, -2, -2, -2, -2, -2);--by fanyu|启动脚本623。场景17
     ModifyEvent(-2, 1, -2, -2, 626, -1, -1, -2, -2, -2, -2, -2, -2);--by fanyu|启动脚本626。场景17-编号1

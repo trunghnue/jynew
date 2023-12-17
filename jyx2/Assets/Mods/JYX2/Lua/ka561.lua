@@ -1,30 +1,30 @@
-Talk(47, "有什么事吗？", "talkname47", 0);
+Talk(47, "Có vấn đề gì không?", "talkname47", 0);
 if AskJoin () == true then goto label0 end;
     do return end;
 ::label0::
-    Talk(0, "我看阿紫姑娘聪明伶利，又会毒术，所以想请阿紫姑娘加入我。", "talkname0", 1);
+    Talk(0, "Tôi nghĩ cô Azi thông minh và giỏi đầu độc nên muốn mời cô Azi đi cùng.", "talkname0", 1);
     if JudgeEthics(0, 0, 40) == true then goto label1 end;
-        Talk(47, "你这人这么正直，跟你在一起一定挺无趣的，我才不要呢。", "talkname47", 0);
+        Talk(47, "Bạn là một người ngay thẳng như vậy, ở bên bạn chắc chắn sẽ rất nhàm chán, tôi không muốn điều đó.", "talkname47", 0);
         do return end;
 ::label1::
         if TeamIsFull() == false then goto label2 end;
-            Talk(47, "你的队伍已满，我无法加入。", "talkname47", 0);
+            Talk(47, "Nhóm của bạn đã đầy đủ và tôi không thể tham gia.", "talkname47", 0);
             do return end;
 ::label2::
-            Talk(47, "我看你这人也不是什么呆头鹅，跟你一起走走也挺好玩的。", "talkname47", 0);
+            Talk(47, "Tôi thấy bạn không phải là người ngốc nghếch, đi dạo cùng bạn sẽ rất vui.", "talkname47", 0);
             DarkScence();
             jyx2_ReplaceSceneObject("", "NPC/azi", "");--阿紫加入
             ModifyEvent(-2, 3, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2);
             LightScence();
             Join(47);
             AddEthics(-2);
-            Talk(48, "阿紫姑娘，你别丢下我一个人。求求少侠让我加入，好让我跟在阿紫姑娘身旁服侍她。", "talkname48", 0);
+            Talk(48, "Cô Azi, đừng bỏ tôi một mình. Xin người anh hùng trẻ tuổi, xin hãy cho tôi tham gia để tôi có thể đi theo cô Azi và phục vụ cô ấy.", "talkname48", 0);
             if AskJoin () == true then goto label3 end;
                 do return end;
 ::label3::
-                Talk(0, "也好。", "talkname0", 1);
+                Talk(0, "Tốt rồi.", "talkname0", 1);
                 if TeamIsFull() == false then goto label4 end;
-                    Talk(48, "你的队伍已满，我无法加入。", "talkname48", 0);
+                    Talk(48, "Nhóm của bạn đã đầy đủ và tôi không thể tham gia.", "talkname48", 0);
                     do return end;
 ::label4::
                     DarkScence();

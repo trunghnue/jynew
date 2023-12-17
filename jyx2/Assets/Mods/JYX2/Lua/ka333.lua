@@ -1,10 +1,10 @@
-Talk(0, "这位小哥，你怎么了？", "talkname0", 1);
-Talk(38, "我……我……只记得自己坐在岩石上练功，突然间全身半边冰冷，半边火热……", "talkname38", 0);
-Talk(0, "莫非兄弟被蚊子叮到了？", "talkname0", 1);
-Talk(38, "老伯伯呢？他说要教我练捉麻雀的本事，却没跟我说练完会忽冷忽热，难过死了。", "talkname38", 0);
-Talk(0, "捉麻雀的本事？", "talkname0", 1);
-Talk(38, "是啊！老伯伯先是教我练泥人上的功夫，练到后来，常会全身发冷，可是老伯伯说这是练功应有之象。后来老伯伯又教我其它的练法，可是又更难过了，有时全身发冷，有时奇热难忍，练这捉麻雀的本事真辛苦！", "talkname38", 0);
-Talk(0, "原来兄台练功时走火入魔！", "talkname0", 1);
-Talk(38, "啊！又来了……我……我不，不跟你说了。", "talkname38", 0);
+Talk(0, "Em trai này, em bị sao vậy?", "talkname0", 1);
+Talk(38, "Tôi...tôi...tôi chỉ nhớ mình đang ngồi trên tảng đá tập khí công, đột nhiên nửa người lạnh nửa nóng...", "talkname38", 0);
+Talk(0, "Chẳng lẽ anh trai tôi bị muỗi đốt?", "talkname0", 1);
+Talk(38, "Bác già đâu? Anh ấy nói muốn dạy tôi cách bắt chim sẻ, nhưng anh ấy không nói với tôi rằng sau khi luyện tập tôi sẽ cảm thấy nóng lạnh, điều đó thật đáng buồn.", "talkname38", 0);
+Talk(0, "Khả năng bắt chim sẻ?", "talkname0", 1);
+Talk(38, "Đúng! Đầu tiên, chú già dạy tôi luyện công phu trên tượng đất sét, sau này tôi thường xuyên bị ớn lạnh toàn thân, nhưng chú già nói rằng đây là dấu hiệu bình thường của việc tập luyện kung fu. Sau này chú già dạy tôi những phương pháp huấn luyện khác, nhưng càng buồn hơn, lúc thì lạnh toàn thân, lúc thì nóng không chịu nổi, luyện tập kỹ năng bắt chim sẻ này vất vả quá!", "talkname38", 0);
+Talk(0, "Hóa ra Xiongtai đã phát điên khi luyện tập khí công!", "talkname0", 1);
+Talk(38, "Ah! Lại bắt đầu nữa...Tôi...Tôi sẽ không nói với bạn nữa.", "talkname38", 0);
 ModifyEvent(-2, -2, -2, -2, 334, 335, -2, -2, -2, -2, -2, -2, -2);
 do return end;

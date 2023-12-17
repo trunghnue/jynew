@@ -1,2 +1,2 @@
-Talk(85, "听说梅庄中住着四位异人，除了武功高强外，还各有喜好，四兄弟分别对琴棋书画四样东西着迷，江湖上人称为“江南四友”。", "talkname85", 0);
+Talk(85, "Người ta kể rằng có bốn người xa lạ sống ở Meizhuang, ngoài kỹ năng võ thuật, họ còn có sở thích riêng, bốn anh em lần lượt bị mê hoặc bởi bốn thứ: piano, cờ vua, thư pháp và hội họa. “Bốn người bạn phương Nam sông Dương Tử” của nhân dân thế giới.", "talkname85", 0);
 do return end;

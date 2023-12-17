@@ -1,21 +1,21 @@
 if UseItem(180) == true then goto label0 end;
     do return end;
 ::label0::
-    Talk(31, "啊！这是北宋范宽的真迹“溪山行旅图”，你……你是从何处得来的？", "talkname31", 0);
-    Talk(0, "这个你不必管。我听江湖上传言，梅庄四庄主好酒，好画，好剑，人称三绝。那想必对我这幅画定是“哈”死了！", "talkname0", 1);
-    Talk(31, "你这小子，到底有什么企图？", "talkname31", 0);
-    Talk(0, "“企图”没有，“行旅图”倒是有一幅。", "talkname0", 1);
-    Talk(31, "小子，少贫嘴，找死嘛？", "talkname31", 0);
-    Talk(0, "就凭你？帮我搔痒还差不多。", "talkname0", 1);
-    Talk(31, "啊！气死我了！", "talkname31", 0);
+    Talk(31, "Ah! Đây là bản gốc "Du ngoạn núi non" của Fan Kuan thời Bắc Tống, bạn... bạn lấy nó ở đâu?", "talkname31", 0);
+    Talk(0, "Bạn không cần phải lo lắng về điều này. Nghe trong thiên hạ có tin đồn rằng bốn ông chủ Mai Trang đều giỏi rượu, hội họa và kiếm thuật, được mệnh danh là tam chủ. Đó hẳn là một điều "ha" đối với tôi!", "talkname0", 1);
+    Talk(31, "Này nhóc, mục đích của ngươi là gì?", "talkname31", 0);
+    Talk(0, "Không có “ý định” nhưng có “bản đồ du lịch”.", "talkname0", 1);
+    Talk(31, "Này nhóc, đừng nói nhiều nữa, ngươi đang tìm cái chết à?", "talkname31", 0);
+    Talk(0, "Chỉ có bạn? Nó giống như gãi ngứa hơn.", "talkname0", 1);
+    Talk(31, "Ah! Tôi tức giận!", "talkname31", 0);
     if TryBattle(43) == true then goto label1 end;
         Dead();
         do return end;
 ::label1::
         LightScence();
-        Talk(31, "真是长江后浪推前浪，今日败在你的手里，我也没话可说。", "talkname31", 0);
-        Talk(0, "承让了，四庄主。", "talkname0", 1);
-        Talk(31, "小子，你等着，待我去请我三哥。", "talkname31", 0);
+        Talk(31, "Đúng là sóng sau sông Dương Tử xô sóng trước, hôm nay ta bại dưới tay ngươi, không còn gì để nói.", "talkname31", 0);
+        Talk(0, "Chấp nhận, chủ làng thứ tư.", "talkname0", 1);
+        Talk(31, "Chàng trai, đợi chút tôi đi mời anh ba.", "talkname31", 0);
         DarkScence();
         ModifyEvent(-2, 3, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2);
         SetScenceMap(-2, 1, 37, 42, 0);

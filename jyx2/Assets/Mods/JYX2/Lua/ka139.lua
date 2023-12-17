@@ -1,10 +1,10 @@
-Talk(7, "没事就快走吧，别在此逗留。", "talkname7", 0);
+Talk(7, "Nếu không có việc gì thì hãy nhanh chóng rời đi và đừng ở lại đây.", "talkname7", 0);
 if AskBattle() == true then goto label0 end;
     do return end;
 ::label0::
-    Talk(0, "在下想请何掌门放过那位可怜的大夫，何况那女人长得这么丑，不要也罢。", "talkname0", 1);
-    Talk(7, "你说什么！", "talkname7", 0);
-    Talk(0, "糟了，说溜了嘴。", "talkname0", 1);
+    Talk(0, "Tôi muốn cầu xin Sư phụ hãy để bác sĩ tội nghiệp đi, chưa kể người phụ nữ này xấu xí như vậy.", "talkname0", 1);
+    Talk(7, "Bạn nói gì!", "talkname7", 0);
+    Talk(0, "Ối, tôi trượt chân rồi.", "talkname0", 1);
     if TryBattle(18) == true then goto label1 end;
         Dead();
         do return end;

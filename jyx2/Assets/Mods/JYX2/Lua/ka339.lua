@@ -1,13 +1,13 @@
-Talk(90, "来者何人，可知这里是凌霄城。", "talkname90", 0);
-Talk(0, "小弟有事想求见贵派掌门。", "talkname0", 1);
-Talk(90, "掌门师叔现下不见客。", "talkname90", 0);
-Talk(0, "在下并无恶意，烦请这位大哥通报一声。", "talkname0", 1);
-Talk(90, "本派今有大事要办，快快离去，别在这啰嗦。", "talkname90", 0);
+Talk(90, "Ai đang đến Bạn biết đây là thành phố Lingxiao.", "talkname90", 0);
+Talk(0, "Em trai tôi có chuyện muốn hỏi và muốn gặp người đứng đầu giáo phái của bạn.", "talkname0", 1);
+Talk(90, "Chú của ông chủ hiện không tiếp khách nào.", "talkname90", 0);
+Talk(0, "Tôi không có ý làm hại gì cả, xin vui lòng cho tôi biết.", "talkname0", 1);
+Talk(90, "Tông chúng ta hiện tại có việc lớn phải làm, nhanh chóng rời đi, đừng nói chuyện ở đây.", "talkname90", 0);
 if AskBattle() == true then goto label0 end;
     do return end;
 ::label0::
-    Talk(0, "实在对不起，在下一定得见见贵派掌门。", "talkname0", 1);
-    Talk(90, "好个家伙！想硬闯是不是？", "talkname90", 0);
+    Talk(0, "Tôi thực sự xin lỗi, tôi phải gặp người đứng đầu giáo phái của bạn.", "talkname0", 1);
+    Talk(90, "Quả là một chàng trai! Bạn có muốn ép mình vào không?", "talkname90", 0);
     if TryBattle(58) == true then goto label1 end;
         Dead();
         do return end;

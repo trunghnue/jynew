@@ -1,9 +1,9 @@
-Talk(85, "这位少侠，上泰山来不知有何见教？", "talkname85", 0);
-Talk(0, "原来这儿就是泰山啊，古人曾说过“登泰山而小天下”，今日一见果然名不虚传。", "talkname0", 1);
-Talk(85, "好说，好说。我泰山派立派以来，每年上山朝拜者数以万计，多少人都想到我泰山派拜师学艺。我看，你也是想来这拜师的吧？", "talkname85", 0);
-Talk(0, "哈！哈！我还需要拜师？有没有搞错啊！我看你拜我为师还差不多。不然这样好了，今儿个我心情正好，就收你为徒。咱们也不必行什么拜师礼了……", "talkname0", 1);
-Talk(85, "小子！好大的口气！我倒要看看你有多少斤两，想叫我拜你为师！", "talkname85", 0);
-Talk(0, "那你就试试看！", "talkname0", 1);
+Talk(85, "Không biết người anh hùng trẻ tuổi này đã học được gì kể từ khi đến Thái Sơn?", "talkname85", 0);
+Talk(0, "Thì ra đây chính là Thái Sơn, người xưa từng nói: “Leo lên Thái Sơn, thế giới sẽ nhỏ lại”, hôm nay nhìn thấy, quả nhiên đúng như danh tiếng của nó.", "talkname0", 1);
+Talk(85, "Dễ nói, dễ nói. Kể từ khi Thái Sơn giáo của chúng ta thành lập, mỗi năm có hàng vạn người lên núi cúng bái, trong đó có rất nhiều người đã nghĩ đến việc theo học Thái Sơn của chúng ta. Tôi nghĩ bạn cũng muốn đến đây để làm đệ tử phải không?", "talkname85", 0);
+Talk(0, "ha! ha! Tôi có còn cần phải làm đệ tử nữa không? Có sai sót gì không? Tôi nghĩ bạn có thể tôn thờ tôi như một vị thầy của mình cũng được. Bằng không cũng không sao, nếu hôm nay tâm tình ta tốt, ta liền thu ngươi làm đồ đệ. Chúng ta không cần phải thực hiện bất kỳ buổi lễ học nghề nào...", "talkname0", 1);
+Talk(85, "Con trai! Thật là một giai điệu lớn! Tôi muốn xem bạn nặng bao nhiêu và xin tôi làm giáo viên của bạn!", "talkname85", 0);
+Talk(0, "Vậy thì hãy thử xem!", "talkname0", 1);
 if TryBattle(25) == true then goto label0 end;
     Dead();
     do return end;

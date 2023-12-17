@@ -1,31 +1,31 @@
 if InTeam(35) == false then goto label0 end;
     --jyx2_ReplaceSceneObject("", "NPC/令狐冲", "1");-- 原作不需要显示令狐冲，是否有必要？
-    Talk(35, "师父！", "talkname35", 1);
-    Talk(19, "谁是你师父了？岳某早跟你脱却了师徒名份。", "talkname19", 0);
-    Talk(35, "弟子做错了不少事，愿领师父重责，只是…………只是逐出门墙的责罚，务请师父收回成命。", "talkname35", 1);
-    Talk(19, "唉！我何尝不想呢？在此五岳并派紧要之急，你师弟他们的功夫还不到家……下月十五的嵩山大会过后，华山派还能存在吗？重回华山……到时再说吧！", "talkname19", 0);
+    Talk(35, "Bậc thầy!", "talkname35", 1);
+    Talk(19, "Chủ nhân của bạn bây giờ là ai? Yue đã tách khỏi bạn với tư cách là thầy và đồ từ lâu rồi.", "talkname19", 0);
+    Talk(35, "Tôi đã làm sai rất nhiều, tôi sẵn sàng nhận trách nhiệm nặng nề từ Sư phụ, tuy nhiên, chỉ là... hình phạt là đuổi ra khỏi cửa, xin Sư phụ nhận lại hình phạt.", "talkname35", 1);
+    Talk(19, "Tốt! Tại sao tôi không muốn? Vào thời điểm quan trọng khi Ngũ Sơn giáo thống nhất, sư đệ của bạn và những người khác vẫn chưa thành thạo kỹ năng của mình ... Sau Hội nghị Songshan vào ngày 15 tháng sau, liệu phái Hoa Sơn có còn tồn tại không? Trở lại Hoa Sơn... Vậy chúng ta hãy nói chuyện đó nhé!", "talkname19", 0);
 ::label0::
-    Talk(0, "近日江湖盛传五岳剑派将在下月十五，于嵩山召开大会讨论并派之事。不知岳先生对此有何看法。", "talkname0", 1);
-    Talk(19, "我华山创派二百余年，中间曾有气宗、剑宗之争。在下念及当日两宗自相残杀的惨状，至今兀自不寒而栗……因此在下深觉武林中的宗派门户，分不如合。千百年来江湖上仇杀斗殴，不知有多少武林同道死于非命，推源溯因，泰半是因门户之见而起。在下常想倘若武林之中并无门户宗派之别，天下一家，人人皆如同胞手足。那么种种流血惨剧，十成中至少可以减去九成。英雄豪杰不致盛年丧命，世上也少了许许多多无依无靠的孤儿寡妇。", "talkname19", 0);
-    Talk(0, "岳先生人称“君子剑”，果然名不虚传，深具仁者之心。武林中人只要都如岳先生这般想法，天下的腥风血雨，刀兵纷争，便都泯于无形了。", "talkname0", 1);
-    Talk(19, "其实这一些浅见，其他的武林前辈一定也都想过。他们都知道门户派别的分歧大有祸害，为什么不能痛下决心，予以消除？在下大惑不解，于此事苦思多年，直到前几日才恍然大悟，明白了其中的关窍所在。", "talkname19", 0);
-    Talk(0, "岳先生的见地，定然是很高明的。", "talkname0", 1);
-    Talk(19, "在下潜心思索，发觉其中道理，原来在一个“急”字与“渐”字的差别。", "talkname19", 0);
-    Talk(19, "历来武林中的有心人，盼望消除门户派别，往往操之过急，要一举而将天下所有宗派门户之间的界限，尽数消除。殊不知积重难返，武林中的宗派，大者数十小者过千，每个门户都有数十年乃至千百年的传承，要一举而消除之，确是难于登天。", "talkname19", 0);
-    Talk(0, "不知那嵩山派左掌门为何如此急着要合并五岳剑派。", "talkname0", 1);
-    Talk(19, "左冷禅野心极大，他想要做武林中的第一人。当初当上五岳剑派盟主，那只是第一步。第二步是要将五派归一，由他自任掌门五派归一之后，实力雄厚，便可隐然与少林、武当成为鼎足而三之势。到时他会进一步蚕食昆仑、峨嵋、崆峒、青城诸派，一一将之合并。然后他向魔教挑战，率领少林，武当诸派，一举将魔教挑了，这是第四步。", "talkname19", 0);
-    Talk(0, "这种事情难办至极，左冷禅的武功未必当世无敌，他何以要花偌大心力？", "talkname0", 1);
-    Talk(19, "人心难测。世上之事，不论多么难办，总是有人要去试上一试。左冷禅若能灭了魔教，在武林中已是唯我独尊之势，再要吞并武当，收拾少林，也未始不能。干办这些大事，那也不是全凭武功。", "talkname19", 0);
-    Talk(0, "原来左冷禅是要天下武林之士，个个遵他号令。", "talkname0", 1);
-    Talk(19, "那时只怕他想做皇帝了，做了皇帝之后，又想长生不老，万寿无疆！这叫“人心不足蛇吞象”，自古以来，皆是如此。英雄豪杰之士，绝少有人能逃得过这“权位”的关口。", "talkname19", 0);
+    Talk(0, "Gần đây có tin đồn Võ Việt Kiếm phái sẽ tổ chức hội nghị ở núi Tung Sơn vào ngày 15 tháng sau để bàn việc sáp nhập các giáo phái. Tôi không biết ông Yue nghĩ gì về điều này.", "talkname0", 1);
+    Talk(19, "Giáo phái Hoa Sơn của chúng ta đã được thành lập hơn 200 năm, trong thời gian đó đã xảy ra tranh chấp giữa Tề Môn và Kiếm Giáo. Tôi vẫn rùng mình khi nghĩ đến hoàn cảnh bi thảm hai môn phái giao chiến với nhau ngày hôm đó... Vì vậy, tôi cảm nhận sâu sắc rằng các môn phái trong giới võ lâm chia rẽ nhiều hơn là đoàn kết. Ngàn năm qua, sông hồ đánh nhau, vô số võ giả chết oan uổng, nguồn gốc có thể truy nguyên nhân, phần lớn là do quan điểm tông phái. Tôi thường nghĩ rằng nếu không có môn phái trong giới võ thuật thì thế giới sẽ là một gia đình và mọi người sẽ như anh chị em. Vì vậy, tất cả các loại bi kịch đẫm máu có thể giảm xuống ít nhất 90% trên 10%. Các anh hùng sẽ không còn chết trong thời kỳ hoàng kim nữa, và trên thế giới sẽ có ít trẻ mồ côi và góa phụ bơ vơ hơn.", "talkname19", 0);
+    Talk(0, "Ông Yue được mệnh danh là "Thanh kiếm của quý ông", ông thực sự xứng đáng với danh tiếng và có một trái tim nhân hậu. Chỉ cần người trong giới võ thuật nghĩ như ông Yue, mọi cuộc chiến tranh đổ máu và kiếm thuật trên thế giới sẽ biến mất.", "talkname0", 1);
+    Talk(19, "Trên thực tế, những tiền bối võ thuật khác hẳn đã từng nghĩ tới những ý kiến đơn giản này. Họ đều biết rằng sự khác biệt giữa các tông phái là rất có hại, vậy tại sao họ không thể quyết tâm loại bỏ chúng? Tôi rất khó hiểu và đã suy nghĩ về vấn đề này trong nhiều năm, mãi đến cách đây vài ngày tôi mới chợt nhận ra mấu chốt.", "talkname19", 0);
+    Talk(0, "Quan điểm của ông Yue hẳn là rất sáng suốt.", "talkname0", 1);
+    Talk(19, "Sau khi suy nghĩ sâu sắc, tôi phát hiện ra nguyên nhân nằm ở sự khác biệt giữa từ “khẩn cấp” và từ “dần dần”.", "talkname19", 0);
+    Talk(19, "Trong lịch sử, những người có tư duy trong giới võ thuật luôn mong muốn tiêu diệt các môn phái, nhưng họ thường hành động quá vội vàng và muốn xóa bỏ mọi ranh giới giữa các môn phái trên thế giới trong một đòn. Như mọi người đều biết, tích lũy môn phái tích lũy rất khó có thể khôi phục, trong võ học các môn phái từ hàng chục lớn đến hàng nghìn nhỏ, mỗi môn phái đều có truyền thừa mấy chục năm, thậm chí hàng nghìn năm, quả thực rất khó tiêu diệt. chúng trong một cú ngã.", "talkname19", 0);
+    Talk(0, "Không biết vì sao Tả Tả Tông Sơn lại muốn sáp nhập Ngũ Sơn Kiếm Phái như vậy.", "talkname0", 1);
+    Talk(19, "Zuo Lengchan có tham vọng lớn, muốn trở thành người đầu tiên trong thế giới võ thuật. Trở thành thủ lĩnh của Ngũ Sơn Kiếm Phái chỉ là bước đầu tiên. Bước thứ hai là thống nhất năm môn phái, lấy hắn làm người đứng đầu, sau khi năm môn phái thống nhất sẽ trở thành một thế lực hùng mạnh cùng với Thiếu Lâm và Võ Đang. Khi đó, hắn sẽ xâm lấn sâu hơn vào các phe phái Côn Lôn, Nga Mi, Khổng Thông, Thanh Thành và hợp nhất từng phe một. Sau đó, hắn khiêu chiến Yêu Giáo, lãnh đạo Thiếu Lâm, Võ Đang tông một đòn đánh bại Yêu Giáo, đây là bước thứ tư.", "talkname19", 0);
+    Talk(0, "Loại chuyện này cực kỳ khó xử lý, võ công của Tả Lãnh Thiền chưa hẳn là vô địch, tại sao hắn lại phải tốn nhiều công sức như vậy?", "talkname0", 1);
+    Talk(19, "Lòng người khó đoán. Trên đời này dù có khó khăn đến đâu thì vẫn luôn có người phải thử. Nếu Zuo Lengchan có thể tiêu diệt yêu giáo, hắn đã là người duy nhất trong giới võ lâm, muốn thôn tính Võ Đang, thanh lý Thiếu Lâm cũng không phải là không thể. Để làm được những việc lớn lao này, không chỉ có võ thuật.", "talkname19", 0);
+    Talk(0, "Hóa ra Zuo Lengchan muốn tất cả võ sĩ trên thế giới tuân theo mệnh lệnh của mình.", "talkname0", 1);
+    Talk(19, "Khi đó chỉ sợ hắn muốn làm hoàng đế, sau khi trở thành hoàng đế, hắn cũng muốn trường sinh bất tử! Đây gọi là “lòng người yếu đuối, rắn nuốt voi”, điều này đã đúng từ xa xưa. Rất ít anh hùng, anh hùng có thể thoát khỏi “quyền lực và địa vị” này.", "talkname19", 0);
     Talk(0,"人生数十年，但贵适意，却又何苦如此？左冷禅要消灭崆峒、昆仑，吞并少林、武当，不知将杀多少人，流多少血？岳先生，我们必须阻止左冷禅，不让他野心得逞，以免江湖之上，遍地血腥。", "talkname0", 1);
-    Talk(19, "下月十五的嵩山大会上，岳某将尽力而为。", "talkname19", 0);
-    Talk(0, "到时我一定去帮你。", "talkname0", 1);
+    Talk(19, "Tại Hội nghị Songshan vào ngày 15 tháng sau, Yue sẽ cố gắng hết sức.", "talkname19", 0);
+    Talk(0, "Lúc đó tôi chắc chắn sẽ đi giúp bạn.", "talkname0", 1);
 
     if InTeam(35) == false then goto label1 end;
-        Talk(35, "是啊，师父，到时我们一定会去帮你。", "talkname35", 1);
-        Talk(19, "只盼你能立了大功，我才有理由让你重回华山门下。", "talkname19", 0);
-        Talk(35, "兄弟，下月十五，我们一定要到嵩山去阻止左冷禅的阴谋！", "talkname35", 1);
+        Talk(35, "Vâng, thưa Sư phụ, chúng tôi nhất định sẽ giúp Ngài khi thời cơ đến.", "talkname35", 1);
+        Talk(19, "Ta chỉ hy vọng ngươi có thể lập thành tích lớn, để ta có lý do cho ngươi trở về Hoa Sơn.", "talkname19", 0);
+        Talk(35, "Các anh em, ngày mười lăm tháng sau, chúng ta phải đến Tùng Sơn để ngăn chặn âm mưu của Tả Lãnh Thiền!", "talkname35", 1);
         --jyx2_ReplaceSceneObject("", "NPC/令狐冲", "");-- 
 ::label1::
         ModifyEvent(-2, -2, -2, -2, 196, -1, -1, -2, -2, -2, -2, -2, -2);

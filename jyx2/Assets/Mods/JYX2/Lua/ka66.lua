@@ -1,2 +1,2 @@
-Talk(13, "少侠为我明教付出许多，谢某感激不尽。待我将这料理完毕后，定当赶回明教。到时还望少侠前来我明教作客。", "talkname13", 0);
+Talk(13, "Người anh hùng trẻ tuổi đã hy sinh rất nhiều cho Mingjiao của chúng ta, Xie vô cùng biết ơn. Sau khi nấu xong món này, tôi sẽ vội vã quay về Mingjiao. Khi đó, tôi hy vọng anh hùng trẻ tuổi sẽ đến Mingjiao của tôi với tư cách là khách.", "talkname13", 0);
 do return end;

@@ -1,11 +1,11 @@
-Talk(0, "这雕像中的女子倒也美丽……咦！这下面写着几个字……“磕首千遍，供我驱策，遵行我命，百死无悔”……＜神经病，谁要对着个石像磕头＞", "talkname0", 1);
+Talk(0, "Người phụ nữ trong bức tượng này khá xinh đẹp... Ơ! Phía dưới viết mấy chữ... "Cúi lạy một ngàn lần, để ta dắt ngươi, tuân theo mệnh lệnh của ta, không bao giờ hối hận"... <Điên muốn lạy tượng đá>", "talkname0", 1);
 if InTeam(53) == true then goto label0 end;
     do return end;
 ::label0::
     jyx2_ReplaceSceneObject("", "NPC/段誉11", "1");--段誉出现
-    Talk(53, "神仙姊姊，小生段誉今日得睹芳容，死而无憾。姊姊在此离世独居，不也太寂寞了吗？", "talkname53", 1);
-    Talk(0, "段兄，你该不会在跟这玉像说话吧。＜这人真是呆得可以＞", "talkname0", 1);
-    Talk(53, "藐姑射之山，有神人居焉，肌肤若冰雪，绰约若处子，不食五谷，吸风饮露。神仙姊姊，你若能活过来跟我说一句话，我便为你死一千遍，一万遍，也如身登极乐，欢喜无限。磕首千遍，原本就是天经地义之事……", "talkname53", 1);
+    Talk(53, "Em gái thần tiên của tôi, Xiaosheng Duan Yu, hôm nay có thể nhìn thấy khuôn mặt xinh đẹp của cô ấy và chết mà không hối tiếc. Chị tôi chết và sống một mình ở đây có phải là quá cô đơn không?", "talkname53", 1);
+    Talk(0, "Anh Duẩn, anh đang nói chuyện với bức tượng ngọc này phải không? ＜Người đàn ông này thực sự có năng lực＞", "talkname0", 1);
+    Talk(53, "Trong núi Miaogushe, có một vị thần và một người đàn ông sống ở đó, làn da của anh ấy như băng và tuyết, và anh ấy duyên dáng như một trinh nữ, anh ấy không ăn ngũ cốc, nhưng thở gió và uống sương. Tiên nữ ơi, nếu em có thể sống và nói với anh một lời, anh sẽ chết vì em một ngàn lần, mười ngàn lần, giống như đạt được hạnh phúc tột cùng, niềm vui vô bờ bến. Cúi đầu ngàn lần là chuyện đương nhiên...", "talkname53", 1);
     DarkScence();
     ModifyEvent(-2, 0, -2, -2, -2, -2, -2, 6316, 6316, 6316, -2, -2, -2);
     jyx2_SwitchRoleAnimation("NPC/段誉11", "Assets/BuildSource/AnimationControllers/KneelController.controller");
@@ -14,28 +14,28 @@ if InTeam(53) == true then goto label0 end;
     PlayAnimation(0, 6316, 6334);
     PlayAnimation(0, 6316, 6334);
     jyx2_SwitchRoleAnimation("NPC/段誉11", "Assets/BuildSource/AnimationControllers/备份/DuanyuKneelController.controller");
-    Talk(0, "兄弟，你干么？你真的要磕一千下呀！", "talkname0", 1);
-    Talk(53, "十，十一，十二……", "talkname53", 1);
+    Talk(0, "Anh trai, anh đang làm gì vậy? Bạn thực sự phải gõ một ngàn lần!", "talkname0", 1);
+    Talk(53, "Mười, mười một, mười hai...", "talkname53", 1);
     PlayAnimation(0, 6316, 6334);
     PlayAnimation(0, 6316, 6334);
     PlayAnimation(0, 6316, 6334);
-    Talk(0, "我的妈呀！", "talkname0", 1);
+    Talk(0, "Ôi chúa ơi!", "talkname0", 1);
     DarkScence();
     ModifyEvent(-2, 0, -2, -2, -2, -2, -2, 6338, 6338, 6338, -2, -2, -2);
 	jyx2_ReplaceSceneObject("", "Dynamic/Chair_11", "");--需要替换破烂的蒲团
     ModifyEvent(-2, 11, -2, -2, -2, -2, -2, 6312, 6312, 6312, -2, -2, -2);
     jyx2_SwitchRoleAnimation("NPC/段誉11", "Assets/BuildSource/AnimationControllers/备份/DuanyuController.controller");
     LightScence();
-    Talk(0, "兄弟，你还真磕了一千下，你的头还好吧。你看，蒲团都被你磕破了。", "talkname0", 1);
-    Talk(53, "咦！这蒲团中似乎藏有一个绸包，这上面还有写字……“汝既磕首千遍，自当供我驱策，终身无悔。此卷为我逍遥派武功精要，每日卯午酉三时，务须用心修习一次……”", "talkname53", 1);
-    Talk(0, "这里面好像有两本册子，一本叫“北冥神功”，另一本叫“凌波微步”。", "talkname0", 1);
-    Talk(53, "＜我不想学武功，可是神仙姊姊的命令焉可不遵？我向她磕足一千个头，便是答允供他驱策，奉行她的命令。我就先看看书上写些什么＞“穷发之北有冥海者…………北冥神功系引世人之力而为我有。北冥大水，非由自生。语云：百川汇海，大海之水以容百川而得。汪洋巨浸，端在积聚。此手太阴肺经为北冥神功第一课………………这上面还附有一些穴道图，上面有条绿线………………咦！我体内怎么有点热热的…………另外一本“凌波微步”中，上面画着好多脚印，而且还注明着一些易经中的方位，正好前几日刚钻研过易经，这看起来容易多了…………", "talkname53", 1);
+    Talk(0, "Ca ca, ngươi thật là quỳ lạy ngàn lần, đầu ngươi không sao chứ? Bạn thấy đấy, tấm futon đã bị bạn xé nát.", "talkname0", 1);
+    Talk(53, "Huh! Trong tấm nệm này hình như có một cái túi lụa giấu, phía trên có viết chữ... "Nếu ngươi đã quỳ lạy ngàn lần, hẳn là bị ta dắt đi, cả đời ngươi sẽ không hối hận. Quyển sách này là bản chất võ thuật của giáo phái Tiêu Dao của ta, và nó nên được đọc hàng ngày tại Mao Wu You Ba lần một ngày, bạn phải luyện tập nó bằng cả trái tim mình ... "", "talkname53", 1);
+    Talk(0, "Ở đây hình như có hai cuốn sách nhỏ, một cuốn tên là "Bắc Minh Thần Kỹ", một cuốn tên là "Lingbo Weibu".", "talkname0", 1);
+    Talk(53, "＜Tôi không muốn học võ, nhưng làm sao tôi có thể trái lệnh tiên nữ? Tôi quỳ lạy cô ấy cả nghìn lần, nghĩa là tôi đồng ý để anh ấy dẫn đi và tuân theo mệnh lệnh của cô ấy. Đầu tiên tôi sẽ đọc những gì được viết trong sách > "Có những kẻ ở trong biển tối ở phía bắc nghèo khó... Thần thông của Beiming thu hút sức mạnh của thế giới và là của tôi. Nước lớn ở phía bắc không thể tự nó trỗi dậy Tục ngữ có câu: Trăm sông hội tụ. Biển, nước biển có được nhờ chứa trăm sông. Đại dương bao la đang thấm nhuần, và đang tích tụ. Kinh mạch Thái Âm Long trong tay này là bài học đầu tiên của Bắc Minh Thần kỹ... Trên đó còn có một số sơ đồ châm cứu, trên đó có sọc xanh....... Hừ! Tại sao cơ thể tôi có chút nóng...Trong một cuốn sách khác "Lingbo Weibu ", trên đó có rất nhiều dấu chân được vẽ, và một số chỉ dẫn trong Kinh Dịch cũng được đánh dấu, đúng là tôi mới học Kinh Dịch mấy ngày trước, việc này có vẻ dễ dàng hơn nhiều...", "talkname53", 1);
     DarkScence();
     LightScence();
-    Talk(53, "神仙姊姊，你吩咐我朝午晚三次练功，段誉不敢有违。", "talkname53", 1);
-    Talk(0, "段兄想通了，肯练武了。", "talkname0", 1);
-    Talk(53, "但今后我会对人加倍客气，别人不会来打我，我自然也不会去吸他的内力。至于这“凌波微步”我更要用心练熟，眼见不对，立刻溜之大吉。", "talkname53", 1);
-    Talk(0, "随便你了，我们走吧。", "talkname0", 1);
+    Talk(53, "Tiên nữ, ngươi ra lệnh cho ta sáng trưa tối luyện ba lượt, Đoàn Dự không dám trái lệnh.", "talkname53", 1);
+    Talk(0, "Anh Duẩn đã hiểu ra và sẵn sàng luyện tập võ thuật.", "talkname0", 1);
+    Talk(53, "Nhưng từ nay trở đi, tôi sẽ khách khí hơn với mọi người, người khác sẽ không đến đánh tôi, tôi đương nhiên sẽ không hấp thụ nội lực của họ. Về phần "Lingbo Weibu" này, tôi phải luyện tập cẩn thận hơn, nếu thấy sai tôi sẽ bỏ chạy ngay lập tức.", "talkname53", 1);
+    Talk(0, "Tùy cậu thôi, đi thôi.", "talkname0", 1);
     DarkScence();
     ModifyEvent(-2, 11, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2);
     jyx2_ReplaceSceneObject("", "NPC/段誉11", "");--段誉归队

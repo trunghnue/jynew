@@ -1,4 +1,4 @@
 ModifyEvent(-2, -2, -1, -1, -1, -1, -1, 3500, 3500, 3500, -2, -2, -2);--by fanyu|箱子变空。场景05-编号09
-Talk(0, "这里有本书，书名是——《雪山飞狐》……原来《雪山飞狐》藏在这，胡大哥的军刀果然有用。咦！这边有张字条，写些什么来着……自受到金先生恩惠以来，即无时无刻不想着今生该如何报答。日前自恶人手中夺回《雪山飞狐》一书，其余十三本则还流落在外，吾发誓有生之年定要竭尽所能将书找齐，送回圣堂……今日看见此书书名，觉得非常有意思，内人分娩日子将近，如果生下男孩，就叫他胡斐吧。哈！“飞狐”，“胡斐”。哈！哈！哈！有意思……胡一刀留。原来还有这段典故。", "talkname0", 1);
+Talk(0, "Ở đây có một cuốn sách, tựa đề là - "Snow Mountain Flying Fox"... Hóa ra "Snow Mountain Flying Fox" được giấu ở đây, và thanh kiếm của Hu Brother quả thực có ích. Huh! Ở đây có một mảnh giấy, viết gì... Kể từ khi nhận được lòng tốt của anh Jin, tôi luôn nghĩ đến việc làm thế nào để báo đáp anh ấy ở kiếp này. Cuốn sách "Flying Fox in Snowy Mountains" đã được thu hồi từ tay kẻ ác cách đây vài ngày, nhưng mười ba cuốn còn lại vẫn bị mất tích, tôi thề rằng tôi sẽ cố gắng hết sức để tìm lại tất cả các cuốn sách và gửi lại cho chúng tôi. ngôi chùa trong đời... Hôm nay nhìn thấy tựa sách này thấy rất thú vị, vợ tôi sắp sinh con, nếu sinh con trai thì hãy gọi là Hồ Phi. ha! "Cáo bay", "Hồ Phi". ha! ha! ha! Thú vị... Hu Yidaoliu. Hóa ra có sự ám chỉ này.", "talkname0", 1);
 AddItem(145, 1);
 do return end;

@@ -1,12 +1,12 @@
-Talk(51, "阁下考虑的怎么样，要不要我加入你，让你能轻易获得《天龙八部》？", "talkname51", 0);
+Talk(51, "Bạn nghĩ sao về nó Bạn có muốn tôi tham gia cùng bạn để bạn có thể dễ dàng có được "Dragon Babu" không?", "talkname51", 0);
 if AskJoin () == true then goto label0 end;
-    Talk(0, "慕容公子的“好”意，在下心领了。在下对自己的武功还有一点自信，我宁愿光明正大的与乔大侠打斗，也不愿用卑鄙的方法去得到那本《天龙八部》。", "talkname0", 1);
-    Talk(51, "你再考虑清楚。", "talkname51", 0);
+    Talk(0, "Ý định "tốt" của Thầy Mộ Dung đã được tôi hết lòng chấp nhận. Tôi vẫn có chút tự tin vào võ công của mình, tôi thà đấu với Kiều Đại Hạ một cách công khai và công bằng, còn hơn dùng thủ đoạn hèn hạ để có được bản sao của "Dragon Babu".", "talkname0", 1);
+    Talk(51, "Hãy suy nghĩ lại.", "talkname51", 0);
     do return end;
 ::label0::
-    Talk(0, "好，我就和你上少林，揭发乔峰的秘密。", "talkname0", 1);
+    Talk(0, "Được rồi, tôi sẽ cùng bạn đến Thiếu Lâm và vạch trần bí mật của Qiao Feng.", "talkname0", 1);
     if TeamIsFull() == false then goto label1 end;
-        Talk(51, "你的队伍已满，我无法加入。", "talkname51", 0);
+        Talk(51, "Nhóm của bạn đã đầy đủ và tôi không thể tham gia.", "talkname51", 0);
         do return end;
 ::label1::
         DarkScence();

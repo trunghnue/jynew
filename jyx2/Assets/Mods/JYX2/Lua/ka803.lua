@@ -1,2 +1,6 @@
-Talk(114, "有问题是不是？那我就再跟你讲一些游戏的基本知识。若想要增加自己的实力，可靠升级一途。每次战斗完，若经验点数累积达升级标准时则可自动升级。升级标准所需要的经验点数会显示在人物状态栏中的“升级”栏右方。", "talkname114", 0);
-do return end;
+Talk(114,
+    "Có một vấn đề, phải không?Sau đó, tôi sẽ nói chuyện với bạn về kiến ​​thức cơ bản của một số trò chơi.Nếu bạn muốn tăng sức mạnh của mình, hãy nâng cấp đáng tin cậy.Mỗi lần chiến đấu hoàn thành, nó có thể được tự động nâng cấp khi các điểm trải nghiệm được tích lũy theo tiêu chuẩn nâng cấp.Các điểm trải nghiệm cần thiết cho tiêu chuẩn nâng cấp sẽ được hiển thị ở phía bên phải của cột 'Nâng cấp' trong thanh trạng thái ký tự.",
+    "talkname114", 0);
+do
+    return
+end

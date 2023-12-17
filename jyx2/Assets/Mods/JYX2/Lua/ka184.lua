@@ -1,2 +1,2 @@
-Talk(81, "武林中人金盆洗手，原因很多。倘若是黑道上的大盗，一生作的孽多，洗手之后，这打家劫舍，杀人放火的勾当算是从此不干了。那一来是改过迁善，给儿孙们留个好名声。二来地方上如有大案发生，也好洗脱自己嫌疑。", "talkname81", 0);
+Talk(81, "Có nhiều lý do khiến người tập võ phải rửa tay trong chậu vàng. Nếu như ngươi là đại đạo tặc trong âm phủ, cả đời đã phạm rất nhiều tội lỗi, sau khi rửa tay sẽ không còn làm nghề cướp nhà, giết người phóng hỏa nữa. Mục đích là để ông thay đổi đường lối và để lại tiếng tốt cho con cháu. Thứ hai, nếu một vụ án lớn xảy ra ở địa phương, bản thân sẽ dễ dàng thoát khỏi sự nghi ngờ hơn.", "talkname81", 0);
 do return end;

@@ -1,2 +1,2 @@
-Talk(114, "有问题是不是？那我就再跟你讲一些游戏的基本知识。游戏中的物品分为五大类，第三类为暗器。此类物品只能用于战斗时，用以攻击敌人，唯其功效除因本身威力不同外，使用者的暗器使用能力也有影响。", "talkname114", 0);
+Talk(114, "Có vấn đề gì không? Sau đó tôi sẽ kể cho bạn một số kiến thức cơ bản về trò chơi. Vật phẩm trong trò chơi được chia thành năm loại, loại thứ ba là vũ khí ẩn. Những vật phẩm như vậy chỉ có thể được sử dụng trong chiến đấu để tấn công kẻ thù, tuy nhiên, ngoài sức mạnh khác nhau, hiệu quả của chúng cũng ảnh hưởng đến khả năng sử dụng vũ khí ẩn của người dùng.", "talkname114", 0);
 do return end;

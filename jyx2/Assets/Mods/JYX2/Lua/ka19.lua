@@ -1,2 +1,2 @@
-Talk(78, "几年前，也有一位少年来到我昆仑山边。这位少年一脸病容，说什么得了不治的寒毒，活不了多久了。想找一个安静的地方等死，说着说着就往西边走去。不知他现在怎样了？", "talkname78", 0);
+Talk(78, "Cách đây vài năm, có một chàng trai trẻ đến bên núi Côn Lôn của tôi. Chàng trai trông có vẻ ốm yếu và nói rằng anh ta mắc bệnh cảm lạnh vô phương cứu chữa và sẽ không sống được bao lâu. Tôi muốn tìm một nơi yên tĩnh để chờ chết nên vừa đi về phía Tây vừa nói. Tôi tự hỏi bây giờ anh ấy thế nào?", "talkname78", 0);
 do return end;

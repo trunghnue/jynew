@@ -1,17 +1,17 @@
-Talk(0, "晚辈参见郭大侠，黄女侠。", "talkname0", 1);
-Talk(56, "你是来找《射雕英雄传》的吧。", "talkname56", 0);
-Talk(0, "江湖中人传言果然不假，黄女侠的聪明机智真是令人敬佩。没错，此次上桃花岛拜见二位，主要目的就是为了《射雕英雄传》一书。", "talkname0", 1);
-Talk(56, "来到这里，费了番功夫吧。", "talkname56", 0);
-Talk(0, "是费了番功夫，不过若是能拿到《射雕英雄传》，再苦也是值得的。", "talkname0", 1);
-Talk(55, "没错，《射雕英雄传》一书是在我夫妇手里，给你也是可以。", "talkname55", 0);
-Talk(0, "多谢郭大侠及黄女侠。", "talkname0", 1);
-Talk(55, "小兄弟，你叫我一声大侠。我问你，为什么江湖上人会尊称我一声郭大侠。", "talkname55", 0);
-Talk(0, "那是因为郭大侠武功高强，降龙十八掌威震八方。", "talkname0", 1);
-Talk(55, "我再问你，为什么我们要练武功。", "talkname55", 0);
-Talk(0, "因为武功若练的比别人强，则可以压制对方，做到你想要做的事。当然啦，我不是说要去欺压别人，而是你若武功比不上对方，拿什么去行侠仗义？", "talkname0", 1);
-Talk(55, "我辈练功学武，所为何事？行侠仗义，济人困厄固然是本份，但那只是侠之小者。江湖上所以尊称我一声郭大侠，实乃敬我早年为国为民，奋不顾身地戍守襄阳．然我能力有限，不能为民解困，有愧这“大侠”二字。我想你聪明智慧过我十倍，将来的成就定然远胜于我。只盼你心头牢牢记着：“为国为民，侠之大者”这八个字，日后名扬天下，成为万民敬仰的真正大侠。", "talkname55", 0);
+Talk(0, "Đàn em nhìn thấy Guo Daxia và Huang Nuxia.", "talkname0", 1);
+Talk(56, "Bạn đến đây để tìm "Truyền Thuyết Anh Hùng Xạ Điêu" phải không?", "talkname56", 0);
+Talk(0, "Lời đồn trong thiên hạ quả thực là sự thật, trí thông minh và sự hóm hỉnh của Huang Nuxia quả thực đáng khâm phục. Đúng vậy, mục đích chính của việc đến Đảo Đào Hoa gặp hai người lần này là để lấy cuốn sách "Truyền Thuyết Anh Hùng Xạ Điêu".", "talkname0", 1);
+Talk(56, "Phải mất rất nhiều nỗ lực để đến được đây.", "talkname56", 0);
+Talk(0, "Phải tốn rất nhiều công sức nhưng nếu có được "Thần điêu đại hiệp" thì dù có khó khăn đến mấy cũng sẽ rất xứng đáng.", "talkname0", 1);
+Talk(55, "Đúng rồi, cuốn sách “Truyền thuyết anh hùng xạ điêu” đang nằm trong tay vợ chồng tôi nên tặng cho bạn cũng không sao.", "talkname55", 0);
+Talk(0, "Cảm ơn Daxia Guo và Nuxia Huang.", "talkname0", 1);
+Talk(55, "Em trai, hãy gọi anh là anh hùng. Ta hỏi ngươi, tại sao thiên hạ đều kính trọng gọi ta là Quách Đại Hạ?", "talkname55", 0);
+Talk(0, "Đó là bởi vì Quách Đại Hạ có võ công tuyệt vời và Thập Bát Long Chưởng Hàng Long, mạnh mẽ về mọi phương hướng.", "talkname0", 1);
+Talk(55, "Cho tôi hỏi lại, tại sao chúng ta luyện võ?", "talkname55", 0);
+Talk(0, "Bởi vì nếu bạn luyện võ tốt hơn người khác, bạn có thể đàn áp đối phương và làm những gì bạn muốn. Tất nhiên, tôi không nói rằng bạn nên bắt nạt người khác, nhưng nếu kỹ năng võ thuật của bạn không bằng người khác, làm sao bạn có thể hành động như một anh hùng?", "talkname0", 1);
+Talk(55, "Tại sao tôi luyện võ và học võ? Chắc chắn nghĩa vụ của một người hiệp sĩ là phải hành động chính đáng và giúp đỡ những người gặp nạn, nhưng đó chỉ là một hình thức hiệp sĩ nhỏ. Mọi người trên thế giới kính trọng gọi tôi là Quách Đại Hạ vì họ tôn trọng tôi vì đã phục vụ đất nước và nhân dân trong những năm đầu đời và bảo vệ Tương Dương một cách không nguy hiểm. Tuy nhiên, khả năng của tôi có hạn, không thể giải tỏa khó khăn cho người dân, tôi xứng đáng với hai chữ “anh hùng”. Tôi nghĩ bạn thông minh hơn tôi gấp mười lần và thành tích trong tương lai của bạn chắc chắn sẽ tốt hơn tôi rất nhiều. Tôi chỉ hy vọng rằng bạn sẽ ghi nhớ tám chữ này: “Phục vụ nước và nhân dân, người hào hiệp vĩ đại nhất”, và trong tương lai bạn sẽ nổi tiếng khắp thế giới và trở thành một anh hùng thực sự được mọi người kính trọng.", "talkname55", 0);
 Talk(0, "……", "talkname0", 1);
-Talk(55, "所以说，只要你能发挥一个侠者的风范，这本书我就直接送给你。不然，你就得胜过我才能拿走这本书。为了让你好好的修练，我就送你一些东西，以免你去偷别人的东西，误入歧途。在厨房角落的柜子里，放有一些我桃花岛的独特药丸，你就拿去吧。", "talkname55", 0);
+Talk(55, "Vì vậy, chỉ cần bạn có thể thể hiện phong thái của một người hào hiệp, tôi sẽ trực tiếp đưa cuốn sách này cho bạn. Nếu không, bạn sẽ phải khôn ngoan hơn tôi để lấy cuốn sách này. Để các ngươi tu tập tốt, ta sẽ cho các ngươi một thứ để ngăn cản các ngươi trộm đồ của người khác và đi lạc đường. Trong tủ ở góc bếp có một số đan dược độc nhất từ Đảo Đào Hoa của ta, ngươi hãy lấy đi.", "talkname55", 0);
 if JudgeEventNum(3, -1) == true then goto label0 end;
     ModifyEvent(-2, 3, -2, -2, 924, -1, -1, -2, -2, -2, -2, -2, -2);
 ::label0::
@@ -20,7 +20,7 @@ if JudgeEventNum(3, -1) == true then goto label0 end;
 ::label1::
         Talk(0, "……", "talkname0", 1);
         if JudgeEthics(0, 90, 100) == false then goto label2 end;
-            Talk(55, "你在江湖上的作为，我夫妇俩已有所闻，这书你就拿去吧。", "talkname55", 0);
+            Talk(55, "Vợ chồng tôi đã nghe nói về những việc làm của bạn trên đời, xin hãy cầm lấy cuốn sách này.", "talkname55", 0);
             AddItem(148, 1);
             ModifyEvent(-2, 1, -2, -2, 467, -1, -1, -2, -2, -2, -2, -2, -2);
             ModifyEvent(-2, 2, -2, -2, 468, -1, -1, -2, -2, -2, -2, -2, -2);
@@ -28,5 +28,5 @@ if JudgeEventNum(3, -1) == true then goto label0 end;
 ::label2::
             ModifyEvent(-2, 1, -2, -2, 469, -1, -1, -2, -2, -2, -2, -2, -2);
             ModifyEvent(-2, 2, -2, -2, 475, -1, -1, -2, -2, -2, -2, -2, -2);
-            Talk(55, "要成为一个真正的侠客，或是只想拥有高强的武功，就看你自己了。", "talkname55", 0);
+            Talk(55, "Việc bạn muốn trở thành một hiệp sĩ thực thụ hay chỉ muốn có kỹ năng võ thuật mạnh mẽ là tùy thuộc vào bạn.", "talkname55", 0);
 do return end;

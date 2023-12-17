@@ -1,2 +1,2 @@
-Talk(92, "这天下盟主一席，非少侠莫属。只须主人下令动手，小人赴汤蹈火，万死不辞。", "talkname92", 0);
+Talk(92, "Vị trí thủ lĩnh của liên minh ở thế giới này không ai khác chính là người anh hùng trẻ tuổi. Chỉ cần chủ nhân ra lệnh hành động, kẻ ác sẽ đi qua lửa và nước, dù có chết đến đâu.", "talkname92", 0);
 do return end;

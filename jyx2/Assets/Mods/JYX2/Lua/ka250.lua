@@ -1,2 +1,2 @@
-Talk(31, "你还不走！在这儿啰嗦什么！", "talkname31", 0);
+Talk(31, "Bạn vẫn chưa rời đi! Bạn đang nói về cái gì ở đây?", "talkname31", 0);
 do return end;

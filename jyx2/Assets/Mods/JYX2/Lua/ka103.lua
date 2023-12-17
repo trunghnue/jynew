@@ -1,11 +1,11 @@
-Talk(17, "你是谁？怎么进来的？金花婆婆呢？", "talkname17", 0);
-Talk(0, "在下只是路过此岛，不小心跟那老太婆打一架。打赢后，那老太婆好像以为我是来救人的，所以就……不知前辈为何在此？", "talkname0", 1);
-Talk(17, "我叫王难姑，是蝶谷医仙胡青牛的妻子。那老太婆则是这灵蛇岛的岛主金花婆婆。多年以前，我先生因为一些缘故，没有医治一位银叶先生，后来听说他病逝了。其实，这位银叶先生就是金花婆婆的丈夫。几天前，这个金花婆婆为了报仇，来到我蝴蝶谷中，打伤我丈夫，并把我掳到这岛上，说要让我夫妇俩也尝尝生离死别的痛苦。", "talkname17", 0);
-Talk(0, "原来是这么一回事。好了，现在没事了，前辈可以回蝴蝶谷了。", "talkname0", 1);
-Talk(17, "谢谢少侠相助，我夫妇俩不会忘记少侠的恩情。", "talkname17", 0);
-Talk(0, "哪里，哪里，路见不平，拔刀相助，本是我辈中人该做的事。", "talkname0", 1);
-Talk(17, "好，那我先回蝴蝶谷了，待少侠有空时，一定要到我蝴蝶谷中作客。对了，我蝴蝶谷极为隐密，一般人不易找到，它的座标是在（２３８，２１９）。你一定要来哦！我和外子一定要送你些东西来报答你。", "talkname17", 0);
-Talk(0, "前辈慢走。", "talkname0", 1);
+Talk(17, "Bạn là ai? Bạn vào bằng cách nào? Bà Kim Hoa ở đâu?", "talkname17", 0);
+Talk(0, "Tôi vừa đi ngang qua hòn đảo này và vô tình đánh nhau với bà già. Sau khi thắng trận, lão phu nhân tựa hồ tưởng rằng ta tới cứu người, cho nên... không biết tiền bối tại sao lại tới đây?", "talkname0", 1);
+Talk(17, "Tên tôi là Vương Nangu, tôi là vợ của Hu Qingniu, tiên nữ y học của Thung lũng Die. Bà lão đó chính là Kim Hoa bà nội, chủ nhân của Đảo Linh Xà. Nhiều năm trước, chồng tôi vì một số lý do mà không thể chữa trị cho ông Lá Bạc, sau này nghe tin ông ấy bị bệnh qua đời. Trên thực tế, ông Lá Bạc này chính là chồng của bà Kim Hoa. Mấy ngày trước, để trả thù, mẹ chồng hoa vàng này đã đến Thung lũng Bướm của tôi, làm bị thương chồng tôi rồi bắt tôi giam cầm đến hòn đảo này, nói rằng sẽ để vợ chồng tôi cũng phải chịu đau đớn. của sự chia ly và cái chết.", "talkname17", 0);
+Talk(0, "Vì vậy, đó là những gì đã xảy ra. Được rồi, bây giờ không sao nữa, tiền bối có thể quay lại Thung lũng Bướm.", "talkname0", 1);
+Talk(17, "Cảm ơn sự giúp đỡ của bạn. Vợ chồng tôi sẽ không bao giờ quên lòng tốt của bạn.", "talkname17", 0);
+Talk(0, "Dù ở đâu, ở đâu đường gập ghềnh, rút kiếm ra giúp đỡ là điều mà những người thuộc thế hệ chúng ta nên làm.", "talkname0", 1);
+Talk(17, "Được rồi, vậy ta trước tiên quay về Thung lũng Bướm, khi anh hùng trẻ tuổi rảnh rỗi nhất định phải đến Thung lũng Bướm của ta với tư cách là khách. Nhân tiện, Thung lũng Bướm của tôi cực kỳ bí mật và người bình thường khó tìm thấy, tọa độ của nó là (238, 219). Bạn phải đến! Vợ chồng tôi phải cho cô thứ gì đó để trả ơn cô.", "talkname17", 0);
+Talk(0, "Lão bước đi chậm rãi.", "talkname0", 1);
 ModifyEvent(-2, -2, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2); --移除王难姑
 jyx2_ReplaceSceneObject("", "NPC/王难姑", ""); 
 

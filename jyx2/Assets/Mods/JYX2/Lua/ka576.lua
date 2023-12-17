@@ -1,4 +1,4 @@
-Talk(93, "听说六大派正要铲平光明顶消灭明教时，出现了一位少年英雄，打败了六大派，救了明教，此人真是了得。", "talkname93", 0);
-Talk(0, "不好意思，那个少年英雄就是我。", "talkname0", 1);
-Talk(93, "你？也不照照镜子看看。听说那位英雄身长十尺，虎背熊腰，力大无穷。你看看你，配吗？", "talkname93", 0);
+Talk(93, "Tôi nghe nói khi sáu giáo phái lớn chuẩn bị san bằng Quảng Minh Đỉnh và tiêu diệt Mingjiao, một anh hùng trẻ tuổi xuất hiện, đánh bại sáu giáo phái lớn và cứu Mingjiao. Người đàn ông này thực sự đáng kinh ngạc.", "talkname93", 0);
+Talk(0, "Xin lỗi, anh hùng trẻ tuổi đó là tôi.", "talkname0", 1);
+Talk(93, "Bạn? Thậm chí đừng nhìn vào gương. Nghe nói vị anh hùng này cao mười thước, lưng to, eo săn chắc, uy lực vô cùng. Nhìn xem bạn có xứng đáng không?", "talkname93", 0);
 do return end;

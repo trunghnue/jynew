@@ -1,12 +1,12 @@
-Talk(105, "客倌，看你一身打扮，不像是本地人，大老远赶来，想必旅途一定劳累了。要不要在这住上一宿，让你的体力，元气恢复恢复。", "talkname105", 0);
+Talk(105, "Bồi bàn ơi, trông bạn ăn mặc như người địa phương, đi một chặng đường chắc bạn cũng mệt rồi. Tại sao bạn không ở lại đây một đêm để sức lực và sức sống của bạn hồi phục?", "talkname105", 0);
 if AskRest() == true then goto  label0 end;
     do return end;
 ::label0::
     if JudgeMoney(50) == true then goto label1 end;
-        Talk(105, "走，走，走，没钱就不要妨碍我做生意！", "talkname105", 0);
+        Talk(105, "Đi đi, đi đi, không có tiền thì đừng cản trở việc kinh doanh của tôi!", "talkname105", 0);
         do return end;
 ::label1::
-        Talk(0, "好，我就试试看你们高升客栈的服务好不好。", "talkname0", 1);
+        Talk(0, "Được rồi, tôi sẽ dùng thử xem dịch vụ tại Gaosheng Inn của bạn có tốt không.", "talkname0", 1);
         DarkScence();
         Rest();
         AddItemWithoutHint(174, -50);

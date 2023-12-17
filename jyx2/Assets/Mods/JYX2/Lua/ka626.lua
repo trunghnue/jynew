@@ -1,2 +1,2 @@
-Talk(113, "阿拉真神日后一定会保佑少侠的。", "talkname113", 0);
+Talk(113, "Chúa Allah chắc chắn sẽ phù hộ cho người anh hùng trẻ tuổi trong tương lai.", "talkname113", 0);
 do return end;

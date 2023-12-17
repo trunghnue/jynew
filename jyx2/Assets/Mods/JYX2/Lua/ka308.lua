@@ -1,6 +1,6 @@
-Talk(29, "怎么，还想杀我吗？还是想跟我学几招对付女人呀？", "talkname29", 0);
+Talk(29, "Cái gì, ngươi còn muốn giết ta sao? Hay bạn muốn học tôi một số thủ thuật để đối phó với phụ nữ?", "talkname29", 0);
 if AskBattle() == false then goto label0 end;
-    Talk(0, "你这采花淫贼，死到临头还不觉悟。你受死吧！", "talkname0", 1);
+    Talk(0, "Bạn, một tên trộm hái hoa, ngay cả khi bạn sắp chết cũng không nhận ra điều đó. Bạn chết!", "talkname0", 1);
     if TryBattle(53) == true then goto label1 end;
         Dead();
         do return end;
@@ -14,9 +14,9 @@ if AskBattle() == false then goto label0 end;
         do return end;
 ::label0::
         if AskJoin () == false then goto label2 end;
-            Talk(0, "这可是你说的，我们就一起走吧，到时可得传授小弟几招。", "talkname0", 1);
+            Talk(0, "Đây là lời anh nói, chúng ta cùng nhau đi, sau đó chúng ta có thể dạy cho em trai tôi một số thủ thuật.", "talkname0", 1);
             if TeamIsFull() == false then goto label3 end;
-                Talk(29, "你的队伍已满，我无法加入。", "talkname29", 0);
+                Talk(29, "Nhóm của bạn đã đầy đủ và tôi không thể tham gia.", "talkname29", 0);
                 do return end;
 ::label3::
                 DarkScence();
@@ -28,5 +28,5 @@ if AskBattle() == false then goto label0 end;
                 AddEthics(-6);
                 do return end;
 ::label2::
-                Talk(0, "你们俩的事，我不想管。", "talkname0", 1);
+                Talk(0, "Tôi không muốn liên quan gì đến hai người.", "talkname0", 1);
 do return end;

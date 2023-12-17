@@ -1,2 +1,2 @@
-Talk(114, "有问题是不是？那我就再跟你讲一些游戏的基本知识。人物有各种属性，可在状态栏中显示。这些属性包括基本属性及技能属性。基本属性靠升级时增加，而技能属性则靠修练增加。", "talkname114", 0);
+Talk(114, "Có vấn đề gì không? Sau đó tôi sẽ kể cho bạn một số kiến thức cơ bản về trò chơi. Các ký tự có nhiều thuộc tính khác nhau có thể được hiển thị trên thanh trạng thái. Các thuộc tính này bao gồm thuộc tính cơ bản và thuộc tính kỹ năng. Thuộc tính cơ bản được tăng lên bằng cách nâng cấp, trong khi thuộc tính kỹ năng được tăng lên bằng cách luyện tập.", "talkname114", 0);
 do return end;

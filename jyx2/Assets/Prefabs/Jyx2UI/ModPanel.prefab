@@ -432,7 +432,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5173\u95ED"
+  m_Text: "\u0110\xF3ng"
 --- !u!114 &3567827186004018414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -600,7 +600,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.0007185532}
+  m_AnchoredPosition: {x: 0, y: 220}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &3567827186410950861
@@ -936,7 +936,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 3567827185573708130}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.9999929
+  m_Size: 0.26666057
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1020,7 +1020,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "MOD\u7BA1\u7406\u5668"
+  m_Text: "Tr\xECnh qu\u1EA3n l\xFD MOD"
 --- !u!114 &3567827187392172129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1112,7 +1112,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u63D0\u793A\uFF1A\u5173\u95ED\u540E\u91CD\u542F\u6E38\u620F\u5373\u53EF\u751F\u6548"
+  m_Text: "M\u1EB9o: Kh\u1EDFi \u0111\u1ED9ng l\u1EA1i tr\xF2 ch\u01A1i sau khi \u0111\xF3ng
+    \u0111\u1EC3 c\xF3 hi\u1EC7u l\u1EF1c"
 --- !u!114 &2518751161337659196
 MonoBehaviour:
   m_ObjectHideFlags: 0

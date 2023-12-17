@@ -1,4 +1,4 @@
-Talk(51, "若你想知道《天龙八部》的下落，就快去找大燕国的传国玉玺。", "talkname51", 0);
+Talk(51, "Nếu bạn muốn biết tung tích của "Bát tùng rồng", hãy đi tìm con dấu hoàng gia của Vương quốc Dayan.", "talkname51", 0);
 if InTeam(53) == true then goto label0 end;
     do return end;
 ::label0::

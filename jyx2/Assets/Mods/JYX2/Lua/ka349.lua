@@ -1,2 +1,2 @@
-Talk(41, "侠客岛只招待受邀之人，公子若无赏善罚恶令，还是请回吧！", "talkname41", 0);
+Talk(41, "Đảo Xiake chỉ tiếp đãi những người được mời, nếu không có mệnh lệnh thưởng thiện phạt ác thì hãy quay lại!", "talkname41", 0);
 do return end;

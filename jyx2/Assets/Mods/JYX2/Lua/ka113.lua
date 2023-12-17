@@ -1,2 +1,2 @@
-Talk(14, "好久没这么兴奋了，这“光明圣火阵”我们已经好久没有摆出来与人对阵。上回六大派围我光明顶时没能摆出来，算他们走运。", "talkname14", 0);
+Talk(14, "Đã lâu rồi tôi không hưng phấn như vậy, đã lâu lắm rồi chúng tôi mới dùng "Đội hình lửa thánh sáng chói" này để chống lại bất kỳ ai. Lần trước khi sáu đại giáo phái vây quanh ta ở Quảng Minh Đỉnh, bọn họ cũng không thể thi triển được, bọn họ thật may mắn.", "talkname14", 0);
 do return end;

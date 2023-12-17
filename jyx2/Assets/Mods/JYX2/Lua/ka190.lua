@@ -1,4 +1,4 @@
-Talk(20, "小子，你擅闯我衡山，是何用意？莫非是左冷禅派来的奸细。", "talkname20", 0);
+Talk(20, "Cậu bé, mục đích cậu xâm phạm núi Hằng Sơn của chúng ta là gì? Chẳng lẽ là Tả Lãnh Thiền phái tới gián điệp.", "talkname20", 0);
 if TryBattle(28) == true then goto label0 end;
     Dead();
     do return end;
@@ -7,7 +7,7 @@ if TryBattle(28) == true then goto label0 end;
     ModifyEvent(-2, 19, -2, -2, -1, -1, 222, -2, -2, -2, -2, -2, -2);
     ModifyEvent(-2, 21, -2, -2, -1, -1, 222, -2, -2, -2, -2, -2, -2);
     LightScence();
-    Talk(20, "回去告诉左冷禅，下月十五在嵩山召开的大会，我莫大一定到场。我倒要看看其它三派的掌门怎么说。", "talkname20", 0);
+    Talk(20, "Quay lại và nói với Zuo Lengchan rằng tôi chắc chắn sẽ tham dự hội nghị được tổ chức vào ngày 15 tháng sau tại Songshan. Tôi muốn xem những người đứng đầu ba giáo phái còn lại nói gì.", "talkname20", 0);
     AddItem(69, 1);
     AddRepute(3);
 do return end;

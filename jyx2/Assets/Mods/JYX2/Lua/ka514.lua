@@ -1,4 +1,4 @@
-Talk(70, "阿弥陀佛，施主请留步。", "talkname70", 0);
+Talk(70, "A Di Đà, thí chủ, xin hãy ở lại.", "talkname70", 0);
 DarkScence();
 ModifyEvent(-2, 3, 1, 1, 515, -1, -1, 5372, 5372, 5372, -2, -2, -2);--by fanyu 启动脚本515，改变贴图 场景28-3
 jyx2_ReplaceSceneObject("", "NPC/方丈12", "");--玄慈追出山门
@@ -12,18 +12,18 @@ jyx2_ReplaceSceneObject("", "NPC/少林弟子4", "1");
 jyx2_ReplaceSceneObject("", "NPC/少林弟子5", "1");
 jyx2_ReplaceSceneObject("", "NPC/少林弟子6", "1");
 LightScence();
-Talk(51, "怎么，方丈后悔了？", "talkname51", 1);
-Talk(70, "老衲想通了，既造业因，便有业果。自己的名声固然重要，但是我亏欠乔峰一家人实在太多了，我不能再让你去害他。", "talkname70", 0);
-Talk(51, "方丈这是做什么，今天我去揭发乔峰，是为武林除害。", "talkname51", 1);
-Talk(70, "是吗？依老衲看，是为了你大燕复国的计划吧。其实我早就该想到了，当初就是你父亲慕容博施主，假传音讯，说是契丹武士要大举侵犯少林夺取武学典籍，才会酿成大错。这一切，都是你父亲要挑起汉辽武人相斗，使你大燕从中取利。", "talkname70", 0);
+Talk(51, "Cái gì, trụ trì hối hận sao?", "talkname51", 1);
+Talk(70, "Lão Na đã tính toán, tạo nhân ắt có kết quả. Danh tiếng của tôi quan trọng nhưng tôi nợ Kiều Phong và gia đình anh ấy quá nhiều, tôi không thể để anh hại anh ấy lần nữa.", "talkname70", 0);
+Talk(51, "Trụ trì, ngài đang làm gì vậy? Hôm nay tôi đến vạch trần Kiều Phong, tiêu trừ tổn hại cho giới võ lâm.", "talkname51", 1);
+Talk(70, "Vâng? Theo ý kiến của tôi, đó là kế hoạch của bạn để khôi phục đất nước Yan. Kỳ thực ta đáng lẽ phải nghĩ tới việc này từ lâu, chính là ân nhân của cha ngươi Mộ Dung Bá đã tung tin thất thiệt, nói rằng các chiến binh Khiết Đan muốn xâm lược Thiếu Lâm, đoạt lấy võ công kinh điển, sẽ dẫn đến một sai lầm lớn. Tất cả điều này là do cha bạn muốn kích động một cuộc chiến giữa các chiến binh Hán và Liao để bạn, Dayan, kiếm lợi từ nó.", "talkname70", 0);
 Talk(51, "……", "talkname51", 1);
-Talk(70, "快将信件留下。", "talkname70", 0);
-Talk(51, "方丈不怕我将你的事也揭露出来。", "talkname51", 1);
-Talk(70, "我个人事小，中原武林的和谐才重要，我不能让你利用此信，引起武林的大风暴。", "talkname70", 0);
-Talk(51, "好，你别怪我。这事传出去后，看你少林寺的脸往哪里摆。一个堂堂的少林方丈和女人乱来，还生下了一名私生子……", "talkname51", 1);
-Talk(0, "有这等事？", "talkname0", 1);
-Talk(70, "阿弥陀佛！老衲是犯了佛门大戒，待将你们拿下，取回信件后，老衲自会自我惩处。", "talkname70", 0);
-Talk(51, "看来免不了一战了。", "talkname51", 1);
+Talk(70, "Hãy để lại bức thư một cách nhanh chóng.", "talkname70", 0);
+Talk(51, "Trụ trì không sợ ta tiết lộ chuyện của ngươi.", "talkname51", 1);
+Talk(70, "Chuyện riêng của ta tuy nhỏ nhưng sự hòa hợp của võ lâm Trung Nguyên mới quan trọng, không thể để ngươi lợi dụng bức thư này để gây bão lớn trong giới võ lâm.", "talkname70", 0);
+Talk(51, "Được rồi, đừng trách tôi. Sau khi tin tức này truyền ra ngoài, hãy xem bộ mặt Thiếu Lâm Tự của các ngươi sẽ biến thành như thế nào. Một trụ trì Thiếu Lâm uy nghiêm ngoại tình với một phụ nữ và sinh ra một đứa con ngoài giá thú...", "talkname51", 1);
+Talk(0, "Có một điều như vậy?", "talkname0", 1);
+Talk(70, "A Di Đà! Tôi đã vi phạm giới luật của Phật giáo, sau khi bắt được anh và lấy lại thư của anh, tôi sẽ tự trừng phạt mình.", "talkname70", 0);
+Talk(51, "Có vẻ như một trận chiến là không thể tránh khỏi.", "talkname51", 1);
 if TryBattle(81) == true then goto label0 end;
     Dead();
     do return end;
@@ -44,7 +44,7 @@ if TryBattle(81) == true then goto label0 end;
 	jyx2_ReplaceSceneObject("", "NPC/慕容复1", "");
     ModifyEvent(51, 14, -2, -2, 527, 531, -1, -2, -2, -2, -2, -2, -2);--by fanyu  启动脚本527,531 场景51-14
     LightScence();
-    Talk(51, "没事了，我们走吧。", "talkname51", 1);
+    Talk(51, "Không sao đâu, đi thôi.", "talkname51", 1);
 
     AddRepute(8);
 do return end;

@@ -1,8 +1,8 @@
 if UseItem(128) == true then goto label0 end;
     do return end;
 ::label0::
-    Talk(45, "这……这是我逍遥派掌门之信物，怎会在阁下手中。", "talkname45", 0);
-    Talk(0, "你师祖已将逍遥派掌门传给我兄弟了……事情是这样的……你师父跟我们说，如果有需要医术高明的人加入的话，可以来这边找你。", "talkname0", 1);
-    Talk(45, "是，少侠有什么需要，弟子将全力配合。", "talkname45", 0);
+    Talk(45, "Đây... đây là tín vật của thủ lĩnh Tiêu Dao phái của ta, làm sao nó có thể rơi vào tay ngươi?", "talkname45", 0);
+    Talk(0, "Sư phụ của ngươi đã truyền lại người đứng đầu Tiêu Dao phái cho anh trai ta... Chuyện là như thế này... Sư phụ của ngươi nói với chúng ta, nếu ai cần người có y thuật cao tham gia thì có thể đến đây tìm ngươi.", "talkname0", 1);
+    Talk(45, "Đúng vậy, nếu thiếu anh hùng cần gì, đệ tử sẽ toàn lực phối hợp.", "talkname45", 0);
     ModifyEvent(-2, -2, -2, -2, 556, -1, -1, -2, -2, -2, -2, -2, -2);
 do return end;

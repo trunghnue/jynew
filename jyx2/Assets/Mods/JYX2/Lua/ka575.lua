@@ -1,12 +1,12 @@
-Talk(105, "客倌想住宿吗？本店有上好客房供应。一间２０两。", "talkname105", 0);
+Talk(105, "Bạn có muốn ở lại không? Khách sạn của chúng tôi có sẵn phòng tốt. 20 lượng mỗi phòng.", "talkname105", 0);
 if AskRest() == true then goto  label0 end;
     do return end;
 ::label0::
     if JudgeMoney(20) == true then goto label1 end;
-        Talk(105, "走，走，走，没钱就不要妨碍我做生意！", "talkname105", 0);
+        Talk(105, "Đi đi, đi đi, không có tiền thì đừng cản trở việc kinh doanh của tôi!", "talkname105", 0);
         do return end;
 ::label1::
-        Talk(0, "荒野之地多凶险，龙门地界只怕兵祸临头不远。", "talkname0", 1);
+        Talk(0, "Hoang dã rất nguy hiểm, Long Môn ranh giới sợ rằng sẽ xảy ra đại họa quân sự không xa.", "talkname0", 1);
         DarkScence();
         Rest();
         AddItemWithoutHint(174, -20);

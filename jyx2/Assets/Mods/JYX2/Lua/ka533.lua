@@ -1,10 +1,10 @@
-Talk(0, "老先生，怎么一个人坐在这下棋，这棋一个人下得起来吗？", "talkname0", 1);
-Talk(52, "小兄弟，难道你对我这“珍珑”也有兴趣？", "talkname52", 0);
-Talk(0, "“珍珑”？哦，是不是类似那种摆在公园，要人来破解这盘棋的生意。若能解开的话，就有一些奖品。", "talkname0", 1);
-Talk(52, "小兄弟说些什么，老朽不太清楚，不过这“珍珑”是有点像你所说的意味。", "talkname52", 0);
-Talk(0, "这盘局很难解吗？", "talkname0", 1);
-Talk(52, "这个珍珑棋局乃先师所设。先师当年穷三年之心血，这才布成，深盼当世棋道中的知心之士，予以破解。老朽三十年来苦加钻研，皆未能参解得透。精通禅理之人，自知禅宗要旨，在于“顿悟”。穷年累月的苦功，未必能及具有宿根慧心之人的一见即悟。棋道也是一般，才气横溢的八九岁小儿，棋枰上往往能胜一流高手。虽然老朽参研不透，但天下才士甚众，未必都破解不得。先师当年留下了这个心愿，倘若有人破解开了，完了先师这个心愿，先师虽已不在人世，泉下有知，也必大感欣慰。", "talkname52", 0);
-Talk(0, "可惜晚辈棋力不佳，否则我倒也想试一试。", "talkname0", 1);
-Talk(52, "这棋原是极难，棋力不弱之人，若解不开甚至有可能走火入魔。公子就别勉强自己了。", "talkname52", 0);
+Talk(0, "Lão công tử, ngươi ngồi đây đánh cờ một mình sao, ngươi có thể một mình đánh cờ này được không?", "talkname0", 1);
+Talk(52, "Em trai, em cũng có hứng thú với anh à, "Trấn Long"?", "talkname52", 0);
+Talk(0, ""Trấn Long"? Ồ, nó có giống với kiểu kinh doanh được đặt trong công viên và yêu cầu mọi người giải mã ván cờ không? Nếu giải được sẽ có thưởng.", "talkname0", 1);
+Talk(52, "Tôi không chắc em trai đã nói gì, nhưng chữ "Zhenlong" này có nghĩa giống như những gì bạn nói.", "talkname52", 0);
+Talk(0, "Trò chơi này có khó giải quyết không?", "talkname0", 1);
+Talk(52, "Ván cờ Trấn Long này là do sư phụ bày ra. Phải sau ba năm làm việc chăm chỉ của cố chủ tôi, cuối cùng tôi mới hoàn thành được nó, tôi chân thành hy vọng ai đó có kiến thức về thế giới cờ vua sẽ giải mã được nó. Tôi đã khổ học ba mươi năm mà vẫn chưa hiểu thấu đáo. Người tinh thông Thiền đều biết bản chất của Thiền nằm ở chỗ “đột ngộ”. Nhiều năm tháng làm việc chăm chỉ có thể không thể đạt được giác ngộ ngay từ cái nhìn đầu tiên về một người có trí tuệ. Kỹ năng chơi cờ cũng ở mức trung bình, một đứa trẻ tám chín tuổi tài năng thường có thể đánh bại các cao thủ hạng nhất trên bàn cờ. Nhân sâm cổ tuy không thể nghiên cứu kỹ lưỡng nhưng trên đời có rất nhiều người tài giỏi nên không phải ai cũng có thể bẻ được. Sư phụ năm đó đã để lại tâm nguyện này, nếu có người có thể bẻ khóa nó và thực hiện được tâm nguyện của sư phụ thì dù sư phụ không còn sống nhưng nếu có người biết đến sư phụ thì sẽ rất vui mừng.", "talkname52", 0);
+Talk(0, "Đáng tiếc tiểu bối không giỏi cờ vua, nếu không ta cũng muốn thử một lần.", "talkname0", 1);
+Talk(52, "Ván cờ này cực kỳ khó, một người có kỹ năng chơi cờ mạnh thậm chí có thể phát điên nếu không thể hình dung ra được. Thiếu gia, đừng ép buộc mình.", "talkname52", 0);
 ModifyEvent(-2, -2, -2, -2, 534, -1, -1, -2, -2, -2, -2, -2, -2);
 do return end;

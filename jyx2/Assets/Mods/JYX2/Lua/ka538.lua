@@ -1,5 +1,5 @@
-Talk(0, "前辈，星宿老怪那厮已被我们杀了，你可以安心了。", "talkname0", 1);
-Talk(52, "真的！……师父地下有知，也可以安心了。", "talkname52", 0);
-Talk(0, "前辈，你以后可以安心的研究棋弈了。", "talkname0", 1);
+Talk(0, "Tiền bối, chúng ta đã giết chết lão quái Tinh Tú, ngài yên tâm.", "talkname0", 1);
+Talk(52, "thực tế! ...Sư phụ biết điều gì đó bí mật nên tôi có thể yên tâm.", "talkname52", 0);
+Talk(0, "Tiền bối, từ nay ngươi có thể yên tâm học cờ.", "talkname0", 1);
 ModifyEvent(-2, -2, -2, -2, 582, -1, -1, -2, -2, -2, -2, -2, -2);
 do return end;

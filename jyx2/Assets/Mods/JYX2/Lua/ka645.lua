@@ -1,2 +1,2 @@
-Talk(0, "咦！这墙上有个刀孔，形状像把长刀。", "talkname0", 1);
+Talk(0, "Huh! Trên tường có một cái lỗ, hình dáng như một con dao dài.", "talkname0", 1);
 do return end;

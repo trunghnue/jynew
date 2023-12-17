@@ -1,2 +1,2 @@
-Talk(92, "你若想在本门中混下去，最重要的秘诀，自然是将师父奉若神明，他老人家便放个屁，当然也是香的。更须大声吸，小声呼的衷心赞颂。", "talkname92", 0);
+Talk(92, "Muốn sống sót trong môn phái này, bí quyết quan trọng nhất chính là coi sư phụ của mình như thần, đánh rắm của hắn đương nhiên sẽ rất ngon. Điều cần thiết hơn là phải thở thật to và hét lên những lời khen ngợi chân thành một cách nhẹ nhàng.", "talkname92", 0);
 do return end;

@@ -1,3 +1,3 @@
-Talk(87, "傻小子，要你留下来享享艳福还不好吗？", "talkname87", 0);
-Talk(0, "不行，不行，我老师常说：“色字头上一把刀”。", "talkname0", 1);
+Talk(87, "Chàng trai ngốc nghếch, chẳng phải sẽ tốt hơn nếu cậu ở lại và tận hưởng vẻ đẹp sao?", "talkname87", 0);
+Talk(0, "Không, không, thầy tôi thường nói: “Chữ tình dục giống như một con dao cứa vào đầu vậy”.", "talkname0", 1);
 do return end;

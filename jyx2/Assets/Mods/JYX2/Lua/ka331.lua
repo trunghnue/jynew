@@ -1,4 +1,4 @@
-Talk(20, "真是惭愧，我五岳剑派闹了这么多的风波，让少侠见笑了。左冷禅和岳不群这两人为争权夺利，弄得五岳剑派人仰马翻，我得和另外两位掌门去制止他们。", "talkname20", 0);
-Talk(0, "需不需要我帮忙？", "talkname0", 1);
-Talk(20, "不必了，怎可每件事都让少侠帮忙呢。我们自己会解决的。", "talkname20", 0);
+Talk(20, "Tôi thực sự xấu hổ vì phái Wuyue Sword Sect của tôi đã gây ra rất nhiều rắc rối và khiến anh hùng trẻ tuổi phải bật cười. Zuo Lengchan và Yue Buqun tranh giành quyền lực khiến Ngũ Việt Kiếm phái sụp đổ, tôi phải cùng hai thủ lĩnh còn lại ngăn cản.", "talkname20", 0);
+Talk(0, "Bạn có cần tôi giúp không?", "talkname0", 1);
+Talk(20, "Không cần, làm sao có thể nhờ anh hùng trẻ tuổi giúp đỡ mọi việc? Chúng tôi sẽ tự mình tìm ra nó.", "talkname20", 0);
 do return end;

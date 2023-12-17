@@ -1,2 +1,2 @@
-Talk(200, "欢迎光临“河洛客栈”！本店有上好的酒菜以及最精准的小道消息。住宿：２０", "talkname200", 2);
+Talk(200, "Chào mừng đến với "Nhà trọ Heluo"! Cửa hàng của chúng tôi có rượu và đồ ăn ngon nhất cũng như những tin đồn chính xác nhất. Chỗ ở: 20", "talkname200", 2);
 do return end;

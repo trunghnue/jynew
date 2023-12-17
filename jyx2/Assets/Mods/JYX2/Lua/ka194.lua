@@ -1,2 +1,2 @@
-Talk(81, "下月十五我五岳剑派在嵩山上的聚会，将要商讨如何对付日月魔教及东方不败。", "talkname81", 0);
+Talk(81, "Vào ngày 15 tháng sau, Võ Việt Kiếm phái chúng ta sẽ tổ chức hội nghị trên núi Tùng Sơn để bàn cách đối phó với Nhật Nguyệt Ma Giáo và Đông Phương Bất Bại.", "talkname81", 0);
 do return end;

@@ -2,6 +2,6 @@ if UseItem(186) == true then goto label0 end;
     do return end;
 ::label0::
     AddItemWithoutHint(186, -1);
-    Talk(73, "制造药丸非常简单，只要你队伍中有人修练医书，又有药材的话就可制造出来。", "talkname73", 0);
+    Talk(73, "Chế tạo đan dược rất đơn giản, trong tổ của ngươi chỉ cần có người luyện y sách, có dược liệu là có thể chế tạo được.", "talkname73", 0);
     Add3EventNum(-2, 0, 0, 1, -1)
 do return end;

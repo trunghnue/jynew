@@ -1,2 +1,2 @@
-Talk(0, "星宿老怪，你也会有今天。", "talkname0", 1);
+Talk(0, "Lão quái vật Tinh Tú, ngươi cũng sẽ có ngày này.", "talkname0", 1);
 do return end;

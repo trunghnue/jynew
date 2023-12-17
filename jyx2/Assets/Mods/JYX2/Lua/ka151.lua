@@ -1,2 +1,2 @@
-Talk(77, "可恶的魔教妖邪，要杀要剐就来。", "talkname77", 0);
+Talk(77, "Tà giáo ghê tởm sẽ đến giết hại và chặt thành từng mảnh.", "talkname77", 0);
 do return end;

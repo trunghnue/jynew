@@ -1,21 +1,21 @@
 if UseItem(178) == true then goto label0 end;
     do return end;
 ::label0::
-    Talk(33, "这……这是……我在前人笔记之中见过这记载……上面说刘仲甫是当时国手，却在骊山麓给一个乡下老媪杀得大败，登时呕血数升，那局棋谱便称“呕血谱”。原想只道是个传闻，怎料世上竟然真有这局呕血谱？少侠，可否借老夫抄录副本。", "talkname33", 0);
-    Talk(0, "哈！哈！这“呕血棋谱”是我费尽千辛万苦才得来的，看一次五千万两黄金，看不看随你。", "talkname0", 1);
+    Talk(33, "Đây... đây là... Tôi đã nhìn thấy ghi chép này trong sổ ghi chép của những người đi trước... Nó nói rằng Liu Zhongfu lúc đó là một tuyển thủ quốc gia, nhưng anh ta đã bị một ông già quê mùa đánh bại dưới chân núi Lishan Anh ta ngay lập tức nôn ra máu và tỷ số của trò chơi đó được gọi là "Phổ máu". Vốn tưởng rằng chỉ là lời đồn, nhưng làm sao biết trên thế giới thực sự có loại nôn ra máu như vậy? Anh hùng trẻ tuổi, bạn có thể cho tôi mượn một bản sao được không?", "talkname33", 0);
+    Talk(0, "ha! ha! “Kỷ lục cờ vua nôn ra máu” này tôi đã có được sau bao vất vả, xem một lần có thể lấy 50 triệu lượng vàng, muốn xem hay không là tùy bạn.", "talkname0", 1);
 
-    Talk(31, "二哥你瞧，这小子就是这德性，完全没把我们梅庄放在眼里，先前还说梅庄中没人是他的对手，嚣张极了。", "talkname31", 0);
-    Talk(33, "少侠，别敬酒不吃吃罚酒，我黑白子想要的东西从来没有得不到的，你还是乖乖地交出来吧。", "talkname33", 1);
-    Talk(32, "二哥，别跟他多说废话，咱们三人联手，量他插翅也难飞。", "talkname32", 0);
-    Talk(0, "枉费梅庄在江湖上的声名如此响亮，想不到尽是一群倚多欺少之辈，可笑可笑。", "talkname0", 1);
-    Talk(33, "三弟，四弟，咱们梅庄可别让这个家伙瞧扁了，就让我来会一会，看他多大能耐。", "talkname33", 0);
+    Talk(31, "Anh hai, anh thấy đấy, anh chàng này tính tình tốt như vậy, không coi trọng Làng Mai của chúng ta chút nào, trước đó anh ta đã nói rằng ở Làng Mai không có ai là đối thủ của anh ta, tính cách này cực kỳ kiêu ngạo.", "talkname31", 0);
+    Talk(33, "Anh hùng trẻ tuổi, đừng nâng cốc và ăn như một hình phạt, tôi không bao giờ có được thứ mà tôi, Black and White, muốn, vì vậy tốt nhất bạn nên ngoan ngoãn giao nó.", "talkname33", 1);
+    Talk(32, "Nhị ca, đừng nói nhảm với hắn, ba người chúng ta liên thủ, hắn có cánh cũng khó bay được.", "talkname32", 0);
+    Talk(0, "Chẳng trách Phỉ Mị Trang lại có danh tiếng lớn như vậy trong thiên hạ, không ngờ chỉ là một đám người dựa dẫm vào số đông mà ức hiếp trẻ nhỏ, thật buồn cười.", "talkname0", 1);
+    Talk(33, "Tam ca, tứ ca, đừng để gia hỏa này coi thường chúng ta ở Mai Trang, để ta tới một lát xem thực lực của hắn như thế nào.", "talkname33", 0);
     if TryBattle(45) == true then goto label1 end;
         Dead();
         do return end;
 ::label1::
         LightScence();
-        Talk(0, "我就说嘛，你们这几个老头子根本就不够看，我瞧啊，那什么大庄主想必也没什么料。不过既然来了，就把他叫出和我比划比划。", "talkname0", 1);
-        Talk(33, "臭小子！有种别跑！", "talkname33", 0);
+        Talk(0, "Ta chỉ nói, các ngươi lão tổ căn bản là không đủ tốt, ngươi nhìn xem, thôn chủ lớn nhất định cũng không có gì nhiều để thể hiện. Nhưng bây giờ anh ấy đã ở đây, tôi sẽ gọi anh ấy ra và ký hợp đồng với tôi.", "talkname0", 1);
+        Talk(33, "Thằng nhãi! Đừng chạy nếu bạn có can đảm!", "talkname33", 0);
         DarkScence();
         ModifyEvent(-2, 9, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2);
         ModifyEvent(-2, 10, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2);

@@ -1,2 +1,2 @@
-Talk(87, "哼！教主不会放过你的。", "talkname87", 0);
+Talk(87, "khịt mũi! Người lãnh đạo sẽ không để bạn đi.", "talkname87", 0);
 do return end;

@@ -1,25 +1,25 @@
-Talk(66, "臭小子，你是何人，居然进得了我黑龙潭中。", "talkname66", 0);
+Talk(66, "Tiểu tử, ngươi là ai, ngươi cư nhiên có thể tiến vào Hắc Long Đàm của ta.", "talkname66", 0);
 if InTeam(63) == false then goto label0 end;
-    Talk(63, "五行奇门之术，天下又不是只有你一人通晓。", "talkname63", 1);
+    Talk(63, "Bạn không phải là người duy nhất trên thế giới biết đến sự kỳ diệu của Ngũ hành.", "talkname63", 1);
 ::label0::
     if InTeam(63) == true then goto label1 end;
-        Talk(0, "这也没什么，辛苦一点，画个地图就好了。", "talkname0", 1);
+        Talk(0, "Không có gì đâu, chỉ cần làm việc chăm chỉ hơn và vẽ bản đồ thôi.", "talkname0", 1);
 ::label1::
-        Talk(66, "到我黑沼中有何贵事？", "talkname66", 0);
-        Talk(0, "晚辈见此地布局奇特，心想必是高人隐居之地，特别前来寻求指点迷津。", "talkname0", 1);
-        Talk(66, "你想知道些什么？", "talkname66", 0);
-        Talk(0, "晚辈跑遍江湖各地，到处找寻“十四天书”。不知前辈是否知道这些书的下落？", "talkname0", 1);
-        Talk(66, "＜老天送此人到这，原来是叫我得以报仇雪恨，一偿宿愿。＞四张机，鸳鸯织就欲双飞。可怜未老头先白，春波碧草晓寒深处，相对浴红衣。", "talkname66", 0);
-        Talk(0, "＜这阿婆是不是秀逗了，无缘无故念些什么……＞＜啊！该不会是寻找天书的口诀，该死，我都忘了记下来＞", "talkname0", 1);
-        Talk(66, "小子，算你运气好，我神算子瑛姑正好知道《射雕英雄传》一书的下落。只要你帮我办妥一件事，我就告诉你。", "talkname66", 0);
-        Talk(0, "没问题，什么事，你说吧。", "talkname0", 1);
-        Talk(66, "我要你去杀了段皇爷。", "talkname66", 0);
-        Talk(0, "段皇爷？你是说江湖上人称“南帝”的段皇爷？", "talkname0", 1);
-        Talk(66, "没错，出了这里后，往南走有个竹屋，此人就住在那。", "talkname66", 0);
-        Talk(0, "听说他武功很高，我怎么打得过他？", "talkname0", 1);
-        Talk(66, "我给你一条手帕，你先拿给他看，他在心虚后，你或许有机会杀了他。", "talkname66", 0);
-        Talk(0, "但我听说段皇爷为人仁慈，是个受人敬爱的仁君，前辈为什么要杀他。", "talkname0", 1);
-        Talk(66, "他为人仁慈？他眼睁睁的看我孩儿死去，却不肯伸出援手……要杀不杀随你。四张机，鸳鸯织就欲双飞。可怜未老头先白，春波碧草晓寒深处，相对浴红衣。", "talkname66", 0);
+        Talk(66, "Bạn có việc gì ở đầm lầy tối tăm của tôi?", "talkname66", 0);
+        Talk(0, "Nhìn thấy cách bài trí kỳ lạ của nơi này, thế hệ trẻ cho rằng đây hẳn là nơi các cao thủ sống ẩn dật nên đến đây để xin lời khuyên.", "talkname0", 1);
+        Talk(66, "Bạn muốn biết gì?", "talkname66", 0);
+        Talk(0, "Thế hệ trẻ đi khắp thế giới để tìm kiếm “Cuốn sách Mười bốn ngày”. Không biết các tiền bối có biết những cuốn sách này ở đâu không?", "talkname0", 1);
+        Talk(66, "＜Chúa đã gửi người này đến đây để tôi có thể báo thù và thực hiện tâm nguyện ấp ủ từ lâu của mình. >Với bốn cỗ máy, Yuanyang muốn bay cùng nhau. Tiếc thay ông già đã bạc trước khi già, Sóng xuân xanh mướt, cỏ tận sâu lạnh lẽo, ông tắm trong bộ áo đỏ.", "talkname66", 0);
+        Talk(0, "＜Có phải bà này chỉ đang buồn cười, nói điều gì đó vô cớ thôi sao...＞＜Ah! Chẳng lẽ đây là công thức tìm ra Thiên Thư sao? Chết tiệt, tôi quên viết ra rồi.>", "talkname0", 1);
+        Talk(66, "Chàng trai, bạn thật may mắn, thầy bói Ying Gu của tôi tình cờ biết được cuốn sách "Truyền thuyết anh hùng xạ điêu" ở đâu. Chỉ cần bạn làm điều gì đó cho tôi, tôi sẽ nói với bạn.", "talkname66", 0);
+        Talk(0, "Không có vấn đề gì, chỉ cần cho tôi biết nó là gì.", "talkname0", 1);
+        Talk(66, "Ta muốn ngươi giết Hoàng tử Duẩn.", "talkname66", 0);
+        Talk(0, "Hoàng đế Duẩn? Bạn đang nói về Hoàng đế Duẩn, người được mệnh danh là "Hoàng đế phương Nam" trên thế giới?", "talkname0", 1);
+        Talk(66, "Đúng vậy, sau khi rời khỏi đây, có một ngôi nhà tre đi về phía nam, và người này sống ở đó.", "talkname66", 0);
+        Talk(0, "Nghe nói hắn võ nghệ rất giỏi, làm sao có thể đánh bại hắn?", "talkname0", 1);
+        Talk(66, "Tôi đưa khăn tay cho anh, anh đưa cho hắn xem trước, sau khi hắn cảm thấy áy náy, có thể anh sẽ có cơ hội giết hắn.", "talkname66", 0);
+        Talk(0, "Nhưng nghe nói Đoàn quân là người nhân hậu, là một vị vua nhân từ, được mọi người kính trọng, yêu mến, sao tiền bối lại muốn giết hắn.", "talkname0", 1);
+        Talk(66, "Anh ấy có tốt bụng không? Anh ta nhìn con tôi chết, nhưng từ chối giúp đỡ... Bạn có muốn giết anh ta hay không là tùy bạn. Với bốn chiếc máy, những chú vịt quýt đã sẵn sàng cùng nhau bay lượn. Tiếc thay ông già đã bạc trước khi già, Sóng xuân xanh mướt, cỏ tận sâu lạnh lẽo, ông tắm trong bộ áo đỏ.", "talkname66", 0);
         AddItem(184, 1);
         ModifyEvent(-2, -2, -2, -2, 418, -1, -1, -2, -2, -2, -2, -2, -2);--by fanyu|启动418脚本。场景21-编号01
         ModifyEvent(47, 0, 1, 1, 425, 426, -1, 6150, 6150, 6150, -2, -2, -2);--by fanyu|启动425,426脚本，更改贴图。场景47-编号00

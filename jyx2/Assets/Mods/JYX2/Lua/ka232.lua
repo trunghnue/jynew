@@ -1,5 +1,5 @@
-Talk(0, "好啊，你们居然在这里计划要杀人，亏你们还是同盟的帮派。", "talkname0", 1);
-Talk(84, "小子，偷听了我们的计划，只好杀了你灭口。怪不得我们了。上！", "talkname84", 0);
+Talk(0, "Được rồi, thực ra bạn đang có ý định giết người ở đây, nhưng bạn vẫn là một băng đảng đồng minh.", "talkname0", 1);
+Talk(84, "Chàng trai, cậu đã nghe lỏm được kế hoạch của chúng tôi nên tôi phải giết cậu để bịt miệng. Không có gì ngạc nhiên khi chúng tôi như vậy. thượng đẳng!", "talkname84", 0);
 if TryBattle(42) == true then goto label0 end;
     Dead();
     do return end;

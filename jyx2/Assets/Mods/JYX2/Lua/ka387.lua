@@ -1,14 +1,14 @@
-Talk(23, "银光灿烂，鞍自平稳。天马行空，瞬息万里……原来天马是手。并非真的是马。", "talkname23", 0);
+Talk(23, "Ánh bạc rực rỡ, yên xe vững chãi. Thiên mã phi hành trên bầu trời, trong nháy mắt đi vạn dặm... Thì ra thiên mã là một bàn tay. Không thực sự là một con ngựa.", "talkname23", 0);
 if InTeam(38) == true then goto label0 end;
-    Talk(23, "这壁上的注解说道：白居易诗云“勿轻直折剑，犹胜曲全勾”。可见我这直折之剑，方合石壁注文原意。", "talkname23", 0);
-    Talk(20, "不对，“吴钩霜雪明”是主，“犹胜曲全钩”是宾。喧宾夺主，必非正道。", "talkname20", 1);
+    Talk(23, "Trên tường có chú thích: Bài thơ của Bai Juyi viết: "Đừng bẻ kiếm nhẹ nhàng, vẫn hay hơn câu hát đầy đủ." Có thể thấy thanh kiếm chém thẳng của tôi phù hợp với ý nghĩa ban đầu của dòng chữ trên tường đá.", "talkname23", 0);
+    Talk(20, "Không, "Wu Gou Shuang Xue Ming" là nhân vật chính, và "Yu Sheng Qu Quan Gou" là khách mời. Đó chắc chắn không phải là cách đúng đắn để làm lu mờ khách và chiếm đoạt chủ nhà.", "talkname20", 1);
     do return end;
 ::label0::
     -- jyx2_ReplaceSceneObject("", "NPC/shipotian2", "1");--石破天出现
-    Talk(38, "＜这些口诀甚是深奥，我是弄不明白的。唉！没读过书就是不行。＞", "talkname38", 1);
-    Talk(23, "这壁上的注解说道：白居易诗云“勿轻直折剑，犹胜曲全勾”。可见我这直折之剑，方合石壁注文原意。", "talkname23", 0);
-    Talk(20, "不对，“吴钩霜雪明”是主，”犹胜曲全钩”是宾。喧宾夺主，必非正道。", "talkname20", 1);
-    Talk(38, "＜咦！这些字的笔划看起来好像是一把把的长剑，有的剑尖朝上，有的向下，有的斜起欲飞，有的横掠欲堕。“五里穴”好热……现在跑到“曲池穴”了……自从练了木偶身上的经脉图之后，内力大盛，但从没像今日这般劲急…＞", "talkname38", 1);
+    Talk(38, "＜Những công thức này rất sâu sắc và tôi không thể hiểu được. Tốt! Nếu bạn chưa đọc sách, bạn không thể làm được. ＞", "talkname38", 1);
+    Talk(23, "Trên tường có chú thích: Bài thơ của Bai Juyi viết: "Đừng bẻ kiếm nhẹ nhàng, vẫn hay hơn câu hát đầy đủ." Có thể thấy thanh kiếm chém thẳng của tôi phù hợp với ý nghĩa ban đầu của dòng chữ trên tường đá.", "talkname23", 0);
+    Talk(20, "Không, "Wu Gou Shuang Xue Ming" là nhân vật chính, và "Yu Sheng Qu Quan Gou" là khách mời. Đó chắc chắn không phải là cách đúng đắn để làm lu mờ khách và chiếm đoạt chủ nhà.", "talkname20", 1);
+    Talk(38, "<Này! Nét vẽ của những nhân vật này trông giống như những thanh kiếm dài, một số có đầu hướng lên trên, một số hướng xuống dưới, một số hướng lên theo đường chéo và một số lại sà xuống. "Điểm Wuli" nóng quá ... Bây giờ tôi sẽ đến "Điểm Quchi"... Kể từ khi tôi luyện tập sơ đồ kinh tuyến trên cơ thể con rối, nội năng của tôi rất mạnh mẽ, nhưng nó chưa bao giờ như vậy khẩn cấp như hôm nay...>", "talkname38", 1);
     -- jyx2_ReplaceSceneObject("", "NPC/shipotian2", "");--石破天出现
 do return end;
 

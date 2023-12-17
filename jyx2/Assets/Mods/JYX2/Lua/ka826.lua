@@ -1,8 +1,8 @@
-Talk(74, "少年哎，到这寒天雪地中，是向我“李丑”寻求真理的吗？", "talkname74", 0);
-Talk(0, "＜李丑？莫非他就是与智者齐名，“南贤北丑”中的北丑吗？＞＜怎么看起来疯疯癫癫的，罩得住吗？＞", "talkname0", 1);
-Talk(74, "别怀疑我的能力？", "talkname74", 0);
-Talk(0, "＜厉害！连我在想什么都知道。＞你真的懂得很多吗？有比“南贤”智者还多吗？", "talkname0", 1);
-Talk(74, "南贤那个老头子懂什么？他知道的不过是基本知识罢了，连三岁小孩子都知道。我李丑可就不一样了，我知道的可都是武林中的大秘密哦！所以别浪费你的智慧果了，拿来给我还比较实际一点。你如果还不相信我的能力，那我就让你见识我这全江湖中唯一的一件法宝。看到桌上的水晶球没，没事就摸它一下，看看有什么意想不到的事发生。", "talkname74", 0);
+Talk(74, "Chàng trai trẻ, anh đang ở nơi lạnh lẽo và đầy tuyết này để tìm kiếm sự thật từ tôi, "Lý Châu" à?", "talkname74", 0);
+Talk(0, "<Lý Châu? Chẳng lẽ hắn cũng nổi tiếng như nhà hiền triết Bắc Chu trong Nam Thông Bắc Chu? ＞＜Sao trông bạn điên quá vậy, bạn có thể che đậy được không? ＞", "talkname0", 1);
+Talk(74, "Đừng nghi ngờ khả năng của tôi?", "talkname74", 0);
+Talk(0, "<Tuyệt vời! Ngay cả tôi cũng biết tôi đang nghĩ gì. ＞Bạn có thực sự biết nhiều không? Có nhiều nhà thông thái hơn "Nan Xian"?", "talkname0", 1);
+Talk(74, "Ông già Nan Xian đó biết gì? Tất cả những gì cậu biết là những điều cơ bản, điều mà ngay cả một đứa trẻ ba tuổi cũng biết. Tôi, Li Chou, khác biệt, tôi biết tất cả những bí mật lớn trong thế giới võ thuật! Vì vậy, đừng lãng phí trái trí tuệ của bạn, việc đưa nó cho tôi sẽ thực tế hơn. Nếu bạn vẫn không tin vào khả năng của tôi thì tôi sẽ cho bạn xem vũ khí ma thuật duy nhất của tôi trên thế giới. Nếu bạn nhìn thấy quả cầu pha lê trên bàn, hãy chạm vào nó và xem có điều gì bất ngờ xảy ra không.", "talkname74", 0);
 ModifyEvent(-2, -2, -2, -2, 827, 751, -1, -2, -2, -2, -2, -2, -2);
 ModifyEvent(-2, 2, -2, -2, 828, -1, -1, -2, -2, -2, -2, -2, -2);
 do return end;

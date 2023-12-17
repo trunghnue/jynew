@@ -1,2 +1,2 @@
-Talk(90, "恭喜公子荣获赏善罚恶令，雪山派全体弟子祝福你。", "talkname90", 0);
+Talk(90, "Chúc mừng Thiếu gia đã nhận được Lệnh Thưởng Thiện Trừ Ác, toàn thể đệ tử Tuyết Sơn Phái xin chúc những điều tốt đẹp nhất đến với Ngài.", "talkname90", 0);
 do return end;

@@ -1,2 +1,2 @@
-Talk(0, "老伯，我看下一次的华山论剑，你还是别参加了，继续再苦练吧。", "talkname0", 1);
+Talk(0, "Lão già, ta nghĩ ngươi tốt nhất không nên tham gia vào cuộc tranh luận kiếm Hoa Sơn tiếp theo mà tiếp tục chăm chỉ luyện tập.", "talkname0", 1);
 do return end;

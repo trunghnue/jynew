@@ -1,15 +1,15 @@
-Talk(15, "你又想做什么？", "talkname15", 0);
+Talk(15, "Bạn muốn làm gì?", "talkname15", 0);
 if AskBattle() == true then goto label0 end;
     do return end;
 ::label0::
-    Talk(0, "晚辈斗胆向前辈讨教讨教。", "talkname0", 1);
-    Talk(15, "好，咱们来玩玩。", "talkname15", 0);
+    Talk(0, "Đàn em mạnh dạn xin lời khuyên từ đàn anh.", "talkname0", 1);
+    Talk(15, "Được rồi, hãy vui vẻ một chút nhé.", "talkname15", 0);
     if TryBattle(132) == false then goto label1 end;
         LightScence();
-        Talk(15, "小子，过些时候，我金花婆婆再向你讨教。", "talkname15", 0);
-        Talk(0, "我会等您的。", "talkname0", 1);
+        Talk(15, "Con à, một thời gian nữa mẹ chồng Kim Hoa sẽ lại xin lời khuyên của con.", "talkname15", 0);
+        Talk(0, "Tôi sẽ chờ bạn.", "talkname0", 1);
         do return end;
 ::label1::
         LightScence();
-        Talk(15, "看你资质挺好的，老婆婆我不想杀你，你走吧。", "talkname15", 0);
+        Talk(15, "Xem ra ngươi có tư cách không tệ, lão phu nhân, ta không muốn giết ngươi, ngươi có thể rời đi.", "talkname15", 0);
 do return end;

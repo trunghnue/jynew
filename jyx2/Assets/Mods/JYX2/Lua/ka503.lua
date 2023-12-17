@@ -1,4 +1,4 @@
-Talk(93, "张三啊，你看这次六大派围剿光明顶的胜算有多大？", "talkname93", 0);
-Talk(93, "我说李四呀，照实力来看，应该是明教略胜一筹。但是近年来，明教教主失踪，教内为了教主一位闹得四分五裂，多位护教法王也都纷纷出走。照目前情势来看，明教应是汲汲可危呀。", "talkname93", 4);
-Talk(93, "想不到当年叱吒一时的明教也会落到如此下场。真是作恶多端，终遭天谴。", "talkname93", 0);
+Talk(93, "Zhang San, bạn nghĩ cơ hội chiến thắng của sáu phe lớn lần này trong việc bao vây Quảng Minh Đỉnh là bao nhiêu?", "talkname93", 0);
+Talk(93, "Ta nói Lý Tư, xét thực lực thì Minh Giao hẳn là nhỉnh hơn một chút. Tuy nhiên, những năm gần đây, người đứng đầu Minh Giáo đã biến mất, giáo phái bị chia rẽ vì người đứng đầu, nhiều Pháp Vương hộ mệnh cũng đã rời đi. Đánh giá tình hình hiện tại, Mingjiao có lẽ đang gặp khó khăn.", "talkname93", 4);
+Talk(93, "Không ngờ Minh Giao vốn từng hùng mạnh lại có kết cục như thế này. Anh ta thực sự đã làm nhiều điều ác và cuối cùng sẽ bị Chúa trừng phạt.", "talkname93", 0);
 do return end;

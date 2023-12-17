@@ -1,3 +1,3 @@
-Talk(90, "老李，你可曾听过江湖上人对倚天剑及屠龙刀的传说？", "talkname90", 0);
-Talk(90, "怎么没有。“武林至尊，宝刀屠龙”“号令天下，莫敢不从”“倚天不出，谁与争锋”。", "talkname90", 4);
+Talk(90, "Lão Lý, ngươi đã từng nghe qua truyền thuyết về Nhất Thiên Kiếm, Sát Long Kiếm mà người đời truyền tai chưa?", "talkname90", 0);
+Talk(90, "Làm sao có thể không. "Võ Vương tối cao dùng kiếm chém rồng." "Ra lệnh thiên hạ không ai dám trái lệnh." "Nếu không dựa vào trời, ai có thể cạnh tranh với bạn?"", "talkname90", 4);
 do return end;

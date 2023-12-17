@@ -1,2 +1,2 @@
-Talk(33, "少侠，可别说话不算话喔！", "talkname33", 0);
+Talk(33, "Anh hùng trẻ tuổi, đừng giữ lời!", "talkname33", 0);
 do return end;

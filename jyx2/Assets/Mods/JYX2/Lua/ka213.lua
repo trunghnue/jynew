@@ -1,2 +1,2 @@
-Talk(81, "师父说我华山派从今日起，在我五岳派中所负的责任是更重大的。我们要好好练武，过些时候好攻上黑木崖，消灭万恶的日月魔教。", "talkname81", 0);
+Talk(81, "Sư phụ nói rằng từ hôm nay trở đi, phái Hoa Sơn của chúng ta sẽ gánh vác trách nhiệm lớn hơn nữa trong phái Ngũ Sơn của chúng ta. Chúng ta cần phải luyện tập võ thuật thật tốt để có thể tấn công Blackwood Cliff và tiêu diệt tà ác Nhật Nguyệt Ma Giáo trong một thời gian.", "talkname81", 0);
 do return end;

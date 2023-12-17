@@ -3244,7 +3244,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u5173\u95ED"
+  m_Text: "\u0110\xF3ng"
 --- !u!114 &5401374731701941912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8723,7 +8723,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u753B\u9762"
+  m_Text: Graphic
 --- !u!114 &5044360569868349591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13447,7 +13447,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u901A\u7528"
+  m_Text: General
 --- !u!114 &411213659964747865
 MonoBehaviour:
   m_ObjectHideFlags: 0

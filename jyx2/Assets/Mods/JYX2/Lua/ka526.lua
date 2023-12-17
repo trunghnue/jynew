@@ -1,2 +1,2 @@
-Talk(50, "少侠有空来我丐帮，我们再一起喝酒。", "talkname50", 0);
+Talk(50, "Anh hùng trẻ tuổi, khi nào có thời gian hãy đến nhóm ăn xin của tôi và cùng nhau uống một ly nhé.", "talkname50", 0);
 do return end;

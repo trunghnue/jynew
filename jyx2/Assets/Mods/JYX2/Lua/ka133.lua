@@ -1,2 +1,2 @@
-Talk(78, "想到再过几天我六大派就要进攻光明顶，围剿魔教，我就兴奋不已。", "talkname78", 0);
+Talk(78, "Tôi rất phấn khích khi nghĩ rằng trong vài ngày nữa sáu giáo phái lớn của chúng ta sẽ tấn công Quảng Minh Định và bao vây và đàn áp Ma giáo.", "talkname78", 0);
 do return end;

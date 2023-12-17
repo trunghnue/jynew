@@ -1,4 +1,4 @@
-Talk(0, "哇塞！雕蛇大战，精彩！……咦！雕兄似乎快不行了，看我的！", "talkname0", 1);
+Talk(0, "Ồ! Cuộc chiến giữa đại bàng và rắn thật thú vị! ……Huh! Anh Diao dường như sắp chết, hãy nhìn tôi!", "talkname0", 1);
 if TryBattle(66) == true then goto label0 end;
     Dead();
     do return end;
@@ -11,11 +11,11 @@ if TryBattle(66) == true then goto label0 end;
     jyx2_SwitchRoleAnimation("NPC/蟒蛇", "Assets/BuildSource/AnimationControllers/Viper_jyx2_dead.controller");--蟒蛇动作
     jyx2_SwitchRoleAnimation("NPC/大雕", "Assets/BuildSource/AnimationControllers/Eagle_idle.controller");--大雕动作
     LightScence();
-    Talk(0, "这巨蟒还真难对付，总算把它搞定了。雕兄，你还好吧？", "talkname0", 1);
-    Talk(104, "嘎，嘎，嘎……", "talkname104", 0);
-    Talk(0, "你在谢我是吧。唉！没什么了不起的。", "talkname0", 1);
-    Talk(104, "嘎，嘎，嘎……", "talkname104", 0);
-    Talk(0, "这头雕看起来颇通灵性，像是被饲养过的，莫非洞中住有什么高人？", "talkname0", 1);
+    Talk(0, "Con trăn khổng lồ này thực sự rất khó đối phó, nhưng cuối cùng tôi cũng đã thoát khỏi nó. Anh Diao, anh ổn chứ?", "talkname0", 1);
+    Talk(104, "Ga, ga, ga...", "talkname104", 0);
+    Talk(0, "Cậu đang cảm ơn tôi phải không? Tốt! Không có gì ngoạn mục.", "talkname0", 1);
+    Talk(104, "Ga, ga, ga...", "talkname104", 0);
+    Talk(0, "Con đại bàng này nhìn khá linh thiêng, hình như đã được nuôi lớn, chẳng lẽ trong hang có cao thủ nào đó sống?", "talkname0", 1);
     AddEthics(2);
     AddRepute(4);
 do return end;

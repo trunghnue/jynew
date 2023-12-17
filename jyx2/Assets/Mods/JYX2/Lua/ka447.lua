@@ -1,2 +1,2 @@
-Talk(89, "小弟弟，你长的好可爱哦！", "talkname89", 0);
+Talk(89, "Em trai à, trông em thật dễ thương!", "talkname89", 0);
 do return end;

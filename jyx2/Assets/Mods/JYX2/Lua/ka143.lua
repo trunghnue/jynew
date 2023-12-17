@@ -1,5 +1,5 @@
-Talk(6, "你是何人，到我峨嵋派做什么？是想随我六大派一起进剿光明顶的侠义之士？还是魔教派来的奸细，想打探我六大派的动静？", "talkname6", 0);
-Talk(0, "师太快别误会了，我并不是您口中什么“魔教”奸细，所以还请放心。虽然我自命为侠义之士，但是我并不想随你们去打那个“魔教”。因为我觉得战争这种东西能避免就避免，像在我的国家中，就因为战争这东西弄得人心惶惶的，更何况你身为一派掌门，应该为你的徒弟着想。要是我，可舍不得让这些美貌的小尼姑去送命。", "talkname0", 1);
-Talk(6, "大胆狂徒！念在你非魔教徒的份子上，快快离去，免得我后悔，动手要了你的命。", "talkname6", 0);
+Talk(6, "Bạn là ai và bạn đang làm gì trong giáo phái Nga Mi của chúng tôi? Bạn có phải là một người hào hiệp muốn gia nhập sáu giáo phái lớn của chúng tôi để tiêu diệt Quảng Minh Đỉnh? Hay họ là gián điệp của Ma giáo, đang cố gắng tìm hiểu động thái của sáu giáo phái lớn của chúng ta?", "talkname6", 0);
+Talk(0, "Sư phụ đừng hiểu lầm, ta không phải gián điệp của "Quỷ giáo" như người nói, xin hãy yên tâm. Dù tự nhận mình là hào hiệp nhưng tôi không muốn theo anh để chống lại “ma giáo” đó. Bởi vì tôi nghĩ nếu có thể tránh được thì nên tránh chiến tranh, ở nước tôi, chiến tranh khiến người ta hoảng sợ, chưa kể là người đứng đầu một giáo phái thì phải nghĩ đến đệ tử của mình. Nếu là tôi, tôi sẽ bất đắc dĩ để những nữ tu nhỏ xinh này chết.", "talkname0", 1);
+Talk(6, "Táo bạo điên cuồng! Bởi vì ngươi không phải yêu giáo, ngươi nhanh chóng rời đi, kẻo ta hối hận mà lấy mạng ngươi.", "talkname6", 0);
 ModifyEvent(-2, -2, -2, -2, 144, -1, -1, -2, -2, -2, -2, -2, -2);--by fanyu 启动脚本144 场景33-2
 do return end;

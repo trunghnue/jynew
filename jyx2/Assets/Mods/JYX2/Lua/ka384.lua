@@ -1,2 +1,2 @@
-Talk(8, "这“侠客行”的古诗图解，包含着古往今来最博大精深的武学秘奥……你瞧，这第一句“赵客缦胡缨”，其中对这个“胡”字的注解……", "talkname8", 0);
+Talk(8, "Bức tranh minh họa bài thơ cổ "Xia Ke Xing" này chứa đựng những bí quyết võ thuật sâu sắc và sâu sắc nhất từ xưa đến nay ... Nhìn xem, câu đầu tiên "Zhao Ke Man Hu Ying" có chú thích cho từ "Hu". ..", "talkname8", 0);
 do return end;

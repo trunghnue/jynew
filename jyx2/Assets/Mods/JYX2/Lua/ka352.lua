@@ -1,2 +1,2 @@
-Talk(42, "敝岛岛主欢迎各位贵客大驾光临。", "talkname42", 0);
+Talk(42, "Chủ sở hữu hòn đảo của chúng tôi chào đón tất cả các vị khách quý.", "talkname42", 0);
 do return end;

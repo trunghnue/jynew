@@ -1,2 +1,2 @@
-Talk(32, "任教主文成武德，仁义英明。千秋万载，一统江湖。", "talkname32", 0);
+Talk(32, "Là người đứng đầu giáo hội, ông là người được giáo dục tốt về võ thuật, nhân từ, chính trực và khôn ngoan. Trong hàng ngàn năm, ông đã thống nhất thế giới.", "talkname32", 0);
 do return end;

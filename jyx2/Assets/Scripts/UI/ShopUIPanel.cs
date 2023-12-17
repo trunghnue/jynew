@@ -170,7 +170,7 @@ public partial class ShopUIPanel : Jyx2_UIBase
 		int moneyCost = count * shopItem.Price;
 		if (runtime.GetMoney() < moneyCost)
 		{
-			GameUtil.DisplayPopinfo("持有银两不足");
+			GameUtil.DisplayPopinfo("Số lượng bạc không đủ");
 			return;
 		}
 		runtime.AddItem(itemCfg.Id, count);

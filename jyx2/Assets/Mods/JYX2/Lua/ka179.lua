@@ -1,9 +1,9 @@
-Talk(0, "天门老道，近来可好？", "talkname0", 1);
-Talk(23, "哼！你来做什么。是不是岳不群派你来的，显显他五岳派掌门的威风。", "talkname23", 0);
+Talk(0, "Sư phụ Thiên Môn, dạo này ngài thế nào rồi?", "talkname0", 1);
+Talk(23, "khịt mũi! Bạn đang làm gì thế? Nhạc Bất Quần phái ngươi tới đây để thể hiện uy nghiêm của mình với tư cách là người đứng đầu Ngũ Sơn phái?", "talkname23", 0);
 if AskBattle() == true then goto label0 end;
     do return end;
 ::label0::
-    Talk(0, "听你的口气似乎很不服气，咱们就再来玩玩。", "talkname0", 1);
+    Talk(0, "Giọng điệu của bạn có vẻ rất thiếu thuyết phục, vậy hãy chơi lại.", "talkname0", 1);
     if TryBattle(40) == true then goto label1 end;
         Dead();
         do return end;

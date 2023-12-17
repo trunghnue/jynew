@@ -1,3 +1,3 @@
-Talk(22, "哼！岳不群这老贼平时道貌岸然的样子，没想到城府这么深。今天真的失算了。小子，看你的样子，并不像真的华山派弟子，岳老儿是给了你多少好处？", "talkname22", 0);
-Talk(0, "这……", "talkname0", 1);
+Talk(22, "khịt mũi! Yue Buqun, một tên trộm già thường có vẻ ngoài tôn nghiêm, không ngờ thành phố lại sâu đến thế. Hôm nay tôi thực sự đã tính sai. Tiểu tử, ngươi nhìn không giống một đệ tử chân chính của Hoa Sơn phái, Nhạc tiên sinh đã cho ngươi bao nhiêu lợi ích?", "talkname22", 0);
+Talk(0, "cái này……", "talkname0", 1);
 do return end;

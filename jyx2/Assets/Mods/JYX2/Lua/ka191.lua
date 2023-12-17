@@ -1,2 +1,2 @@
-Talk(20, "回去告诉左冷禅，下月十五在嵩山召开的大会，我莫大一定到场。我倒要看看其它三派的掌门怎么说。", "talkname20", 0);
+Talk(20, "Quay lại và nói với Zuo Lengchan rằng tôi chắc chắn sẽ tham dự hội nghị được tổ chức vào ngày 15 tháng sau tại Songshan. Tôi muốn xem những người đứng đầu ba giáo phái còn lại nói gì.", "talkname20", 0);
 do return end;

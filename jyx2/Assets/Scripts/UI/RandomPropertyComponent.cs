@@ -34,7 +34,7 @@ public class RandomPropertyComponent : MonoBehaviour
 
     public void ShowComponent( )
     {
-        m_titleText.text = string.Format("{0}  这样的属性你满意吗?", GameRuntimeData.Instance.Player.Name);
+        m_titleText.text = string.Format("{0}  Bạn có hài lòng với thuộc tính này không??", GameRuntimeData.Instance.Player.Name);
         RefreshProperty();
     }
 

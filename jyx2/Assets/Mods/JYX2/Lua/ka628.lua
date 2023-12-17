@@ -1,2 +1,2 @@
-Talk(91, "小子居然敢惹金轮寺，待我师父回来后，就要你好看。", "talkname91", 0);
+Talk(91, "Ngươi dám gây sự với Kim Luân Tự, chờ sư phụ ta trở về, ta sẽ làm cho ngươi đẹp mắt.", "talkname91", 0);
 do return end;

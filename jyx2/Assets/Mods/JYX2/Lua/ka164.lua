@@ -1,2 +1,2 @@
-Talk(7, "没事就快走吧，别在此逗留。", "talkname7", 0);
+Talk(7, "Nếu không có việc gì thì hãy nhanh chóng rời đi và đừng ở lại đây.", "talkname7", 0);
 do return end;

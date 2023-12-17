@@ -1,2 +1,2 @@
-Talk(85, "学武的人，一辈子动刀动枪不免杀伤人命，多结冤家。一个人临到老来，想到江湖上仇家众多，不免有点儿寝食不安。像刘三爷这般广邀宾客，扬言天下，说从今而后再也不动刀剑了，那意思是说，他的仇家不必担心他再去报复，却也盼他们别再来找他麻烦。", "talkname85", 0);
+Talk(85, "Những người học võ chắc chắn sẽ giết người và làm bị thương người khác bằng kiếm và súng trong suốt cuộc đời và gây ra nhiều kẻ thù. Khi một người đến gần tuổi già, anh ta không khỏi cảm thấy bồn chồn khi nghĩ về rất nhiều kẻ thù trên thế giới. Liu Sanye đã mời rất nhiều vị khách và đe dọa thế giới rằng anh sẽ không bao giờ sử dụng kiếm nữa, điều này có nghĩa là kẻ thù của anh không phải lo lắng về việc anh sẽ trả thù, nhưng anh cũng hy vọng rằng họ sẽ không đến gây rắc rối cho anh nữa.", "talkname85", 0);
 do return end;

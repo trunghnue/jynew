@@ -2,6 +2,6 @@ if UseItem(186) == true then goto label0 end;
     do return end;
 ::label0::
     AddItemWithoutHint(186, -1);
-    Talk(73, "相传唐太宗贞观年间曾派兵攻下了西域大国高昌，并强迫他们接受汉化。谁知高昌国人很有骨气，并不接受汉化，且视唐太宗送来的中国文物为蔽屣。传说几年前一批高昌国后代的勇士集结来到中原，抢走了“十四天书”中的《白马啸西风》一书做为对汉人的报复。", "talkname73", 0);
+    Talk(73, "Theo truyền thuyết, vào thời kỳ Trinh Quán, Hoàng đế Thái Tông nhà Đường đã phái quân đi đánh chiếm Cao Xương, một quốc gia rộng lớn ở Tây Vực và buộc họ phải chấp nhận Trung Hoa hóa. Không ngờ, người dân Cao Xương lại có ý chí rất kiên cường, không chấp nhận Hán hóa, coi những di vật văn hóa Trung Quốc do Hoàng đế Thái Tông của nhà Đường gửi đến là vật che đậy. Truyền thuyết kể rằng cách đây vài năm, một nhóm chiến binh xuất thân từ Vương quốc Cao Xương đã tụ tập ở Trung Nguyên và cướp cuốn "Bạch mã gầm trong gió Tây" trong "Sách mười bốn ngày" để trả thù người Hán.", "talkname73", 0);
     Add3EventNum(-2, 0, 0, 1, -1)
 do return end;

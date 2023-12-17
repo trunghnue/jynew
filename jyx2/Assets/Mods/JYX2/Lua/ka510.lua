@@ -1,2 +1,2 @@
-Talk(96, "小兄弟，练武只是用来强身健体的，千万别用在逞强斗殴上。", "talkname96", 0);
+Talk(96, "Em ơi, võ thuật chỉ dùng để tăng cường thể chất, đừng bao giờ dùng nó để phô trương sức mạnh trong chiến đấu.", "talkname96", 0);
 do return end;

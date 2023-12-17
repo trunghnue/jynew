@@ -269,7 +269,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7EC8"
+  m_Text: "K\u1EBFt th\xFAc"
 --- !u!114 &8118644758103444457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -561,7 +561,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 2
-  m_Text: "\u4E09\u5341\u5E74\u540E\u7684\u4ECA\u5929\n\u5728\u6D1B\u9633\u57CE\u7684\u8857\u9053\u4E0A\n\u77D7\u7ACB\u7740\u4E00\u5EA7\u77F3\u50CF\n\u4E00\u4E2A\u6B66\u6797\u5386\u53F2\u4E0A\n\u6700\u4F1F\u5927\u7684\u795E\u8BDD\u4EBA\u7269\n\u4ED6\u867D\u7136\u5DF2\u7ECF\u8D70\u4E86\n\u4F46\u4ED6\u7684\u751F\u5E73\u4E8B\u8FF9\n\u5C06\u6C38\u8FDC\u6D41\u4F20\u4E8E\u6C5F\u6E56\u4E2D\n\u800C\u4E0D\u5C11\u521D\u6B65\u6C5F\u6E56\u7684\u5C0F\u4F19\u5B50\n\u66F4\u662F\u4EE5\u4ED6\u4E3A\u594B\u6597\u7684\u76EE\u6807..."
+  m_Text: "h\xF4m nay ba m\u01B0\u01A1i n\u0103m sau\nTr\xEAn \u0111\u01B0\u1EDDng
+    ph\u1ED1 L\u1EA1c D\u01B0\u01A1ng\nM\u1ED9t b\u1EE9c t\u01B0\u1EE3ng \u0111\xE1
+    \u0111\u1EE9ng\nM\u1ED9t l\u1ECBch s\u1EED v\xF5 thu\u1EADt\nnh\xE2n v\u1EADt
+    th\u1EA7n tho\u1EA1i v\u0129 \u0111\u1EA1i nh\u1EA5t\nD\xF9 anh \u0111\xE3 ra
+    \u0111i\nNh\u01B0ng c\xE2u chuy\u1EC7n cu\u1ED9c \u0111\u1EDDi anh\nS\u1EBD \u0111\u01B0\u1EE3c
+    lan truy\u1EC1n m\xE3i m\xE3i tr\xEAn th\u1EBF gi\u1EDBi\nV\xE0 nhi\u1EC1u ch\xE0ng
+    trai tr\u1EBB m\u1EDBi b\u1EAFt \u0111\u1EA7u b\u01B0\u1EDBc ch\xE2n v\xE0o th\u1EBF
+    gi\u1EDBi v\xF5 thu\u1EADt\nAnh c\u0169ng l\xE0 m\u1EE5c ti\xEAu ph\u1EA5n \u0111\u1EA5u
+    c\u1EE7a..."
 --- !u!114 &4486047087366796114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -753,7 +761,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1.5
-  m_Text: "\u4E09\u5341\u5E74\u540E..."
+  m_Text: "Ba m\u01B0\u01A1i n\u0103m sau..."
 --- !u!114 &8785706122288536956
 MonoBehaviour:
   m_ObjectHideFlags: 0

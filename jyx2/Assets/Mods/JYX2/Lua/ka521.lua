@@ -1,2 +1,2 @@
-Talk(96, "方丈率寺中弟子，与其余五大派共同围攻光明顶去了，至今未回。请施主下山。", "talkname96", 0);
+Talk(96, "Trụ trì dẫn đệ tử vào trong chùa, cùng năm đại giáo khác vây hãm Quảng Minh Đỉnh, vẫn chưa trở về. Mời người cúng dường xuống núi.", "talkname96", 0);
 do return end;

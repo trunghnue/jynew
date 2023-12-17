@@ -1,2 +1,2 @@
-Talk(17, "上回灵蛇岛的事，多谢少侠的帮忙。", "talkname17", 0);
+Talk(17, "Tôi xin cảm ơn sự giúp đỡ của bạn trong chuyến đi vừa qua đến Đảo Linh Xà.", "talkname17", 0);
 do return end;

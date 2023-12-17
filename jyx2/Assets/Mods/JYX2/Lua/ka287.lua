@@ -1,2 +1,2 @@
-Talk(36, "怎么样，救出我爹了吗？", "talkname36", 0);
+Talk(36, "Thế còn bạn, bạn đã cứu được bố tôi chưa?", "talkname36", 0);
 do return end;

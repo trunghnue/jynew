@@ -1,4 +1,4 @@
-Talk(91, "小子，竟敢擅闯我大轮寺，找死！", "talkname91", 0);
+Talk(91, "Tiểu tử, sao ngươi dám đột nhập vào chùa Đại Luân của ta mà không có sự cho phép? Ngươi đang tìm cái chết!", "talkname91", 0);
 if TryBattle(92) == true then goto label0 end;
     Dead();
     do return end;

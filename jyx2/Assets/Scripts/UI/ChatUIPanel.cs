@@ -111,29 +111,29 @@ public partial class ChatUIPanel : Jyx2_UIBase
 			return;
 		}
 		var finalS = _currentText;
-		if (_currentText.Length > GameConst.MAX_CHAT_CHART_NUM)
-		{
-			int preIndex = _currentShowIndex;
-			string[] sList = _currentText.Substring(preIndex, _currentText.Length - preIndex).Split(new char[] { '！', '？', '，', '　' }, StringSplitOptions.RemoveEmptyEntries);//暂时不对,'．'进行分割，不然对话中...都会被去除掉
-			var tempIndex = 0;
-			foreach (var i in sList)
-			{
-				var tempNum = i.Length + 1;//包含分隔符
-				if (tempIndex + tempNum < GameConst.MAX_CHAT_CHART_NUM)
-				{
-					tempIndex += tempNum;
-					_currentShowIndex += tempNum;
-					continue;
-				}
-				break;
-			}
-			_currentShowIndex = Mathf.Clamp(_currentShowIndex, 0, _currentText.Length);
-			finalS = _currentText.Substring(preIndex, _currentShowIndex - preIndex);
-		}
-		else
-		{
+		// if (_currentText.Length > GameConst.MAX_CHAT_CHART_NUM)
+		// {
+		// 	int preIndex = _currentShowIndex;
+		// 	string[] sList = _currentText.Substring(preIndex, _currentText.Length - preIndex).Split(new char[] { '！', '？', '，', '　' }, StringSplitOptions.RemoveEmptyEntries);//暂时不对,'．'进行分割，不然对话中...都会被去除掉
+		// 	var tempIndex = 0;
+		// 	foreach (var i in sList)
+		// 	{
+		// 		var tempNum = i.Length + 1;//包含分隔符
+		// 		if (tempIndex + tempNum < GameConst.MAX_CHAT_CHART_NUM)
+		// 		{
+		// 			tempIndex += tempNum;
+		// 			_currentShowIndex += tempNum;
+		// 			continue;
+		// 		}
+		// 		break;
+		// 	}
+		// 	_currentShowIndex = Mathf.Clamp(_currentShowIndex, 0, _currentText.Length);
+		// 	finalS = _currentText.Substring(preIndex, _currentShowIndex - preIndex);
+		// }
+		// else
+		// {
 			_currentShowIndex = _currentText.Length;
-		}
+		// }
 		MainContent_Text.text = finalS;
         EventSystem.current.SetSelectedGameObject(MainBg_Button.gameObject);
     }

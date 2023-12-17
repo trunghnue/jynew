@@ -1,2 +1,2 @@
-Talk(35, "这坛梨花酒酒味是极好，只可惜少了股芳冽之气，若能以翡翠杯盛之而饮，那更是醇美无比。", "talkname35", 0);
+Talk(35, "Bàn thờ rượu hoa lê này hương vị rất ngon, nhưng lại thiếu đi một chút mùi thơm, nếu có thể uống trong cốc ngọc lục bảo sẽ càng thêm êm dịu.", "talkname35", 0);
 do return end;

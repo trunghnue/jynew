@@ -1,2 +1,2 @@
-Talk(40, "望石兄弟日后以此神功赏善罚恶。", "talkname40", 0);
+Talk(40, "Anh Wang Shi hy vọng có thể sử dụng sức mạnh thần kỳ này để khen thưởng và trừng phạt cái ác trong tương lai.", "talkname40", 0);
 do return end;

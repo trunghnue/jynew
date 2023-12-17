@@ -1,10 +1,10 @@
-Talk(0, "“葵花宝典”一书，不知任教主能否借在下一看。", "talkname0", 1);
-Talk(26, "不行，此书乃是本教镇教之宝，不得借于外人。小兄弟，这太监练的武功，我看你就别想学了，别太贪心，走上“邪路”了。", "talkname26", 0);
+Talk(0, "Không biết Master Ren có thể mượn cuốn "Bộ sưu tập hướng dương" để đọc tiếp không.", "talkname0", 1);
+Talk(26, "Không, cuốn sách này là kho báu của tôn giáo chúng ta và không thể mượn từ người ngoài. Tiểu đệ, ta nghĩ ngươi không muốn học võ công của hoạn quan, đừng quá tham lam mà đi vào “con đường tà ác”.", "talkname26", 0);
 if AskBattle() == true then goto label0 end;
-    Talk(0, "教主说的是。", "talkname0", 1);
+    Talk(0, "Đó là những gì người lãnh đạo đã nói.", "talkname0", 1);
     do return end;
 ::label0::
-    Talk(0, "任教主不肯借看，就别怪在下不客气了。", "talkname0", 1);
+    Talk(0, "Nếu Master Ren từ chối mượn thì đừng trách tôi vô lễ.", "talkname0", 1);
     if TryBattle(55) == true then goto label1 end;
         Dead();
         do return end;

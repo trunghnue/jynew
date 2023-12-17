@@ -1,8 +1,8 @@
-Talk(0, "今天嵩山顶上似乎很热闹？", "talkname0", 1);
-Talk(84, "今日是我五岳剑派并派的大日子。闲杂人等，还请离去。", "talkname84", 0);
-Talk(0, "这样大的盛会，怎能少得了大爷我。快让让。", "talkname0", 1);
-Talk(84, "阁下再不离去，休怪我们不客气了。", "talkname84", 0);
-Talk(0, "我正有此意。", "talkname0", 1);
+Talk(0, "Hôm nay trên đỉnh núi Tùng Sơn có vẻ rất sôi động?", "talkname0", 1);
+Talk(84, "Hôm nay là ngày trọng đại cho việc sáp nhập Ngũ Thánh Kiếm Phái của ta. Còn có người đang đợi, xin hãy rời đi.", "talkname84", 0);
+Talk(0, "Làm sao một sự kiện lớn như vậy có thể diễn ra mà không có tôi? Hãy nhanh chóng nhượng bộ.", "talkname0", 1);
+Talk(84, "Nếu bạn không rời đi, đừng trách chúng tôi vô lễ.", "talkname84", 0);
+Talk(0, "Đó chính là điều tôi muốn nói.", "talkname0", 1);
 if TryBattle(29) == true then goto label0 end;
     Dead();
     do return end;

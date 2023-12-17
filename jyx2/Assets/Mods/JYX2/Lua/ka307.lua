@@ -1,7 +1,7 @@
-Talk(0, "田伯光，平一指叫我来杀你。", "talkname0", 1);
-Talk(29, "这老小子，还想不通，他女儿被我玩玩应该高兴才对呀。怎么，你想杀我吗？还是要跟我一起玩女人，我教你几招高招，包你整得女人死去活来。", "talkname29", 0);
+Talk(0, "Điền Bá Quang, bảo ta giết ngươi đi.", "talkname0", 1);
+Talk(29, "Lão gia hỏa này vẫn không hiểu nổi, con gái lão bị ta chơi đùa chắc sẽ vui vẻ lắm. Cái gì, ngươi muốn giết ta sao? Ngươi còn muốn cùng ta chơi đùa với phụ nữ, ta sẽ dạy cho ngươi một số thủ đoạn thông minh, cam đoan ngươi sẽ khiến phụ nữ phải chết.", "talkname29", 0);
 if AskBattle() == false then goto label0 end;
-    Talk(0, "你这采花淫贼，死到临头还不觉悟。你受死吧！", "talkname0", 1);
+    Talk(0, "Bạn, một tên trộm hái hoa, ngay cả khi bạn sắp chết cũng không nhận ra điều đó. Bạn chết!", "talkname0", 1);
     if TryBattle(53) == true then goto label1 end;
         Dead();
         do return end;
@@ -16,9 +16,9 @@ if AskBattle() == false then goto label0 end;
 ::label0::
         ModifyEvent(-2, -2, -2, -2, 308, -1, -1, -2, -2, -2, -2, -2, -2);--by fanyu 启动脚本308 场景59-0
         if AskJoin () == false then goto label2 end;
-            Talk(0, "这可是你说的，我们就一起走吧，到时可得传授小弟几招。", "talkname0", 1);
+            Talk(0, "Đây là lời anh nói, chúng ta cùng nhau đi, sau đó chúng ta có thể dạy cho em trai tôi một số thủ thuật.", "talkname0", 1);
             if TeamIsFull() == false then goto label3 end;
-                Talk(29, "你的队伍已满，我无法加入。", "talkname29", 0);
+                Talk(29, "Nhóm của bạn đã đầy đủ và tôi không thể tham gia.", "talkname29", 0);
                 do return end;
 ::label3::
                 DarkScence();
@@ -30,5 +30,5 @@ if AskBattle() == false then goto label0 end;
                 AddEthics(-6);
                 do return end;
 ::label2::
-                Talk(0, "你们俩的事，我不想管。", "talkname0", 1);
+                Talk(0, "Tôi không muốn liên quan gì đến hai người.", "talkname0", 1);
 do return end;

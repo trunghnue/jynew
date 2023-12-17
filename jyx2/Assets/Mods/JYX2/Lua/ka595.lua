@@ -1,5 +1,5 @@
-Talk(91, "小子，竟敢擅闯我大轮寺，找死！", "talkname91", 0);
-Talk(0, "小爷我就爱到处逛逛，你们这些秃子管不着。", "talkname0", 1);
+Talk(91, "Tiểu tử, sao ngươi dám đột nhập vào chùa Đại Luân của ta mà không có sự cho phép? Ngươi đang tìm cái chết!", "talkname91", 0);
+Talk(0, "Thiếu gia, ta chỉ thích đi lang thang, còn các ngươi đầu trọc không liên quan gì.", "talkname0", 1);
 if TryBattle(91) == true then goto label0 end;
     Dead();
     do return end;

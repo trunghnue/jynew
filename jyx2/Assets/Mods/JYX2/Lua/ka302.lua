@@ -1,5 +1,5 @@
 if InTeam(29) == false then goto label0 end;
-    Talk(28, "田伯光！你这恶贼，我跟你拼了！", "talkname28", 0);
+    Talk(28, "Điền Bá Quang! Tên trộm độc ác, ta sẽ đấu với ngươi!", "talkname28", 0);
     if TryBattle(52) == true then goto label1 end;
         Dead();
         do return end;
@@ -10,6 +10,6 @@ if InTeam(29) == false then goto label0 end;
         AddEthics(-5);
         do return end;
 ::label0::
-        Talk(28, "你还在这做什么？", "talkname28", 0);
-        Talk(0, "没事逛逛。", "talkname0", 1);
+        Talk(28, "Bạn vẫn còn làm gì ở đây vậy?", "talkname28", 0);
+        Talk(0, "Không có gì để làm ngoài việc đi bộ xung quanh.", "talkname0", 1);
 do return end;

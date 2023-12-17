@@ -1,7 +1,7 @@
-Talk(0, "韦小宝躲在哪里，快叫他出来。", "talkname0", 1);
-Talk(87, "小子你疯了，跑到我五毒教来大吼大叫的。", "talkname87", 0);
-Talk(0, "你们教主呢？是不是在跟韦小宝相好。", "talkname0", 1);
-Talk(87, "疯小子，想见教主是吧，我们就拿你去见。", "talkname87", 0);
+Talk(0, "Vi Tiểu Bảo đang trốn ở đâu, nhanh chóng gọi hắn ra.", "talkname0", 1);
+Talk(87, "Tiểu tử, ngươi điên rồi, ngươi tới Ngũ Độc Phái của ta mà mắng.", "talkname87", 0);
+Talk(0, "Lãnh đạo của bạn ở đâu? Cậu đang hẹn hò với Vi Tiểu Bảo à?", "talkname0", 1);
+Talk(87, "Thằng điên, cậu muốn gặp thủ lĩnh phải không? Chúng tôi sẽ dẫn cậu đi gặp hắn.", "talkname87", 0);
 if TryBattle(97) == true then goto label0 end;
     Dead();
     do return end;

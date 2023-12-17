@@ -1,8 +1,8 @@
-Talk(0, "想不到在这没什么人烟的地方，你们客栈生意还这么的好？", "talkname0", 1);
-Talk(106, "那可不。要知方圆百里之内，只有我们这间客栈。你若不想冻死在这东北雪地里，就必须在本店里歇上一歇再走。怎么，这位公子不远千里来到这东北雪地中，是为了向“北丑”寻求解惑呢？还是去找那“狐狸”要书的呢？", "talkname106", 0);
-Talk(0, "北丑？狐狸？", "talkname0", 1);
-Talk(106, "是啊！会来我们这的，要不是想跟北丑那疯子要些线索，打听一些武林中的秘密。要不就是找那外号“雪山飞狐”的胡斐打架，夺取“十四天书”。江湖中人都盛传着，《雪山飞狐》一书肯定在他那，否则他怎么以此做为外号。", "talkname106", 0);
-Talk(0, "小二哥，你知道的还真多。", "talkname0", 1);
-Talk(106, "那当然，要不然怎么会叫做小二哥呢？好，今天小二哥高兴，多告诉你一些。那北丑住的地方，是在本店的西北方，而胡斐则是住在东北方。不过你得小心点，最近有很多居民在山中无缘无故走失了，传说是雪怪出来作乱。", "talkname106", 0);
-Talk(0, "谢谢你的忠告。", "talkname0", 1);
+Talk(0, "Không ngờ ở nơi vắng người này, việc kinh doanh quán trọ của bạn vẫn tốt như vậy?", "talkname0", 1);
+Talk(106, "Đó không phải là trường hợp. Bạn phải biết rằng trong vòng trăm dặm chỉ có quán trọ của chúng tôi. Nếu không muốn chết cóng trong tuyết vùng Đông Bắc, bạn phải nghỉ ngơi tại cửa hàng của chúng tôi trước khi rời đi. Tại sao, chàng trai trẻ này đã vượt hàng ngàn dặm để đến vùng đất tuyết Đông Bắc Trung Quốc để tìm kiếm câu trả lời từ "Bắc Châu"? Hay tôi nên đến gặp "con cáo" và xin cuốn sách?", "talkname106", 0);
+Talk(0, "Bắc Chu? cáo?", "talkname0", 1);
+Talk(106, "Đúng! Bạn sẽ đến với chúng tôi nếu bạn không muốn nhận được manh mối từ gã điên Bắc Chou đó và tìm hiểu về một số bí mật trong thế giới võ thuật. Hoặc anh ta có thể chiến đấu với Hu Fei, biệt danh "Snow Mountain Flying Fox", và chiếm lấy "Mười bốn thiên thư". Trên thế giới có tin đồn rằng hắn nhất định có cuốn sách "Snowy Mountain Flying Fox", nếu không thì làm sao hắn có thể lấy nó làm biệt danh.", "talkname106", 0);
+Talk(0, "Anh hai, anh biết nhiều quá.", "talkname0", 1);
+Talk(106, "Tất nhiên, nếu không thì tại sao lại được gọi là anh hai? Được rồi, hôm nay tôi vui nên tôi sẽ kể cho bạn nghe nhiều hơn một chút. Beichou sống ở phía tây bắc cửa hàng của chúng tôi, còn Hu Fei sống ở phía đông bắc. Nhưng bạn phải cẩn thận, gần đây có rất nhiều cư dân vô cớ lạc đường trong núi, truyền thuyết kể rằng quái vật tuyết thường xuất hiện để gây rắc rối.", "talkname106", 0);
+Talk(0, "Cảm ơn vì lời khuyên của bạn.", "talkname0", 1);
 do return end;

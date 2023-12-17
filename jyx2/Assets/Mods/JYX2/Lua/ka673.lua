@@ -1,15 +1,15 @@
-Talk(0, "哇，真香。流浪在外这么久，闻到这味道，不禁怀念起妈妈来了。", "talkname0", 1);
-Talk(75, "小兄弟，别客气。想吃什么就跟我林厨子说一声。", "talkname75", 0);
-Talk(0, "老伯伯，你煮的菜好像都很好吃耶，闻起来都很香。", "talkname0", 1);
-Talk(75, "其实啊，做菜没什么秘诀，只要有着一颗为食用者着想的心即可。", "talkname75", 0);
-Talk(0, "“为食用者着想的心”？＜听起来好像料理漫画中的名言＞", "talkname0", 1);
-Talk(75, "是的。一个厨师不能只想到要将自己的菜做得多色香味俱全，而应该想着是什么人要吃你这道菜，怎样的口味是最适合他，而去调理。因为这道菜终究是要给人吃的，而不是拿来观赏或评论的。总之，就是在做菜的时候，就要尽可能的为食用者去着想。", "talkname75", 0);
-Talk(0, "那林师父最擅长的拿手菜是什么？", "talkname0", 1);
-Talk(75, "一时也说不尽．比如说是炒白菜啦，蒸豆腐啦，炖鸡蛋啦，白切肉……", "talkname75", 0);
-Talk(0, "可是听起来好像都是一些很平常的菜肴。", "talkname0", 1);
-Talk(75, "年轻人，要知真正的烹调高手，愈是在平凡的菜肴中，愈能显出真实的本领。你也是学武的吧，其实这道理跟武学一般，能在平淡之中现神奇，才说得上是大宗匠的手段。", "talkname75", 0);
+Talk(0, "Wow, mùi thơm quá. Vô gia cư quá lâu, mỗi khi ngửi thấy mùi này, tôi không khỏi nhớ mẹ.", "talkname0", 1);
+Talk(75, "Không có gì, em trai. Chỉ cần nói cho tôi biết, đầu bếp Lin, bạn muốn ăn gì.", "talkname75", 0);
+Talk(0, "Chú già ơi, những món ăn chú nấu có vẻ ngon và thơm.", "talkname0", 1);
+Talk(75, "Thực tế, không có bí quyết nấu ăn nào, miễn là bạn có tấm lòng nghĩ đến người ăn món đó.", "talkname75", 0);
+Talk(0, ""Trái tim quan tâm đến người ăn"? ＜Nghe như một câu trích dẫn trong truyện tranh nấu ăn＞", "talkname0", 1);
+Talk(75, "Đúng. Một đầu bếp không chỉ nên nghĩ đến việc làm cho những món ăn của mình đầy màu sắc và thơm tho mà còn nên nghĩ xem ai sẽ ăn món ăn của bạn và hương vị nào phù hợp nhất với người đó khi chế biến món ăn đó. Bởi suy cho cùng món ăn này là để người ta ăn chứ không phải để xem hay bình luận. Tóm lại, khi nấu ăn phải quan tâm đến người ăn càng nhiều càng tốt.", "talkname75", 0);
+Talk(0, "Vậy chuyên môn giỏi nhất của Master Lin là gì?", "talkname0", 1);
+Talk(75, "Tôi không thể nói đủ vào lúc này. Ví dụ như bắp cải xào, đậu hủ hấp, trứng hầm, thịt luộc...", "talkname75", 0);
+Talk(0, "Nhưng tất cả đều nghe có vẻ như những món ăn rất bình thường.", "talkname0", 1);
+Talk(75, "Các bạn trẻ, các bạn nên biết rằng một bậc thầy nấu ăn chân chính càng trình diễn những món ăn bình thường thì càng thể hiện được kỹ năng thực sự của mình. Bạn cũng là một học sinh võ thuật phải không? Kỳ thật, nguyên tắc này cũng giống như võ thuật, có thể tìm ra phép thuật trong điều bình thường có thể nói là tay nghề của một bậc thầy.", "talkname75", 0);
 Talk(0, "……", "talkname0", 1);
-Talk(75, "你好好想一想吧。想通了对你武学也是大有助益。", "talkname75", 0);
+Talk(75, "Hãy suy nghĩ về nó một cách cẩn thận. Hiểu được điều này cũng sẽ giúp ích rất nhiều cho võ thuật của bạn.", "talkname75", 0);
 ModifyEvent(-2, -2, -2, -2, 674, -1, -1, -2, -2, -2, -2, -2, -2);--by fanyu 启动脚本674 场景32-编号0
 AddAptitude(0, 3);
 do return end;

@@ -1,6 +1,6 @@
-Talk(0, "在下云游各方，途经昆仑，见此三圣坳绿草如茵，忍不住前来欣赏一番，并顺道拜会人称“铁琴先生”的何掌门。", "talkname0", 1);
-Talk(7, "你是打从中原来的吧！欣赏完了就赶紧离去吧。最近西域已成多事之地，小心惹上祸端。", "talkname7", 0);
-Talk(0, "是吗？那我可得小心点。在下告退了。", "talkname0", 1);
+Talk(0, "Tôi đang đi du lịch vòng quanh thế giới và đi qua Kunlun, tôi nhìn thấy thảm cỏ xanh của Sansheng Col. Tôi không thể không đến để chiêm ngưỡng và đến thăm Sư phụ He, được biết đến với cái tên "Ông Tieqin".", "talkname0", 1);
+Talk(7, "Bạn đến từ đó, phải không? Khi bạn đã chiêm ngưỡng nó xong, hãy nhanh chóng rời đi. Khu vực phía Tây gần đây đã trở thành một nơi rắc rối, vì vậy hãy cẩn thận để gặp rắc rối.", "talkname7", 0);
+Talk(0, "Vâng? Thế thì tôi phải cẩn thận. Tôi từ chức.", "talkname0", 1);
 SetScenceMap(-2, 1, 18, 24, 0);
 SetScenceMap(-2, 1, 17, 24, 1832);
 SetScenceMap(-2, 1, 19, 24, 1836);

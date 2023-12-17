@@ -1,2 +1,2 @@
-Talk(114, "有问题是不是？那我就再跟你讲一些游戏的基本知识。记住，刚开始你只是个无名小卒。要让人家多认识你的方法之一是多“踢馆”。", "talkname114", 0);
+Talk(114, "Có vấn đề gì không? Sau đó tôi sẽ kể cho bạn một số kiến thức cơ bản về trò chơi. Hãy nhớ rằng, lúc ban đầu bạn chẳng là ai cả. Một trong những cách để mọi người biết nhiều hơn về bạn là “tấn công” nhiều hơn.", "talkname114", 0);
 do return end;

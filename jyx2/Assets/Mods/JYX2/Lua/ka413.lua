@@ -1,17 +1,17 @@
-Talk(64, "来来来，跟老顽童来玩两招。", "talkname64", 0);
+Talk(64, "Nào, chúng ta cùng chơi vài trò với lão già nghịch ngợm nhé.", "talkname64", 0);
 if AskBattle() == true then goto label0 end;
-    Talk(0, "前辈别开玩笑了，晚辈怎是你的对手。", "talkname0", 1);
+    Talk(0, "Tiền bối đừng đùa nữa, cấp dưới là đối thủ của bạn.", "talkname0", 1);
     do return end;
 ::label0::
-    Talk(0, "那晚辈就献丑了。", "talkname0", 1);
+    Talk(0, "Lúc đó đàn em sẽ tỏ ra xấu hổ.", "talkname0", 1);
     if TryBattle(135) == false then goto label1 end;
         LightScence();
-        Talk(64, "小兄弟，你这是什么功夫，教教我好不好。", "talkname64", 0);
-        Talk(0, "哪里，前辈承让了。晚辈功夫还差得远。", "talkname0", 1);
-        Talk(64, "这样好了，我跟你磕八个响头，拜你为师，你总肯教我了吧。", "talkname64", 0);
-        Talk(0, "前辈别开玩笑了，晚辈担当不起。", "talkname0", 1);
+        Talk(64, "Em trai, em đang làm loại kung fu nào, xin hãy dạy em.", "talkname64", 0);
+        Talk(0, "Ở đâu, các tiền bối đã đồng ý. Kung fu của đàn em vẫn còn kém xa.", "talkname0", 1);
+        Talk(64, "Được rồi, ta sẽ lạy ngươi tám lạy, bái ngươi làm thầy, ngươi sẽ bằng lòng dạy ta phải không?", "talkname64", 0);
+        Talk(0, "Các tiền bối đừng đùa nữa, cấp dưới không đủ khả năng chi trả cho việc này.", "talkname0", 1);
         do return end;
 ::label1::
         LightScence();
-        Talk(64, "唉，你功夫还差的远了，再去练练。", "talkname64", 0);
+        Talk(64, "Than ôi, công phu của ngươi còn kém xa, hãy luyện tập lại đi.", "talkname64", 0);
 do return end;

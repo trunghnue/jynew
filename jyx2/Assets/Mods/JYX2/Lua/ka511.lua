@@ -1,23 +1,23 @@
-Talk(0, "晚辈参见方丈。", "talkname0", 1);
+Talk(0, "Thế hệ trẻ gặp trụ trì.", "talkname0", 1);
 if InTeam(51) == true then goto label0 end;
-    Talk(70, "阿弥陀佛。近来江湖上已甚少听到明教为非作歹之事，这真多亏了少侠。光明顶之役，少侠能在不杀一人下化解了武林的这场大浩劫，减少了生灵的涂炭，功劳不小，真可谓是英雄出少年。", "talkname70", 0);
-    Talk(0, "大师过奖了。", "talkname0", 1);
-    Talk(70, "不知此次少侠上我少林有何贵事？", "talkname70", 0);
-    Talk(0, "大师应该有听说吧。我正在找一些书籍，线索并不是很多，心想少林寺乃武林重地，于是就到这儿来找找看，就算找不到书，如能学到一点功夫保身也不错，因为少林寺乃正派武学的最高殿堂，七十二项绝技随便精通一样就不得了了。", "talkname0", 1);
-    Talk(70, "关于少侠要找书的事，老衲是略有所闻。不过这十四本书少林寺中并没有，且少林寺也不会要这些书。因为我少林一派自达摩祖师爷创立以来，对于武学的研究一直不余遗力，到今日也小有成就。少林寺的七十二项绝技，本寺中人一生能通晓十项以上的已是寥寥无几，所以更不用说会对本派以外的武功存有什么兴趣。", "talkname70", 0);
-    Talk(0, "对于少林寺七十二项绝技，晚辈心仪已久，不知方丈愿不愿意传授一些。", "talkname0", 1);
+    Talk(70, "A Di Đà Phật. Gần đây trên đời hiếm thấy Mingjiao làm chuyện xấu, điều này thật sự là nhờ có anh hùng trẻ tuổi. Trong trận chiến Quảng Minh Đỉnh, vị anh hùng trẻ tuổi đã có thể giải quyết thảm họa này trong giới võ lâm mà không giết chết bất cứ ai, giảm bớt đau khổ cho chúng sinh, công lao của anh ta không hề nhỏ, có thể nói là một anh hùng trẻ tuổi.", "talkname70", 0);
+    Talk(0, "Thầy đã trao giải thưởng cho tôi.", "talkname0", 1);
+    Talk(70, "Không biết lần này anh hùng trẻ tuổi đến Thiếu Lâm của tôi có chuyện gì quan trọng?", "talkname70", 0);
+    Talk(0, "Chắc hẳn Sư phụ đã nghe nói về điều đó. Ta đang tìm sách, nhưng manh mối cũng không nhiều, ta tưởng Thiếu Lâm Tự là trung tâm võ thuật nên tới đây nhìn một vòng, coi như không tìm được sách cũng tốt.” Tôi có thể học một số kung fu để tự bảo vệ mình, bởi vì Thiếu Lâm Tự là nơi luyện võ nghiêm túc, ở cung điện cao nhất, thành thạo dù chỉ một trong bảy mươi hai chiêu thức cũng đã là chuyện lớn.", "talkname0", 1);
+    Talk(70, "Tôi đã nghe nói một chút về việc anh hùng trẻ tuổi đang tìm sách. Tuy nhiên, mười bốn cuốn sách này không có ở Thiếu Lâm Tự và Thiếu Lâm Tự cũng không muốn những cuốn sách này. Bởi vì môn phái Thiếu Lâm của chúng ta đã không tiếc công sức nghiên cứu võ thuật kể từ khi Tổ Sư Bồ Đề Đạt Ma thành lập và cho đến ngày nay chúng ta đã đạt được một số thành tựu. Trong số bảy mươi hai tuyệt kỹ của Thiếu Lâm Tự, rất ít người trong ngôi chùa này có thể thành thạo hơn mười kỹ năng trong đời, vậy nên đừng nói đến việc có hứng thú với võ thuật bên ngoài môn phái của mình.", "talkname70", 0);
+    Talk(0, "Thế hệ trẻ từ lâu đã ngưỡng mộ bảy mươi hai tuyệt kỹ độc đáo của Thiếu Lâm Tự, không biết trụ trì có chịu dạy một số trong số đó hay không.", "talkname0", 1);
     if JudgeEthics(0, 70, 100) == true then goto label1 end;
-        Talk(70, "少侠眼中泛有戾气，似乎已将武学用于邪道。老衲说什么也不能让少林武学用于邪道之上，望少侠早日回头。", "talkname70", 0);
+        Talk(70, "Đôi mắt của người anh hùng trẻ tuổi tràn đầy sự tức giận, như thể anh ta đã sử dụng võ thuật vào mục đích xấu xa. Ông lão cho biết không thể để võ thuật Thiếu Lâm bị sử dụng vào mục đích xấu xa, đồng thời mong rằng vị anh hùng trẻ tuổi sẽ sớm xoay chuyển tình thế.", "talkname70", 0);
         ModifyEvent(-2, -2, -2, -2, 513, -1, -1, -2, -2, -2, -2, -2, -2);--by fanyu 启动脚本513 场景28-12
         do return end;
 ::label1::
-        Talk(70, "我看你行事正直，老衲颇为欣赏。", "talkname70", 0);
-        Talk(0, "谢谢大师抬爱。", "talkname0", 1);
-        Talk(70, "但这七十二项绝技是少林寺镇寺之宝，不能传给外人。除非少侠愿入佛门……", "talkname70", 0);
-        Talk(0, "是这样子的啊……＜要我剃个大光头当和尚不知有多少少女会心碎＞", "talkname0", 1);
-        Talk(70, "不过除了七十二项绝技外，本寺还有许多功夫是给俗家子弟练的功夫，譬如说……“达摩剑法”就是其中一项……", "talkname70", 0);
-        Talk(0, "方丈是说，不用剃光头也可以学的武功，那我要。", "talkname0", 1);
-        Talk(70, "好，我就送你一本达摩剑谱让你参详，望你学会这剑法后能多做善事，济弱扶倾。另外，在本寺中，如果有你需要的东西，尽管拿，别客气。", "talkname70", 0);
+        Talk(70, "Tôi thấy rằng bạn hành động một cách chính trực và tôi rất đánh giá cao điều đó.", "talkname70", 0);
+        Talk(0, "Cảm ơn Sư Phụ vì tình thương của Ngài.", "talkname0", 1);
+        Talk(70, "Bảy mươi hai tuyệt kỹ này là bảo bối của Thiếu Lâm Tự, không thể truyền lại cho người ngoài. Trừ khi anh hùng trẻ tuổi sẵn sàng bước vào Phật giáo...", "talkname70", 0);
+        Talk(0, "Chuyện là như thế này... ＜Không biết nếu tôi phải cạo trọc đầu đi tu thì bao nhiêu cô gái sẽ đau lòng＞", "talkname0", 1);
+        Talk(70, "Tuy nhiên, ngoài bảy mươi hai tuyệt chiêu, ngôi chùa này còn có rất nhiều kung fu để các đệ tử tại gia luyện tập, ví dụ như... "Pháp kiếm thuật" là một trong số đó...", "talkname70", 0);
+        Talk(0, "Trụ trì nói có thể học võ không cần cạo đầu nên ta muốn.", "talkname0", 1);
+        Talk(70, "Được rồi, ta sẽ đưa cho ngươi một cuốn sách hướng dẫn sử dụng kiếm Bồ Đề Đạt Ma để ngươi tham khảo, hy vọng ngươi sau khi học được kiếm pháp này có thể làm được nhiều việc tốt hơn, giúp đỡ những người yếu thế. Ngoài ra, nếu có bất cứ thứ gì bạn cần trong ngôi đền này, chỉ cần lấy nó và bạn sẽ được chào đón.", "talkname70", 0);
         AddItem(76, 1);
         ModifyEvent(-2, -2, -2, -2, 515, -1, -1, -2, -2, -2, -2, -2, -2);--by fanyu 启动脚本515 场景28-12
         if JudgeEventNum(17, -1) == true then goto label2 end;
@@ -38,27 +38,27 @@ if InTeam(51) == true then goto label0 end;
                             do return end;
 ::label0::
                             jyx2_ReplaceSceneObject("", "NPC/慕容复", "1");--慕容复
-                            Talk(51, "大师，我们是来向你借一样东西的。", "talkname51", 1);
-                            Talk(70, "不知施主要跟老衲借什么？", "talkname70", 0);
-                            Talk(51, "一份信件。", "talkname51", 1);
-                            Talk(70, "一份信件？", "talkname70", 0);
-                            Talk(51, "没错，一份信件。一份当年武林夙宿们共同草拟的信件……一份证明现在丐帮帮主乔峰并不是汉人，而是契丹人的信件。", "talkname51", 1);
-                            Talk(70, "你是谁！", "talkname70", 0);
-                            Talk(51, "在下姑苏慕容复。", "talkname51", 1);
-                            Talk(70, "你是慕容复，你如何知道此事？", "talkname70", 0);
-                            Talk(51, "我自然知道。", "talkname51", 1);
-                            Talk(70, "是了，一定是那个人告诉你的。", "talkname70", 0);
-                            Talk(0, "慕容公子，这是怎么回事？什么汉人，契丹人的？", "talkname0", 1);
-                            Talk(51, "你不知道吧，我看恐怕江湖上也没几个人会知道，原来我们丐帮现任的帮主乔峰乔大侠，并不是汉人，而是血腥屠杀汉人的契丹狗。当年这位玄慈方丈率领中原群侠，误杀了一名契丹人。而那名契丹人留有一子，中原群侠因为愧疚想好好照顾他，就决定由少林寺私下扶养他长大，……后来那个孩子当上了丐帮帮主，他就是乔峰。可是呢，当年那些中原群侠又怕乔峰体内所流露的契丹性格，将来会爆发出来，危害到中原武林，于是就写了一份信件，说明了乔峰的身份，一旦他野性暴露，就将他的身份揭发出来，让中原群侠一起对付他，就像对付他爹一样。所以呢，今天我们只要弄到这信件，就可让乔峰羞愧的无地自容，兄弟你自然也能轻易地得到《天龙八部》了。", "talkname51", 1);
-                            Talk(70, "阿弥陀佛，阿弥陀佛！当年我们的确误杀了乔峰他父亲。如今他的儿子有这番成就，大仁大义，就是连汉人也比不上的，老衲是不会将那封信件交给你们的。", "talkname70", 0);
-                            Talk(51, "方丈话别说的这么快。兄弟，接下来我会让你知道带我来的好处。方丈，你还记得“叶二娘”吧？还记得“紫云洞相会”之事，还记得“乔婆婆接生”之事吗？", "talkname51", 1);
-                            Talk(70, "你……你……你怎么知……知道的……", "talkname70", 0);
-                            Talk(51, "我知道的还很多，要不要我再讲下去。", "talkname51", 1);
-                            Talk(70, "不要再讲了……", "talkname70", 0);
-                            Talk(51, "那信件呢？", "talkname51", 1);
-                            Talk(70, "这……唉！……你们拿去吧。", "talkname70", 0);
-                            Talk(51, "兄弟，得手了，我们去丐帮揭发乔峰吧。", "talkname51", 1);
-                            Talk(70, "阿弥陀佛，阿弥陀佛！施主得饶人处且饶人。", "talkname70", 0);
+                            Talk(51, "Chủ nhân, chúng tôi tới đây để mượn thứ gì đó từ ngài.", "talkname51", 1);
+                            Talk(70, "Tôi thắc mắc nhà tài trợ muốn vay gì từ tôi?", "talkname70", 0);
+                            Talk(51, "Lá thư.", "talkname51", 1);
+                            Talk(70, "Lá thư?", "talkname70", 0);
+                            Talk(51, "Vâng, một lá thư. Một bức thư do các võ sư lão luyện cùng nhau soạn thảo... một bức thư chứng minh rằng thủ lĩnh hiện tại của Bang Bang, Qiao Feng, không phải là người Hán, mà là người Khitan.", "talkname51", 1);
+                            Talk(70, "Bạn là ai!", "talkname70", 0);
+                            Talk(51, "Tôi là Mộ Dung Phục của Cô Tô.", "talkname51", 1);
+                            Talk(70, "Ngươi là Mộ Dung Phục, sao ngươi biết được điều này?", "talkname70", 0);
+                            Talk(51, "Tất nhiên là tôi biết.", "talkname51", 1);
+                            Talk(70, "Vâng, người đó chắc chắn đã nói với bạn.", "talkname70", 0);
+                            Talk(0, "Ông Mộ Dung, chuyện gì đang xảy ra vậy? Người Hán, người Khiết Đan?", "talkname0", 1);
+                            Talk(51, "Bạn có biết không? Tôi không nghĩ nhiều người trên thế giới sẽ biết rằng hóa ra thủ lĩnh hiện tại của Gia tộc ăn mày của chúng ta, Qiao Fengqiao, không phải là người Hán, mà là một con chó Khitan đã tàn sát người Hán một cách đẫm máu. Khi đó, trụ trì Huyền Từ dẫn đầu một nhóm anh hùng đến từ Trung Nguyên và vô tình giết chết một người Khiết Đan. Người đàn ông Khitan có một đứa con trai, các anh hùng Trung Nguyên cảm thấy có lỗi và muốn chăm sóc cậu thật tốt nên họ quyết định nuôi dạy cậu một cách riêng tư trong Thiếu Lâm Tự... Sau đó, đứa trẻ trở thành thủ lĩnh của Gia tộc ăn mày, và cậu là Kiều Phong. Tuy nhiên, những anh hùng Trung Nguyên đó sợ rằng nhân vật Khitan lộ ra trên cơ thể Qiao Feng sau này sẽ bùng nổ và gây nguy hiểm cho võ thuật Trung Nguyên nên họ đã viết một bức thư giải thích danh tính của Qiao Feng. danh tính của anh ta và để các anh hùng Central Plains cùng nhau đối phó với anh ta, giống như họ đã đối phó với cha anh ta. Cho nên, chỉ cần hôm nay chúng ta nhận được lá thư này, Kiều Phong sẽ xấu hổ, mà ca, ngươi cũng có thể dễ dàng có được "Long Bát Bộ".", "talkname51", 1);
+                            Talk(70, "A Di Đà Phật, A Di Đà Phật! Hồi đó chúng tôi đã vô tình giết chết cha của Kiều Phong. Hiện tại con trai của hắn đã có được lòng nhân nghĩa lớn lao như vậy, ngay cả người Hán cũng không bằng hắn, lá thư đó ta sẽ không đưa cho ngươi.", "talkname70", 0);
+                            Talk(51, "Trụ trì, đừng nói nhanh thế. Anh ơi, tiếp theo tôi sẽ cho anh biết lợi ích của việc đưa tôi đến đây. Trụ trì, ngài còn nhớ "Ye Erniang" không? Bạn còn nhớ câu chuyện "Gặp nhau ở động Tử Vân" và "Mẹ Kiều đỡ đẻ" không?", "talkname51", 1);
+                            Talk(70, "Anh...anh...làm sao anh biết...biết...", "talkname70", 0);
+                            Talk(51, "Tôi biết nhiều hơn nữa, nếu bạn muốn tôi tiếp tục.", "talkname51", 1);
+                            Talk(70, "Đừng nói về chuyện đó nữa...", "talkname70", 0);
+                            Talk(51, "Còn những lá thư thì sao?", "talkname51", 1);
+                            Talk(70, "Điều này... than ôi! ...Bạn có thể lấy nó.", "talkname70", 0);
+                            Talk(51, "Ca ca, chúng ta thành công rồi, chúng ta cùng đi ăn mày bang vạch mặt Kiều Phong đi.", "talkname51", 1);
+                            Talk(70, "A Di Đà Phật, A Di Đà Phật! Người bố thí phải tha thứ cho người khác và tha thứ cho người khác.", "talkname70", 0);
                             jyx2_ReplaceSceneObject("", "NPC/慕容复", "");--慕容复
                             ModifyEvent(-2, -2, -2, -2, 512, -1, -1, -2, -2, -2, -2, -2, -2);--by fanyu 启动脚本512 场景28
                             AddItem(183, 1);

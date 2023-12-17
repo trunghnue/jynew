@@ -1,2 +1,2 @@
-Talk(83, "刘正风金盆洗手，那是说从今而后，再也不出拳动剑，绝不过问武林中人的是非恩怨，江湖上算是没了这号人物。", "talkname83", 0);
+Talk(83, "Lưu Chính Phong rửa tay trong chậu vàng, có nghĩa là từ nay về sau, anh sẽ không bao giờ sử dụng nắm đấm hay kiếm của mình nữa, cũng sẽ không bao giờ can thiệp vào quyền sai của người trong võ lâm. đã biến mất trên thế giới.", "talkname83", 0);
 do return end;

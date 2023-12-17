@@ -1,2 +1,2 @@
-Talk(19, "上次多亏了少侠的帮忙，才阻止了左冷禅的阴谋。这回，岳某忝为“五岳派”的掌门，其肩上的责任是更重大了。不过岳某一定尽力以赴，率领五岳派打倒日月魔教。", "talkname19", 0);
+Talk(19, "Lần trước, nhờ sự giúp đỡ của anh hùng trẻ tuổi, âm mưu của Zuo Lengchan đã bị ngăn chặn. Lần này, Yue là người đứng đầu "Ngũ Sơn Giáo", trách nhiệm trên vai anh càng lớn hơn. Tuy nhiên, Yue chắc chắn sẽ cố gắng hết sức để lãnh đạo Wuyue Sect đánh bại Sun and Moon Demon Sect.", "talkname19", 0);
 do return end;

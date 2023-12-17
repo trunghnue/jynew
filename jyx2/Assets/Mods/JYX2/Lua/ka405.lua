@@ -1,26 +1,26 @@
-Talk(0, "前辈好福气，竟住在如此奇妙的所在。", "talkname0", 1);
-Talk(64, "你倒说说看，我这百花谷怎生好法。", "talkname64", 0);
-Talk(0, "此处山谷向南，高山阻住了北风，想来地下又有硫磺，煤炭等类矿藏，地气特暖。因之阳春早临，百花先放。", "talkname0", 1);
-Talk(64, "小兄弟还算有点见识。不过下次你再来时，又会有另一番风貌的。最近我正在驯养蜜蜂，虽然有点……有点不顺，但……但我一定会想办法让这些小东西乖乖驯服的。", "talkname64", 0);
-Talk(0, "这阵子晚辈遍游江湖各地，道听途说了一些，没什么收获，倒是见闻增广了不少。", "talkname0", 1);
-Talk(64, "你说你最近跑遍江湖，那你知不知道武林中有什么新功夫问世。", "talkname64", 0);
-Talk(0, "晚辈是得到一些秘笈，不过功夫还不到家。", "talkname0", 1);
-Talk(64, "来来来，跟我来玩两招。", "talkname64", 0);
+Talk(0, "Tiền bối, bạn thật may mắn khi được sống ở một nơi tuyệt vời như vậy.", "talkname0", 1);
+Talk(64, "Xin hãy nói cho tôi biết, làm thế nào tôi có thể tạo ra Phật pháp tốt ở Thung lũng Baihua?", "talkname64", 0);
+Talk(0, "Thung lũng nơi này hướng về phía nam, dãy núi cao chắn gió bắc, dường như dưới lòng đất có lưu huỳnh, than đá và các loại khoáng sản khác, khí quyển trên mặt đất vô cùng ấm áp. Vì mùa xuân đến sớm nên hoa nở trước.", "talkname0", 1);
+Talk(64, "Em trai khá hiểu biết. Nhưng lần sau quay lại thì sẽ khác. Gần đây tôi đang thuần hóa những con ong, và mặc dù nó hơi... không suôn sẻ, nhưng... tôi chắc chắn sẽ tìm ra cách để thuần hóa những thứ nhỏ nhặt này.", "talkname64", 0);
+Talk(0, "Những ngày này, tôi đi du lịch khắp nơi trên thế giới, nghe đồn cũng học được rất nhiều điều, thu hoạch không nhiều nhưng cũng thu được rất nhiều kiến thức.", "talkname0", 1);
+Talk(64, "Bạn nói gần đây bạn đã đi du lịch khắp nơi trên thế giới, bạn có biết trong giới võ thuật có môn võ nào mới xuất hiện không?", "talkname64", 0);
+Talk(0, "Người đàn em đã có một số lời khuyên, nhưng kung fu của anh ấy vẫn chưa hoàn hảo.", "talkname0", 1);
+Talk(64, "Nào, nào, đến chơi hai chiêu với tôi đi.", "talkname64", 0);
 ModifyEvent(-2, -2, -2, -2, 406, 407, -1, -2, -2, -2, -2, -2, -2);--by fanyu|启动406,407脚本。场景20-编号4
 if AskBattle() == true then goto label0 end;
-    Talk(0, "前辈别开玩笑了，晚辈怎是你的对手。", "talkname0", 1);
+    Talk(0, "Tiền bối đừng đùa nữa, cấp dưới là đối thủ của bạn.", "talkname0", 1);
     do return end;
 ::label0::
-    Talk(0, "那晚辈就献丑了。", "talkname0", 1);
+    Talk(0, "Lúc đó đàn em sẽ tỏ ra xấu hổ.", "talkname0", 1);
     if TryBattle(67) == false then goto label1 end;
         LightScence();
-        Talk(64, "小兄弟，你这是什么功夫，教教我好不好。", "talkname64", 0);
-        Talk(0, "哪里，前辈承让了。晚辈功夫还差得远。", "talkname0", 1);
-        Talk(64, "这样好了，我跟你磕八个响头，拜你为师，你总肯教我了吧。", "talkname64", 0);
-        Talk(0, "前辈别开玩笑了，晚辈担当不起。", "talkname0", 1);
+        Talk(64, "Em trai, em đang làm loại kung fu nào, xin hãy dạy em.", "talkname64", 0);
+        Talk(0, "Ở đâu, các tiền bối đã đồng ý. Kung fu của đàn em vẫn còn kém xa.", "talkname0", 1);
+        Talk(64, "Được rồi, ta sẽ lạy ngươi tám lạy, bái ngươi làm thầy, ngươi sẽ bằng lòng dạy ta phải không?", "talkname64", 0);
+        Talk(0, "Các tiền bối đừng đùa nữa, cấp dưới không đủ khả năng chi trả cho việc này.", "talkname0", 1);
         AddRepute(8);
         do return end;
 ::label1::
         LightScence();
-        Talk(64, "唉，你功夫还差的远了，再去练练。", "talkname64", 0);
+        Talk(64, "Than ôi, công phu của ngươi còn kém xa, hãy luyện tập lại đi.", "talkname64", 0);
 do return end;

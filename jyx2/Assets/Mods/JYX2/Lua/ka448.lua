@@ -1,6 +1,6 @@
-Talk(94, "来者何人，擅闯我铁掌山。", "talkname94", 0);
-Talk(0, "铁掌山？我还以为是“猴爪山”呢？", "talkname0", 1);
-Talk(94, "大胆狂徒，竟敢上我铁掌帮找碴。", "talkname94", 0);
+Talk(94, "Ai đang ở đây, xâm phạm vào Núi Cọ Sắt của chúng ta?", "talkname94", 0);
+Talk(0, "Núi Cọ Sắt? Tôi tưởng đó là "Núi chân khỉ"?", "talkname0", 1);
+Talk(94, "Đúng là một kẻ điên cuồng táo bạo, sao dám đến bang hội Chưởng Thiết của tôi để gây rắc rối.", "talkname94", 0);
 if TryBattle(70) == true then goto label0 end;
     Dead();
     do return end;

@@ -1,2 +1,2 @@
-Talk(72, "如果屋子内还有什么你需要的，你尽管拿，别客气。", "talkname72", 0);
+Talk(72, "Nếu trong nhà còn cần thứ gì khác thì cứ thoải mái lấy, không sao cả.", "talkname72", 0);
 do return end;

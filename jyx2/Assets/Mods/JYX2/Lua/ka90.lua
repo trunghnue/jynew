@@ -1,6 +1,6 @@
-Talk(0, "莫非这二人竟是阳顶天夫妇？这里有封信，看看写些什么：", "talkname0", 1);
-Talk(107, "今余神功第四层初成，即悉成昆之事，血气翻涌不克自制，真力将散，行当大归。天也命也，复何如耶？今余命在旦夕，有负衣教主重托，实为本教罪人。盼夫人持余亲笔遗书，召聚众人，令谢逊暂摄副教主之位，处分本教重务……", "talkname107", 0);
-Talk(0, "原来阳教主是在练功时，因知悉成昆的事后，不慎走火入魔了。而阳教主夫人……这里有把匕首，看来是因愧疚而自杀了。这个羊皮卷，大概就是他当时在练的“神功”吧。", "talkname0", 1);
+Talk(0, "Chẳng lẽ hai người này thật ra là vợ chồng Dương Đỉnh Thiên? Đây là một lá thư, hãy xem nó viết gì:", "talkname0", 1);
+Talk(107, "Hiện tại vừa mới hoàn thành ma kỹ cấp bốn, đã biết đến Thành Khôn, huyết khí dâng trào, không cách nào khống chế được bản thân, thực lực chân chính sắp tiêu tán, ta sẽ trở về vĩ đại. Chúa cũng đã định vậy, vậy tại sao không? Phần còn lại của cuộc đời tôi đang bị đe dọa, và tôi được người đứng đầu giáo phái rất tin tưởng, tôi thực sự là một tội nhân của giáo phái này. Bà Pan tập hợp mọi người lại cùng với lá thư tuyệt mệnh của Yu, đồng thời ra lệnh cho Xie Xun tạm thời đảm nhận vị trí phó thủ lĩnh và giải quyết những công việc quan trọng của giáo phái...", "talkname107", 0);
+Talk(0, "Hóa ra sư phụ Yang đã vô tình phát điên khi đang luyện tập Kungfu vì biết về Cheng Kun. Về phần Dương phu nhân, ở đây có một con dao găm, xem ra bà ta đã tự sát vì cảm thấy tội lỗi. Cuộn giấy da này có lẽ chính là "kỹ năng ma thuật" mà anh ấy đang luyện tập vào thời điểm đó.", "talkname0", 1);
 AddItem(92, 1);
 ModifyEvent(-2, 0, -2, -2, -1, -1, -1, -2, -2, -2, -2, -2, -2);
 ModifyEvent(-2, 1, -2, -2, -1, -1, -1, -2, -2, -2, -2, -2, -2);

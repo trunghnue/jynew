@@ -1,4 +1,4 @@
-Talk(96, "这位玩家，这边不能再过去了……", "talkname96", 0);
-Talk(0, "你是谁？怎么称呼我为“玩家”？莫非是……", "talkname0", 1);
-Talk(96, "糟了，说溜嘴了。没错，我是游戏设计者所安插的一个小角色。我在这是要告诉你，少林寺再进去一点的场景要等到下一个游戏才看得到，而且非常的丰富，敬请期待。不过，你还是得赶紧完成这个游戏，并把它的优缺点告诉我们，好让我们有改进的方向。最后祝你一切顺利。你也别再对我做动作了，我身上并没有多的线索了。", "talkname96", 0);
+Talk(96, "Người chơi này không thể tiến xa hơn...", "talkname96", 0);
+Talk(0, "Bạn là ai? Làm thế nào để bạn gọi tôi là một "người chơi"? Nó có thể là...", "talkname0", 1);
+Talk(96, "Ối, tôi trượt chân rồi. Đúng, tôi là một nhân vật nhỏ do người thiết kế trò chơi cài đặt. Tôi ở đây để nói với các bạn rằng những cảnh đi sâu hơn vào Thiếu Lâm Tự sẽ không có cho đến trận đấu tiếp theo và chúng rất phong phú nên hãy chú ý theo dõi. Tuy nhiên, bạn vẫn phải kết thúc game thật nhanh và cho chúng tôi biết ưu nhược điểm của nó để chúng tôi có hướng cải thiện. Cuối cùng tôi chúc bạn mọi điều tốt đẹp nhất. Đừng động đến tôi nữa, tôi không còn nhiều manh mối nữa.", "talkname96", 0);
 do return end;

@@ -1,5 +1,5 @@
-Talk(106, "客倌，您要吃饭还是住宿？", "talkname106", 0);
-Talk(0, "客倌？……你是店小二！你是店小二对不对！你一定有什么线索可以告诉我，对不对，快告诉我！玩ＲＰＧ我最拿手了，只要找到你们这种人，就一切搞定！快告诉我接下来该怎么做，给你一些“小费”，然后去找“某一个人”，对不对？", "talkname0", 1);
-Talk(106, "哪里来的疯子，不吃饭就到别处去，不要在这疯言疯语的，影响大爷我做生意。", "talkname106", 0);
+Talk(106, "Bồi bàn, bạn muốn ăn hay ở lại?", "talkname106", 0);
+Talk(0, "Phục vụ nam? ...Bạn là người phục vụ! Bạn là bồi bàn phải không? Cậu nhất định phải có manh mối gì đó mới có thể nói cho tôi biết phải không? Tôi là người chơi game nhập vai giỏi nhất, chỉ cần tìm được người như bạn thì mọi chuyện sẽ ổn thỏa! Hãy cho tôi biết phải làm gì tiếp theo, cho bạn một "mẹo" rồi đi tìm "ai đó", phải không?", "talkname0", 1);
+Talk(106, "Bạn từ đâu đến? Không ăn thì đi chỗ khác. Đừng ở đây nói lung tung ảnh hưởng đến việc làm ăn của tôi.", "talkname106", 0);
 ModifyEvent(-2, -2, -2, -2, 665, 666, -1, -2, -2, -2, -2, -2, -2);
 do return end;

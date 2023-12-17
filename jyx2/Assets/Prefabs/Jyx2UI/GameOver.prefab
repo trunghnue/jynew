@@ -193,7 +193,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "2021\u5E7411\u670802\u65E5\n\u5728\u5730\u7403\u67D0\u5904\n\u5F53\u5730\u5931\u8E2A\u4EBA\u53E3\u53C8\u589E\u52A0\u4E86\n\u4E00\u4F8B\u3002\u3002\u3002"
+  m_Text: "Ng\xE0y 02 th\xE1ng 11 n\u0103m 2021\n\u1EDF \u0111\xE2u \u0111\xF3 tr\xEAn
+    tr\xE1i \u0111\u1EA5t\nS\u1ED1 ng\u01B0\u1EDDi m\u1EA5t t\xEDch t\u1EA1i \u0111\u1ECBa
+    ph\u01B0\u01A1ng l\u1EA1i t\u0103ng l\xEAn\nM\u1ED9t v\xED d\u1EE5. . ."
 --- !u!114 &2646551631755829941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -845,15 +847,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ac7a2af92d183d4eb67c84ead7ac3db, type: 3}
---- !u!224 &1298625614194481089 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 3548856971187718166, guid: 9ac7a2af92d183d4eb67c84ead7ac3db,
-    type: 3}
-  m_PrefabInstance: {fileID: 2541639330608783319}
-  m_PrefabAsset: {fileID: 0}
---- !u!224 &8947320129537317908 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 6876701695403819971, guid: 9ac7a2af92d183d4eb67c84ead7ac3db,
+--- !u!1 &2060420169983542040 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4602013318686858447, guid: 9ac7a2af92d183d4eb67c84ead7ac3db,
     type: 3}
   m_PrefabInstance: {fileID: 2541639330608783319}
   m_PrefabAsset: {fileID: 0}
@@ -869,9 +865,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &2060420169983542040 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4602013318686858447, guid: 9ac7a2af92d183d4eb67c84ead7ac3db,
+--- !u!224 &8947320129537317908 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6876701695403819971, guid: 9ac7a2af92d183d4eb67c84ead7ac3db,
+    type: 3}
+  m_PrefabInstance: {fileID: 2541639330608783319}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1298625614194481089 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3548856971187718166, guid: 9ac7a2af92d183d4eb67c84ead7ac3db,
     type: 3}
   m_PrefabInstance: {fileID: 2541639330608783319}
   m_PrefabAsset: {fileID: 0}

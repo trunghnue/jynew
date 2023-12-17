@@ -1,10 +1,10 @@
 ScenceFromTo(29, 28, 29, 14);
 jyx2_CameraFollow("Level/NPC/modaxiansheng");
-Talk(20, "还请费兄回去告诉左掌门，五岳并派之事，我衡山派是不会答应的。", "talkname20", 0);
-Talk(84, "莫掌门还请三思，五岳合并之后，对我五岳剑派是大有好处的。到时我五岳派就可和少林、武当各大派相庭抗礼了。", "talkname84", 4);
-Talk(20, "衡山派百年基业，还不想断送在我莫大手里。费兄还请回吧！", "talkname20", 0);
-Talk(84, "本来我是不想提的，刘师兄此次金盆洗手，是跟魔教有关吧？左盟主已知道其中曲折了，但顾全五岳同盟之情……所以还是请莫掌门三思，届时还望光临嵩山，参加五岳同盟大会。", "talkname84", 4);
-Talk(20, "送客！", "talkname20", 0);
+Talk(20, "Cũng xin Phi huynh quay lại nói với Tả tông chủ rằng Hành Sơn tông của chúng ta sẽ không đồng ý sáp nhập Ngũ Thánh Sơn.", "talkname20", 0);
+Talk(84, "Mặc đại nhân xin hãy suy nghĩ kỹ, sau khi sáp nhập Ngũ Sơn sẽ mang lại lợi ích to lớn cho Ngũ Sơn Kiếm Phái chúng ta. Đến lúc đó Võ Việt Tông của chúng ta sẽ có thể cạnh tranh với các môn phái lớn của Thiếu Lâm và Võ Đang.", "talkname84", 4);
+Talk(20, "Nền tảng thế kỷ của Giáo phái Hengshan không muốn bị hủy hoại trong tay tôi. Anh Fei, xin hãy quay lại!", "talkname20", 0);
+Talk(84, "Vốn dĩ ta cũng không muốn nhắc đến, việc Lưu sư huynh rời khỏi kim bồn có liên quan đến Ma Giáo sao? Thủ lĩnh của Liên minh Zuo đã biết những khúc mắc, nhưng để bảo vệ tình cảm của Liên minh Ngũ Sơn... vì vậy ông ấy vẫn yêu cầu Thủ lĩnh Mo hãy suy nghĩ kỹ, ông ấy hy vọng có thể đến Songshan để tham gia Hội nghị Liên minh Ngũ Sơn .", "talkname84", 4);
+Talk(20, "tiễn một vị khách ra ngoài!", "talkname20", 0);
 DarkScence();
 jyx2_ReplaceSceneObject("", "NPC/songshandizi1", "");--嵩山弟子出门
 jyx2_ReplaceSceneObject("", "NPC/songshandizi2", "");--嵩山弟子出门

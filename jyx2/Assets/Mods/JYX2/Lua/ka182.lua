@@ -1,8 +1,8 @@
-Talk(82, "阁下若无请帖，还请离开。", "talkname82", 0);
+Talk(82, "Nếu bạn không có lời mời, xin vui lòng rời đi.", "talkname82", 0);
 if AskBattle() == true then goto label0 end;
     do return end;
 ::label0::
-    Talk(0, "说不得只好打了。", "talkname0", 1);
+    Talk(0, "Tôi không còn lựa chọn nào khác ngoài chiến đấu.", "talkname0", 1);
     if TryBattle(27) == true then goto label1 end;
         Dead();
         do return end;

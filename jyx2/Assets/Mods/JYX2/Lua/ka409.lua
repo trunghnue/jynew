@@ -1,25 +1,25 @@
-Talk(0, "前辈，我送你的玉蜂浆很有用吧。", "talkname0", 1);
-Talk(64, "你的玉蜂浆固然有用，但我养蜂的本事更是高强。", "talkname64", 0);
-Talk(0, "哦？", "talkname0", 1);
-Talk(64, "你没看，我培养出一批天下无双，人间罕见的异种来，当真是巧夺天工，造化之奇也无如此奇法。", "talkname64", 0);
-Talk(0, "不知是怎样的奇法？", "talkname0", 1);
-Talk(64, "小兄弟，我且问你。人是万物之灵，身上有刺花刺字，或刺盘龙虎豹，或书天下太平。但除了人之外，禽兽虫蚁身上，可有刺字的？", "talkname64", 0);
-Talk(0, "虎有黄斑，豹有金钱，至于蝴蝶毒蛇，身上花纹更奇于刺花百倍。", "talkname0", 1);
-Talk(64, "但你见过虫蚁身上有字的没有？", "talkname64", 0);
-Talk(0, "你说是天生的么？那倒没见过。", "talkname0", 1);
-Talk(64, "好，今天给你开一开眼界。仔细看看那些蜜蜂的翅膀。", "talkname64", 0);
-Talk(0, "咦！真的有字。好像是“情谷底”三个字。", "talkname0", 1);
-Talk(64, "看到没有。", "talkname64", 0);
-Talk(0, "＜这字绝非天生，分明是有人故意刺成的。＞这哪是什么天下无双，人间罕见了，八成是你用绣花针刺上去的，对不对。", "talkname0", 1);
-Talk(64, "你说什么？你再看看其他的蜜蜂。", "talkname64", 0);
-Talk(0, "这……这，怎么每只都有。而且写的字都不太一样。这只写的是“我在绝”。", "talkname0", 1);
-Talk(64, "我还看过别只上面写的是“二午寺”，还有“一山恶”的。你说，这全都是我写的吗？", "talkname64", 0);
-Talk(0, "“情谷底”，“我在绝”，“二午寺”，“一山恶”……这到底是什么意思？前辈，这蜜蜂不是你自己养的吧！", "talkname0", 1);
-Talk(64, "咦，你怎么知道？", "talkname64", 0);
-Talk(0, "我胡乱猜的。", "talkname0", 1);
-Talk(64, "这些蜜蜂是从北边山脉飞来的，起先我也吓了一大跳。", "talkname64", 0);
-Talk(0, "我看这事有点怪异。", "talkname0", 1);
-Talk(64, "看来你还是不服气的样子，你等着好了，我会养出更奇怪的蜜蜂来。", "talkname64", 0);
+Talk(0, "Tiền bối, thạch mật ong ngọc bích mà em đưa cho anh chắc chắn rất hữu dụng.", "talkname0", 1);
+Talk(64, "Thạch mật ong ngọc bích của bạn chắc chắn rất hữu ích, nhưng kỹ năng nuôi ong của tôi thậm chí còn cao cấp hơn.", "talkname64", 0);
+Talk(0, "Ồ?", "talkname0", 1);
+Talk(64, "Bạn chưa nhìn thấy, nhưng tôi đã nuôi dưỡng một nhóm loài ngoại lai vô song và hiếm có trong thế giới loài người, đó thực sự là một kiệt tác của tạo hóa, trong tự nhiên không có kỳ quan nào như thế này.", "talkname64", 0);
+Talk(0, "Tôi tự hỏi đó là loại phép thuật gì?", "talkname0", 1);
+Talk(64, "Em trai ơi, cho anh hỏi nhé. Con người là linh hồn của vạn vật, trên người đều có hình xăm như rồng, hổ, báo, hay hòa bình trên thế giới. Nhưng ngoài con người ra, còn loài động vật, côn trùng hay loài kiến nào có hình xăm trên cơ thể không?", "talkname64", 0);
+Talk(0, "Hổ có đốm vàng, báo có tiền, còn bướm và rắn độc thì hoa văn trên cơ thể chúng còn kỳ dị hơn hoa gai gấp trăm lần.", "talkname0", 1);
+Talk(64, "Nhưng bạn đã bao giờ nhìn thấy con côn trùng hay con kiến nào có chữ trên đó chưa?", "talkname64", 0);
+Talk(0, "Bạn có nghĩ đó là điều tự nhiên không? Chưa bao giờ thấy điều đó.", "talkname0", 1);
+Talk(64, "Được rồi, hôm nay hãy để tôi mở mắt cho bạn. Hãy nhìn kỹ hơn vào những đôi cánh ong.", "talkname64", 0);
+Talk(0, "Huh! Thực sự có những từ. Hình như đó là dòng chữ “tình yêu đáy đá”.", "talkname0", 1);
+Talk(64, "Bạn có nhìn thấy nó không.", "talkname64", 0);
+Talk(0, "＜Chữ này chắc chắn không phải tự nhiên mà có, rõ ràng là cố ý xăm. >Đây là thứ vô song trên thế giới, hiếm có trên thế giới, chắc hẳn bạn đã thêu nó bằng kim thêu phải không?", "talkname0", 1);
+Talk(64, "Bạn nói gì? Hãy nhìn những con ong khác.", "talkname64", 0);
+Talk(0, "Cái này...cái này, sao trong mỗi cái lại có một cái. Và những từ được viết đều khác nhau. Cái này chỉ nói "Tôi đang ở Jue".", "talkname0", 1);
+Talk(64, "Tôi cũng đã thấy những cái khác nói "Đền Erwu" và "Ác quỷ Yishan". Bạn có nghĩ rằng tôi đã viết tất cả những điều này?", "talkname64", 0);
+Talk(0, ""Đáy tình yêu", "Tôi ở cuối", "Đền Erwu", "Núi tà ác"... Điều này có nghĩa là gì? Tiền bối, không phải anh tự mình nuôi những con ong này phải không?", "talkname0", 1);
+Talk(64, "Này, sao bạn biết?", "talkname64", 0);
+Talk(0, "Tôi đã đoán mò.", "talkname0", 1);
+Talk(64, "Những con ong này đến từ vùng núi phía bắc, lúc đầu tôi rất sốc.", "talkname64", 0);
+Talk(0, "Điều này có vẻ hơi kỳ lạ đối với tôi.", "talkname0", 1);
+Talk(64, "Có vẻ như bạn vẫn chưa bị thuyết phục, hãy đợi và tôi sẽ nuôi những con ong kỳ lạ hơn.", "talkname64", 0);
 ModifyEvent(-2, 4, -2, -2, 406, -1, -1, -2, -2, -2, -2, -2, -2);--by fanyu|启动406脚本。场景20-编号4
 ModifyEvent(-2, 5, -2, -2, 410, -1, -1, -2, -2, -2, -2, -2, -2);--by fanyu|启动410脚本。场景20-编号5
 ModifyEvent(-2, 6, -2, -2, 410, -1, -1, -2, -2, -2, -2, -2, -2);--by fanyu|启动410脚本。场景20-编号6

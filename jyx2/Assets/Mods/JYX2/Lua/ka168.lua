@@ -1,13 +1,13 @@
-Talk(83, "见性峰乃恒山派禁地，施主勿近。", "talkname83", 0);
+Talk(83, "Jianxing Peak là cấm khu của Hành Sơn phái nên các nhà tài trợ nên tránh xa.", "talkname83", 0);
 if AskBattle() == true then goto label0 end;
     do return end;
 ::label0::
-    Talk(0, "什么恒山派禁地，土地权状拿出来我瞧瞧。像你们这样据地称王的人，我最痛恨了。", "talkname0", 1);
-    Talk(83, "这位施主，再不离开，可别怪我们不客气！", "talkname83", 0);
-    Talk(0, "我从地理课本上知道，恒山风光明媚，鸟语花香，而见性峰更是如人间仙境。因此我特地上来观光的，你们这些臭道姑太不讲道理了。老子我就偏要看看这见性峰到底长什么样！你们能奈我何！", "talkname0", 1);
-    Talk(83, "小子说什么！我看你是嵩山派派来的奸细吧！快滚回去告诉你们掌门，恒山派绝不会答应并派的！", "talkname83", 0);
-    Talk(0, "说什么五四三的，听呒啦。小侠我都甘愿冒着“一见尼姑，逢赌必输”的大险来到你们这尼姑庵中，怎可败兴而归。", "talkname0", 1);
-    Talk(83, "胡说八道的小子，先拿下再说。", "talkname83", 0);
+    Talk(0, "Vùng đất cấm của phái Hằng Sơn là gì, để tôi xem giấy chứng nhận quyền sử dụng đất. Tôi ghét nhất những người tự xưng là vua dựa trên lãnh thổ của họ như bạn.", "talkname0", 1);
+    Talk(83, "Nếu ân nhân này không rời đi, đừng trách chúng ta vô lễ!", "talkname83", 0);
+    Talk(0, "Tôi biết từ sách giáo khoa địa lý rằng núi Hằng Sơn có phong cảnh đẹp, chim hót và hoa thơm, đỉnh Jianxing giống như chốn thần tiên nơi hạ giới. Cho nên ta đặc biệt tới đây để ngắm cảnh, các ngươi đạo sĩ hôi hám thật vô lý. Tôi chỉ muốn xem đỉnh Jianxing này trông như thế nào! Bạn có thể làm gì tôi!", "talkname0", 1);
+    Talk(83, "Cậu bé đã nói gì vậy! Ta nghĩ ngươi là gián điệp do Tống Sơn phái phái đến! Hãy quay lại và nói với lãnh đạo của bạn rằng Giáo phái Hengshan sẽ không bao giờ đồng ý và gửi bạn!", "talkname83", 0);
+    Talk(0, "Hãy nghe những gì bạn nói về 543. Tiểu Hạ, ta bằng lòng mạo hiểm “gặp ni cô thì thua hết” để đến ni viện của ngươi, thất vọng làm sao có thể trở về.", "talkname0", 1);
+    Talk(83, "Thằng nhóc nói bậy thì gỡ xuống trước rồi mới nói.", "talkname83", 0);
     if TryBattle(23) == true then goto label1 end;
         Dead();
         do return end;
@@ -21,6 +21,6 @@ if AskBattle() == true then goto label0 end;
         ModifyEvent(-2, 6, -2, -2, 169, -1, -1, -2, -2, -2, -2, -2, -2);--by fanyu 启动脚本169 场景31-6
         ModifyEvent(-2, 7, -2, -2, 169, -1, -1, -2, -2, -2, -2, -2, -2);--by fanyu 启动脚本169 场景31-7
         LightScence();
-        Talk(0, "哼！愈是不让我来，我就愈想探个究竟。", "talkname0", 1);
+        Talk(0, "khịt mũi! Họ càng không cho tôi đến, tôi càng muốn tìm hiểu.", "talkname0", 1);
         AddRepute(1);
 do return end;

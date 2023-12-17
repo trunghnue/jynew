@@ -1,3 +1,3 @@
-Talk(82, "华山派的师兄，不知来我衡山有何贵事。", "talkname82", 0);
-Talk(0, "没事，我随便逛逛。", "talkname0", 1);
+Talk(82, "Sư huynh của phái Hoa Sơn, tôi không biết tại sao anh lại đến Hành Sơn.", "talkname82", 0);
+Talk(0, "Không sao đâu, tôi sẽ đi dạo một lát.", "talkname0", 1);
 do return end;

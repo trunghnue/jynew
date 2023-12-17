@@ -1,2 +1,2 @@
-Talk(14, "少侠手下功夫果然了得。", "talkname14", 0);
+Talk(14, "Kỹ năng của người anh hùng trẻ tuổi thực sự ấn tượng.", "talkname14", 0);
 do return end;

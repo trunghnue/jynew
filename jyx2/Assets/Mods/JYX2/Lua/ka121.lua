@@ -1,2 +1,2 @@
-Talk(13, "武林中人心险恶，小兄弟路上得多注意点。", "talkname13", 0);
+Talk(13, "Người trong giới võ lâm đều ác độc, nên khi ra đường hãy cẩn thận hơn nhé em trai.", "talkname13", 0);
 do return end;

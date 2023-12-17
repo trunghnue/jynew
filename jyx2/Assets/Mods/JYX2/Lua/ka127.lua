@@ -1,18 +1,18 @@
-Talk(8, "小兄弟别在崆峒派逗留了，我六大派即将围攻魔教总坛光明顶了。", "talkname8", 0);
+Talk(8, "Tiểu đệ, đừng lưu lại trong Khổng Đồng phái, sáu đại giáo phái của chúng ta sắp bao vây Quang Minh Đỉnh, bàn thờ chính của yêu giáo.", "talkname8", 0);
 if AskBattle() == true then goto label0 end;
     do return end;
 ::label0::
-    Talk(0, "在下愿领教领教崆峒派的七伤拳绝技。", "talkname0", 1);
-    Talk(8, "小子，你自寻死路。", "talkname8", 0);
+    Talk(0, "Tôi muốn học những kỹ năng độc đáo của Thất thương nắm đấm của Kongtong Sect.", "talkname0", 1);
+    Talk(8, "Này cậu bé, cậu đang đòi chết đấy.", "talkname8", 0);
     if TryBattle(16) == true then goto label1 end;
         Dead();
         do return end;
 ::label1::
         LightScence();
-        Talk(0, "七伤拳也不过如此。", "talkname0", 1);
-        Talk(8, "哼！小兄弟留下个字号，他日我唐文亮再向你请教。", "talkname8", 0);
-        Talk(0, "字号？好吧，记着，“软世派河洛分舵”金庸堂堂主是也。", "talkname0", 1);
-        Talk(8, "“软世派河洛分舵”？没听过。", "talkname8", 0);
+        Talk(0, "Bảy thương tích không gì khác hơn thế.", "talkname0", 1);
+        Talk(8, "khịt mũi! Em trai, xin hãy để lại một cái tên, tôi, Tang Wenliang, một ngày nào đó sẽ xin lời khuyên của em.", "talkname8", 0);
+        Talk(0, "Cỡ chữ? À, hãy nhớ rằng, Jin Yongtang là thủ lĩnh của "Chi nhánh Heluo của Giáo phái Thế giới mềm".", "talkname0", 1);
+        Talk(8, ""Chi nhánh Heluo của Giáo phái Thế giới Mềm"? Chưa tưng nghe.", "talkname8", 0);
         ModifyEvent(-2, -2, -2, -2, 128, -1, -1, -2, -2, -2, -2, -2, -2);
         AddRepute(3);
 do return end;

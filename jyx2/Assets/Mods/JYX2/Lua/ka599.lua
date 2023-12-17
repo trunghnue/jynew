@@ -1,33 +1,33 @@
-Talk(0, "兄弟，你是谁，怎么会被关在这？", "talkname0", 1);
-Talk(37, "兄台为何来救狄云这不幸之人。", "talkname37", 0);
-Talk(0, "我只是看这些秃子不爽，打着打着就打到这边来了。", "talkname0", 1);
-Talk(37, "那兄台还是赶紧离去，和我这不幸之人在一起，你会倒楣的。", "talkname37", 0);
-Talk(0, "兄弟怎么这么说。虽说我是糊里糊涂的救到你，但出门在外，本应互相扶持的。", "talkname0", 1);
-Talk(37, "可是……可是……", "talkname37", 0);
-Talk(0, "你到底发生了什么事，说来听听。", "talkname0", 1);
-Talk(37, "几年前，我随师父和师妹到荆州去为我万震山万师叔祝寿，但后来却被师叔他们诬赖我勾结盗匪，偷了他万家的金银珠宝，并意图非礼小师娘。而县府大人也没明察秋毫，就把我关了起来。后来听说我师父死了，我师妹……师妹她……她……竟嫁给了万师兄。", "talkname37", 0);
-Talk(0, "你很爱你师妹，是吗？", "talkname0", 1);
-Talk(37, "我师妹怎能……怎能嫁给那个姓万的。", "talkname37", 0);
-Talk(0, "那你后来怎么离开那荆州大牢，又怎么被关在这里？", "talkname0", 1);
-Talk(37, "在狱中的几年，同牢的丁典丁大哥告诉了我许多江湖上的事，也教了我“神照经”大法，说是可以提升内力。突然有一天，丁大哥带我逃狱，说要去看一位朋友。但想不到是丁大哥的红粉知己死了，而她父亲，也就是荆州府尹，居然在她女儿的棺木上下毒，为的就是要害死丁大哥，丁大哥后来就中毒死了。而我虽然逃走了，但是后来又被这些番僧给捉了来，关在这儿。你看我是不是个不幸之人，跟我在一起的全都没有好下场。", "talkname37", 0);
-Talk(0, "快别这么说，你只是比较“衰”而已。今后你有什么打算吗？", "talkname0", 1);
-Talk(37, "我只想回老家湘西麻溪铺去看看。我还记得那里有个山洞，是我和师妹以前儿时常去玩的地方。", "talkname37", 0);
-Talk(0, "那里好玩吗？改天我也去看看。", "talkname0", 1);
-Talk(37, "那里不好找的，平常人都不知道。我记得路旁有个石头，写着几个数字“３６４２７９”的，蛮新鲜的。", "talkname37", 0);--原版为２７０，１１５唐诗山洞
+Talk(0, "Anh ơi, anh là ai và tại sao lại bị nhốt ở đây?", "talkname0", 1);
+Talk(37, "Vì sao ca ca lại tới cứu cái tên bất hạnh Địch Vân này?", "talkname37", 0);
+Talk(0, "Tôi chỉ không hài lòng với mấy tên đầu trọc này nên đã đánh đi đánh lại chúng.", "talkname0", 1);
+Talk(37, "Anh ơi, anh nên rời đi càng sớm càng tốt, ở lại với một người bất hạnh như em, anh sẽ gặp bất hạnh.", "talkname37", 0);
+Talk(0, "Tại sao anh trai lại nói như vậy? Dù tôi đã cứu bạn trong cơn choáng váng nhưng lẽ ra chúng ta nên hỗ trợ lẫn nhau khi ra ngoài.", "talkname0", 1);
+Talk(37, "Nhưng nhưng...", "talkname37", 0);
+Talk(0, "Hãy kể cho tôi chuyện gì đã xảy ra với bạn.", "talkname0", 1);
+Talk(37, "Cách đây vài năm, tôi cùng sư phụ và em gái đến Kinh Châu để chúc mừng sinh nhật chú Vạn Chấn Sơn, tuy nhiên sau đó chú tôi và những người khác đã vu oan cho tôi cấu kết với bọn cướp, ăn trộm đồ trang sức bằng vàng bạc của gia đình họ Vạn, và có ý định quấy rối vợ của cậu chủ trẻ. Thẩm phán quận không để ý gì cả và nhốt tôi lại. Sau này nghe nói sư phụ của ta đã chết, sư muội của ta... sư muội của ta... nàng... cư nhiên đã kết hôn với Vạn sư huynh.", "talkname37", 0);
+Talk(0, "Bạn rất yêu em gái của mình phải không?", "talkname0", 1);
+Talk(37, "Làm sao em gái tôi có thể... làm sao tôi có thể cưới người tên Vạn đó.", "talkname37", 0);
+Talk(0, "Vậy làm thế nào bạn rời khỏi nhà tù Kinh Châu và tại sao bạn lại bị giam ở đây?", "talkname0", 1);
+Talk(37, "Trong vài năm ở tù, bạn tù Ding Dian đã kể cho tôi nghe nhiều điều về thế giới, đồng thời cũng dạy tôi phương pháp “Thần chiêu kinh”, mà anh ấy nói rằng có thể nâng cao nội lực của tôi. Đột nhiên một ngày, anh Ding đưa tôi trốn khỏi nhà tù và nói rằng anh muốn gặp một người bạn. Nhưng cô không ngờ rằng người bạn tâm tình của anh Ding đã chết, và cha cô, thống đốc Kinh Châu, đã thực sự đầu độc quan tài của con gái cô để giết anh Ding, anh Ding sau đó chết vì bị đầu độc. Dù trốn thoát nhưng sau đó tôi lại bị những tu sĩ này bắt và giam ở đây. Bạn thấy đấy, tôi là một người bất hạnh, ai ở bên tôi cũng có một kết cục tồi tệ.", "talkname37", 0);
+Talk(0, "Đừng nói thế, bạn chỉ "xấu" thôi. Kế hoạch tương lai của bạn là gì?", "talkname0", 1);
+Talk(37, "Tôi chỉ muốn quay lại quê hương Maxipu ở phía tây Hồ Nam để xem. Tôi vẫn nhớ ở đó có một cái hang, nơi tôi và em gái tôi thường chơi khi còn nhỏ.", "talkname37", 0);
+Talk(0, "Ở đó có vui không? Tôi sẽ đi xem vào một ngày khác.", "talkname0", 1);
+Talk(37, "Ở đó rất khó tìm và người bình thường không biết điều đó. Tôi nhớ bên đường có một tảng đá có khắc số “364279”, còn khá mới.", "talkname37", 0);--原版为２７０，１１５唐诗山洞
 ModifyEvent(-2, -2, -2, -2, 600, -1, -1, -2, -2, -2, -2, -2, -2);
 if AskJoin () == true then goto label0 end;
     do return end;
 ::label0::
-    Talk(0, "这样好了，你要不要和我一起走，路上也有个照应。", "talkname0", 1);
+    Talk(0, "Được rồi, vậy sao bạn không đi cùng tôi và tôi sẽ có người chăm sóc tôi trên đường đi?", "talkname0", 1);
     if JudgeEthics(0, 60, 100) == true then goto label1 end;
-        Talk(37, "不了！我这个不幸之人还是别害人的好。", "talkname37", 0);
+        Talk(37, "KHÔNG! Thà mình là kẻ bất hạnh, đừng làm hại người khác.", "talkname37", 0);
         do return end;
 ::label1::
         if TeamIsFull() == false then goto label2 end;
-            Talk(37, "你的队伍已满，我无法加入。", "talkname37", 0);
+            Talk(37, "Nhóm của bạn đã đầy đủ và tôi không thể tham gia.", "talkname37", 0);
             do return end;
 ::label2::
-            Talk(37, "好吧！如果你不怕被我这个不幸之人连累的话。", "talkname37", 0);
+            Talk(37, "Được rồi! Nếu không sợ bị liên lụy bởi một kẻ bất hạnh như tôi.", "talkname37", 0);
             DarkScence();
             ModifyEvent(-2, -2, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2);--by fanyu|狄云加入队伍。场景08-编号08
             ModifyEvent(-2, 9, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2);

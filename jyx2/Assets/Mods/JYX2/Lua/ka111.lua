@@ -1,2 +1,2 @@
-Talk(10, "希望少侠能顺利破这“光明圣火阵”，这样《倚天屠龙记》一书才不致所托非人。", "talkname10", 0);
+Talk(10, "Mong rằng vị anh hùng trẻ tuổi có thể đột phá thành công “Đại trận Hỏa Thánh Quang Minh” này, để cuốn “Truyền thuyết Thiên Long Kiếm” sẽ không bị người khác tin tưởng.", "talkname10", 0);
 do return end;

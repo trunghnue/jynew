@@ -1,19 +1,19 @@
-Talk(0, "小和尚，还没回少林呀？", "talkname0", 1);
-Talk(49, "施主是你。是啊，小僧还没找到回少林的路。", "talkname49", 0);
+Talk(0, "Tiểu hòa thượng, ngươi còn chưa trở lại Thiếu Lâm sao?", "talkname0", 1);
+Talk(49, "Người hiến tặng là bạn. Đúng vậy, vị hòa thượng trẻ vẫn chưa tìm được đường về Thiếu Lâm.", "talkname49", 0);
 if AskJoin () == true then goto label0 end;
-    Talk(0, "小和尚，那改天我们少林寺再见。", "talkname0", 1);
+    Talk(0, "Tiểu hòa thượng, chúng ta sẽ gặp lại ngài ở Thiếu Lâm Tự vào một ngày khác.", "talkname0", 1);
     do return end;
 ::label0::
-    Talk(0, "既然如此，小和尚要不要和我一起走，我知道回少林的路。", "talkname0", 1);
+    Talk(0, "Đã như vậy, tiểu hòa thượng, ngươi có muốn đi cùng ta không, ta biết đường về Thiếu Lâm.", "talkname0", 1);
     if JudgeEthics(0, 75, 100) == true then goto label1 end;
-        Talk(49, "不用了，小僧自己找路回少林即可。倒是施主眼神中充满戾气，恐入魔道，望施主能即时回头。", "talkname49", 0);
+        Talk(49, "Không cần, tiểu hòa thượng có thể tự mình tìm đường trở lại Thiếu Lâm. Ngược lại, trong mắt ân nhân tràn đầy địch ý, sợ mình sẽ sa vào tà đạo, lại hy vọng ân nhân sẽ lập tức quay đầu lại.", "talkname49", 0);
         do return end;
 ::label1::
         if TeamIsFull() == false then goto label2 end;
-            Talk(49, "你的队伍已满，我无法加入。", "talkname49", 0);
+            Talk(49, "Nhóm của bạn đã đầy đủ và tôi không thể tham gia.", "talkname49", 0);
             do return end;
 ::label2::
-            Talk(49, "好啊。", "talkname49", 0);
+            Talk(49, "ĐƯỢC RỒI.", "talkname49", 0);
             DarkScence();
             jyx2_ReplaceSceneObject("", "NPC/xuzhu", "");--xuzhu加入队伍
             ModifyEvent(-2, 2, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2);

@@ -1,26 +1,26 @@
 ScenceFromTo(29, 24, 29, 17);
 jyx2_CameraFollow("Level/NPC/baiwanjian");
-Talk(41, "侠客岛赏善罚恶使者，前来拜见雪山派掌门！", "talkname41", 0);
-Talk(43, "尊驾二位便是侠客岛的赏善罚恶使者吗？", "talkname43", 0);
-Talk(42, "正是。不知哪位是雪山派掌门人？我们奉侠客岛岛主之命，手持铜牌前来，邀请贵派掌门赴敝岛相叙，喝碗腊八粥。", "talkname42", 0);
+Talk(41, "Các sứ giả của đảo Xiake, thưởng thiện và trừng phạt ác, đến gặp thủ lĩnh của Snow Mountain Sect!", "talkname41", 0);
+Talk(43, "Hai người có phải là sứ giả của đảo Xiake, thưởng thiện phạt ác không?", "talkname43", 0);
+Talk(42, "Chính xác. Không biết người đứng đầu Tuyết Sơn Giáo là ai? Theo lệnh của chủ nhân đảo Xiake, chúng tôi đến đây cầm huy chương đồng để mời thủ lĩnh giáo phái của bạn đến đảo của chúng tôi để trò chuyện và uống một bát cháo Laba.", "talkname42", 0);
 ScenceFromTo(29, 17, 29, 24);
 jyx2_CameraFollowPlayer();
-Talk(0, "＜搞不好侠客岛上有线索？不是有本书与“侠”字有关联吗？＞", "talkname0", 1);
+Talk(0, "＜Có lẽ có manh mối trên đảo Xiake? Không có cuốn sách nào liên quan đến từ "xia" sao? ＞", "talkname0", 1);
 WalkFromTo(29, 24, 29, 19);
 jyx2_WalkFromTo(-1,2819);
 SetRoleFace(0);
-Talk(0, "铜牌给我好不好？", "talkname0", 1);
-Talk(41, "恐怕不行，侠客岛所邀请的是各门派的掌门及对武学有特殊见解的武林高手。", "talkname41", 0);
-Talk(0, "那如果我打败他，是不是表示我比他有资格去？", "talkname0", 1);
-Talk(43, "哪里来的小娃儿，敢在我凌霄城撒野。", "talkname43", 0);
+Talk(0, "Bạn có thể cho tôi huy chương đồng được không?", "talkname0", 1);
+Talk(41, "Tôi e là không, đảo Xiake mời là những người đứng đầu các giáo phái và các cao thủ võ thuật có hiểu biết đặc biệt về võ thuật.", "talkname41", 0);
+Talk(0, "Vậy nếu tôi đánh bại anh ta, điều đó có nghĩa là tôi có tư cách hơn anh ta?", "talkname0", 1);
+Talk(43, "Đứa nhỏ này ở đâu dám chạy lung tung trong thành Lăng Tiêu của chúng ta?", "talkname43", 0);
 if TryBattle(59) == true then goto label0 end;
     Dead();
     do return end;
 ::label0::
     LightScence();
-    Talk(0, "前辈，承让了！", "talkname0", 1);
-    Talk(43, "哼！白某无话可说，也无脸去喝这腊八粥。", "talkname43", 0);
-    Talk(41, "好！这位兄弟，十二月初八，请到侠客岛喝碗腊八粥。", "talkname41", 0);
+    Talk(0, "Tiền bối, tôi chấp nhận!", "talkname0", 1);
+    Talk(43, "khịt mũi! Bai không còn gì để nói và không xấu hổ khi uống cháo Laba.", "talkname43", 0);
+    Talk(41, "Tốt! Anh em hãy đến đảo Xiake ăn một bát cháo Laba vào ngày 8 tháng 12.", "talkname41", 0);
     DarkScence();
     jyx2_ReplaceSceneObject("", "NPC/shizhe1", "");--使者离开
     jyx2_ReplaceSceneObject("", "NPC/shizhe2", "");--使者离开

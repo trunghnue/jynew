@@ -2,6 +2,6 @@ if UseItem(186) == true then goto label0 end;
     do return end;
 ::label0::
     AddItemWithoutHint(186, -1);
-    Talk(74, "我这有两个宝箱，内藏珍贵的宝物。不过可惜的是两个箱子的钥匙都不见了，你如果能找到钥匙并打开的话，里面的宝物就送给你。我记得那两只钥匙的颜色是“金”和“黄”。", "talkname74", 0);
+    Talk(74, "Tôi có hai rương kho báu chứa những báu vật quý giá. Nhưng thật không may, chìa khóa của cả hai chiếc hộp đều bị mất, nếu bạn tìm được chìa khóa và mở được chúng thì kho báu bên trong sẽ được trao cho bạn. Tôi nhớ màu sắc của hai phím là “vàng” và “vàng”.", "talkname74", 0);
     Add3EventNum(-2, 1, 0, 1, -1)
 do return end;

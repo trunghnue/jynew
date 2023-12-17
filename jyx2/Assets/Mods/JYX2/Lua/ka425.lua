@@ -1,4 +1,4 @@
-Talk(65, "阁下远道来此，不知有何贵事？", "talkname65", 0);
-Talk(0, "在下特来求见段皇爷，相烦大师通报。", "talkname0", 1);
-Talk(65, "段皇爷早已不在尘世，累阁下空走一趟。", "talkname65", 0);
+Talk(65, "Thưa ngài, ngài đã đến tận đây rồi, việc quan trọng của ngài là gì?", "talkname65", 0);
+Talk(0, "Tôi đến đây để gặp Hoàng đế Duẩn và thông báo cho bạn.", "talkname0", 1);
+Talk(65, "Đoàn vương không còn ở thế gian này nên phải ra đi trong vô vọng.", "talkname65", 0);
 do return end;

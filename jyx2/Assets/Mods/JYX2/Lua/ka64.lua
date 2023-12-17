@@ -1,10 +1,10 @@
 if InTeam(9) == true then goto label0 end;
-    Talk(0, "前辈，别来无恙？", "talkname0", 1);
-    Talk(13, "哼！你又来做什么。", "talkname13", 0);
+    Talk(0, "Tiền bối, anh ổn chứ?", "talkname0", 1);
+    Talk(13, "khịt mũi! Bạn đang làm gì nữa vậy?", "talkname13", 0);
     do return end;
 ::label0::
 -- jyx2_ReplaceSceneObject("", "NPC/zhangwuji", "1"); 
-    Talk(9, "义父，你跟我们一起回中土吧。", "talkname9", 1);
-    Talk(13, "你过的很好，义父就很高兴了。义父还要待在这思考对付成昆的办法，你走吧。记着，闯荡江湖千万要提防小人，就算是自己的师父，义兄都一样。", "talkname13", 0);
+    Talk(9, "Cha nuôi, xin hãy quay lại Trung Địa với chúng tôi.", "talkname9", 1);
+    Talk(13, "Bạn đang sống một cuộc sống tốt đẹp và cha nuôi của bạn sẽ rất hạnh phúc. Cha nuôi còn phải ở lại đây suy nghĩ nên đối phó Trình Khôn như thế nào, ngươi có thể đi. Hãy nhớ rằng, khi du hành trên thế giới, bạn phải đề phòng những kẻ hung ác, thậm chí là chủ nhân hoặc người anh em kết nghĩa của chính mình.", "talkname13", 0);
 -- jyx2_ReplaceSceneObject("", "NPC/zhangwuji", ""); 
 do return end;

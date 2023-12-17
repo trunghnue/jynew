@@ -1,9 +1,9 @@
-Talk(1, "小兄弟，到此寒天雪地，不知有何指教？", "talkname1", 0);
-Talk(0, "请问你是胡斐胡大哥吗？", "talkname0", 1);
-Talk(1, "正是在下。", "talkname1", 0);
-Talk(0, "听说大哥外号“雪山飞狐”，刀法变幻莫测，轻功也有如飞天狐狸般的敏捷。", "talkname0", 1);
-Talk(1, "敢情你是来考较我功夫的，那就动手吧！", "talkname1", 0);
-Talk(0, "不是的，我来是想问你有关一本书的下落……", "talkname0", 1);
-Talk(1, "哼！又是来找《雪山飞狐》的狂妄小子。废话休说，动手吧！", "talkname1", 0);
+Talk(1, "Em ơi, anh ở đây trời lạnh và có tuyết, em có lời khuyên gì?", "talkname1", 0);
+Talk(0, "Bạn có phải là anh Hu Feihu?", "talkname0", 1);
+Talk(1, "Nó ở dưới đó.", "talkname1", 0);
+Talk(0, "Tôi nghe nói anh cả của tôi có biệt danh là "Snow Mountain Flying Fox" vì kiếm kỹ của anh ấy khó đoán và kỹ năng ánh sáng của anh ấy nhanh nhẹn như một con cáo bay.", "talkname0", 1);
+Talk(1, "Tôi cá là bạn đến đây để kiểm tra kung fu của tôi, vì vậy hãy tiếp tục và làm điều đó!", "talkname1", 0);
+Talk(0, "Không, tôi đến đây để hỏi bạn về nơi cất giữ một cuốn sách...", "talkname0", 1);
+Talk(1, "khịt mũi! Chính là cậu bé kiêu ngạo lại đến xem "Snowy Mountain Flying Fox". Đừng nói nhảm nữa, hãy làm đi!", "talkname1", 0);
 ModifyEvent(-2, -2, -2, -2, 2, -2, -2, -2, -2, -2, -2, -2, -2);
 do return end;

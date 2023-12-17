@@ -1,2 +1,2 @@
-Talk(114, "有问题是不是？那我就再跟你讲一些游戏的基本知识。你如果想知道人物目前的身体情况，在任何时间皆可由选单中“状态”栏查出。", "talkname114", 0);
+Talk(114, "Có vấn đề gì không? Sau đó tôi sẽ kể cho bạn một số kiến thức cơ bản về trò chơi. Nếu bạn muốn biết tình trạng thể chất hiện tại của nhân vật, bạn có thể kiểm tra nó bất cứ lúc nào từ cột "Trạng thái" trong menu.", "talkname114", 0);
 do return end;

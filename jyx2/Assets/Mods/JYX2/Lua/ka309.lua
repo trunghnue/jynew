@@ -1,2 +1,2 @@
-Talk(86, "我是“青城四秀”中的侯人雄。师父常说五岳剑派算什么，等到我们拿到“辟邪剑谱”后，就要他们好看。", "talkname86", 0);
+Talk(86, "Tôi là Hầu Nhân Hùng trong "Tứ diễn ở Thanh Thành". Sư phụ thường nói Ngũ Sơn Kiếm Phái chẳng là gì cả, một khi có được "Tà Kiếm Cẩm nang" chúng ta sẽ làm cho chúng đẹp đẽ.", "talkname86", 0);
 do return end;

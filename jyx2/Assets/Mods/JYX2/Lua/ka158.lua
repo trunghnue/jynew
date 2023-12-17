@@ -1,2 +1,2 @@
-Talk(5, "少侠武功已到如此境界，老朽也没什么好教你的了。", "talkname5", 0);
+Talk(5, "Võ công của hiệp sĩ trẻ đã đạt đến trình độ đến mức tôi không còn gì để dạy bạn nữa.", "talkname5", 0);
 do return end;

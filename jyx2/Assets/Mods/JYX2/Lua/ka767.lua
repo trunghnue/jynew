@@ -2,6 +2,6 @@ if UseItem(186) == true then goto label0 end;
     do return end;
 ::label0::
     AddItemWithoutHint(186, -1);
-    Talk(74, "第三个宝藏是大燕宝藏。相传是大燕国为了以后复国用所埋藏的。传说当年负责埋藏的军队是顺着长江而下，所以一般的猜测是埋藏在“长江沿岸”。照我的研究是在……（３４２，３０２）附近。", "talkname74", 0);--x,y坐标故意说反
+    Talk(74, "Kho báu thứ ba là kho báu Dayan. Theo truyền thuyết, nó được bang Dayan chôn cất với mục đích khôi phục đất nước trong tương lai. Truyền thuyết kể rằng đội quân chịu trách nhiệm chôn cất đã xuôi theo sông Dương Tử nên suy đoán chung là nó được chôn "dọc theo sông Dương Tử". Theo tìm hiểu của tôi thì nó gần... (342, 302).", "talkname74", 0);--x,y坐标故意说反
     Add3EventNum(-2, 1, 0, 1, -1)
 do return end;

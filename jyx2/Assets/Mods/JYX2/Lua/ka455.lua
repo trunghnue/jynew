@@ -1,9 +1,9 @@
-Talk(95, "很抱歉，敝教丘掌门现正闭关中，重阳宫恕不接客。", "talkname95", 0);
+Talk(95, "Rất tiếc, giáo chủ của chúng tôi hiện đang tĩnh tâm, cung điện Sùng Dương sẽ không tiếp khách.", "talkname95", 0);
 if AskBattle() == true then goto label0 end;
-    Talk(0, "真是不巧，那只好改天再登门拜访了。", "talkname0", 1);
+    Talk(0, "Thật đáng tiếc, tôi sẽ phải đến thăm vào một ngày khác.", "talkname0", 1);
     do return end;
 ::label0::
-    Talk(0, "那只好得罪了，因为里面搞不好有我要的东西。", "talkname0", 1);
+    Talk(0, "Tôi không còn cách nào khác ngoài cảm thấy bị xúc phạm, bởi vì có thể có thứ gì đó tôi muốn ở trong đó.", "talkname0", 1);
     if TryBattle(73) == true then goto label1 end;
         Dead();
         do return end;

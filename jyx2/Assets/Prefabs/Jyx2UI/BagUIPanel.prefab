@@ -80,7 +80,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6D88\u8017\u54C1"
+  m_Text: Cost
 --- !u!114 &5630688058768787777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -519,7 +519,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u4F7F \u7528"
+  m_Text: "S\u1EED d\u1EE5ng"
 --- !u!114 &3748204647788614164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -641,7 +641,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u88C5\u5907"
+  m_Text: Equipment
 --- !u!114 &8335559405831293969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -785,7 +785,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6697\u5668"
+  m_Text: Hidden weapon
 --- !u!114 &1947885471427868169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -891,10 +891,19 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
+    m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.3
-  m_Text: "<size=35><color=#FFDB00>\u4EBA\u53C2</color></size>\n\u5929\u7136\u7684\u8865\u54C1\uFF0C\u6700\u9002\u5408\u7096\u6C64\n\n<size=28><color=#FFDB00>\u6548\u679C</color></size>\n\u8840\u91CF:+10\n\u5185\u529B:+10\n\n<size=28><color=#FFDB00>\u4F7F\u7528\u8981\u6C42</color></size>\n\u8D44\u8D28:30\n\u4F53\u529B:30\n\n<size=28><color=#FFDB00>\u9700\u8981\u6750\u6599</color></size>\n\u8D44\u8D28:30\n\u4F53\u529B:30\n\n<size=28><color=#FFDB00>\u9700\u8981\u7269\u54C1</color></size>\n\u8D44\u8D28:30\n\u4F53\u529B:30\n\n<size=28><color=#FFDB00>\u7EC3\u51FA</color></size>\n\u4E5D\u9634\u767D\u9AA8\u722A"
+  m_Text: "<size=35><color=#FFDB00>Nh\xE2n s\xE2m</color></size>\nB\u1ED5 sung t\u1EF1
+    nhi\xEAn, t\u1ED1t nh\u1EA5t \u0111\u1EC3 n\u1EA5u s\xFAp\n\n<size=28><color=#FFDB00>Hi\u1EC7u
+    \u1EE9ng</color></size>\nHP: +10\nN\u1ED9i l\u1EF1c: +10\n\n<size=28><color=#FFDB00>Y\xEAu
+    c\u1EA7u s\u1EED d\u1EE5ng</color></size>\nTr\xECnh \u0111\u1ED9 chuy\xEAn m\xF4n:30\nS\u1EE9c
+    ch\u1ECBu \u0111\u1EF1ng:30\n\n<size=28><color=#FFDB00>V\u1EADt li\u1EC7u c\u1EA7n
+    thi\u1EBFt</color></size>\nTr\xECnh \u0111\u1ED9 chuy\xEAn m\xF4n:30\nS\u1EE9c
+    ch\u1ECBu \u0111\u1EF1ng:30\n\n<size=28><color=#FFDB00>C\u1EA7n v\u1EADt ph\u1EA9m</color></size>\nTr\xECnh
+    \u0111\u1ED9 chuy\xEAn m\xF4n:30\nS\u1EE9c ch\u1ECBu \u0111\u1EF1ng:30\n\n<size=28><color=#FFDB00>th\u1EF1c
+    h\xE0nh</color></size>\nM\xF3ng vu\u1ED1t x\u01B0\u01A1ng tr\u1EAFng C\u1EEDu
+    \xC2m"
 --- !u!114 &8312521040195762380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1876,7 +1885,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7ECF\u4E66"
+  m_Text: Book
 --- !u!114 &9074481482686099772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2708,7 +2717,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5173 \u95ED"
+  m_Text: "\u0110\xF3ng"
 --- !u!114 &6888853005189210219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3152,7 +3161,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5168\u90E8"
+  m_Text: All
 --- !u!114 &6066682903096326940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3396,7 +3405,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u9053\u5177"
+  m_Text: Item
 --- !u!114 &1186578151516152483
 MonoBehaviour:
   m_ObjectHideFlags: 0

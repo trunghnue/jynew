@@ -1,2 +1,2 @@
-Talk(34, "少侠请回吧，我不会和你动手的。", "talkname34", 0);
+Talk(34, "Anh hùng trẻ tuổi, xin hãy quay lại, tôi sẽ không tranh giành với anh.", "talkname34", 0);
 do return end;

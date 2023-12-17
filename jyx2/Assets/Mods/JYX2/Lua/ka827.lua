@@ -1,2 +1,2 @@
-Talk(74, "别把智慧果浪费在那老头子身上，年纪大了就想靠那果子保住智慧。还是把智慧果给我吧，我可以告诉你武林中的大秘密。", "talkname74", 0);
+Talk(74, "Đừng lãng phí trái trí tuệ cho ông già đó và hãy dựa vào quả trí tuệ để giữ gìn trí tuệ khi về già. Chỉ cần cho tôi quả trí tuệ, tôi có thể kể cho bạn nghe những bí mật lớn trong thế giới võ thuật.", "talkname74", 0);
 do return end;

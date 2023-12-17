@@ -1,12 +1,20 @@
-Talk(111, "来，来，来，来看看有什么需要的，我这应有尽有。这位小哥，看看有什么需要的，我小宝卖的东西价钱绝对公道。", "talkname111", 0);
-Talk(0, "哇！你这好多东西。小宝兄，你真有办法。", "talkname0", 1);
-Talk(111, "哪里哪里，小爷过奖了。我的功夫不好，要在这江湖上混，只得想办法到处弄点好东西，在各地客栈兜售，以此维生。", "talkname111", 0);
-Talk(0, "不知兄台如何称呼？", "talkname0", 1);
-Talk(111, "我叫韦……别这么别扭，你就叫我小宝好了。记着，如果有什么需要的，到各地的客栈找我就对了。不过我不一定会待在哪个客栈，你得碰碰运气。", "talkname111", 0);
+Talk(111,
+    "Đến đây, đến đây, đến đây, hãy xem có gì cần không, ở đây tôi có đủ mọi thứ. Anh em này, xem có gì cần không, những thứ mà tôi bán đều có giá cả hoàn toàn hợp lý.",
+    "talkname111", 0);
+Talk(0, "Wow! Anh có nhiều đồ thế. Ông Bảo, anh thật là có mánh khéo.", "talkname0", 1);
+Talk(111,
+    "Ở đâu ở đó, anh em đừng nói quá lời. Kỹ thuật võ của tôi không tốt, muốn sống sót trên giang hồ này, chỉ có cách nghĩ ra cách kiếm được những thứ tốt, rồi rải rác bán ở các tiệm trên khắp nơi, từ đó kiếm sống.",
+    "talkname111", 0);
+Talk(0, "Không biết anh em tên gì?", "talkname0", 1);
+Talk(111,
+    "Tôi tên là Vệ... đừng gọi khó khăn như vậy, anh có thể gọi tôi là Ông Bảo. Nhớ rằng, nếu có điều gì cần, hãy tìm tôi ở các tiệm trên khắp nơi. Nhưng tôi không nhất định sẽ ở lại ở đó, anh cần phải may mắn một chút.",
+    "talkname111", 0);
 ModifyEvent(-2, -2, -2, -2, 938, -1, -1, -2, -2, -2, -2, -2, -2);
 ModifyEvent(-2, 17, 0, 0, -1, -1, 939, -1, -1, -1, -2, -2, -2);
 ModifyEvent(-2, 18, 0, 0, -1, -1, 939, -1, -1, -1, -2, -2, -2);
---参考原作, 对话后应该直接打开商店页面。但由于目前逻辑问题，需要另外触发trigger才能打开商店页面。
---add by eaphone at 2021/6/8
+-- Tham chiếu từ bản gốc, sau cuộc trò chuyện, nên mở trực tiếp trang cửa hàng. Nhưng do vấn đề logic hiện tại, cần kích hoạt trigger khác để mở trang cửa hàng.
+-- Thêm bởi eaphone vào ngày 8/6/2021
 WeiShop()
-do return end;
+do
+    return
+end

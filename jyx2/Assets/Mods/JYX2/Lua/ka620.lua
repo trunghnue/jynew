@@ -1,9 +1,9 @@
-Talk(112, "这位少侠，远道而来，不知有何贵事。", "talkname112", 0);
-Talk(0, "＜哇！这马子正点＞哦！没什么事，我等旅游各地，为的是找几本书，路过这里，想进来碰碰运气。不过刚刚进来时，好像听他们在讲，你们也在找书，叫什么……", "talkname0", 1);
-Talk(112, "是我回族圣物可兰经。此书是本族祖传之物，得自回教圣地麦加，数十代都是由首领珍重保管，乃本族圣物。不料前些日子金轮法王趁我父亲远出之际，竟将经书抢了过去，说要献给朝廷，以此为挟，控制我回人。因此我率领了本族勇士，想从金轮法王那儿将经书抢夺回来，但那家伙实在太厉害了，三番两次都被他打了回来。", "talkname112", 0);
-Talk(0, "是吗？此事包在我身上．我替姑娘将那可兰经要回来。", "talkname0", 1);
-Talk(112, "少侠若肯帮忙，我霍青桐代全族人向少侠谢谢。但还请少侠小心，那和尚功夫厉害的紧。", "talkname112", 0);
-Talk(0, "＜为你赴汤蹈火在所不惜＞我会小心的。", "talkname0", 1);
+Talk(112, "Vị anh hùng trẻ tuổi này từ xa đến, không biết anh ta có việc quan trọng gì.", "talkname112", 0);
+Talk(0, "<Chà! Con ngựa này nói đúng rồi＞Ồ! Không có chuyện gì xảy ra, tôi đang đi loanh quanh tìm sách, đi ngang qua đây muốn thử vận may. Nhưng lúc mới vào, tựa hồ nghe được bọn họ nói chuyện, ngươi cũng đang tìm sách, tên là gì...", "talkname0", 1);
+Talk(112, "Đó là thánh tích của người Hồi của tôi, kinh Koran. Cuốn sách này là báu vật tổ tiên của bộ tộc này, được lấy từ Mecca, thánh địa của đạo Hồi, được các thủ lĩnh trân trọng và lưu giữ qua hàng chục thế hệ. Nó là báu vật thiêng liêng của bộ tộc này. Không ngờ cách đây mấy ngày, Pháp Vương Kim Luân đã lợi dụng sự vắng mặt của cha tôi mà giật kinh điển, nói sẽ trình lên triều đình, dùng uy hiếp để kiểm soát việc tôi trở về. Vì vậy, tôi đã dẫn đầu các chiến binh của mình và cố gắng giành lại kinh thánh từ vua Jinlun, nhưng tên đó mạnh đến mức tôi đã bị hắn đánh trả ba lần.", "talkname112", 0);
+Talk(0, "Vâng? Chuyện này do tôi lo liệu. Tôi đã lấy lại kinh Koran cho cô gái.", "talkname0", 1);
+Talk(112, "Nếu Thiếu Anh Hùng chịu giúp đỡ, tôi, Hoắc Thanh Đồng, thay mặt toàn tộc cảm ơn Thiếu Anh Hùng. Nhưng hãy cẩn thận nhé anh hùng trẻ tuổi, nhà sư đó có kung fu rất giỏi.", "talkname112", 0);
+Talk(0, "＜Tôi sẽ vượt qua lửa và nước vì bạn＞Tôi sẽ cẩn thận.", "talkname0", 1);
 ModifyEvent(-2, -2, -2, -2, 621, 622, -1, -2, -2, -2, -2, -2, -2);--by fanyu|启动脚本621,622。场景17-编号0
 ModifyEvent(-2, 1, -2, -2, 625, -1, -1, -2, -2, -2, -2, -2, -2);--by fanyu|启动脚本625。场景17-编号1
 ModifyEvent(-2, 2, -2, -2, 625, -1, -1, -2, -2, -2, -2, -2, -2);--by fanyu|启动脚本621,622。场景17-编号2

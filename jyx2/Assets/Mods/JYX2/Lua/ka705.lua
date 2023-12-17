@@ -2,6 +2,6 @@ if UseItem(186) == true then goto label0 end;
     do return end;
 ::label0::
     AddItemWithoutHint(186, -1);
-    Talk(73, "资质好坏并没有关系，只要你肯用心练武，一样可以成为大侠。桃花岛的郭靖就是一例，虽然资质不好，一样成为一代大侠。而且有时候很好用的功夫反而要资质不好的人才练的成呢。例如老顽童周伯通有套武功“左右互搏之术”，修练后可连续攻击两次。而修练这门功夫的条件就是资质不能太好。", "talkname73", 0);
+    Talk(73, "Tư chất tốt hay kém không quan trọng, chỉ cần chịu khó luyện võ, bạn vẫn có thể trở thành anh hùng. Quách Tĩnh ở Đảo Đào Hoa là một ví dụ, dù trình độ kém nhưng vẫn trở thành một anh hùng vĩ đại. Hơn nữa, đôi khi những kung fu rất hữu ích chỉ có thể được luyện tập bởi những người có trình độ kém. Ví dụ như cậu bé nghịch ngợm Chu Bá Thông có một bộ võ công “kỹ thuật đánh nhau từ trái sang phải”, sau khi luyện tập có thể tấn công hai lần liên tiếp. Điều kiện tiên quyết để rèn luyện kỹ năng này là trình độ của bạn không được quá tốt.", "talkname73", 0);
     Add3EventNum(-2, 0, 0, 1, -1)
 do return end;

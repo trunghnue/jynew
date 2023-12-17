@@ -1,19 +1,19 @@
-Talk(61, "怎样，想通了吗。", "talkname61", 0);
+Talk(61, "Cái gì, bạn đã tìm ra nó chưa?", "talkname61", 0);
 if AskJoin () == true then goto label0 end;
-    Talk(0, "不行，我还是想当个大侠，不肖与你这个人为伍。", "talkname0", 1);
-    Talk(61, "真是可惜，本来还想跟你研究研究“床上功夫”呢。", "talkname61", 0);
+    Talk(0, "Không, anh vẫn muốn làm anh hùng, và anh không xứng đáng ở bên em.", "talkname0", 1);
+    Talk(61, "Thật đáng tiếc, vốn dĩ tôi muốn học "kỹ năng giường chiếu" với bạn.", "talkname61", 0);
     do return end;
 ::label0::
-    Talk(0, "好吧，那我们就一起称霸武林吧。反正有句名言不是说“好人早死，坏人较长命”。", "talkname0", 1);
+    Talk(0, "Được rồi, chúng ta hãy cùng nhau thống trị võ thuật. Dù sao, có một câu nói nổi tiếng là “người tốt chết sớm, người xấu sống lâu”.", "talkname0", 1);
     if JudgeFemaleInTeam() == true then goto label1 end;
-        Talk(61, "不行，不行，我们同伴中没有女的我会受不了，等你找到女的再说。", "talkname61", 0);
+        Talk(61, "Không, không, tôi sẽ không thể chịu đựng được nếu trong số bạn đồng hành của chúng ta không có phụ nữ, hãy đợi cho đến khi bạn tìm được một phụ nữ.", "talkname61", 0);
         do return end;
 ::label1::
         if TeamIsFull() == false then goto label2 end;
-            Talk(61, "你的队伍已满，我无法加入。", "talkname61", 0);
+            Talk(61, "Nhóm của bạn đã đầy đủ và tôi không thể tham gia.", "talkname61", 0);
             do return end;
 ::label2::
-            Talk(61, "走吧，再去找一些邪恶的人来加入。", "talkname61", 0);
+            Talk(61, "Hãy tiếp tục và tìm thêm một số người ác để tham gia.", "talkname61", 0);
             DarkScence();
             jyx2_ReplaceSceneObject("", "NPC/欧阳克", "");--欧阳克加入队伍
             jyx2_ReplaceSceneObject("", "NPC/欧阳克婢女", "");

@@ -1,3 +1,3 @@
-Talk(84, "华山……不……不……我五岳派的师哥，到嵩山来不知有何贵事？", "talkname84", 0);
-Talk(0, "没事没事，我随便逛逛。", "talkname0", 1);
+Talk(84, "Hoa Sơn... Không... Không... Sư huynh của ta Ngũ Thánh Sơn Phái, tại sao lại muốn tới Tung Sơn Sơn?", "talkname84", 0);
+Talk(0, "Không sao đâu, tôi sẽ đi dạo một lát.", "talkname0", 1);
 do return end;

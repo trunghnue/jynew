@@ -1,25 +1,25 @@
 jyx2_WalkFromTo(-1,87);
 SetRoleFace(1);
-Talk(19, "少侠，老夫听说你独自攻上这黑木崖来，特别率我五岳派门徒赶上来帮你。东方不败那魔头呢？", "talkname19", 0);
-Talk(0, "唉！你们怎么跟电影剧情一样，事情都结束后才出现。东方不败那个变态家伙，已经被我“干掉”了。", "talkname0", 1);
-Talk(19, "真是如此！少侠又替我武林正派立了一项大功。", "talkname19", 0);
-Talk(0, "哪里，哪里。", "talkname0", 1);
-Talk(19, "那不知少侠是否有看到一本书？", "talkname19", 0);
-Talk(0, "什么书？", "talkname0", 1);
-Talk(19, "《笑傲江湖》！", "talkname19", 0);
-Talk(0, "当然有啊！我辛苦了半天，还不都是为了它。任老头将它送给我了。", "talkname0", 1);
-Talk(19, "这又是另一项功劳了。少侠真当为我武林同道所敬仰。此书乃是我五岳剑派许多前辈当年拼命所得到的，后来不幸被魔教夺去。我五岳派这几年发奋图强，与魔教周旋到底，为的就是将此书夺回。想不到今日少侠大显神威，从魔教手中将此书夺回，我五岳派全体上下无限感激。现在就请少侠将此书还与我五岳派。", "talkname19", 0);
-Talk(0, "＜说了半天，原来也是想要《笑傲江湖》这本书＞不过据我所知，这本书的原主人也不是五岳剑派的人。你们前辈只是暂时得到过。今天，我的任务就是要将这些书送回原处，你们以后也不用再为此烦心。更何况这书也不是你们想像中的什么高深武功秘笈，它只不过是本故事书罢了。", "talkname0", 1);
-Talk(19, "莫非，少侠是想将此书占为己有。还是你已与魔教勾结了？", "talkname19", 0);
-Talk(0, "岳先生，你别给我乱安罪名了。这书真的不是你们想像中的什么高深武功秘笈，它只不过是本故事书罢了。", "talkname0", 1);
-Talk(19, "看来少侠入魔已深，非得要逼我们动手不可。", "talkname19", 0);
-Talk(0, "我看是你岳不群入魔已深。那日嵩山大会上我就有点被“耍”的感觉。今天，你为了抢这本《笑傲江湖》又想不择手段。今日你怎会突然出现，分明就是早已算计好的，想等我跟东方不败鹬蚌相争，你好来个渔翁得利。我看你不是“君子剑”，分明是个“伪君子”！", "talkname0", 1);
-Talk(19, "你……你说什么！", "talkname19", 0);
+Talk(19, "Anh hùng trẻ tuổi, ta nghe nói ngươi một mình tấn công Blackwood Cliff, nên đặc biệt dẫn đệ tử của ta từ Ngũ Thánh Sơn chạy tới giúp đỡ ngươi. Ác quỷ Đông Phương Bất Bại ở đâu?", "talkname19", 0);
+Talk(0, "Tốt! Sao các người cứ như cốt truyện của một bộ phim, chỉ xuất hiện sau khi mọi chuyện đã kết thúc. Tên biến thái Đông Phương Bất Bại đó đã bị tôi “giết chết”.", "talkname0", 1);
+Talk(19, "Rất đúng! Người anh hùng trẻ tuổi đã có một đóng góp to lớn khác cho môn phái võ thuật của tôi.", "talkname19", 0);
+Talk(0, "Ở đâu, ở đâu.", "talkname0", 1);
+Talk(19, "Không biết anh hùng trẻ tuổi đã đọc sách chưa?", "talkname19", 0);
+Talk(0, "sách gì?", "talkname0", 1);
+Talk(19, ""Người đánh kiếm"!", "talkname19", 0);
+Talk(0, "Tất nhiên là có! Tôi đã làm việc chăm chỉ trong một thời gian dài và không phải tất cả đều có được. Ông già Ren đã đưa nó cho tôi.", "talkname0", 1);
+Talk(19, "Đây là một thành tựu khác. Người anh hùng trẻ tuổi thực sự được các đồng nghiệp võ thuật của tôi kính trọng. Cuốn sách này hồi đó rất nhiều tiền bối của ta ở Ngũ Sơn Kiếm Phái đã vất vả có được, đáng tiếc sau đó lại bị Yêu Giáo lấy đi. Ta, Ngũ Thánh Giáo, mấy năm nay đã cố gắng chống lại Ma Giáo đến cùng, chỉ để lấy lại cuốn sách này. Không ngờ hôm nay vị anh hùng trẻ tuổi này đã thể hiện sức mạnh của mình và lấy lại cuốn sách này từ tay Ma giáo, tất cả chúng tôi trong Wuyue phái đều vô cùng biết ơn. Bây giờ xin anh hùng trẻ tuổi, xin hãy trả lại cuốn sách này cho Ngũ Sơn Phái của tôi.", "talkname19", 0);
+Talk(0, "<Sau khi nói chuyện hồi lâu, hóa ra tôi cũng muốn cuốn sách "Kiếm Sĩ"> Nhưng theo tôi được biết, chủ sở hữu ban đầu của cuốn sách này không phải là thành viên của Ngũ Sơn Kiếm Phái. Các tiền bối chỉ nhận được nó tạm thời thôi. Hôm nay nhiệm vụ của tôi là trả những cuốn sách này về vị trí ban đầu, để sau này các bạn không phải lo lắng. Hơn nữa, cuốn sách này không phải là bí quyết võ thuật cao cấp như bạn tưởng tượng, nó chỉ là một cuốn truyện.", "talkname0", 1);
+Talk(19, "Chẳng lẽ người anh hùng trẻ tuổi muốn giữ cuốn sách này làm của riêng mình? Hay bạn đã thông đồng với Giáo phái Quỷ?", "talkname19", 0);
+Talk(0, "Anh Yue, đừng buộc tội tôi hỗn loạn. Cuốn sách này thực sự không phải là một cuốn sách bí mật võ thuật cao cấp như bạn tưởng tượng, nó chỉ là một cuốn truyện.", "talkname0", 1);
+Talk(19, "Có vẻ như người anh hùng trẻ tuổi đã bị ám ảnh sâu sắc và buộc phải buộc chúng ta phải hành động.", "talkname19", 0);
+Talk(0, "Tôi nghĩ chính là bạn, Yue Buqun, người bị quỷ ám sâu sắc. Hôm đó tại Hội nghị Songshan, tôi cảm thấy hơi “bị lừa”. Hôm nay, bạn đang cố gắng làm bất cứ điều gì để có được bản sao "Kiếm sĩ" này. Tại sao hôm nay ngươi đột nhiên xuất hiện, rõ ràng là ngươi đã có kế hoạch từ lâu, ngươi là muốn đợi ta cùng Đông Phương Bất Bại Sandpiper và Ngao tranh tài, để ngươi có thể hưởng lợi. Tôi nghĩ bạn không phải là “thanh kiếm của quý ông”, bạn rõ ràng là một “kẻ đạo đức giả”!", "talkname0", 1);
+Talk(19, "Bạn...bạn đã nói gì vậy!", "talkname19", 0);
 if InTeam(35) == false then goto label0 end;
-    Talk(35, "师父，别再执迷下去了。这书的确不是武功秘笈，只是一本普通的书。", "talkname35", 1);
+    Talk(35, "Thầy ơi đừng ám ảnh em nữa. Cuốn sách này quả thực không phải là bí thư võ học, chỉ là một cuốn sách bình thường.", "talkname35", 1);
 ::label0::
-    Talk(0, "岳先生，回头是岸。", "talkname0", 1);
-    Talk(19, "别说这么多的废话，五岳派的人听着，给我杀，今日不留一个活口。", "talkname19", 0);
+    Talk(0, "Anh Yue, đã đến lúc nhìn lại.", "talkname0", 1);
+    Talk(19, "Đừng nói nhảm nhiều như vậy, Ngũ Sơn phái người, nghe đây, giết ta đi, hôm nay sẽ không còn ai sống sót.", "talkname19", 0);
     if TryBattle(56) == true then goto label1 end;
         Dead();
         do return end;
@@ -51,8 +51,8 @@ if InTeam(35) == false then goto label0 end;
         ModifyEvent(-2, 85, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2);--by fanyu 战斗结束，移除敌人， 场景26-编号85
 		jyx2_ReplaceSceneObject("","NPC/五岳剑派弟子","");
         LightScence();
-        Talk(0, "五岳派的各位，今日多有冒犯之处，请多包涵。", "talkname0", 1);
-        Talk(19, "哼！我们走。", "talkname19", 0);
+        Talk(0, "Các thành viên của phái Wuyue, hôm nay tôi đã gây ra rất nhiều tội lỗi, xin hãy tha thứ cho tôi.", "talkname0", 1);
+        Talk(19, "khịt mũi! Đi nào.", "talkname19", 0);
         DarkScence();
         ModifyEvent(-2, 56, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2);--by fanyu 战斗结束，移除敌人， 场景26-编号56
         ModifyEvent(-2, 57, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2);--by fanyu 战斗结束，移除敌人， 场景26-编号57
@@ -61,7 +61,7 @@ if InTeam(35) == false then goto label0 end;
         ModifyEvent(-2, 60, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2);--by fanyu 战斗结束，移除敌人， 场景26-编号60
 		jyx2_ReplaceSceneObject("","NPC/五岳剑派掌门","");
         LightScence();
-        Talk(0, "想不到在找寻这本书的过程中，让我看到人性中为了争权夺利所展现的丑陋面。不管是正派中的左冷禅与岳不群，还是邪派中的任我行与东方不败，都是一样的。", "talkname0", 1);
+        Talk(0, "Không ngờ trong quá trình tìm kiếm cuốn sách này, tôi nhìn thấy mặt xấu xa của bản chất con người là tranh giành quyền lực và lợi lộc. Dù là Zuo Lengchan và Yue Buqun trong chính giáo, hay Nhậm Ngã Hành và Đông Phương Bất Bại trong tà giáo, họ đều giống nhau.", "talkname0", 1);
         ModifyEvent(-2, 87, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2);--by fanyu 战斗结束，移除敌人， 场景26-编号87
         ModifyEvent(-2, 88, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2);--by fanyu 战斗结束，移除敌人， 场景26-编号88
         ModifyEvent(-2, 89, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2);--by fanyu 战斗结束，移除敌人， 场景26-编号89

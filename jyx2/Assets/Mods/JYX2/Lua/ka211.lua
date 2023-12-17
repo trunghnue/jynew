@@ -1,2 +1,2 @@
-Talk(81, "听说左盟主想要将我五岳剑派合并，不知师父是否赞成？", "talkname81", 0);
+Talk(81, "Nghe nói thủ lĩnh của liên minh Zuo muốn sáp nhập Ngũ Sơn Kiếm Phái, không biết Sư phụ có đồng ý không?", "talkname81", 0);
 do return end;

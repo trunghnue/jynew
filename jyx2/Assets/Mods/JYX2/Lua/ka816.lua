@@ -1,2 +1,2 @@
-Talk(114, "有问题是不是？那我就再跟你讲一些游戏的基本知识。在这块大陆上有一些客栈，它们可提供你做适当休息，以回复各种状态。不过都是要收钱的。", "talkname114", 0);
+Talk(114, "Có vấn đề gì không? Sau đó tôi sẽ kể cho bạn một số kiến thức cơ bản về trò chơi. Có một số nhà trọ trên lục địa này có thể cung cấp cho bạn một nơi nghỉ ngơi thích hợp để khôi phục các trạng thái khác nhau. Nhưng tất cả đều phải được trả tiền.", "talkname114", 0);
 do return end;

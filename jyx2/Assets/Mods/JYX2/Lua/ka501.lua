@@ -1,10 +1,10 @@
-Talk(0, "小二哥，你们这龙门客栈生意相当兴隆耶，高朋满座。是不是有啥道地的招牌菜，还是有美艳风骚的老板娘来吸引顾客呢？", "talkname0", 1);
-Talk(106, "这位公子，不瞒你说。从前呢，这龙门客栈的老板的确是个风骚的大美人。可是自从我们老板顶下这店后，生意就一日不如一日。谁叫地处偏僻的西域呢？", "talkname106", 0);
-Talk(0, "可是我看店中客人很多啊！", "talkname0", 1);
-Talk(106, "你不知道吗？最近啊，很多人打东边来，似乎是中原各大门派的人。", "talkname106", 0);
-Talk(0, "他们要去哪儿？", "talkname0", 1);
-Talk(106, "嘘！小声点……我无意间听到一些……他们呢，好像都是六个门派的弟子，此次来到西域，似乎是冲着明教而来，说是什么六大派围攻光明顶来着。", "talkname106", 0);
-Talk(0, "六大派围攻光明顶？", "talkname0", 1);
-Talk(106, "小声点，别惹祸上身了。客倌，我劝你没事就别在这附近逗留，西域最近已成多事之地了。", "talkname106", 0);
+Talk(0, "Anh hai, quán trọ Long Môn của anh làm ăn rất phát đạt, nơi đây đông đúc khách. Có món ăn nào đặc trưng đích thực hay có cô chủ quán nào quyến rũ để thu hút khách hàng?", "talkname0", 1);
+Talk(106, "Chàng trai trẻ này, hãy để tôi nói cho bạn sự thật. Ngày xửa ngày xưa, chủ nhân của quán trọ Long Môn quả thực là một mỹ nhân quyến rũ. Nhưng kể từ khi ông chủ của chúng tôi tiếp quản cửa hàng này, việc kinh doanh ngày càng sa sút. Ai gọi về Miền Tây xa xôi?", "talkname106", 0);
+Talk(0, "Nhưng tôi thấy có rất nhiều khách hàng trong cửa hàng!", "talkname0", 1);
+Talk(106, "bạn không biết là? Gần đây có rất nhiều người từ phía đông tới, hình như là người của các giáo phái khác nhau ở Trung Nguyên.", "talkname106", 0);
+Talk(0, "Họ đang đi đâu vậy?", "talkname0", 1);
+Talk(106, "Suỵt! Cậu nhỏ giọng đi... Ta nghe lỏm được điều gì đó... Bọn họ hình như là đệ tử của sáu giáo phái, lần này đến Tây Vực, bọn họ hình như là đến tấn công Minh giáo, nói rằng sáu giáo phái lớn đang vây hãm Quảng Minh Đỉnh.", "talkname106", 0);
+Talk(0, "Sáu thế lực lớn bao vây Quảng Minh Đỉnh?", "talkname0", 1);
+Talk(106, "Hãy giữ giọng nói nhỏ và đừng gặp rắc rối. Người phục vụ, tôi khuyên anh không nên ở lại đây nếu không có việc gì làm, khu vực phía Tây gần đây đã trở thành một nơi rắc rối.", "talkname106", 0);
 ModifyEvent(-2, -2, -2, -2, 500, -1, -1, -2, -2, -2, -2, -2, -2);
 do return end;

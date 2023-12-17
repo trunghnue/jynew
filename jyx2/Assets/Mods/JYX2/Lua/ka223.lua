@@ -1,2 +1,2 @@
-Talk(82, "刘正风师叔非常喜爱音乐，他曾说过世上最美的乐曲是“广陵散”这部琴谱。但自稽康一死，“广陵散”从此不传。但师叔曾说，这套琴谱在西晋之后固然没有，但西晋之前呢？所以他说，搞不好哪一天他会去挖掘古墓也说不定。你说，刘师叔的想法是不是有点疯狂。", "talkname82", 0);
+Talk(82, "Chú Liu Zhengfeng rất yêu âm nhạc, ông từng nói rằng bản nhạc hay nhất trên thế giới là bản piano "Guangling San". Tuy nhiên, kể từ khi Kỷ Khang qua đời, "Guangling San" đã không được lưu hành kể từ đó. Nhưng chú tôi từng nói rằng bộ ký hiệu âm nhạc này không tồn tại sau thời Tây Tấn, nhưng trước thời Tây Tấn thì sao? Vì thế ông nói, có thể một ngày nào đó ông sẽ đào được một ngôi mộ cổ. Nói cho tôi biết, ý tưởng của sư phụ Lưu có chút điên rồ.", "talkname82", 0);
 do return end;

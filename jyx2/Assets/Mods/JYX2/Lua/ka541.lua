@@ -1,2 +1,2 @@
-Talk(92, "本派最厉害的功夫有三项，第一项是马屁功。此项功夫如不练精，则活不上半天。第二项是法螺功。若不将本门的武功德行大加吹嘘，不但师父瞧你不起，同门之间也必受排挤，无法立足。第三项则是厚颜功。若不是抹杀良心厚颜无耻，又如何练得成马屁与法螺这两大奇功。", "talkname92", 0);
+Talk(92, "Môn phái này có ba loại công phu mạnh nhất, thứ nhất là công phu nịnh nọt. Nếu không rèn luyện tốt kỹ năng này, bạn sẽ không thể sống được nửa ngày. Vật thứ hai là Ốc xà cừ giả. Nếu không khoe khoang võ công và đức hạnh của môn phái mình, không những sư phụ coi thường bạn mà còn bị đồng môn tẩy chay và không thể có được chỗ đứng. Mục thứ ba là kỹ năng không biết xấu hổ. Nếu không xóa bỏ lương tâm và không biết xấu hổ thì làm sao có thể thành thạo hai tuyệt kỹ nịnh nọt và ốc xà cừ.", "talkname92", 0);
 do return end;

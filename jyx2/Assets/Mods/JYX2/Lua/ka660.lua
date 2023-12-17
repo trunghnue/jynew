@@ -1,9 +1,9 @@
-Talk(79, "我说老五啊，天气这么冷，喝这烈酒虽能驱寒，但如能再配上热腾腾的兔肉，那才真是够味呢。", "talkname79", 0);
-Talk(79, "四哥，在这寒天雪地中，上哪找兔肉去？", "talkname79", 4);
-Talk(79, "谁说没有兔子，只是我们功夫不济，抓不到罢了。我曾听人家说，在极北之地有一个很厉害的猎户，轻功极高，在这雪地上猎兔，犹如猎鹰般的快，狠，准。", "talkname79", 0);
-Talk(79, "那还等什么，我们这就上他家去要点兔肉来吃。", "talkname79", 4);
-Talk(79, "你想上他家？我看要等到下辈子了。你知道他住哪吗？他住的地方叫“云鹤崖”，轻功不到家的人根本就上不去。", "talkname79", 0);
-Talk(79, "云鹤崖？他该不会是……", "talkname79", 4);
-Talk(79, "没错，四大恶人之一的云中鹤。", "talkname79", 0);
-Talk(79, "那……那我们还是喝酒就好了。", "talkname79", 4);
+Talk(79, "Tôi nói, lão Ngô, thời tiết lạnh quá, uống loại rượu mạnh này tuy có thể chống rét nhưng nếu có thể kết hợp với thịt thỏ nóng hổi thì sẽ rất ngon.", "talkname79", 0);
+Talk(79, "Tứ đệ, nơi nào có thịt thỏ ở vùng đất lạnh giá đầy tuyết này?", "talkname79", 4);
+Talk(79, "Ai nói không có thỏ, chỉ là chúng ta bắt không tốt mà thôi. Tôi từng nghe có người nói rằng ở phương bắc xa xôi có một thợ săn rất lợi hại, khí công cực cao, có thể săn thỏ trong tuyết nhanh, tàn nhẫn và chính xác như chim ưng.", "talkname79", 0);
+Talk(79, "Vậy còn chờ gì nữa hãy đến nhà anh ấy và gọi món thịt thỏ nhé.", "talkname79", 4);
+Talk(79, "Bạn có muốn đến nhà anh ấy không? Tôi nghĩ phải đợi đến kiếp sau. Bạn có biết anh ấy sống ở đâu không? Nơi hắn ở tên là "Vách đá Vân Hà", người không giỏi Khinh công hoàn toàn không thể lên được.", "talkname79", 0);
+Talk(79, "Vách đá Vân Hà? Phải chăng anh ấy...", "talkname79", 4);
+Talk(79, "Đúng vậy, Vân Trung Hòa, một trong tứ ác.", "talkname79", 0);
+Talk(79, "Vậy thì... tốt hơn chúng ta nên uống.", "talkname79", 4);
 do return end;

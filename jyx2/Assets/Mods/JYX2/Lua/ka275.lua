@@ -1,28 +1,28 @@
 jyx2_ReplaceSceneObject("", "Dynamic/Leave2", "");--by citydream 屏蔽地道入口（强制推进剧情）
 jyx2_SwitchRoleAnimation("NPC/tubiweng", "Assets/BuildSource/AnimationControllers/StandController.controller");
 jyx2_SwitchRoleAnimation("NPC/huangzhonggong", "Assets/BuildSource/AnimationControllers/StandController.controller");
-Talk(0, "四位那么好的闲情逸致聚在这儿，是不是准备打麻将，插花收不收啊？", "talkname0", 1);
-Talk(33, "你这臭小子，看你做了什么好事？还敢在这说风凉话。", "talkname33", 0);
-Talk(34, "我早该知道天底下哪有这么好的事情，原来这一切都是你设计出来的诡计。", "talkname34", 0);
-Talk(32, "你这小子，竟然利用我们所好，实在太可恶了。", "talkname32", 0);
-Talk(0, "你们在那你一言我一句的，唱双簧啊！", "talkname0", 1);
-Talk(32, "小子，你真是太大胆了，竟敢把任老怪给放了，看我饶不饶你！", "talkname32", 0);
-Talk(0, "喂！喂！你们在说什么啊？我还没说你们偷走我那四样宝物，你们就恶人先告状。真是岂有此理，什么态度嘛……况且我哪有放走任前辈……", "talkname0", 1);
-Talk(33, "大哥，别跟这小子啰嗦了，此时再也顾不得什么以老欺小的狗屁道义了。先将这小子捉上黑木崖，向东方教主请罪，否则咱们可就吃不完兜着走了。", "talkname33", 0);
-Talk(34, "好，咱们一起上。", "talkname34", 0);
-Talk(0, "谁怕谁！乌龟怕铁锤！四个一起上最好，省得我麻烦。", "talkname0", 1);
-Talk(31, "小子你找死！", "talkname31", 0);
+Talk(0, "Bốn người tốt bụng như vậy tụ tập ở đây để thư giãn và tận hưởng. Bạn đã sẵn sàng chơi mạt chược và cắm hoa chưa?", "talkname0", 1);
+Talk(33, "Thằng nhãi này, mày đã làm được điều gì tốt thế? Sao bạn dám đưa ra nhận xét mỉa mai ở đây.", "talkname33", 0);
+Talk(34, "Lẽ ra tôi phải biết trên đời có thể có thứ tốt như vậy, nguyên lai tất cả những điều này đều là thủ đoạn do anh nghĩ ra.", "talkname34", 0);
+Talk(32, "Tiểu tử ngươi lại lợi dụng lợi ích của chúng ta, thật là ghê tởm.", "talkname32", 0);
+Talk(0, "Các bạn đang nói chuyện với nhau ở đằng kia, hát một màn kép!", "talkname0", 1);
+Talk(32, "Tiểu tử, ngươi thật to gan, dám thả Ren lão quái vật ra, xem ta có tha cho ngươi không!", "talkname32", 0);
+Talk(0, "Xin chào! Xin chào! Bạn đang nói về cái gì vậy? Ta còn chưa nói ngươi trộm tứ bảo của ta, ngươi là người đầu tiên tố cáo. Điều này thực sự không hợp lý, đây là thái độ gì... Hơn nữa, sao tôi có thể để Nhậm tiền bối đi...", "talkname0", 1);
+Talk(33, "Anh ơi, đừng cằn nhằn đứa trẻ này nữa, lúc này anh không còn quan tâm đến đạo đức nhảm nhí khi bắt nạt trẻ nữa. Đầu tiên, hãy đưa đứa trẻ này lên vách đá Heimu và xin lỗi Giáo chủ phương Đông, nếu không chúng ta sẽ không thể ăn xong và bế nó đi.", "talkname33", 0);
+Talk(34, "Được rồi, chúng ta hãy đi cùng nhau.", "talkname34", 0);
+Talk(0, "Ai sợ ai! Rùa sợ búa! Sẽ tốt nhất nếu cả bốn người họ cùng nhau giải quyết rắc rối cho tôi.", "talkname0", 1);
+Talk(31, "Tiểu tử, ngươi đang tìm cái chết!", "talkname31", 0);
 if TryBattle(47) == true then goto label0 end;
     Dead();
     do return end;
 ::label0::
     LightScence();
-    Talk(32, "小子，你可知你放走的是谁？", "talkname32", 0);
-    Talk(0, "他不是你们请来的打手吗？", "talkname0", 1);
-    Talk(31, "你是真不知还是假不知，你放走了任老怪，就是与东方教主和我日月神教为敌。", "talkname31", 0);
-    Talk(0, "你们是日月神教的？", "talkname0", 1);
-    Talk(33, "不错，我们是奉教主之命，在此看守任老怪的，你居然利用我们的弱点救他出去。", "talkname33", 0);
-    Talk(34, "别说了，得赶紧回黑木崖向东方教主报告这件事。走！", "talkname34", 0);
+    Talk(32, "Này chàng trai, anh có biết mình đã để ai đi không?", "talkname32", 0);
+    Talk(0, "Anh ta không phải là tên côn đồ mà bạn thuê sao?", "talkname0", 1);
+    Talk(31, "Dù bạn thực sự không biết hay bạn không biết, nếu bạn để Ren Old Monster đi, bạn đang trở thành kẻ thù của Giáo phái phương Đông và Giáo phái Nhật Nguyệt Thần.", "talkname31", 0);
+    Talk(0, "Bạn có được Thần Mặt trời và Mặt trăng dạy dỗ không?", "talkname0", 1);
+    Talk(33, "Đúng, chúng tôi được thủ lĩnh ra lệnh canh giữ Ren Lão Quái ở đây, nhưng thực ra bạn đã lợi dụng điểm yếu của chúng tôi để giải cứu hắn.", "talkname33", 0);
+    Talk(34, "Đừng nói nữa, bạn phải quay lại Blackwood Cliff để báo cáo sự việc này với thủ lĩnh của Giáo phái phương Đông. Đi bộ!", "talkname34", 0);
     DarkScence();
 	jyx2_ReplaceSceneObject("", "Dynamic/Leave2", "1");--by citydream 显示地道入口
     ModifyEvent(-2, 20, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2);

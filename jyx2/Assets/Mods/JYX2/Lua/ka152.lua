@@ -1,2 +1,2 @@
-Talk(76, "欢迎阁下来到武当山，请随意参观。若有武学上的疑惑，可与家师讨论。家师定乐于与各位聊聊。", "talkname76", 0);
+Talk(76, "Chào mừng đến với núi Võ Đang, xin mời các bạn ghé thăm. Nếu có nghi ngờ gì về võ thuật, bạn có thể thảo luận với sư phụ của mình. Gia sư sẽ vui vẻ trò chuyện với bạn.", "talkname76", 0);
 do return end;

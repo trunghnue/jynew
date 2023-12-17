@@ -2,6 +2,6 @@ if UseItem(186) == true then goto label0 end;
     do return end;
 ::label0::
     AddItemWithoutHint(186, -1);
-    Talk(73, "在江湖中行走，最要紧的使自己保持在正道之上。江湖是个是非之地，一旦稍微把持不住，就很容易误入歧途。一旦误入歧途，则正道人士将不屑于你，可能就不会加入你的行列。所以勿因小而失大，到处乱拿东西才是。", "talkname73", 0);
+    Talk(73, "Khi bước đi trên thế giới, điều quan trọng nhất là giữ cho mình đi đúng đường. Đấu trường là nơi có đúng sai, một khi mất kiểm soát, bạn rất dễ lạc lối. Một khi bạn lạc lối, những người công chính sẽ coi thường bạn và có thể không tham gia cùng bạn. Vì vậy, đừng đánh mất cái lớn vì cái nhỏ, mà hãy giành lấy những thứ ở đây và ở đó.", "talkname73", 0);
     Add3EventNum(-2, 0, 0, 1, -1)
 do return end;

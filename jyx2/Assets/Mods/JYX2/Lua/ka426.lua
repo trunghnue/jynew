@@ -2,19 +2,19 @@ if UseItem(184) == true then goto label0 end;
     do return end;
 ::label0::
     AddItemWithoutHint(184, -1);
-    Talk(65, "……这是瑛姑给你的吗？她要你来这做什么？", "talkname65", 0);
-    Talk(0, "晚辈想先见到段皇爷。", "talkname0", 1);
-    Talk(65, "段皇爷早不在尘世啦，我现下叫作一灯和尚。", "talkname65", 0);
-    Talk(0, "原来大师就是段皇爷。", "talkname0", 1);
-    Talk(65, "瑛姑叫你拿这手帕来，是要你杀了我吧。", "talkname65", 0);
-    Talk(0, "＜好厉害，竟已知道我的来意＞晚辈实有要事相求于她，但她却以弑杀大师为胁，不知大师跟她有什么恩怨？", "talkname0", 1);
-    Talk(65, "唉！这中间的情由说来话长…………这事原由说起来，还是与华山论剑争夺真经一事有关。那一年全真教主王重阳真人得了真经，与他师弟周伯通前来大理……一日，周师兄撞见我众妃中的刘贵妃正在练武，周兄生性天真烂漫，两人因而讨论起武学来……后来一个教一个学，周师兄血气方刚，贵妃正当妙龄，两人肌肤相接，日久生情，终于闹到了难以收拾的田地…………后来我知道这件事后，就命他们结为夫妇。哪知周兄大叫大嚷，说他决计不干，然后就离宫而去……后来不知如何的受困于桃花岛……但不久之后逃出来……哪知过了一年半后某一晚，刘贵妃抱着一个小孩哭着来找我，我起身一瞧，只见这孩子伤势很重……待我仔细看后，才知道原来是我对头以为孩子是我的，就打伤他，想逼我大耗元气来医疗他……我踌躇良久，见刘贵妃哭的可怜，好几次想开口说要给他医治，但每次想到只要这一出手，日后华山二次论剑，便无望独霸群雄，那九阴真经也就难得手……为了此经，我仁爱之心竟然全丧，一直沉吟了大半个时辰，方始决定为他医治。唉！在这大半个时辰之中，我实在是个禽兽不如的卑鄙小人……哪知我在准备给那孩子医治之时，看见孩子身上裹着一条手帕，正是当初她和周师兄的定情信物，我一怒之下就对她说，这是你们俩生的孩子，我为什么要耗损精力来救活他……后来，这孩子就死了……这事过后，我不饮不食，苦思了三日三夜，终于大彻大悟，将皇位传给我大儿子，就此出家为僧……", "talkname65", 0);
-    Talk(0, "那刘贵妃就是瑛姑吧？", "talkname0", 1);
-    Talk(65, "正是。多年来，她一直想为她的孩子报仇。唉！她何必找人来杀我呢，其实我罪孽深重，我天天等她来将匕首刺入我的心中，了结这场罪恶。", "talkname65", 0);
+    Talk(65, "...Dì Ying đưa cái này cho cậu phải không? Cô ấy muốn bạn làm gì ở đây?", "talkname65", 0);
+    Talk(0, "Tiểu bối muốn gặp Duẩn Đế trước.", "talkname0", 1);
+    Talk(65, "Đoàn vương không còn sống, ta bây giờ gọi là Yideng hòa thượng.", "talkname65", 0);
+    Talk(0, "Thì ra chủ nhân chính là Duẩn Đế.", "talkname0", 1);
+    Talk(65, "Yinggu yêu cầu bạn mang chiếc khăn tay này vì cô ấy muốn bạn giết tôi.", "talkname65", 0);
+    Talk(0, "＜Thật đáng ngạc nhiên, bạn thực sự biết mục đích của tôi＞Đàn em thực sự đã yêu cầu cô ấy một việc quan trọng, nhưng cô ấy lại đe dọa giết chủ nhân, không biết chủ nhân có thù oán gì với cô ấy?", "talkname0", 1);
+    Talk(65, "Tốt! Nguyên nhân của việc này là một câu chuyện dài... Nói đến nguyên nhân ban đầu vẫn liên quan đến cuộc tranh kiếm ở Hoa Sơn để tranh giành chân kinh. Năm đó, thủ lĩnh Toàn Chân Vương Trùng Dương nhận kinh, cùng với em trai Chu Bá Đồng đến Đại Lý... Một ngày nọ, sư huynh Chu tình cờ gặp một trong những thê thiếp của tôi, Lưu Quý Phi, đang luyện võ. Anh Chu bản chất vô tội, Thế là hai người bắt đầu bàn luận võ thuật... Về sau, một người dạy, một người học. Chu anh đang ở thời kỳ hưng thịnh, còn phi tần đang ở thời kỳ hoàng kim, hai người da kề da, và rơi vào lưới tình. yêu nhau đã lâu, cuối cùng tình thế trở nên không thể giải quyết được... Sau này khi biết chuyện tôi đã ra lệnh cho họ cưới nhau. Không ngờ, Chu huynh đệ lớn tiếng hét lên, nói rằng nhất quyết không làm, rồi rời khỏi cung điện... Sau đó, không biết vì lý do gì mà bị mắc kẹt ở Đảo Đào Hoa... nhưng đã sớm trốn thoát... Không ngờ, Một năm rưỡi sau, có một ngày... Buổi tối, Liễu phi ôm một đứa bé trong tay khóc đến, tôi đứng dậy nhìn thì thấy đứa bé bị thương rất nặng... Sau khi nhìn thì thấy đứa bé bị thương rất nặng... Cẩn thận, ta mới nhận ra chính là kẻ thù tưởng đứa nhỏ là của ta, làm nó bị thương, muốn ép ta dùng hết tâm lực để chữa trị cho nó... Ta do dự hồi lâu, thấy Liễu phi khóc lóc thảm thiết, ta muốn Nói muốn trị hắn mấy lần, nhưng mỗi lần đều nghĩ chiêu này sẽ dẫn đến Hoa Sơn lần thứ hai kiếm tranh, không có hy vọng thống trị đám người, cho nên Cửu Âm kinh khó có thể có được.. Đối với cuốn kinh này, tấm lòng nhân từ của tôi đã hoàn toàn mất đi, tôi đã cân nhắc hơn nửa giờ trước khi quyết định chữa trị cho anh ấy. Tốt! Trong hơn nửa giờ, tôi thực sự là một kẻ hèn hạ còn hơn cả dã thú... Không ngờ, khi đang chuẩn bị chữa trị cho đứa trẻ, tôi nhìn thấy một chiếc khăn tay quấn quanh người đứa trẻ, đó là biểu tượng của tình yêu giữa hai người. còn Chu sư huynh, tôi tức giận nói với cô ấy, đây là đứa trẻ do hai người sinh ra, tại sao tôi phải lãng phí sức lực của mình để cứu nó... Sau đó, đứa trẻ đã chết... Sau sự việc này, tôi không uống rượu hoặc ăn uống thì đau khổ, suy nghĩ ba ngày ba đêm, cuối cùng ta đã giác ngộ viên mãn, truyền ngôi cho con trai cả và xuất gia làm tu sĩ...", "talkname65", 0);
+    Talk(0, "Vậy Liễu phi chính là Cố Anh phải không?", "talkname0", 1);
+    Talk(65, "Chính xác. Trong nhiều năm, cô đã muốn trả thù cho con mình. Tốt! Tại sao cô ấy lại tìm người giết tôi? Kỳ thật tôi đã phạm rất nhiều tội lỗi, mỗi ngày tôi đều chờ đợi cô ấy đâm con dao găm vào tim tôi để kết thúc tội lỗi này.", "talkname65", 0);
     ModifyEvent(21, 1, -2, -2, 419, -1, -1, -2, -2, -2, -2, -2, -2);--by fanyu|启动419脚本。场景21-编号01
     ModifyEvent(-2, -2, -2, -2, 427, -1, -1, -2, -2, -2, -2, -2, -2);--by fanyu|启动427脚本。场景47-编号00
     if AskBattle() == true then goto label1 end;
-        Talk(0, "想不到这中间的恩怨是如此复杂。唉！又是“情”字。", "talkname0", 1);
+        Talk(0, "Tôi không ngờ mối bất bình giữa họ lại phức tạp đến vậy. Tốt! Lại là từ “yêu”.", "talkname0", 1);
         do return end;
 ::label1::
         AddEthics(-1);
@@ -28,5 +28,5 @@ if UseItem(184) == true then goto label0 end;
             do return end;
 ::label2::
             LightScence();
-            Talk(65, "阁下还是回去请瑛姑亲自来动手吧，我会在这等她的。", "talkname65", 0);
+            Talk(65, "Tốt nhất cậu nên quay lại và nhờ dì Ying đích thân làm việc đó, tôi sẽ đợi cô ấy ở đây.", "talkname65", 0);
 do return end;

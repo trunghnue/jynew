@@ -1,4 +1,4 @@
-Talk(0, "看来这奇怪的机器就是能带我回家的设备。不知道会不会痛。好了，我要进去了，在此之前，我要说一句话……“再见了，各位金庸笔下的人物，有机会我会再回来这奇妙的武林世界！再见！”", "talkname0", 1);
+Talk(0, "Dường như chiếc máy kỳ lạ này chính là thiết bị có thể đưa tôi về nhà. Tôi không biết liệu nó có đau không. Được rồi, tôi vào trước. Trước đó tôi muốn nói một điều... "Tạm biệt, tất cả các nhân vật trong tác phẩm của Kim Dung. Khi có cơ hội, tôi sẽ quay lại thế giới võ thuật tuyệt vời này! Tạm biệt!"", "talkname0", 1);
 ModifyEvent(-2, -2, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2);
 EndAmination(0, 8054, 8128, 1, 8130, 8204, -1);
 jyx2_PlayTimelineSimple("[Timeline]ka1017_圣堂_小虾米吸入", true, "");

@@ -1,12 +1,12 @@
-Talk(0, "林师父，有件事能不能请你帮个忙。", "talkname0", 1);
-Talk(75, "什么事？", "talkname75", 0);
-Talk(0, "有道菜不知你听过没，能不能帮我做一下。", "talkname0", 1);
-Talk(75, "哪道菜？", "talkname75", 0);
-Talk(0, "“玉笛谁家听落梅”。", "talkname0", 1);
-Talk(75, "“玉笛谁家听落梅”，这不是桃花岛的招牌菜吗。嗯，做这道菜是有点麻烦，不过还难不倒我。", "talkname75", 0);
-Talk(0, "真的！", "talkname0", 1);
-Talk(75, "不过，这菜需要的材料蛮多的，我这边现在也没有。", "talkname75", 0);
-Talk(0, "什么材料，我帮你找去。", "talkname0", 1);
-Talk(75, "好，仔细听着：第一样材料是羊羔坐臀，第二样材料是小猪耳朵，第三样材料是小牛腰子，第四样材料是獐腿肉，最后一样材料是兔肉，总共五种材料。你如果找齐这五种材料后，我就可以帮你做出“玉笛谁家听落梅”这道菜了。", "talkname75", 0);
+Talk(0, "Thầy Lin, em có thể nhờ thầy một việc được không?", "talkname0", 1);
+Talk(75, "Có chuyện gì vậy?", "talkname75", 0);
+Talk(0, "Có một món ăn không biết bạn đã nghe nói đến chưa, bạn có thể giúp tôi làm được không?", "talkname0", 1);
+Talk(75, "Món ăn nào?", "talkname75", 0);
+Talk(0, "“Ai có thể nghe được sáo ngọc và hoa mai rơi?”", "talkname0", 1);
+Talk(75, "“Ai nghe sáo ngọc hoa mận rơi?” Đây không phải là món ăn đặc trưng của đảo Đào Hoa sao? Ừm, làm món này hơi rắc rối một chút nhưng tôi không thấy phiền.", "talkname75", 0);
+Talk(0, "thực tế!", "talkname0", 1);
+Talk(75, "Tuy nhiên, món ăn này đòi hỏi khá nhiều nguyên liệu và hiện tại tôi không có sẵn ở đây.", "talkname75", 0);
+Talk(0, "Tôi sẽ tìm tài liệu cho bạn.", "talkname0", 1);
+Talk(75, "Được rồi, nghe kỹ: nguyên liệu thứ nhất là mông cừu, nguyên liệu thứ hai là tai lợn, nguyên liệu thứ ba là thận bê, nguyên liệu thứ tư là thịt chân hươu, nguyên liệu cuối cùng là thịt thỏ, tổng cộng có năm nguyên liệu. Nếu ngươi tìm được năm nguyên liệu này, ta có thể giúp ngươi làm món ăn "Gia đình nghe Lạc Mai thổi sáo ngọc".", "talkname75", 0);
 ModifyEvent(-2, -2, -2, -2, 676, -1, -1, -2, -2, -2, -2, -2, -2);--by fanyu 启动脚本676 场景32-编号0
 do return end;

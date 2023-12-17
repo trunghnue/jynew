@@ -1,2 +1,2 @@
-Talk(88, "无本教黑木令牌者，不准进入黑木崖。", "talkname88", 0);
+Talk(88, "Những người không có Blackwood Token của giáo phái không được phép vào Blackwood Cliff.", "talkname88", 0);
 do return end;

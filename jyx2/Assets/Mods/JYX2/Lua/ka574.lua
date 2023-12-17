@@ -1,2 +1,2 @@
-Talk(106, "听说明教被一个无名小卒给救了。这事让我充满信心，只要努力练功，小卒子也能变英雄。年轻人，只要你肯努力，相信也能做的到。", "talkname106", 0);
+Talk(106, "Tôi nghe nói Tinh Giao được cứu bởi một người không rõ danh tính. Sự việc này đã cho tôi niềm tin rằng chỉ cần tôi luyện tập chăm chỉ, một con tốt có thể trở thành anh hùng. Các bạn trẻ ơi, chỉ cần các bạn chăm chỉ, tôi tin các bạn sẽ làm được.", "talkname106", 0);
 do return end;

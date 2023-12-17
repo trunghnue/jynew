@@ -1,2 +1,2 @@
-Talk(56, "要成为一个真正的侠客，或是只想拥有高强的武功，就看你自己了。", "talkname56", 0);
+Talk(56, "Việc bạn muốn trở thành một hiệp sĩ thực thụ hay chỉ muốn có kỹ năng võ thuật mạnh mẽ là tùy thuộc vào bạn.", "talkname56", 0);
 do return end;

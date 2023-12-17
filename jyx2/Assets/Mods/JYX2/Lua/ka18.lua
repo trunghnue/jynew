@@ -1,2 +1,2 @@
-Talk(93, "我听人家说，黑龙潭中住着一位神算子，知晓许多神秘的事，甚至还包括“十四天书”呢！不过人家还说，黑龙潭布置奇特，一般人都进不去。", "talkname93", 0);
+Talk(93, "Tôi nghe người ta đồn rằng có một thầy bói sống trong Hắc Long Đàm, người biết rất nhiều điều huyền bí, trong đó có "Mười bốn thiên thư"! Tuy nhiên, người ta cũng cho rằng, Ao Rồng Đen được bố trí độc đáo, người thường không thể vào được.", "talkname93", 0);
 do return end;

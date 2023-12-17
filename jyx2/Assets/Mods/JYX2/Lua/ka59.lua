@@ -1,11 +1,11 @@
 ModifyEvent(-2, 0, -2, -2, -1, -1, -1, -2, -2, -2, -2, -2, -2);
 ModifyEvent(-2, 1, -2, -2, -1, -1, -1, -2, -2, -2, -2, -2, -2);
 ModifyEvent(-2, 3, -2, -2, -1, -1, 62, -2, -2, -2, -2, -2, -2);
-Talk(13, "你是谁？到这冰火岛上做什么？", "talkname13", 0);
-Talk(0, "想不到这冰天雪地的荒岛上竟还有人居住。前辈身体想必甚为健朗。", "talkname0", 1);
-Talk(13, "听你的声音，还只是个年轻小子，你们还有多少帮手，一起出来吧。", "talkname13", 0);
-Talk(0, "听我的声音？莫非前辈视力不是很好。", "talkname0", 1);
-Talk(13, "别以为我谢逊眼睛瞎了就好对付，你们这些想夺屠龙宝刀的贼子，动手吧！", "talkname13", 0);
+Talk(13, "Bạn là ai? Bạn đang làm gì trên Đảo Băng và Lửa này?", "talkname13", 0);
+Talk(0, "Không ngờ, trên hòn đảo hoang phủ đầy băng tuyết này vẫn còn người sinh sống. Người cao tuổi phải có sức khỏe rất tốt.", "talkname0", 1);
+Talk(13, "Nhìn giọng nói của ngươi thì có thể thấy ngươi vẫn chỉ là một cậu bé, có bao nhiêu người giúp đỡ? Cùng nhau ra ngoài.", "talkname13", 0);
+Talk(0, "Hãy lắng nghe giọng nói của tôi? Chẳng lẽ thị lực của tiền bối không tốt lắm sao?", "talkname0", 1);
+Talk(13, "Đừng cho rằng ta, Tạ Huân, bởi vì ta mù quáng dễ dàng đối phó, các ngươi muốn cướp diệt long kiếm, các ngươi làm đi!", "talkname13", 0);
 ModifyEvent(-2, 2, -2, -2, 74, 61, -2, -2, -2, -2, -2, -2, -2);
-Talk(0, "你我无冤无仇，我们干嘛动手。", "talkname0", 1);
+Talk(0, "Bạn và tôi không có bất bình gì, vậy tại sao chúng ta phải làm gì?", "talkname0", 1);
 do return end;

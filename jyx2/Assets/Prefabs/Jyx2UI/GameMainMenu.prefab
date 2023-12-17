@@ -227,7 +227,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u6E38\u620F\u8BBE\u7F6E"
+  m_Text: Setting
 --- !u!114 &3946861829505453387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2183,7 +2183,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u8BF7\u8F93\u5165\u59D3\u540D"
+  m_Text: "Nh\u1EADp t\xEAn"
 --- !u!114 &6644353932156398317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2729,7 +2729,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u8F7D\u5165\u4E2D...."
+  m_Text: "\u0110ang t\u1EA3i...."
 --- !u!114 &3196257772831884245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2913,7 +2913,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5C0F\u867E\u7C73  \u8FD9\u6837\u7684\u5C5E\u6027\u4F60\u6EE1\u610F\u5417?"
+  m_Text: "B\u1EA1n c\xF3 h\xE0i l\xF2ng v\u1EDBi c\xE1c thu\u1ED9c t\xEDnh c\u1EE7a
+    Xiao Xiami kh\xF4ng?"
 --- !u!114 &7290795610831789709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3097,7 +3098,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6EE1\u610F"
+  m_Text: Yes
 --- !u!114 &8967663892443882399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3189,7 +3190,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u8F7D\u5165\u6E38\u620F"
+  m_Text: Load Game
 --- !u!114 &8303834464510239497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3281,7 +3282,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u79BB\u5F00\u6E38\u620F"
+  m_Text: Quit
 --- !u!114 &2633564093638805658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3373,7 +3374,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: Trung
 --- !u!114 &4514152194032750118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3465,7 +3466,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u91CD\u65B0\u5F00\u59CB"
+  m_Text: New Game
 --- !u!114 &6705802972607326539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3557,7 +3558,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u4E0D\u6EE1\u610F"
+  m_Text: No
 --- !u!114 &8019330780374369043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3649,7 +3650,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u786E\u5B9A"
+  m_Text: Sure
 --- !u!114 &8676788849064452083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3874,7 +3875,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u66F4\u65B0\u65E5\u5FD7"
+  m_Text: Change log
 --- !u!114 &4384622610250175435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3966,7 +3967,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u91CD\u5236\u7248"
+  m_Text: "Phi\xEAn b\u1EA3n l\xE0m l\u1EA1i"
 --- !u!114 &55146767051097194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4133,7 +4134,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u8FD4\u56DE"
+  m_Text: Back
 --- !u!114 &3158995879319517191
 MonoBehaviour:
   m_ObjectHideFlags: 0

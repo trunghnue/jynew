@@ -1,5 +1,5 @@
-Talk(66, "小子办事还蛮有一套的嘛。我就告诉你《射雕英雄传》一书的下落。《射雕英雄传》一书是在桃花岛郭靖的手上，要知那桃花岛是黄老邪按五行八卦布置而成的，一般人是很难找到入口的，我就告诉你吧。它的座标位置是在（３４１，１３８）。", "talkname66", 0);
-Talk(0, "谢谢前辈。", "talkname0", 1);
+Talk(66, "Cậu bé có cách làm việc khá tốt. Tôi sẽ cho bạn biết tung tích cuốn sách "Truyền thuyết anh hùng xạ điêu". Cuốn sách "Anh Hùng Xạ Điêu" đang nằm trong tay Quách Tĩnh ở Đảo Đào Hoa, phải biết Đảo Đào Hoa là do Hoàng Lão Tà sắp xếp theo Ngũ Hành và Bát Quái, người bình thường khó tìm được lối vào Để tôi nói cho bạn biết. Vị trí tọa độ của nó là (341.138).", "talkname66", 0);
+Talk(0, "Cảm ơn tiền bối.", "talkname0", 1);
 ModifyEvent(-2, 3, -2, -2, -1, -1, 432, -1, -1, -1, -2, -2, -2);--by fanyu|启动432脚本。场景21-编号01
 OpenScene(75);
 do return end;

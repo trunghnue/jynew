@@ -1,2 +1,2 @@
-Talk(32, "少侠，“率意帖”可否借我再看一眼？", "talkname32", 0);
+Talk(32, "Anh hùng trẻ tuổi, có thể cho tôi xem lại "bài tình cảm" được không?", "talkname32", 0);
 do return end;

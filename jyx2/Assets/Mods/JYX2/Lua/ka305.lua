@@ -1,2 +1,2 @@
-Talk(0, "今天先饶你不死，希望你改过向善。否则日后再叫我撞见，就“去你的势”，让你去做太监。", "talkname0", 1);
+Talk(0, "Hôm nay tôi sẽ tha mạng cho bạn và hy vọng rằng bạn sẽ thay đổi tốt hơn. Bằng không sau này nếu gặp phải ngươi, ta sẽ "trút bỏ quyền lực của ngươi" để ngươi làm thái giám.", "talkname0", 1);
 do return end;

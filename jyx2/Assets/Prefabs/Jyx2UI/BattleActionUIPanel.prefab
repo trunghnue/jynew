@@ -143,7 +143,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u53D6\u6D88"
+  m_Text: "Hu\u1EF7 b\u1ECF"
 --- !u!114 &8115117372327407844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1726,7 +1726,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u79FB\u52A8"
+  m_Text: Move
 --- !u!114 &3559217107824925049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1818,7 +1818,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6295\u964D"
+  m_Text: "\u0110\u1EA7u h\xE0ng"
 --- !u!114 &2096726653319285602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1910,7 +1910,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7269\u54C1"
+  m_Text: Item
 --- !u!114 &1347152741507441412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2002,7 +2002,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7B49\u5F85"
+  m_Text: "Ch\u1EDD \u0111\u1EE3i"
 --- !u!114 &1954470292714017678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2094,7 +2094,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u533B\u7597"
+  m_Text: Heal
 --- !u!114 &692647278613631408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2186,7 +2186,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u4F11\u606F"
+  m_Text: "Ngh\u1EC9 ng\u01A1i"
 --- !u!114 &5799923557018521754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2278,7 +2278,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7528\u6BD2"
+  m_Text: "D\xF9ng ch\u1EA5t \u0111\u1ED9c"
 --- !u!114 &431262927642868683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2370,7 +2370,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u89E3\u6BD2"
+  m_Text: "Gi\u1EA3i \u0111\u1ED9c"
 --- !u!114 &3347158414224832768
 MonoBehaviour:
   m_ObjectHideFlags: 0

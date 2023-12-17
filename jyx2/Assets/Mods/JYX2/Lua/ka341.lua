@@ -1,2 +1,2 @@
-Talk(43, "你这小子还真有勇气，每个人对这赏善罚恶令唯恐避之不及，你居然还抢着去。是不是想早点去投胎。＜还好我故意输给你，  否则我这老命就没了。＞看在你替我雪山派去送死的份上，凌霄城内的东西，你要就尽量拿吧！", "talkname43", 0);
+Talk(43, "Các bạn can đảm quá, ai cũng sợ tránh mệnh lệnh thưởng thiện phạt ác này mà các bạn vẫn lao vào làm. Bạn có muốn tái sinh càng sớm càng tốt? <May mắn thay, ta cố ý thua ngươi, nếu không ta đã mất mạng. > Vì ngươi được phái đi chết vì ta, Tuyết Sơn Sâm, ngươi muốn ở Lăng Tiêu Thành cái gì hãy lấy càng nhiều càng tốt!", "talkname43", 0);
 do return end;

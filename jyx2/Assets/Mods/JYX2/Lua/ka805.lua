@@ -1,2 +1,2 @@
-Talk(114, "有问题是不是？那我就再跟你讲一些游戏的基本知识。想要将目前的进度储存起来等下次再玩，或者想叫出上次储存的进度重玩一次，还是想暂时离开游戏休息一下时，按ＥＳＣ键叫出主选单选择“系统”的功能即可。但是此功能只能在“大地图场景”的模式下才会出现。", "talkname114", 0);
+Talk(114, "Có vấn đề gì không? Sau đó tôi sẽ kể cho bạn một số kiến thức cơ bản về trò chơi. Nếu bạn muốn lưu tiến trình hiện tại và chơi lại lần sau hoặc nếu bạn muốn gọi lại tiến trình đã lưu gần nhất và chơi lại hoặc nếu bạn muốn tạm thời rời khỏi trò chơi và nghỉ ngơi, hãy nhấn phím ESC để gọi lên. menu chính và chọn "Hệ thống". Tuy nhiên, chức năng này chỉ có thể xuất hiện ở chế độ "Cảnh bản đồ lớn".", "talkname114", 0);
 do return end;

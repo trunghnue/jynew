@@ -1,2 +1,2 @@
-Talk(84, "我五岳派与阁下之间的仇是结定了。", "talkname84", 0);
+Talk(84, "Mối thù giữa Ngũ Thánh Giáo của chúng ta và Ngài đã được giải quyết.", "talkname84", 0);
 do return end;

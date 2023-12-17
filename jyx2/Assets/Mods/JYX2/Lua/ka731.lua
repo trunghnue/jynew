@@ -2,6 +2,6 @@ if UseItem(186) == true then goto label0 end;
     do return end;
 ::label0::
     AddItemWithoutHint(186, -1);
-    Talk(73, "明教教主阳顶天几年前无缘无故的消失，又未指定下任教主人选，使得明教大乱。人人为夺教主之位而弄得四分五裂。白眉鹰王及紫衫龙王出走，金毛狮王失踪，青翼蝠王又与光明左使不合……六大派逮到这个好机会，想趁此将明教铲除，光明顶实在汲汲可危。", "talkname73", 0);
+    Talk(73, "Thủ lĩnh của Minh giáo, Yang Dingtian, đã biến mất không rõ lý do vài năm trước, và không có ứng cử viên nào được bổ nhiệm làm thủ lĩnh tiếp theo, gây ra hỗn loạn trong Minh giáo. Mọi người đang tranh giành vị trí lãnh đạo và bị chia cắt. Đại bàng vương lông mày trắng và Long vương áo tím bỏ chạy, Sư tử tóc vàng biến mất, Bát vương cánh xanh xung đột với Tả sứ ánh sáng... Lục đại tông môn nắm lấy cơ hội tốt này và muốn lợi dụng nó để tiêu diệt Minh giáo, đỉnh Quảng Minh thực sự đang gặp nguy hiểm.", "talkname73", 0);
     Add3EventNum(-2, 0, 0, 1, -1)
 do return end;

@@ -239,9 +239,9 @@ public partial class BagUIPanel : Jyx2_UIBase
         if (m_selectItem == null) 
             return;
         if (castFromSelectPanel && m_selectItem.ItemId == m_PreSelectItemId)
-            UseText_Text.text = "卸 下".GetContent(nameof(BagUIPanel));
+            UseText_Text.text = "Di dời".GetContent(nameof(BagUIPanel));
         else
-            UseText_Text.text = "使 用".GetContent(nameof(BagUIPanel));
+            UseText_Text.text = "Sử dụng".GetContent(nameof(BagUIPanel));
     }
 
     public void TabLeft()

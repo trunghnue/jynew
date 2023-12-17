@@ -1,6 +1,6 @@
-Talk(16, "你是谁，到我蝴蝶谷中做什么？若是要求医就快滚吧，我不会医治你的。", "talkname16", 0);
-Talk(0, "你这么生气干什么，我好好的干嘛需要医疗，神经病！", "talkname0", 1);
-Talk(16, "那就快滚吧。", "talkname16", 0);
+Talk(16, "Bạn là ai và bạn đang làm gì ở Thung lũng Bướm của tôi? Nếu muốn được chăm sóc y tế thì hãy ra khỏi đây, tôi sẽ không chữa trị cho bạn.", "talkname16", 0);
+Talk(0, "Tại sao bạn lại tức giận như vậy? Tại sao tôi lại cần điều trị nếu tôi làm tốt công việc? Tôi điên rồi!", "talkname0", 1);
+Talk(16, "Sau đó hãy ra khỏi đây.", "talkname16", 0);
 Talk(0, "…………", "talkname0", 1);
 ModifyEvent(-2, -2, -2, -2, 93, -1, -1, -2, -2, -2, -2, -2, -2);
 ModifyEvent(73, 1, -2, -2, 103, -1, -1, -2, -2, -2, -2, -2, -2);

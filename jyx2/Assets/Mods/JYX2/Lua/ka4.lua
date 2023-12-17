@@ -1,2 +1,2 @@
-Talk(0, "他日再向胡大哥领教刀法。", "talkname0", 1);
+Talk(0, "Một ngày nào đó tôi sẽ học kiếm kỹ từ Anh Hu.", "talkname0", 1);
 do return end;

@@ -1,9 +1,9 @@
-Talk(71, "小兄弟，得手了吗？", "talkname71", 0);
-Talk(0, "哼！我差点就被你利用了。", "talkname0", 1);
-Talk(71, "你都知道了。", "talkname71", 0);
-Talk(0, "《鹿鼎记》是不是还在你这边，老头！", "talkname0", 1);
-Talk(71, "是在我这没错，你想怎样？", "talkname71", 0);
-Talk(0, "我想怎样！我想好好捶你一顿。", "talkname0", 1);
+Talk(71, "Em trai, em đã thành công phải không?", "talkname71", 0);
+Talk(0, "khịt mũi! Tôi gần như đã bị bạn lợi dụng.", "talkname0", 1);
+Talk(71, "Bạn biết tất cả.", "talkname71", 0);
+Talk(0, ""Con nai và cái vạc" vẫn đứng về phía ông chứ, ông già?", "talkname0", 1);
+Talk(71, "Đó là lỗi của tôi, bạn muốn gì?", "talkname71", 0);
+Talk(0, "Tôi muốn gì! Tôi muốn cho bạn một cú đập mạnh.", "talkname0", 1);
 if TryBattle(95) == true then goto label0 end;
     Dead();
     do return end;

@@ -2,6 +2,6 @@ if UseItem(186) == true then goto label0 end;
     do return end;
 ::label0::
     AddItemWithoutHint(186, -1);
-    Talk(74, "在你参加一场战斗后，参与该场战斗而未昏迷之人，皆可平分该场战斗之经验。另外还有一点，就是击毙敌人的一瞬间，出手之人可获得额外的经验。", "talkname74", 0);
+    Talk(74, "Sau khi bạn tham gia vào một trận chiến, tất cả những người tham gia trận chiến và không bị bất tỉnh đều có thể chia sẻ kinh nghiệm về trận chiến đó một cách bình đẳng. Một điểm nữa là thời điểm kẻ địch bị tiêu diệt, người ra tay có thể nhận thêm kinh nghiệm.", "talkname74", 0);
     Add3EventNum(-2, 1, 0, 1, -1)
 do return end;

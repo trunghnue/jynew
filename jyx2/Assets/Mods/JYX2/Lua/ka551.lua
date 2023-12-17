@@ -1,2 +1,2 @@
-Talk(92, "师父他老人家正在休息，吸收天地间之仙气，外人不可打扰。", "talkname92", 0);
+Talk(92, "Sư phụ, lão phu đang nghỉ ngơi, hấp thu năng lượng bất tử giữa trời và đất, người ngoài không được phép quấy rầy.", "talkname92", 0);
 do return end;

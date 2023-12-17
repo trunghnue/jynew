@@ -1,2 +1,2 @@
-Talk(106, "客倌，有什么吩咐？", "talkname106", 0);
+Talk(106, "Bồi bàn, mệnh lệnh của bạn là gì?", "talkname106", 0);
 do return end;

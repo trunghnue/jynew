@@ -1,2 +1,2 @@
-Talk(114, "有问题是不是？那我就再跟你讲一些游戏的基本知识。游戏中的物品分为五大类，第二类为药丸。此类物品用于平时或战斗时皆可，帮助各种属性的恢复或增强。", "talkname114", 0);
+Talk(114, "Có vấn đề gì không? Sau đó tôi sẽ kể cho bạn một số kiến thức cơ bản về trò chơi. Vật phẩm trong trò chơi được chia thành năm loại, loại thứ hai là thuốc. Những vật phẩm như vậy có thể được sử dụng trong thời bình hoặc trong chiến đấu để giúp khôi phục hoặc nâng cao các thuộc tính khác nhau.", "talkname114", 0);
 do return end;

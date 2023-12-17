@@ -1,17 +1,17 @@
-Talk(68, "阁下为何硬闯我全真教。", "talkname68", 0);
-Talk(0, "前辈是丘掌门吧，我听说先师王重阳武功天下第一，所以想看看他所创的全真教是否同他一样厉害。", "talkname0", 1);
-Talk(68, "废话少说，动手吧。", "talkname68", 0);
+Talk(68, "Tại sao bạn lại đột nhập vào giáo phái Tuyền Chân của chúng tôi?", "talkname68", 0);
+Talk(0, "Tiền bối có lẽ là thủ lĩnh của Khâu, tôi nghe nói tổ tiên của tôi Vương Xung Dương là võ công giỏi nhất thế giới, nên tôi muốn xem Tông phái Toàn Chân mà ông ấy thành lập có mạnh mẽ như ông ấy hay không.", "talkname0", 1);
+Talk(68, "Hãy ngừng nói những điều vô nghĩa và bắt đầu.", "talkname68", 0);
 if TryBattle(74) == true then goto label0 end;
     LightScence();
-    Talk(68, "就这么一点微末道行，也敢到我重阳宫撒野。", "talkname68", 0);
-    Talk(0, "在下的确是自不量力，但人在江湖，身不由己啊！为了找那几本书，我只有硬着头皮四处踢馆，看能不能有什么收获。", "talkname0", 1);
+    Talk(68, "Đạo đức ít ỏi như vậy mà hắn còn dám làm loạn trong Cung Trùng Dương của ta.", "talkname68", 0);
+    Talk(0, "Tôi quả thực đã đánh giá quá cao năng lực của mình, nhưng khi ở trên đấu trường, bạn không thể tự chủ được! Để tìm được những cuốn sách đó, tôi không còn cách nào khác ngoài việc đi vòng quanh thư viện để xem liệu mình có thể kiếm được gì không.", "talkname0", 1);
     if JudgeEthics(0, 50, 100) == true then goto label1 end;
-        Talk(68, "就算功夫不行，也不能四处为恶，如果下次见到你时，你还陷入邪道之中，老道就要开杀戒了。", "talkname68", 0);
+        Talk(68, "Công phu của ngươi cho dù không tốt cũng không thể đi làm ác, lần sau gặp lại nếu rơi vào tà đạo, lão đạo sĩ sẽ giết ngươi.", "talkname68", 0);
         ModifyEvent(-2, -2, -2, -2, 458, -1, -1, -2, -2, -2, -2, -2, -2);--by fanyu|启动458脚本。场景19-编号00
         do return end;
 ::label1::
-        Talk(68, "看你的本质还不坏，但武功太差了，这样怎么在江湖上混呢？我送你本秘笈，你拿去好好钻研吧。", "talkname68", 0);
-        Talk(0, "谢谢道长。", "talkname0", 1);
+        Talk(68, "Xem ra ngươi bản tính không tệ, nhưng võ công quá kém, như thế này làm sao có thể sống sót được? Tôi sẽ đưa cho bạn cuốn sách bí mật này, hãy lấy nó và nghiên cứu nó một cách cẩn thận.", "talkname68", 0);
+        Talk(0, "Cảm ơn đạo sĩ.", "talkname0", 1);
         AddItem(70, 1);
         ModifyEvent(-2, -2, -2, -2, 458, -1, -1, -2, -2, -2, -2, -2, -2);--by fanyu|启动458脚本。场景19-编号00
         do return end;

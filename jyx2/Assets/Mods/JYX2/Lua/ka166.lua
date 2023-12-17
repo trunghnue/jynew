@@ -1,11 +1,11 @@
 ScenceFromTo(32, 33, 32, 24);
 jyx2_CameraFollow("Level/NPC/miejueshitai");--by fanyu
-Talk(6, "…………魔教以火为圣，尊火为神………… 。魔教自从第三十三代教主阳顶天突然死去，不及指定继承之人。教中左右光明使者，四大护教法王，五散人，谁都觊觎这教主之位。于是自相残杀争夺，魔教从此中衰。这也正是六大门派合当兴旺，妖邪数该覆灭的时候了。倘若魔教不起内讧，要想挑了这批妖孽，倒也是大大的不易呢。六大派这次进剿光明顶，志在必胜，众妖邪即便是齐心合力，咱们又有何惧？只是相斗时损伤必多，各人须得先心存决死之心，不可意图侥幸，心有畏惧，临敌时堕了峨嵋派的威风。俗语说的好：“千棺从门出，其家好兴旺。子存父先死，孙在祖乃丧。”人孰无死？只须留下子孙血脉，其家便是死了千百人，仍能兴旺。最怕的是你们都死了，老尼我却孤伶伶的活着。嘿嘿，但纵是如此，亦不足惜。百年之前，世上又有什么峨嵋派。只须大伙儿轰轰烈烈的死战一场，峨嵋派纵一举覆灭，又岂足道哉？", "talkname6", 0);
-Talk(77, "弟子誓决死战，与妖魔邪道势不两立。", "talkname77", 0);
-Talk(6, "无耻小徒，你偷听够了没！", "talkname6", 0);
+Talk(6, "……….Giáo phái ma quỷ coi lửa là thiêng liêng và tôn trọng lửa như thần………. Kể từ khi thủ lĩnh thứ ba mươi ba của Ma Giáo, Dương Đỉnh Thiên đột ngột qua đời, hắn đã không còn xứng đáng với tư cách là người kế vị được chỉ định nữa. Các sứ giả ánh sáng bên trái và bên phải trong tôn giáo, bốn vị đại hộ pháp Pháp vương và năm người tản mác đều thèm muốn vị trí lãnh đạo của tôn giáo. Kết quả là họ chiến đấu chống lại nhau, và tà giáo từ đó suy tàn. Đây cũng là lúc sáu giáo phái cùng nhau thịnh vượng và những linh hồn tà ác sẽ bị tiêu diệt. Nếu ma giáo không đủ khả năng nội chiến thì sẽ rất khó để chọn ra những con quái vật này. Sáu đại giáo phái quyết tâm giành thắng lợi lần này khi tiến vào Quảng Minh Đỉnh, cho dù tất cả tà linh đều liên thủ, chúng ta có gì phải sợ? Chỉ là khi chiến đấu sẽ bị tổn thất rất lớn, mọi người phải quyết tâm chiến đấu đến chết, không thể mạo hiểm, sợ hãi, làm mất đi uy tín của Nga Mi phái khi đối mặt với kẻ thù. Tục ngữ có câu: "Nghìn quan tài ra khỏi cửa, gia đình thịnh vượng. Con trai sống sót trước khi cha chết, và cháu trai chết theo tổ tiên". Ai trong chúng ta là bất tử? Chỉ cần huyết mạch của con cháu còn lưu lại, gia tộc dù có chết hàng nghìn người vẫn có thể thịnh vượng. Điều tôi sợ nhất là các bạn đều đã chết, còn tôi, già ni lại sống một mình. Hehe, nhưng dù vậy cũng không đáng tiếc chút nào. Một trăm năm trước, trên thế giới không có giáo phái Nga Mi. Chỉ cần mọi người chiến đấu đến chết với tinh thần mạnh mẽ, thì giáo phái Nga Mi có bị tiêu diệt trong một đòn thì có ích gì?", "talkname6", 0);
+Talk(77, "Các đệ tử thề sẽ chiến đấu đến chết và không tương thích với ma quỷ và đường ác.", "talkname77", 0);
+Talk(6, "Tiểu đệ tử vô liêm sỉ, nghe lén đã đủ chưa?", "talkname6", 0);
 ScenceFromTo(32, 24, 32, 33);
 jyx2_CameraFollowPlayer();--by fanyu
-Talk(0, "＜自己话这么多，我也不想听呀！＞晚辈实在是失礼之至，无意间听到师太如此凛然大义的训辞，忍不住就听了下去。晚辈这就拜见峨嵋掌门。", "talkname0", 1);
+Talk(0, "＜Tôi không muốn nghe những gì tôi nói nhiều đâu! > Vị tiểu bối này thật là thô lỗ, tôi tình cờ nghe được lời nói trịnh trọng và chính trực như vậy của sư phụ, không khỏi nghe theo. Người đàn em này sẽ bày tỏ lòng kính trọng đối với người đứng đầu Nga Mi.", "talkname0", 1);
 ModifyEvent(-2, 0, -2, -2, -1, -1, -1, -2, -2, -2, -2, -2, -2);
 ModifyEvent(-2, 1, -2, -2, -1, -1, -1, -2, -2, -2, -2, -2, -2);
 ModifyEvent(-2, 11, -2, -2, -1, -1, 147, -2, -2, -2, -2, -2, -2);--by fanyu 启动脚本147 场景33-11

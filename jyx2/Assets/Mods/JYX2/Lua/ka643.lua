@@ -1,2 +1,2 @@
-Talk(0, "哇！好痛！这烛火还真烫。", "talkname0", 1);
+Talk(0, "Ồ! đau quá! Ngọn nến này thực sự rất nóng.", "talkname0", 1);
 do return end;

@@ -112,7 +112,7 @@ public class MapTeleportor : MonoBehaviour
 		
 		if (string.IsNullOrEmpty(showText))
 		{
-			showText = "进入";
+			showText = "Đi vào";
 		}
 
 		await Jyx2_UIManager.Instance.ShowUIAsync(nameof(InteractUIPanel), showText, new Action(DoTransport));

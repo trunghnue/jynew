@@ -1,14 +1,14 @@
 if InTeam(47) == true then goto label0 end;
-    Talk(48, "你别在这惹阿紫姑娘生气。", "talkname48", 0);
+    Talk(48, "Đừng làm cô Azi tức giận ở đây.", "talkname48", 0);
     do return end;
 ::label0::
-    Talk(48, "阿紫姑娘，你别丢下我一个人。求求少侠让我加入，好让我跟在阿紫姑娘身旁服侍她。", "talkname48", 0);
+    Talk(48, "Cô Azi, đừng bỏ tôi một mình. Xin người anh hùng trẻ tuổi, xin hãy cho tôi tham gia để tôi có thể đi theo cô Azi và phục vụ cô ấy.", "talkname48", 0);
     if AskJoin () == true then goto label1 end;
         do return end;
 ::label1::
-        Talk(0, "也好。", "talkname0", 1);
+        Talk(0, "Tốt rồi.", "talkname0", 1);
         if TeamIsFull() == false then goto label2 end;
-            Talk(48, "你的队伍已满，我无法加入。", "talkname48", 0);
+            Talk(48, "Nhóm của bạn đã đầy đủ và tôi không thể tham gia.", "talkname48", 0);
             do return end;
 ::label2::
             DarkScence();

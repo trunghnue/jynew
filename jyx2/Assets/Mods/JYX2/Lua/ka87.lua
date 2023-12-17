@@ -1,2 +1,2 @@
-Talk(80, "少侠对我明教的大恩大德，明教全体教众没齿难忘。", "talkname80", 0);
+Talk(80, "Lòng tốt to lớn của người anh hùng trẻ tuổi đối với Mingjiao của chúng ta sẽ không thể nào quên đối với tất cả các thành viên của Mingjiao.", "talkname80", 0);
 do return end;

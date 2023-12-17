@@ -1,2 +1,2 @@
-Talk(114, "有问题是不是？那我就再跟你讲一些游戏的基本知识。觉得场景中某样东西有问题时，面对它，直接按下空白键即可对它动作。但有些时候，必须用身上的特殊物品对它做动作才会有效。", "talkname114", 0);
+Talk(114, "Có vấn đề gì không? Sau đó tôi sẽ kể cho bạn một số kiến thức cơ bản về trò chơi. Khi bạn cảm thấy có vấn đề gì đó trong cảnh, chỉ cần đối mặt với nó và nhấn phím cách để xử lý nó. Nhưng đôi khi, bạn phải sử dụng những vật phẩm đặc biệt trên cơ thể để thực hiện các hành động trên đó mới có hiệu quả.", "talkname114", 0);
 do return end;

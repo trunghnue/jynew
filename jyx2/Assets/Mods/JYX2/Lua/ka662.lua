@@ -1,5 +1,5 @@
-Talk(93, "鲁兄，我听人家说，东北雪地中住着一个戏子，平常疯言疯语的，但却知道很多江湖中的秘密，有空我们也去拜访拜访他。", "talkname93", 0);
-Talk(93, "别去受骗了。你们知不知道，我就上过他一次当。上回他跟我讲一个秘密山洞的地点，说洞中藏有很多宝物。结果我奔波了大半天，照他的地点去找，根本就没有他所说的洞穴，更别谈什么鸟宝藏了。", "talkname93", 4);
-Talk(93, "可是为什么江湖中人还盛传着北丑无所不知的讲法？", "talkname93", 0);
-Talk(93, "谁晓得。反正我是不会再上当了。", "talkname93", 4);
+Talk(93, "Anh Lữ, em nghe người ta đồn ở Đông Bắc có một diễn viên sống trong tuyết, anh ấy thường nói năng điên cuồng, nhưng anh ấy biết rất nhiều bí mật trên đời, khi nào chúng ta có thời gian hãy đến thăm anh ấy nhé.", "talkname93", 0);
+Talk(93, "Đừng để bị lừa. Bạn có biết tôi đã bị anh ta lừa một lần không? Lần trước anh ấy nói với tôi về vị trí của một hang động bí mật và nói rằng có rất nhiều báu vật được cất giấu trong hang động. Kết quả là tôi đã dành gần như cả ngày để tìm kiếm vị trí của anh ấy, nhưng không có hang động nào như anh ấy đề cập chứ đừng nói đến kho báu chim.", "talkname93", 4);
+Talk(93, "Nhưng tại sao trên thế giới vẫn có người truyền bá ý kiến Bắc Chou biết tất cả mọi thứ?", "talkname93", 0);
+Talk(93, "Ai biết. Dù sao thì tôi cũng sẽ không bị lừa nữa.", "talkname93", 4);
 do return end;

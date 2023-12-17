@@ -1,2 +1,2 @@
-Talk(200, "在这寒冷的雪地中，“有间客栈”提供你舒适的歇息。住宿：４０", "talkname200", 2);
+Talk(200, "Trong tuyết lạnh giá này, "Youjian Inn" mang đến cho bạn sự nghỉ ngơi thoải mái. Chỗ ở: ４0", "talkname200", 2);
 do return end;

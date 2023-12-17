@@ -1,9 +1,9 @@
-Talk(90, "赏善罚恶两使既已出巡，江湖上任何帮会门派都难逍遥……", "talkname90", 0);
-Talk(90, "老李，若是掌门师叔奉令而去，那便如何？", "talkname90", 4);
-Talk(90, "自是有去无回。过去三十年中奉令而去侠客岛的那些帮主，总舵主，掌门人，……又有哪一个回来过了？", "talkname90", 0);
-Talk(0, "那侠客岛是什么地方？为什么各掌门都一去不回？", "talkname0", 1);
-Talk(90, "小子，别偷听别人讲话。", "talkname90", 0);
-Talk(0, "自己说的这么大声……", "talkname0", 1);
+Talk(90, "Hiện tại hai sứ giả thưởng thiện phạt ác đang đi tuần tra, trên thế giới không băng đảng hay giáo phái nào có thể tự do...", "talkname90", 0);
+Talk(90, "Lão Lý, lỡ như chú của sư phụ được lệnh rời đi thì sao?", "talkname90", 4);
+Talk(90, "Không có sự trở lại. Trong số các thủ lĩnh băng đảng, thủ lĩnh và thủ lĩnh được lệnh đến đảo Xiake trong ba mươi năm qua... có ai trong số họ quay trở lại không?", "talkname90", 0);
+Talk(0, "Vậy đảo Hạ Khắc ở đâu? Tại sao tất cả các nhà lãnh đạo đều ra đi và không bao giờ quay trở lại?", "talkname0", 1);
+Talk(90, "Này chàng trai, đừng nghe lén người khác nói gì.", "talkname90", 0);
+Talk(0, "Tôi đã nói rất to...", "talkname0", 1);
 ModifyEvent(-2, 2, -2, -2, 479, -2, -2, -2, -2, -2, -2, -2, -2);
 ModifyEvent(-2, 6, -2, -2, 479, -2, -2, -2, -2, -2, -2, -2, -2);
 ModifyEvent(-2, 7, -2, -2, 479, -2, -2, -2, -2, -2, -2, -2, -2);

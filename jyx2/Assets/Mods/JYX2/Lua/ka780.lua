@@ -2,6 +2,6 @@ if UseItem(186) == true then goto label0 end;
     do return end;
 ::label0::
     AddItemWithoutHint(186, -1);
-    Talk(74, "神算子瑛姑住的黑龙潭，经过她巧妙的布置后，常人难以进入。给你个提示：带某个女人去就解决了。", "talkname74", 0);
+    Talk(74, "Ao Rồng Đen nơi thầy bói thần thánh Ying Gu sống rất khó để người bình thường bước vào sau sự sắp xếp tài tình của bà. Đây là một mẹo: hãy lấy một người phụ nữ nào đó và điều đó sẽ giải quyết vấn đề đó.", "talkname74", 0);
     Add3EventNum(-2, 1, 0, 1, -1)
 do return end;

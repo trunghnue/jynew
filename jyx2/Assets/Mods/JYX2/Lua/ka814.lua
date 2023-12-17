@@ -1,2 +1,2 @@
-Talk(114, "有问题是不是？那我就再跟你讲一些游戏的基本知识。在你到处旅行的途中，请保有一点美德。在未得到主人的允许前，不要偷拿别人的东西，以免造成不良影响。", "talkname114", 0);
+Talk(114, "Có vấn đề gì không? Sau đó tôi sẽ kể cho bạn một số kiến thức cơ bản về trò chơi. Khi bạn du hành từ nơi này đến nơi khác, hãy ghi nhớ một chút đức hạnh. Không lấy trộm đồ của người khác khi chưa có sự cho phép của chủ nhân để tránh ảnh hưởng xấu.", "talkname114", 0);
 do return end;

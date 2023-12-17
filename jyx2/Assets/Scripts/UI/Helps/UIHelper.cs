@@ -226,7 +226,7 @@ public class UIHelper
             //---------------------------------------------------------------------------
             //特定位置的翻译【MainMenu右下角当前版本的翻译】
             //---------------------------------------------------------------------------
-            strBuilder.Append("<size=28><color=#FFDB00>效果</color></size>\n".GetContent(nameof(UIHelper)));
+            strBuilder.Append("<size=28><color=#FFDB00>Tác dụng</color></size>\n".GetContent(nameof(UIHelper)));
             //---------------------------------------------------------------------------
             //---------------------------------------------------------------------------
             strBuilder.Append(effect);

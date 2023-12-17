@@ -1,2 +1,2 @@
-Talk(114, "有问题是不是？那我就再跟你讲一些游戏的基本知识。想要在本游戏中生存，非得要有高强的武功不可。想要修练武功的话，则必须先有该武功所需要的秘笈或经书才可。然后在物品栏中选择该秘笈，即可修练。待修练经验点数达一定标准后即修练成功。但是每本秘笈的修练都有其基本条件，未达该条件者不可修练。", "talkname114", 0);
+Talk(114, "Có vấn đề gì không? Sau đó tôi sẽ kể cho bạn một số kiến thức cơ bản về trò chơi. Nếu muốn sống sót trong trò chơi này, bạn phải có kỹ năng võ thuật mạnh mẽ. Muốn luyện võ, trước tiên phải có bí quyết hoặc kinh điển cần thiết cho võ thuật. Sau đó chọn mẹo trong kho để thực hành. Một khi điểm kinh nghiệm huấn luyện đạt đến một mức nhất định, việc huấn luyện sẽ thành công. Tuy nhiên, việc thực hành mỗi cuốn bí thư đều có những điều kiện cơ bản, những người không đáp ứng được những điều kiện này thì không thể thực hành được.", "talkname114", 0);
 do return end;

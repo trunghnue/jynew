@@ -1,2 +1,2 @@
-Talk(50, "英雄出少年，不错，不错。", "talkname50", 0);
+Talk(50, "Một anh hùng đến từ một cậu bé, vâng, vâng.", "talkname50", 0);
 do return end;
