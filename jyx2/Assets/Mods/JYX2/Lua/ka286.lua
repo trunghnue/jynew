@@ -1,6 +1,6 @@
 Talk(0, "Tôi muốn hỏi, đại lý hộ tống của bạn không còn kinh doanh nữa phải không? Tại sao không có ai ở đó? Chủ nhân, tôi có một số bảo vật quý giá muốn ngài bảo vệ!", "talkname0", 1);
 Talk(36, "Thưa ông, tôi rất xin lỗi, hôm nay đại lý hộ tống của chúng tôi không làm việc.", "talkname36", 0);
-Talk(0, "Nếu bạn mở đại lý hộ tống nhưng không kinh doanh thì bảng hiệu "Cơ quan hộ tống Fuwei" của bạn là giả! Gọi đội trưởng hộ tống của bạn ra ngoài.", "talkname0", 1);
+Talk(0, "Nếu bạn mở đại lý hộ tống nhưng không kinh doanh thì bảng hiệu \"Cơ quan hộ tống Fuwei\" của bạn là giả! Gọi đội trưởng hộ tống của bạn ra ngoài.", "talkname0", 1);
 Talk(36, "Nói không có vệ sĩ liền không có vệ sĩ, ngươi kêu cái gì?", "talkname36", 0);
 if TryBattle(48) == true then goto label0 end;
     Dead();
@@ -12,7 +12,7 @@ if TryBattle(48) == true then goto label0 end;
     Talk(0, "Thật khốn khổ? Bạn đã mất vệ sĩ của ai đó, hay bạn đã xúc phạm đến giáo phái Thanh Thành bằng cách nào đó?", "talkname0", 1);
     Talk(36, "Tôi nghe cha tôi kể rằng tổ tiên Lin Yuantu của chúng tôi đã từng đánh bại Chang Qingzi, thủ lĩnh của phái Qing Cheng, vì vậy hôm nay họ đến đây để trả thù.", "talkname36", 0);
     Talk(0, "Sao ghê tởm thế, tôi chịu không nổi.", "talkname0", 1);
-    Talk(36, "Anh hùng trẻ tuổi có võ công tuyệt vời, xin hãy giúp tôi giải cứu cha tôi, tôi, Lin Pingzhi, sẵn sàng phục vụ bạn như một con bò hoặc một con ngựa trong cuộc đời của tôi. Nếu anh hùng trẻ tuổi sẵn lòng giúp đỡ, anh hùng trẻ tuổi có thể tự do sử dụng bất kỳ vật phẩm nào trong Cơ quan hộ tống Fuwei của tôi. Điều này cũng bao gồm một "Sách hướng dẫn sử dụng kiếm Songfeng", mà tôi đã đánh cắp từ một số tên trộm của Giáo phái Thanh Thành. Tôi muốn nghiên cứu xem liệu chiêu kiếm của họ có sai sót gì không.", "talkname36", 0);
+    Talk(36, "Anh hùng trẻ tuổi có võ công tuyệt vời, xin hãy giúp tôi giải cứu cha tôi, tôi, Lin Pingzhi, sẵn sàng phục vụ bạn như một con bò hoặc một con ngựa trong cuộc đời của tôi. Nếu anh hùng trẻ tuổi sẵn lòng giúp đỡ, anh hùng trẻ tuổi có thể tự do sử dụng bất kỳ vật phẩm nào trong Cơ quan hộ tống Fuwei của tôi. Điều này cũng bao gồm một \"Sách hướng dẫn sử dụng kiếm Songfeng\", mà tôi đã đánh cắp từ một số tên trộm của Giáo phái Thanh Thành. Tôi muốn nghiên cứu xem liệu chiêu kiếm của họ có sai sót gì không.", "talkname36", 0);
     Talk(0, "Sao em nói nhiều thế, anh giúp em đến trường Thanh Thành xem thử.", "talkname0", 1);
     ModifyEvent(-2, -2, -2, -2, 298, -1, -1, -2, -2, -2, -2, -2, -2);
     ModifyEvent(-2, 2, -2, -2, -1, -1, 299, -2, -2, -2, -2, -2, -2);

@@ -284,7 +284,7 @@ if TryBattle(12) == true then goto label0 end;
     Talk(10, "Nếu anh tiếp tục từ chối, anh hùng trẻ tuổi, chúng ta, Minh giáo, có lẽ sẽ không ngừng tranh cãi về vấn đề này và bị chia cắt, sau đó sẽ bị các giáo phái khác vây hãm, dẫn đến diệt vong.", "talkname10", 0);
     Talk(0, "Ở đây tôi có lá thư tuyệt mệnh của Phong Dương sư phụ, trong đó đề cập đến Pháp Vương Tuân Hiệp nên tạm thời làm người lãnh đạo. Tôi nghĩ bạn nên tìm anh ấy trước rồi mới nói chuyện.", "talkname0", 1);
     Talk(10, "Ồ! Đó là sự thật, thôi nào! Lập tức ra lệnh đi xuống, dốc toàn lực tìm kiếm Pháp Vương Tạ.", "talkname10", 0);
-    Talk(0, "Còn một điều nữa dành cho bạn, có cuốn sách tên là "Truyền thuyết về Thiên Long Kiếm" trong giáo phái Ming của bạn không? Bạn có thể cho tôi mượn nó được không?", "talkname0", 1);
+    Talk(0, "Còn một điều nữa dành cho bạn, có cuốn sách tên là \"Truyền thuyết về Thiên Long Kiếm\" trong giáo phái Ming của bạn không? Bạn có thể cho tôi mượn nó được không?", "talkname0", 1);
     Talk(10, "một số. Dương thủ lĩnh từng nói với ta, trong giáo phái của chúng ta có một cuốn sách kỳ lạ, là bảo vật của Minh giáo chúng ta, đã được các thủ lĩnh giáo phái truyền từ đời này sang đời khác.", "talkname10", 0);
     Talk(0, "Vâng? thực sự có. Huangtian đã trả hết công sức của mình và chiến đấu rất nhiều trận, và cuối cùng tôi đã tìm thấy nó.", "talkname0", 1);
     Talk(10, "Tuy nhiên, do sự biến mất đột ngột của Dương Giáo chủ nên không ai biết tung tích của nó.", "talkname10", 0);

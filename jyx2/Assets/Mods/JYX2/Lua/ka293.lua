@@ -1,6 +1,6 @@
 Talk(86, "Đây là Tứ Xuyên Thanh Thành phái, không cho người khác tiến vào.", "talkname86", 0);
 Talk(0, "Các ngươi cặn bã của thế giới không chỉ chiếm đất và trở thành vua mà còn tắm máu Cơ quan hộ tống Fuwei và bắt giữ người đứng đầu cơ quan hộ tống. Bạn vẫn còn luật hoàng gia trong mắt bạn?", "talkname0", 1);
-Talk(86, "Hãy để chúng tôi "Qing Cheng Four Show" cho bạn biết Wangfa là gì.", "talkname86", 0);
+Talk(86, "Hãy để chúng tôi \"Qing Cheng Four Show\" cho bạn biết Wangfa là gì.", "talkname86", 0);
 if TryBattle(49) == true then goto label0 end;
     Dead();
     do return end;

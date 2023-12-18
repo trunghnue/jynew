@@ -1,6 +1,6 @@
 ScenceFromTo(20, 47, 20, 39);
 jyx2_CameraFollow("Level/NPC/各派弟子/崆峒弟子1");
-Talk(94, "ha! Anh Yan, giáo phái Kunlun của anh tự nhận là một giáo phái nổi tiếng và chính trực, nhưng không ngờ anh cũng thèm muốn "Kỹ thuật liên kết thành phố" này.", "talkname94", 0);
+Talk(94, "ha! Anh Yan, giáo phái Kunlun của anh tự nhận là một giáo phái nổi tiếng và chính trực, nhưng không ngờ anh cũng thèm muốn \"Kỹ thuật liên kết thành phố\" này.", "talkname94", 0);
 Talk(78, "khịt mũi! Cái gì của thiên hạ thì ai cũng có được. Chẳng phải các chuyên gia từ Khổng Đồng, Thanh Thành, Thái Sơn và các giáo phái lớn khác có mặt cũng nghĩ như vậy sao?", "talkname78", 0);
 ScenceFromTo(20, 39, 20, 47);
 jyx2_CameraFollowPlayer();

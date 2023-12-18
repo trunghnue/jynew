@@ -2,7 +2,7 @@ Talk(0, "Wow, mùi thơm quá. Vô gia cư quá lâu, mỗi khi ngửi thấy m�
 Talk(75, "Không có gì, em trai. Chỉ cần nói cho tôi biết, đầu bếp Lin, bạn muốn ăn gì.", "talkname75", 0);
 Talk(0, "Chú già ơi, những món ăn chú nấu có vẻ ngon và thơm.", "talkname0", 1);
 Talk(75, "Thực tế, không có bí quyết nấu ăn nào, miễn là bạn có tấm lòng nghĩ đến người ăn món đó.", "talkname75", 0);
-Talk(0, ""Trái tim quan tâm đến người ăn"? ＜Nghe như một câu trích dẫn trong truyện tranh nấu ăn＞", "talkname0", 1);
+Talk(0, "\"Trái tim quan tâm đến người ăn\"? ＜Nghe như một câu trích dẫn trong truyện tranh nấu ăn＞", "talkname0", 1);
 Talk(75, "Đúng. Một đầu bếp không chỉ nên nghĩ đến việc làm cho những món ăn của mình đầy màu sắc và thơm tho mà còn nên nghĩ xem ai sẽ ăn món ăn của bạn và hương vị nào phù hợp nhất với người đó khi chế biến món ăn đó. Bởi suy cho cùng món ăn này là để người ta ăn chứ không phải để xem hay bình luận. Tóm lại, khi nấu ăn phải quan tâm đến người ăn càng nhiều càng tốt.", "talkname75", 0);
 Talk(0, "Vậy chuyên môn giỏi nhất của Master Lin là gì?", "talkname0", 1);
 Talk(75, "Tôi không thể nói đủ vào lúc này. Ví dụ như bắp cải xào, đậu hủ hấp, trứng hầm, thịt luộc...", "talkname75", 0);

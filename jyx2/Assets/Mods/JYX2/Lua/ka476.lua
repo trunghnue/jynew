@@ -1,11 +1,11 @@
 Talk(0, "Em trai này, lần đầu tiên tôi đến đây, không biết quanh đây có gì vui vẻ nữa.", "talkname0", 1);
 Talk(53, "Tôi nghe người ta nói phía Tây có núi Ô Lương, phong cảnh yên tĩnh, tôi cũng đang định đến đó.", "talkname53", 0);
 Talk(0, "Tôi không biết bạn gọi tôi là gì, tại sao bạn lại lang thang một mình?", "talkname0", 1);
-Talk(53, "Tôi họ Duẩn, tôi có một cái tên duy nhất có chữ "danh dự". Thực tế là tôi đã trốn khỏi nhà.", "talkname53", 0);
+Talk(53, "Tôi họ Duẩn, tôi có một cái tên duy nhất có chữ \"danh dự\". Thực tế là tôi đã trốn khỏi nhà.", "talkname53", 0);
 Talk(0, "Tại sao bạn lại bỏ nhà ra đi?", "talkname0", 1);
 Talk(53, "Bố muốn dạy võ cho tôi nhưng tôi lại không muốn tập. Sau đó, anh ta ép mạnh hơn và tôi không còn cách nào khác là phải bỏ chạy.", "talkname53", 0);
 Talk(0, "Cha bạn đã dạy bạn môn võ gì?", "talkname0", 1);
-Talk(53, "Cái gì gọi là "Lục Kinh Thần Kiếm"?", "talkname53", 0);
+Talk(53, "Cái gì gọi là \"Lục Kinh Thần Kiếm\"?", "talkname53", 0);
 Talk(0, "Môn võ này nghe có vẻ rất lợi hại, tại sao lại không muốn học, sợ vất vả sao?", "talkname0", 1);
 Talk(53, "Tôi không sợ vất vả. Tôi thọ giới Phật giáo từ khi còn nhỏ, khoảng mười năm trở lại đây, tôi đã học được quan niệm nhân từ và kính trọng người khác của Nho giáo. Lời Phật dạy là tránh sát sinh, tránh sân hận và có lòng từ bi. Đột nhiên cha tôi bảo tôi luyện võ và học cách đánh giết người, tự nhiên tôi cảm thấy có gì đó không ổn.", "talkname53", 0);
 Talk(0, "Nhưng nếu bạn không biết võ thuật và nhìn thấy ai đó bị bắt nạt và bạn muốn cứu người đó thì sao?", "talkname0", 1);

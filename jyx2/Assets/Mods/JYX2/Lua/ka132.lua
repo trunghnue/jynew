@@ -2,8 +2,8 @@ Talk(0, "Đại ca, đây có phải là dãy núi Côn Lôn không?", "talkname
 Talk(78, "Vâng, đây là dãy núi Kunlun. Bạn có đến từ đó không?", "talkname78", 0);
 Talk(0, "Tôi chưa bao giờ tưởng tượng rằng ở nơi hoang vắng và lạnh lẽo này lại có một nơi tuyệt vời như vậy!", "talkname0", 1);
 Talk(78, "Đúng vậy, nơi này vốn là một vùng đất cằn cỗi. Tuy nhiên, kể từ khi người sáng lập ngọn núi, He, người sáng lập ngọn núi, các nhà lãnh đạo kế tiếp đã bỏ ra nhiều nỗ lực để chấn chỉnh ngọn núi trong bảy mươi tám mươi năm qua. Ông phái đệ tử của mình đến phía nam sông Dương Tử ở phía đông và đến Tianzhu ở phía tây để di chuyển tất cả các loại hoa và cây kỳ lạ về trồng ở đây, kết quả là có cảnh quan tuyệt đẹp hiện nay.", "talkname78", 0);
-Talk(0, "Người lãnh đạo là gì? Chẳng lẽ là ông He Zudao, "Ba hiền nhân của Kunlun" được mọi người trên thế giới đồn đại?", "talkname0", 1);
-Talk(78, "Đúng vậy, sư phụ của ta là cao thủ của ba bậc thầy piano, kiếm và cờ vua, và được mệnh danh là "Ba vị thánh Kunlun" trong số các vị thánh Tần, Thánh kiếm và Thánh cờ vua.", "talkname78", 0);
+Talk(0, "Người lãnh đạo là gì? Chẳng lẽ là ông He Zudao, \"Ba hiền nhân của Kunlun\" được mọi người trên thế giới đồn đại?", "talkname0", 1);
+Talk(78, "Đúng vậy, sư phụ của ta là cao thủ của ba bậc thầy piano, kiếm và cờ vua, và được mệnh danh là \"Ba vị thánh Kunlun\" trong số các vị thánh Tần, Thánh kiếm và Thánh cờ vua.", "talkname78", 0);
 Talk(0, "Tôi muốn đến thăm người đứng đầu hiện tại của giáo phái của bạn, được chứ?", "talkname0", 1);
 Talk(78, "Thầy hiệu trưởng đang ở bên trong, có thể trực tiếp đi vào.", "talkname78", 0);
 ModifyEvent(-2, 3, -2, -2, 133, -1, -1, -2, -2, -2, -2, -2, -2);

@@ -10,7 +10,7 @@ Talk(33, "Đây là chìa khóa, anh hùng trẻ tuổi, anh vào trước đi, 
 Talk(0, "Tại sao bốn bạn lại chơi mạt chược vào thời gian rảnh?", "talkname0", 1);
 Talk(33, "Huh! Làm sao bạn biết? Đây là trò chơi mà bốn anh em tôi đang thực hiện. Hiện tại mới chỉ có nguyên mẫu, thậm chí ngay cả 4 cái tên của thẻ đặc biệt cũng chưa được quyết định?", "talkname33", 0);
 Talk(0, "＜Có lẽ nào trò mạt chược này được bốn người này phát minh ra khi họ đang buồn chán? ＞Bạn muốn sử dụng tên gì?", "talkname0", 1);
-Talk(33, "Chỉ cần sử dụng sở thích của bốn người chúng tôi là "Tần, cờ, thư pháp và hội họa".", "talkname33", 0);
+Talk(33, "Chỉ cần sử dụng sở thích của bốn người chúng tôi là \"Tần, cờ, thư pháp và hội họa\".", "talkname33", 0);
 Talk(0, "Không, dùng “xuân, hạ, thu đông” hay “mận, lan, trúc, cúc” sẽ tốt hơn. Nó có thể hiển thị tốt hơn những thay đổi của bốn mùa.", "talkname0", 1);
 Talk(33, "Vâng? Nó có vẻ tốt.", "talkname33", 0);
 Talk(0, "Tôi sẽ đi tìm anh ấy ngay bây giờ.", "talkname0", 1);

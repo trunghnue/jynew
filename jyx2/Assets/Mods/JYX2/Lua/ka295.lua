@@ -1,11 +1,11 @@
-Talk(0, "Xét về ngoại hình, bạn có phải là thủ lĩnh của "Heo Rừng Mang"?", "talkname0", 1);
+Talk(0, "Xét về ngoại hình, bạn có phải là thủ lĩnh của \"Heo Rừng Mang\"?", "talkname0", 1);
 Talk(24, "Bạn là ai và tại sao bạn lại gặp rắc rối với phe Thanh Thành của tôi?", "talkname24", 0);
 Talk(0, "Tôi bảo anh, hãy thả tiền bối Lin Zhennan ngay lập tức, nếu không tôi sẽ tát vào đầu anh.", "talkname0", 1);
 Talk(24, "Hóa ra là về gia đình Lin.", "talkname24", 0);
 Talk(0, "Thôi nào, Lâm tiền bối đâu?", "talkname0", 1);
 Talk(24, "khịt mũi! Tôi sợ bạn sẽ không thể nhìn thấy anh ấy.", "talkname24", 0);
 Talk(0, "Bạn đã giết anh ta?", "talkname0", 1);
-Talk(24, "Ai bảo anh ta không được tiết lộ tung tích của "Sổ tay Ác kiếm"?", "talkname24", 0);
+Talk(24, "Ai bảo anh ta không được tiết lộ tung tích của \"Sổ tay Ác kiếm\"?", "talkname24", 0);
 Talk(0, "Bạn có một trái tim độc ác như vậy.", "talkname0", 1);
 Talk(24, "Nếu bạn muốn gặp anh ấy đến vậy, tôi sẽ gửi bạn đến đó.", "talkname24", 0);
 if TryBattle(50) == true then goto label0 end;

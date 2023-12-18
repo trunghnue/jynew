@@ -2,7 +2,7 @@ Talk(0, "Nhìn dáng vẻ uy nghiêm và vương giả của ngươi thì chắc
 Talk(34, "Đừng coi đó là điều đương nhiên, đó là tôi. Tôi tự hỏi anh hùng trẻ tuổi đã đến làng tôi có công việc quan trọng gì?", "talkname34", 0);
 Talk(0, "Ta nghe thiên hạ đồn đại, trong thôn ngươi có Ngọa hổ, ẩn long, có cao thủ, tò mò liền tới đây tìm hiểu.", "talkname0", 1);
 Talk(34, "Tôi, bốn người bạn của Meizhuang, đã sống ẩn dật ở phía nam sông Dương Tử từ lâu, và từ lâu đã thờ ơ với chuyện thế sự, lời nói Ngọa hổ, ẩn long, chủ nhân chỉ là những điều vô nghĩa ngẫu nhiên từ những người trong võ thuật.", "talkname34", 0);
-Talk(0, "Tôi nghĩ điều này cũng đúng, ba chủ thôn còn lại chỉ đơn giản là "liều lĩnh" và bị tôi giải quyết trong vài giây.", "talkname0", 1);
+Talk(0, "Tôi nghĩ điều này cũng đúng, ba chủ thôn còn lại chỉ đơn giản là \"liều lĩnh\" và bị tôi giải quyết trong vài giây.", "talkname0", 1);
 Talk(31, "Cậu bé! …", "talkname31", 0);
 Talk(34, "Ta đã nghe ba huynh đệ nói như vậy, nhưng từ lâu đã quên mất danh lợi bên ngoài, cũng không quan tâm giới võ lâm nói gì về mình!", "talkname34", 0);
 Talk(0, "<Lão gia hỏa này thật sự rất bình tĩnh, kích động hắn ra tay không phải dễ dàng, nhưng ngươi phải nghĩ biện pháp. ＞", "talkname0", 1);

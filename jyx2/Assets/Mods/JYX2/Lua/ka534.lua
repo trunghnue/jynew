@@ -1,19 +1,19 @@
-Talk(52, "Thiếu gia có cách nào phá được "Zhenlong" này không?", "talkname52", 0);
+Talk(52, "Thiếu gia có cách nào phá được \"Zhenlong\" này không?", "talkname52", 0);
 if InTeam(49) == true then goto label0 end;
     Talk(0, "Thiếu niên không giỏi chơi cờ, nếu không thì tôi cũng muốn thử.", "talkname0", 1);
-    Talk(52, "Đáng tiếc, đáng tiếc, chẳng lẽ trên thế giới này không có ai có thể mở khóa được cái này "Trấn Long" sao?", "talkname52", 0);
+    Talk(52, "Đáng tiếc, đáng tiếc, chẳng lẽ trên thế giới này không có ai có thể mở khóa được cái này \"Trấn Long\" sao?", "talkname52", 0);
     do return end;
 ::label0::
     Talk(0, "Người đàn em này chơi cờ không giỏi lắm, nhưng tôi sẽ thử.", "talkname0", 1);
     Talk(52, "Thưa ông, làm ơn.", "talkname52", 0);
     DarkScence();
     LightScence();
-    Talk(0, "Hừ... Tiến lên không còn đường, có binh lính đuổi theo phía sau, không thiện cũng không ác, khó khăn biết bao! ...<Này, những viên đá trắng đen trên bàn cờ dường như đã biến thành chủ nhân của các phe phái khác nhau. Một nhóm ở phía đông sử dụng kiếm, và một nhóm ở phía tây sử dụng nắm đấm. Bạn vây quanh tôi, và tôi bao quanh bạn , giằng co lẫn nhau... Người ngựa của Phương Bạch ta bị bao vây bởi cao thủ của các hắc phái khác nhau, lao trái lao phải, nhưng không thể thoát khỏi vòng vây...> Chẳng lẽ số mệnh của ta đã như vậy? kiệt sức và mọi nỗ lực của tôi đều vô ích. Những nỗ lực tìm kiếm "Cuốn sách mười bốn ngày" của tôi cuối cùng sẽ biến thành một giấc mơ! Thời gian cũng là định mệnh, biết nói sao đây? Tôi cũng có thể chết đi.", "talkname0", 1);
+    Talk(0, "Hừ... Tiến lên không còn đường, có binh lính đuổi theo phía sau, không thiện cũng không ác, khó khăn biết bao! ...<Này, những viên đá trắng đen trên bàn cờ dường như đã biến thành chủ nhân của các phe phái khác nhau. Một nhóm ở phía đông sử dụng kiếm, và một nhóm ở phía tây sử dụng nắm đấm. Bạn vây quanh tôi, và tôi bao quanh bạn , giằng co lẫn nhau... Người ngựa của Phương Bạch ta bị bao vây bởi cao thủ của các hắc phái khác nhau, lao trái lao phải, nhưng không thể thoát khỏi vòng vây...> Chẳng lẽ số mệnh của ta đã như vậy? kiệt sức và mọi nỗ lực của tôi đều vô ích. Những nỗ lực tìm kiếm \"Cuốn sách mười bốn ngày\" của tôi cuối cùng sẽ biến thành một giấc mơ! Thời gian cũng là định mệnh, biết nói sao đây? Tôi cũng có thể chết đi.", "talkname0", 1);
     jyx2_ReplaceSceneObject("", "NPC/xuzhu", "1");--虚竹
     Talk(49, "Không phải như thế này! ＜Anh trai dường như bị quỷ ám, tôi phải làm sao? Đúng, tôi không giải được ván cờ này, nhưng nếu tôi phá hỏng nó và khiến anh ta mất trí thì tôi có thể được cứu...> Tôi sẽ giải được ván cờ này. Ừm! Cứ xuống đây đi.", "talkname49", 1);
     Talk(52, "Nói nhảm, nói nhảm, chính ngươi là tự mình giết chết một quân cờ trắng, không có chuyện như vậy.", "talkname52", 0);
     Talk(0, "Huh! Đây có thể là trường hợp? Tiền bối, ngài thấy đấy, sau khi trắng đã cố tình bóp một miếng lớn thì hành động tiếp theo sẽ dễ dàng hơn nhiều.", "talkname0", 1);
-    Talk(52, "Cái này... cái này... cái "Zhenlong" này thực ra đã được giải quyết, hóa ra mấu chốt nằm ở chiêu thức kỳ lạ được thực hiện ngay từ đầu. Ván cờ này vốn dĩ vướng vào thắng thua, không giải quyết được, vị hòa thượng trẻ tuổi không quan tâm đến sinh tử, huống chi là thắng bại, ngược lại, hắn giải quyết sinh tử, được giải thoát...", "talkname52", 0);
+    Talk(52, "Cái này... cái này... cái \"Zhenlong\" này thực ra đã được giải quyết, hóa ra mấu chốt nằm ở chiêu thức kỳ lạ được thực hiện ngay từ đầu. Ván cờ này vốn dĩ vướng vào thắng thua, không giải quyết được, vị hòa thượng trẻ tuổi không quan tâm đến sinh tử, huống chi là thắng bại, ngược lại, hắn giải quyết sinh tử, được giải thoát...", "talkname52", 0);
     Talk(49, "Nhà sư trẻ có kỹ năng chơi cờ kém và thực hiện các động tác tùy tiện, hy vọng cứu được người...", "talkname49", 1);
     Talk(0, "Người anh tốt mắc sai lầm mà phải gánh chịu hậu quả.", "talkname0", 1);
     Talk(52, "Xin chúc mừng vị tu sĩ thần thánh vì tài năng của anh ấy. Xin hãy vào trong.", "talkname52", 0);

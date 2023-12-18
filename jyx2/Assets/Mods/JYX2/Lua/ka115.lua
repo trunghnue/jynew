@@ -1,4 +1,4 @@
-Talk(13, "Bạn đã sẵn sàng chưa, anh hùng trẻ tuổi, để tiêu diệt "Đội hình lửa thánh sáng chói" của Minh giáo chúng ta?", "talkname13", 0);
+Talk(13, "Bạn đã sẵn sàng chưa, anh hùng trẻ tuổi, để tiêu diệt \"Đội hình lửa thánh sáng chói\" của Minh giáo chúng ta?", "talkname13", 0);
 if AskBattle() == true then goto label0 end;
     Talk(0, "Tôi vẫn chưa sẵn sàng.", "talkname0", 1);
     do return end;
@@ -41,7 +41,7 @@ if AskBattle() == true then goto label0 end;
         Talk(12, "Chắc chắn, những anh hùng xuất hiện từ tuổi trẻ, còn xương già chúng ta không còn tốt nữa.", "talkname12", 0);
         Talk(14, "Từ nay trở đi thế giới võ thuật sẽ được thống trị bởi những người trẻ tuổi như bạn.", "talkname14", 0);
         Talk(0, "Chính những người cao niên đã chấp nhận nó.", "talkname0", 1);
-        Talk(13, "Theo thỏa thuận của chúng ta, cuốn sách "Truyền thuyết về Thiên Long Kiếm" phải thuộc về anh hùng trẻ tuổi.", "talkname13", 0);
+        Talk(13, "Theo thỏa thuận của chúng ta, cuốn sách \"Truyền thuyết về Thiên Long Kiếm\" phải thuộc về anh hùng trẻ tuổi.", "talkname13", 0);
         Talk(0, "Cảm ơn các tiền bối. Trải qua biết bao thăng trầm để có được cuốn sách này, tuy vất vả nhưng tôi cũng học được rất nhiều điều từ nó. Trên đời thật sự khó phân định người tốt kẻ xấu, người có danh tiếng chính trực, bên ngoài khoác áo da cừu thì dễ làm điều ác hơn.", "talkname0", 1);
         Talk(10, "Sau tất cả những điều này, trải nghiệm của bạn trên thế giới đã tăng lên rất nhiều. Tôi hy vọng những chặng đường khác của bạn cũng sẽ suôn sẻ hơn.", "talkname10", 0);
         Talk(0, "Được rồi, tôi phải làm việc khác. Tôi sẽ quay lại khi có thời gian.", "talkname0", 1);

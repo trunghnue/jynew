@@ -12,9 +12,9 @@ Talk(0, "Huh! Thực sự có những từ. Hình như đó là dòng chữ “t
 Talk(64, "Bạn có nhìn thấy nó không.", "talkname64", 0);
 Talk(0, "＜Chữ này chắc chắn không phải tự nhiên mà có, rõ ràng là cố ý xăm. >Đây là thứ vô song trên thế giới, hiếm có trên thế giới, chắc hẳn bạn đã thêu nó bằng kim thêu phải không?", "talkname0", 1);
 Talk(64, "Bạn nói gì? Hãy nhìn những con ong khác.", "talkname64", 0);
-Talk(0, "Cái này...cái này, sao trong mỗi cái lại có một cái. Và những từ được viết đều khác nhau. Cái này chỉ nói "Tôi đang ở Jue".", "talkname0", 1);
-Talk(64, "Tôi cũng đã thấy những cái khác nói "Đền Erwu" và "Ác quỷ Yishan". Bạn có nghĩ rằng tôi đã viết tất cả những điều này?", "talkname64", 0);
-Talk(0, ""Đáy tình yêu", "Tôi ở cuối", "Đền Erwu", "Núi tà ác"... Điều này có nghĩa là gì? Tiền bối, không phải anh tự mình nuôi những con ong này phải không?", "talkname0", 1);
+Talk(0, "Cái này...cái này, sao trong mỗi cái lại có một cái. Và những từ được viết đều khác nhau. Cái này chỉ nói \"Tôi đang ở Jue\".", "talkname0", 1);
+Talk(64, "Tôi cũng đã thấy những cái khác nói \"Đền Erwu\" và \"Ác quỷ Yishan\". Bạn có nghĩ rằng tôi đã viết tất cả những điều này?", "talkname64", 0);
+Talk(0, "\"Đáy tình yêu", "Tôi ở cuối\", \"Đền Erwu\", \"Núi tà ác\"... Điều này có nghĩa là gì? Tiền bối, không phải anh tự mình nuôi những con ong này phải không?", "talkname0", 1);
 Talk(64, "Này, sao bạn biết?", "talkname64", 0);
 Talk(0, "Tôi đã đoán mò.", "talkname0", 1);
 Talk(64, "Những con ong này đến từ vùng núi phía bắc, lúc đầu tôi rất sốc.", "talkname64", 0);

@@ -1,6 +1,6 @@
-Talk(51, "Bạn nghĩ sao về nó Bạn có muốn tôi tham gia cùng bạn để bạn có thể dễ dàng có được "Dragon Babu" không?", "talkname51", 0);
+Talk(51, "Bạn nghĩ sao về nó Bạn có muốn tôi tham gia cùng bạn để bạn có thể dễ dàng có được \"Dragon Babu\" không?", "talkname51", 0);
 if AskJoin () == true then goto label0 end;
-    Talk(0, "Ý định "tốt" của Thầy Mộ Dung đã được tôi hết lòng chấp nhận. Tôi vẫn có chút tự tin vào võ công của mình, tôi thà đấu với Kiều Đại Hạ một cách công khai và công bằng, còn hơn dùng thủ đoạn hèn hạ để có được bản sao của "Dragon Babu".", "talkname0", 1);
+    Talk(0, "Ý định \"tốt\" của Thầy Mộ Dung đã được tôi hết lòng chấp nhận. Tôi vẫn có chút tự tin vào võ công của mình, tôi thà đấu với Kiều Đại Hạ một cách công khai và công bằng, còn hơn dùng thủ đoạn hèn hạ để có được bản sao của \"Dragon Babu\".", "talkname0", 1);
     Talk(51, "Hãy suy nghĩ lại.", "talkname51", 0);
     do return end;
 ::label0::

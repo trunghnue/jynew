@@ -12,10 +12,10 @@ if UseItem(183) == true then goto label0 end;
     Talk(50, "Điều này... điều này có đúng không?", "talkname50", 0);
     Talk(0, "Nó có thể là giả nếu nó được viết bởi trụ trì Thiếu Lâm?", "talkname0", 1);
     Talk(50, "Tôi...tôi...tôi không phải người Hán...tôi là người Khiết Đan...", "talkname50", 0);
-    Talk(0, "Kiều Phong, ngươi là người Khiết Đan chứ không phải người Hán, làm sao có thể đảm nhận vị trí thủ lĩnh Bang Bang, giữ lại cuốn sách "Thiên Long bát bộ"!", "talkname0", 1);
+    Talk(0, "Kiều Phong, ngươi là người Khiết Đan chứ không phải người Hán, làm sao có thể đảm nhận vị trí thủ lĩnh Bang Bang, giữ lại cuốn sách \"Thiên Long bát bộ\"!", "talkname0", 1);
     Talk(50, "bạn muốn tôi làm gì!", "talkname50", 0);
-    Talk(0, "Từ chức tộc trưởng Ăn mày tộc và giao lại cuốn sách "Bát phần của Thiên long".", "talkname0", 1);
-    Talk(50, "Tốt! Hôm nay ta sẽ từ chức thủ lĩnh Bang ăn xin, ngươi có thể lấy cuốn sách "Bát tùng rồng".", "talkname50", 0);
+    Talk(0, "Từ chức tộc trưởng Ăn mày tộc và giao lại cuốn sách \"Bát phần của Thiên long\".", "talkname0", 1);
+    Talk(50, "Tốt! Hôm nay ta sẽ từ chức thủ lĩnh Bang ăn xin, ngươi có thể lấy cuốn sách \"Bát tùng rồng\".", "talkname50", 0);
     jyx2_ReplaceSceneObject("", "NPC/qiaofeng", "");--战斗结束，乔峰离开
     DarkScence();
     ModifyEvent(-2, -2, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2);--by fanyu 战斗结束，乔峰离开 场景51-14
@@ -24,7 +24,7 @@ if UseItem(183) == true then goto label0 end;
     Talk(0, "Nó thực sự dễ dàng để có được.", "talkname0", 1);
     Talk(93, "Đại nhân đến đây để vạch trần thân phận thực sự của Kiều Phong, để Bang chủ chúng ta không nhầm lẫn nhận một người Khitan làm thủ lĩnh, tôi rất cảm kích.", "talkname93", 0);
     Talk(0, "Không có chuyện gì, đây là Võ Lâm Trung Nguyên đại sự, đây là ta nên làm.", "talkname0", 1);
-    Talk(93, "Tuy nhiên, nhờ có ngươi mà Bang hội Ăn mày của chúng ta cũng sẽ cười nhạo giới võ lâm vì chuyện này. "Rồng và Bát Phần" mà bạn lấy được là báu vật của Gia tộc Ăn mày, xin hãy giữ lấy nó.", "talkname93", 0);
+    Talk(93, "Tuy nhiên, nhờ có ngươi mà Bang hội Ăn mày của chúng ta cũng sẽ cười nhạo giới võ lâm vì chuyện này. \"Rồng và Bát Phần\" mà bạn lấy được là báu vật của Gia tộc Ăn mày, xin hãy giữ lấy nó.", "talkname93", 0);
     Talk(0, "Làm sao điều đó có thể xảy ra được?Tôi đã đạt được nó một cách vô cùng khó khăn.", "talkname0", 1);
     Talk(93, "Điều đó sẽ phải bị xúc phạm.", "talkname93", 0);
     if TryBattle(84) == true then goto label1 end;

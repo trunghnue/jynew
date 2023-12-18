@@ -12,7 +12,7 @@ Talk(49, "Nhưng……", "talkname49", 0);
 Talk(0, "Quên đi, ngươi xem, lão nhân này qua đời là vì muốn truyền lại kỹ năng cả đời cho ngươi, ngươi còn nỡ từ chối hắn sao? Bên cạnh đó, Ding Chunqiu còn là một kẻ phản diện phạm đủ mọi tội ác và phạm những tội ác không thể tha thứ.", "talkname0", 1);
 Talk(49, "……", "talkname49", 0);
 Talk(0, "Được rồi, tôi nghĩ thế là xong. Tô tiền bối, chúng ta sẽ đi tìm Tinh Tú lão quái vật kia, giết hắn để báo thù cho chủ nhân của ngươi.", "talkname0", 1);
-Talk(52, "Ông lão cảm ơn người anh hùng trẻ tuổi đã giúp đỡ. Thiếu gia, xin hãy cẩn thận trên đường đến đây, tên trộm già Đinh Xuân Thu đang hành động hèn hạ... Nhân tiện, tôi có một người học việc là bác sĩ Xue, người có tay nghề cao về y học và được mệnh danh là "Kẻ thù của kẻ thù". Vua địa ngục". Bạn có thể đến gặp anh ta để được giúp đỡ. Khi nhìn thấy anh ta, bạn chỉ cần đưa ra "Chiếc nhẫn bảy báu" làm biểu tượng của người lãnh đạo.", "talkname52", 0);
+Talk(52, "Ông lão cảm ơn người anh hùng trẻ tuổi đã giúp đỡ. Thiếu gia, xin hãy cẩn thận trên đường đến đây, tên trộm già Đinh Xuân Thu đang hành động hèn hạ... Nhân tiện, tôi có một người học việc là bác sĩ Xue, người có tay nghề cao về y học và được mệnh danh là \"Kẻ thù của kẻ thù\". Vua địa ngục\". Bạn có thể đến gặp anh ta để được giúp đỡ. Khi nhìn thấy anh ta, bạn chỉ cần đưa ra \"Chiếc nhẫn bảy báu\" làm biểu tượng của người lãnh đạo.", "talkname52", 0);
 DarkScence();
 ModifyEvent(-2, 1, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2);
 jyx2_ReplaceSceneObject("", "NPC/xiaoyaozi", "");--逍遥子1

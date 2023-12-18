@@ -1,9 +1,9 @@
 ScenceFromTo(41, 31, 34, 31);
 jyx2_CameraFollow("Level/NPC/miaorenfeng");
 Talk(3, "Bạn được Tian Guinong mời phải không? Thần Long Môn và Thiên Quý Nông quen nhau từ khi nào?", "talkname3", 0);
-Talk(97, "Nhờ anh Tian, chúng tôi biết cuốn sách "Flying Fox Gaiden" đang ở bên bạn. Nếu hiểu rõ xin hãy giao sách ngay.", "talkname97", 0);
+Talk(97, "Nhờ anh Tian, chúng tôi biết cuốn sách \"Flying Fox Gaiden\" đang ở bên bạn. Nếu hiểu rõ xin hãy giao sách ngay.", "talkname97", 0);
 Talk(3, "Thiên Quy Nông ở đâu? Tại sao anh ấy không dám ra ngoài gặp tôi?", "talkname3", 0);
-Talk(97, "Tôi không nghĩ bạn có thể nhìn thấy anh ấy nữa. Bột cỏ đau lòng mà Tian Brother lấy được từ Độc Thủ Dược Vương thực sự rất mạnh mẽ. Bây giờ ngươi bị mù, ta nhìn thấy Phật mặt vàng Miao Renfeng, kẻ "vô địch thiên hạ", hôm nay sẽ đi về phương Tây! Cố lên các anh em!", "talkname97", 0);
+Talk(97, "Tôi không nghĩ bạn có thể nhìn thấy anh ấy nữa. Bột cỏ đau lòng mà Tian Brother lấy được từ Độc Thủ Dược Vương thực sự rất mạnh mẽ. Bây giờ ngươi bị mù, ta nhìn thấy Phật mặt vàng Miao Renfeng, kẻ \"vô địch thiên hạ\", hôm nay sẽ đi về phương Tây! Cố lên các anh em!", "talkname97", 0);
 ScenceFromTo(34, 31, 41, 31);
 jyx2_CameraFollowPlayer();
 Talk(0, "Master Miao, hãy để tôi giúp bạn bắt tên trộm.", "talkname0", 1);

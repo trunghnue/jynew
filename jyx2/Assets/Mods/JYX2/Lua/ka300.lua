@@ -17,7 +17,7 @@ if InTeam(29) == false then goto label0 end;
 ::label2::
             Talk(0, "Mặc dù hiện tại tôi không cảm thấy đau đớn gì nhưng không có gì đảm bảo rằng sẽ có điều gì đó không ổn trên hành trình của tôi trong tương lai, vì vậy hãy cứ đi theo tôi.", "talkname0", 1);
             Talk(28, "Bạn có biết biệt danh của tôi không?", "talkname28", 0);
-            Talk(0, "Anh ta không phải là "bác sĩ nổi tiếng giết người" sao?", "talkname0", 1);
+            Talk(0, "Anh ta không phải là \"bác sĩ nổi tiếng giết người\" sao?", "talkname0", 1);
             Talk(28, "Chỉ cần biết. Nếu muốn tôi tham gia cùng bạn, trước tiên bạn phải giúp tôi giết ai đó.", "talkname28", 0);
             Talk(0, "Ai?", "talkname0", 1);
             Talk(28, "Tian Boguang, kẻ cuồng dâm một mình đi hàng ngàn dặm.", "talkname28", 0);

@@ -2,7 +2,7 @@ Talk(73, "Chàng trai trẻ, cuối cùng thì cậu cũng đã đến, tôi đ�
 Talk(0, "Bạn biết tôi sẽ đến, đây thực sự là một trò chơi được sắp xếp.", "talkname0", 1);
 Talk(73, "trò chơi? Cuộc đời chỉ là một vở kịch phải không? Nhưng không biết đây có phải là một trò chơi có sắp đặt hay không, chỉ là hình như có người biết bạn đang tới.", "talkname73", 0);
 Talk(0, "Có ai biết tôi đang đến không? đó là ai? Ai biết tôi sẽ đến!", "talkname0", 1);
-Talk(73, "Ba mươi năm trước, một thanh niên có lời nói và hành vi kỳ lạ xuất hiện trong giới võ thuật. Đúng, giống như bạn. Anh ta cứ nói rằng anh ta đến từ một thế giới khác gọi là "tương lai".", "talkname73", 0);
+Talk(73, "Ba mươi năm trước, một thanh niên có lời nói và hành vi kỳ lạ xuất hiện trong giới võ thuật. Đúng, giống như bạn. Anh ta cứ nói rằng anh ta đến từ một thế giới khác gọi là \"tương lai\".", "talkname73", 0);
 Talk(0, "Nói cho tôi biết anh ấy ở đâu, tôi muốn gặp anh ấy.", "talkname0", 1);
 Talk(73, "Anh ấy không còn ở đây nữa, tôi sợ bạn không thể tìm thấy anh ấy.", "talkname73", 0);
 Talk(0, "Cái gì? Anh ấy đã chết? Kết thúc rồi, kết thúc rồi, tôi không thể rời khỏi nơi địa ngục này được.", "talkname0", 1);
@@ -12,13 +12,13 @@ Talk(73, "Đó là một câu chuyện dài! Lúc đầu, kỹ năng võ thuật
 Talk(0, "Mười bốn tác phẩm?", "talkname0", 1);
 Talk(73, "Trước khi rời đi, mười bốn tác phẩm này được đặt ở một nơi rất bí mật để mỗi thủ lĩnh võ thuật bảo quản an toàn. Nhưng không lâu sau khi anh ta rời đi, một số kẻ chuyên nghiệp đã hợp sức và đánh cắp sách. Bởi vì mọi người đều nghi ngờ rằng mười bốn cuốn sách này thực chất là cuốn sách bí mật ghi lại võ công vô song của hắn. Sau một thời gian tranh đấu và giết chóc, mười bốn cuốn sách hiện không rõ chúng ở đâu. Mọi người chỉ nhớ hai câu ông từng nói, được cho là có liên quan mật thiết đến mười bốn cuốn sách này.", "talkname73", 0);
 Talk(0, "Hai câu đó?", "talkname0", 1);
-Talk(73, ""Tuyết bay bắn hươu trắng, anh hùng truyện cười tựa vào con vịt xanh."", "talkname73", 0);
+Talk(73, "\"Tuyết bay bắn hươu trắng, anh hùng truyện cười tựa vào con vịt xanh.\"", "talkname73", 0);
 Talk(0, "Đã nói tất cả những điều đó, làm thế nào tôi có thể quay trở lại?", "talkname0", 1);
 Talk(73, "Thành thật mà nói, tôi cũng không biết, nhưng điều tôi biết là nơi anh ấy rời đi là trong nhà thờ nơi cất giữ mười bốn cuốn sách ban đầu, và ở đó có thể có một số manh mối.", "talkname73", 0);
 Talk(0, "“Chùa” ở đâu?", "talkname0", 1);
 Talk(73, "Chỉ có thủ lĩnh võ thuật mới biết điều đó.", "talkname73", 0);
 Talk(0, "Thủ lĩnh võ thuật?", "talkname0", 1);
-Talk(73, "Đúng. Hàng năm, một đại hội võ thuật được tổ chức trên đỉnh núi Hoa Sơn, mà mọi người gọi là "Cuộc thi kiếm hoa Sơn". Trong cuộc họp, mọi người đều vận dụng võ công của mình để xác định xem ai sẽ tranh tài, tranh giành ngôi vị thủ lĩnh của liên minh võ thuật. Nhưng không phải ai cũng có thể tham gia bữa tiệc này, chỉ những người có danh tiếng nhất định mới được mời.", "talkname73", 0);
+Talk(73, "Đúng. Hàng năm, một đại hội võ thuật được tổ chức trên đỉnh núi Hoa Sơn, mà mọi người gọi là \"Cuộc thi kiếm hoa Sơn\". Trong cuộc họp, mọi người đều vận dụng võ công của mình để xác định xem ai sẽ tranh tài, tranh giành ngôi vị thủ lĩnh của liên minh võ thuật. Nhưng không phải ai cũng có thể tham gia bữa tiệc này, chỉ những người có danh tiếng nhất định mới được mời.", "talkname73", 0);
 Talk(0, "Vậy làm sao bạn biết tôi sẽ đến?", "talkname0", 1);
 Talk(73, "Đó là những gì người đó đã nói với tôi. Đêm trước khi rời đi, anh ấy đến gặp tôi và nói với tôi rằng anh ấy sẽ đến nhà thờ vào ngày hôm sau và rời bỏ thế giới này. Và một ngày nào đó trong tương lai, có thể một người như anh ấy sẽ đến đây, và tôi phải cố gắng hết sức để giúp đỡ người này. Đó là lý do tại sao tôi biết anh ấy đã bỏ tôi ở đâu và tại sao tôi biết bạn sẽ đến.", "talkname73", 0);
 Talk(0, "Làm thế nào bạn có thể giúp tôi?", "talkname0", 1);

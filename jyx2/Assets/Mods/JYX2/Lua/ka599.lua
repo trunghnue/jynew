@@ -10,7 +10,7 @@ Talk(0, "Bạn rất yêu em gái của mình phải không?", "talkname0", 1);
 Talk(37, "Làm sao em gái tôi có thể... làm sao tôi có thể cưới người tên Vạn đó.", "talkname37", 0);
 Talk(0, "Vậy làm thế nào bạn rời khỏi nhà tù Kinh Châu và tại sao bạn lại bị giam ở đây?", "talkname0", 1);
 Talk(37, "Trong vài năm ở tù, bạn tù Ding Dian đã kể cho tôi nghe nhiều điều về thế giới, đồng thời cũng dạy tôi phương pháp “Thần chiêu kinh”, mà anh ấy nói rằng có thể nâng cao nội lực của tôi. Đột nhiên một ngày, anh Ding đưa tôi trốn khỏi nhà tù và nói rằng anh muốn gặp một người bạn. Nhưng cô không ngờ rằng người bạn tâm tình của anh Ding đã chết, và cha cô, thống đốc Kinh Châu, đã thực sự đầu độc quan tài của con gái cô để giết anh Ding, anh Ding sau đó chết vì bị đầu độc. Dù trốn thoát nhưng sau đó tôi lại bị những tu sĩ này bắt và giam ở đây. Bạn thấy đấy, tôi là một người bất hạnh, ai ở bên tôi cũng có một kết cục tồi tệ.", "talkname37", 0);
-Talk(0, "Đừng nói thế, bạn chỉ "xấu" thôi. Kế hoạch tương lai của bạn là gì?", "talkname0", 1);
+Talk(0, "Đừng nói thế, bạn chỉ \"xấu\" thôi. Kế hoạch tương lai của bạn là gì?", "talkname0", 1);
 Talk(37, "Tôi chỉ muốn quay lại quê hương Maxipu ở phía tây Hồ Nam để xem. Tôi vẫn nhớ ở đó có một cái hang, nơi tôi và em gái tôi thường chơi khi còn nhỏ.", "talkname37", 0);
 Talk(0, "Ở đó có vui không? Tôi sẽ đi xem vào một ngày khác.", "talkname0", 1);
 Talk(37, "Ở đó rất khó tìm và người bình thường không biết điều đó. Tôi nhớ bên đường có một tảng đá có khắc số “364279”, còn khá mới.", "talkname37", 0);--原版为２７０，１１５唐诗山洞

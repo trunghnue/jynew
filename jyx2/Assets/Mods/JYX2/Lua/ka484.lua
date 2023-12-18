@@ -1,4 +1,4 @@
-Talk(0, "Người phụ nữ trong bức tượng này khá xinh đẹp... Ơ! Phía dưới viết mấy chữ... "Cúi lạy một ngàn lần, để ta dắt ngươi, tuân theo mệnh lệnh của ta, không bao giờ hối hận"... <Điên muốn lạy tượng đá>", "talkname0", 1);
+Talk(0, "Người phụ nữ trong bức tượng này khá xinh đẹp... Ơ! Phía dưới viết mấy chữ... \"Cúi lạy một ngàn lần, để ta dắt ngươi, tuân theo mệnh lệnh của ta, không bao giờ hối hận\"... <Điên muốn lạy tượng đá>", "talkname0", 1);
 if InTeam(53) == true then goto label0 end;
     do return end;
 ::label0::
@@ -27,14 +27,14 @@ if InTeam(53) == true then goto label0 end;
     jyx2_SwitchRoleAnimation("NPC/段誉11", "Assets/BuildSource/AnimationControllers/备份/DuanyuController.controller");
     LightScence();
     Talk(0, "Ca ca, ngươi thật là quỳ lạy ngàn lần, đầu ngươi không sao chứ? Bạn thấy đấy, tấm futon đã bị bạn xé nát.", "talkname0", 1);
-    Talk(53, "Huh! Trong tấm nệm này hình như có một cái túi lụa giấu, phía trên có viết chữ... "Nếu ngươi đã quỳ lạy ngàn lần, hẳn là bị ta dắt đi, cả đời ngươi sẽ không hối hận. Quyển sách này là bản chất võ thuật của giáo phái Tiêu Dao của ta, và nó nên được đọc hàng ngày tại Mao Wu You Ba lần một ngày, bạn phải luyện tập nó bằng cả trái tim mình ... "", "talkname53", 1);
-    Talk(0, "Ở đây hình như có hai cuốn sách nhỏ, một cuốn tên là "Bắc Minh Thần Kỹ", một cuốn tên là "Lingbo Weibu".", "talkname0", 1);
-    Talk(53, "＜Tôi không muốn học võ, nhưng làm sao tôi có thể trái lệnh tiên nữ? Tôi quỳ lạy cô ấy cả nghìn lần, nghĩa là tôi đồng ý để anh ấy dẫn đi và tuân theo mệnh lệnh của cô ấy. Đầu tiên tôi sẽ đọc những gì được viết trong sách > "Có những kẻ ở trong biển tối ở phía bắc nghèo khó... Thần thông của Beiming thu hút sức mạnh của thế giới và là của tôi. Nước lớn ở phía bắc không thể tự nó trỗi dậy Tục ngữ có câu: Trăm sông hội tụ. Biển, nước biển có được nhờ chứa trăm sông. Đại dương bao la đang thấm nhuần, và đang tích tụ. Kinh mạch Thái Âm Long trong tay này là bài học đầu tiên của Bắc Minh Thần kỹ... Trên đó còn có một số sơ đồ châm cứu, trên đó có sọc xanh....... Hừ! Tại sao cơ thể tôi có chút nóng...Trong một cuốn sách khác "Lingbo Weibu ", trên đó có rất nhiều dấu chân được vẽ, và một số chỉ dẫn trong Kinh Dịch cũng được đánh dấu, đúng là tôi mới học Kinh Dịch mấy ngày trước, việc này có vẻ dễ dàng hơn nhiều...", "talkname53", 1);
+    Talk(53, "Huh! Trong tấm nệm này hình như có một cái túi lụa giấu, phía trên có viết chữ... \"Nếu ngươi đã quỳ lạy ngàn lần, hẳn là bị ta dắt đi, cả đời ngươi sẽ không hối hận. Quyển sách này là bản chất võ thuật của giáo phái Tiêu Dao của ta, và nó nên được đọc hàng ngày tại Mao Wu You Ba lần một ngày, bạn phải luyện tập nó bằng cả trái tim mình ... \"", "talkname53", 1);
+    Talk(0, "Ở đây hình như có hai cuốn sách nhỏ, một cuốn tên là \"Bắc Minh Thần Kỹ\", một cuốn tên là \"Lingbo Weibu\".", "talkname0", 1);
+    Talk(53, "＜Tôi không muốn học võ, nhưng làm sao tôi có thể trái lệnh tiên nữ? Tôi quỳ lạy cô ấy cả nghìn lần, nghĩa là tôi đồng ý để anh ấy dẫn đi và tuân theo mệnh lệnh của cô ấy. Đầu tiên tôi sẽ đọc những gì được viết trong sách > \"Có những kẻ ở trong biển tối ở phía bắc nghèo khó... Thần thông của Beiming thu hút sức mạnh của thế giới và là của tôi. Nước lớn ở phía bắc không thể tự nó trỗi dậy Tục ngữ có câu: Trăm sông hội tụ. Biển, nước biển có được nhờ chứa trăm sông. Đại dương bao la đang thấm nhuần, và đang tích tụ. Kinh mạch Thái Âm Long trong tay này là bài học đầu tiên của Bắc Minh Thần kỹ... Trên đó còn có một số sơ đồ châm cứu, trên đó có sọc xanh....... Hừ! Tại sao cơ thể tôi có chút nóng...Trong một cuốn sách khác \"Lingbo Weibu \", trên đó có rất nhiều dấu chân được vẽ, và một số chỉ dẫn trong Kinh Dịch cũng được đánh dấu, đúng là tôi mới học Kinh Dịch mấy ngày trước, việc này có vẻ dễ dàng hơn nhiều...", "talkname53", 1);
     DarkScence();
     LightScence();
     Talk(53, "Tiên nữ, ngươi ra lệnh cho ta sáng trưa tối luyện ba lượt, Đoàn Dự không dám trái lệnh.", "talkname53", 1);
     Talk(0, "Anh Duẩn đã hiểu ra và sẵn sàng luyện tập võ thuật.", "talkname0", 1);
-    Talk(53, "Nhưng từ nay trở đi, tôi sẽ khách khí hơn với mọi người, người khác sẽ không đến đánh tôi, tôi đương nhiên sẽ không hấp thụ nội lực của họ. Về phần "Lingbo Weibu" này, tôi phải luyện tập cẩn thận hơn, nếu thấy sai tôi sẽ bỏ chạy ngay lập tức.", "talkname53", 1);
+    Talk(53, "Nhưng từ nay trở đi, tôi sẽ khách khí hơn với mọi người, người khác sẽ không đến đánh tôi, tôi đương nhiên sẽ không hấp thụ nội lực của họ. Về phần \"Lingbo Weibu\" này, tôi phải luyện tập cẩn thận hơn, nếu thấy sai tôi sẽ bỏ chạy ngay lập tức.", "talkname53", 1);
     Talk(0, "Tùy cậu thôi, đi thôi.", "talkname0", 1);
     DarkScence();
     ModifyEvent(-2, 11, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2);

@@ -1,6 +1,6 @@
 Talk(0, "Chẳng lẽ hai người này thật ra là vợ chồng Dương Đỉnh Thiên? Đây là một lá thư, hãy xem nó viết gì:", "talkname0", 1);
 Talk(107, "Hiện tại vừa mới hoàn thành ma kỹ cấp bốn, đã biết đến Thành Khôn, huyết khí dâng trào, không cách nào khống chế được bản thân, thực lực chân chính sắp tiêu tán, ta sẽ trở về vĩ đại. Chúa cũng đã định vậy, vậy tại sao không? Phần còn lại của cuộc đời tôi đang bị đe dọa, và tôi được người đứng đầu giáo phái rất tin tưởng, tôi thực sự là một tội nhân của giáo phái này. Bà Pan tập hợp mọi người lại cùng với lá thư tuyệt mệnh của Yu, đồng thời ra lệnh cho Xie Xun tạm thời đảm nhận vị trí phó thủ lĩnh và giải quyết những công việc quan trọng của giáo phái...", "talkname107", 0);
-Talk(0, "Hóa ra sư phụ Yang đã vô tình phát điên khi đang luyện tập Kungfu vì biết về Cheng Kun. Về phần Dương phu nhân, ở đây có một con dao găm, xem ra bà ta đã tự sát vì cảm thấy tội lỗi. Cuộn giấy da này có lẽ chính là "kỹ năng ma thuật" mà anh ấy đang luyện tập vào thời điểm đó.", "talkname0", 1);
+Talk(0, "Hóa ra sư phụ Yang đã vô tình phát điên khi đang luyện tập Kungfu vì biết về Cheng Kun. Về phần Dương phu nhân, ở đây có một con dao găm, xem ra bà ta đã tự sát vì cảm thấy tội lỗi. Cuộn giấy da này có lẽ chính là \"kỹ năng ma thuật\" mà anh ấy đang luyện tập vào thời điểm đó.", "talkname0", 1);
 AddItem(92, 1);
 ModifyEvent(-2, 0, -2, -2, -1, -1, -1, -2, -2, -2, -2, -2, -2);
 ModifyEvent(-2, 1, -2, -2, -1, -1, -1, -2, -2, -2, -2, -2, -2);

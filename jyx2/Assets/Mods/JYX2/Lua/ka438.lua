@@ -8,9 +8,9 @@ if AskJoin () == true then goto label0 end;
     do return end;
 ::label0::
     Talk(0, "Gần đây hành trình của tôi hơi khó khăn nên tôi đến đây để nhờ Anh Dương tham gia và giúp đỡ.", "talkname0", 1);
-    Talk(58, "Có chuyện gì vậy? Không có gì khác ngoài "một cánh tay".", "talkname58", 0);
+    Talk(58, "Có chuyện gì vậy? Không có gì khác ngoài \"một cánh tay\".", "talkname58", 0);
     Talk(0, "Anh Yang nói đùa.", "talkname0", 1);
-    Talk(58, "Lần này tôi trở lại thế giới, đúng là thời điểm thích hợp để dùng thử "Cây buồn xuất thần" mới mua được của tôi.", "talkname58", 0);
+    Talk(58, "Lần này tôi trở lại thế giới, đúng là thời điểm thích hợp để dùng thử \"Cây buồn xuất thần\" mới mua được của tôi.", "talkname58", 0);
     Talk(0, "Đi thôi nào.", "talkname0", 1);
     if TeamIsFull() == false then goto label1 end;
         Talk(58, "Nhóm của bạn đã đầy đủ và tôi không thể tham gia.", "talkname58", 0);

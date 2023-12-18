@@ -1,8 +1,8 @@
 ModifyEvent(-2, -2, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2);
 ScenceFromTo(33, 26, 21, 26);
 jyx2_CameraFollow("Level/NPC/battleNPC/岳不群");
-Talk(19, "Cảm ơn tất cả các bạn đã đánh giá cao Hoa Sơn phái của chúng ta và chọn tụ tập ở đây hàng năm để tổ chức đại hội võ thuật này. Năm nay Yue đặc biệt mời võ sư Huyền Từ, trụ trì chùa Thiếu Lâm đến đây để tổ chức "Thảo luận kiếm hoa sơn" năm nay.", "talkname19", 0);
-Talk(70, "A Di Đà! Cảm ơn sự quan tâm cao độ của mọi người dành cho tôi, Yuanci, tôi sẽ phục vụ bạn trong năm nay. Năm nay cũng giống như những năm trước, tất cả anh hùng được mời đến Hoa Sơn đều có cơ hội trở thành thủ lĩnh mới của liên minh võ thuật và đạt được tư cách giữ "Quyền trượng thần thánh". Bây giờ tôi tuyên bố bắt đầu đại hội, ai bằng lòng có thể ra tranh tài cho đến khi không còn ai thách đấu.", "talkname70", 4);
+Talk(19, "Cảm ơn tất cả các bạn đã đánh giá cao Hoa Sơn phái của chúng ta và chọn tụ tập ở đây hàng năm để tổ chức đại hội võ thuật này. Năm nay Yue đặc biệt mời võ sư Huyền Từ, trụ trì chùa Thiếu Lâm đến đây để tổ chức \"Thảo luận kiếm hoa sơn\" năm nay.", "talkname19", 0);
+Talk(70, "A Di Đà! Cảm ơn sự quan tâm cao độ của mọi người dành cho tôi, Yuanci, tôi sẽ phục vụ bạn trong năm nay. Năm nay cũng giống như những năm trước, tất cả anh hùng được mời đến Hoa Sơn đều có cơ hội trở thành thủ lĩnh mới của liên minh võ thuật và đạt được tư cách giữ \"Quyền trượng thần thánh\". Bây giờ tôi tuyên bố bắt đầu đại hội, ai bằng lòng có thể ra tranh tài cho đến khi không còn ai thách đấu.", "talkname70", 4);
 Talk(19, "Không biết anh hùng nào sẽ bước ra đầu tiên để chấp nhận thử thách? ...Có vẻ như không ai sẵn sàng ra ngoài trước? …", "talkname19", 0);
 ScenceFromTo(21, 26, 33, 26);
 jyx2_CameraFollowPlayer();

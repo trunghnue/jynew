@@ -5,7 +5,7 @@ Talk(43, "Hai người có phải là sứ giả của đảo Xiake, thưởng t
 Talk(42, "Chính xác. Không biết người đứng đầu Tuyết Sơn Giáo là ai? Theo lệnh của chủ nhân đảo Xiake, chúng tôi đến đây cầm huy chương đồng để mời thủ lĩnh giáo phái của bạn đến đảo của chúng tôi để trò chuyện và uống một bát cháo Laba.", "talkname42", 0);
 ScenceFromTo(29, 17, 29, 24);
 jyx2_CameraFollowPlayer();
-Talk(0, "＜Có lẽ có manh mối trên đảo Xiake? Không có cuốn sách nào liên quan đến từ "xia" sao? ＞", "talkname0", 1);
+Talk(0, "＜Có lẽ có manh mối trên đảo Xiake? Không có cuốn sách nào liên quan đến từ \"xia\" sao? ＞", "talkname0", 1);
 WalkFromTo(29, 24, 29, 19);
 jyx2_WalkFromTo(-1,2819);
 SetRoleFace(0);

@@ -1,9 +1,9 @@
 Talk(6, "Quái vật giáo phái ma quỷ, việc đến núi Nga Mi của tôi có gì to tát?", "talkname6", 0);
-Talk(0, "Lần trước ta nhìn thấy thanh kiếm trong tay ngươi, với ánh sáng lạnh lẽo và tia chớp cùng những ngôi sao bay lượn, đó chắc chắn là "Thiên Kiếm" trong truyền thuyết? Tiểu Hạ, tôi muốn mượn nó từ bạn.", "talkname0", 1);
+Talk(0, "Lần trước ta nhìn thấy thanh kiếm trong tay ngươi, với ánh sáng lạnh lẽo và tia chớp cùng những ngôi sao bay lượn, đó chắc chắn là \"Thiên Kiếm\" trong truyền thuyết? Tiểu Hạ, tôi muốn mượn nó từ bạn.", "talkname0", 1);
 Talk(6, "Quang Minh Đỉnh bị ngươi may mắn đánh bại, ngươi còn dám tới Nga Mi của ta chạy loạn, ngươi thật sự cho rằng ta ở Nga Mi không có người sao?", "talkname6", 0);
 if AskBattle() == true then goto label0 end;
     Talk(0, "Ở đâu, ở đâu. Tôi đến đây chỉ để thuyết phục Thái sư phụ rằng chuyện giữa anh và Mingjiao có thể hòa giải được. Từ xa xưa, thà tiêu diệt kẻ thù còn hơn tạo ra kẻ thù.", "talkname0", 1);
-    Talk(6, "Đại nhân nhúng tay quá, ngươi thật sự cho rằng mình là "Thủ lĩnh võ lâm liên minh" sao?", "talkname6", 0);
+    Talk(6, "Đại nhân nhúng tay quá, ngươi thật sự cho rằng mình là \"Thủ lĩnh võ lâm liên minh\" sao?", "talkname6", 0);
     do return end;
 ::label0::
     if TryBattle(20) == true then goto label1 end;
@@ -11,7 +11,7 @@ if AskBattle() == true then goto label0 end;
         do return end;
 ::label1::
         LightScence();
-        Talk(0, "Kiếm vẫn nên đi đôi với anh hùng, bạn nghĩ sao? Chủ nhân, xin hãy đưa cho tôi "Thanh kiếm vĩnh cửu" này.", "talkname0", 1);
+        Talk(0, "Kiếm vẫn nên đi đôi với anh hùng, bạn nghĩ sao? Chủ nhân, xin hãy đưa cho tôi \"Thanh kiếm vĩnh cửu\" này.", "talkname0", 1);
         Talk(6, "Tà ác Ma giáo muốn đoạt thanh Y Thiên Kiếm khỏi tay ta, chúng ta hãy đợi kiếp sau nhé!", "talkname6", 0);
         PlayAnimation(2, 5468, 5496);--by fanyu|播放动画。场景33-2
         jyx2_SwitchRoleAnimation("NPC/miejueshitai", "Assets/BuildSource/AnimationControllers/Suicidedying.controller");

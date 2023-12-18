@@ -9,7 +9,7 @@ if HaveItem(138) and  HaveItem(139) and  HaveItem(140) and  HaveItem(141) and  H
 	AddItemWithoutHint(140, -1);
 	AddItemWithoutHint(141, -1);
 	AddItemWithoutHint(142, -1);
-	Talk(75, "Được rồi, tôi có đầy đủ tài liệu rồi, tôi sẽ làm ngay "Ai nghe được sáo ngọc hoa mai rơi" cho bạn.", "talkname75", 0);
+	Talk(75, "Được rồi, tôi có đầy đủ tài liệu rồi, tôi sẽ làm ngay \"Ai nghe được sáo ngọc hoa mai rơi\" cho bạn.", "talkname75", 0);
 	DarkScence();
 	ModifyEvent(-2, 0, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2);
 	ModifyEvent(-2, 1, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2);
@@ -29,7 +29,7 @@ if HaveItem(138) and  HaveItem(139) and  HaveItem(140) and  HaveItem(141) and  H
 	jyx2_FixMapObject("林厨子做完菜",1);
 	ModifyEvent(-2, 4, -2, -2, -1, -1, 677, -2, -2, -2, -2, -2, -2);--by fanyu 启动脚本677 场景32-编号4
 	LightScence();
-	Talk(75, "Được rồi, xong rồi, lấy đoạn này "Ai nghe được sáo ngọc hoa mai rơi"?", "talkname75", 0);
+	Talk(75, "Được rồi, xong rồi, lấy đoạn này \"Ai nghe được sáo ngọc hoa mai rơi\"?", "talkname75", 0);
 	Talk(0, "Cảm ơn Thầy Lin.", "talkname0", 1);
 	AddItem(176, 1);
 	do return end;

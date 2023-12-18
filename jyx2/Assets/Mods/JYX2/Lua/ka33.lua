@@ -11,7 +11,7 @@ if InTeam(1) == false then goto label0 end;
             Talk(3, "Trước khi rời đi, hãy cầm lấy thanh kiếm trăng lạnh này, đây là một thanh kiếm phù hợp với bạn. Ngoài ra, hãy cầm lấy cuốn sách này, tôi hy vọng nó có thể giúp các em nhỏ giải quyết khó khăn.", "talkname3", 0);
             AddItem(116, 1);
             AddItem(144, 1);
-            Talk(0, "Yahoo! Đã tìm thấy "Flying Fox Gaiden"!", "talkname0", 1);
+            Talk(0, "Yahoo! Đã tìm thấy \"Flying Fox Gaiden\"!", "talkname0", 1);
             ModifyEvent(-2, -2, -2, -2, 34, -1, -1, -2, -2, -2, -2, -2, -2);--by fanyu 启动脚本34 场景24-编号8
             AddEthics(2);
             do return end;

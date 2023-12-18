@@ -1,7 +1,7 @@
 Talk(0, "Lão công tử, ngươi ngồi đây đánh cờ một mình sao, ngươi có thể một mình đánh cờ này được không?", "talkname0", 1);
-Talk(52, "Em trai, em cũng có hứng thú với anh à, "Trấn Long"?", "talkname52", 0);
-Talk(0, ""Trấn Long"? Ồ, nó có giống với kiểu kinh doanh được đặt trong công viên và yêu cầu mọi người giải mã ván cờ không? Nếu giải được sẽ có thưởng.", "talkname0", 1);
-Talk(52, "Tôi không chắc em trai đã nói gì, nhưng chữ "Zhenlong" này có nghĩa giống như những gì bạn nói.", "talkname52", 0);
+Talk(52, "Em trai, em cũng có hứng thú với anh à, \"Trấn Long\"?", "talkname52", 0);
+Talk(0, "\"Trấn Long\"? Ồ, nó có giống với kiểu kinh doanh được đặt trong công viên và yêu cầu mọi người giải mã ván cờ không? Nếu giải được sẽ có thưởng.", "talkname0", 1);
+Talk(52, "Tôi không chắc em trai đã nói gì, nhưng chữ \"Zhenlong\" này có nghĩa giống như những gì bạn nói.", "talkname52", 0);
 Talk(0, "Trò chơi này có khó giải quyết không?", "talkname0", 1);
 Talk(52, "Ván cờ Trấn Long này là do sư phụ bày ra. Phải sau ba năm làm việc chăm chỉ của cố chủ tôi, cuối cùng tôi mới hoàn thành được nó, tôi chân thành hy vọng ai đó có kiến thức về thế giới cờ vua sẽ giải mã được nó. Tôi đã khổ học ba mươi năm mà vẫn chưa hiểu thấu đáo. Người tinh thông Thiền đều biết bản chất của Thiền nằm ở chỗ “đột ngộ”. Nhiều năm tháng làm việc chăm chỉ có thể không thể đạt được giác ngộ ngay từ cái nhìn đầu tiên về một người có trí tuệ. Kỹ năng chơi cờ cũng ở mức trung bình, một đứa trẻ tám chín tuổi tài năng thường có thể đánh bại các cao thủ hạng nhất trên bàn cờ. Nhân sâm cổ tuy không thể nghiên cứu kỹ lưỡng nhưng trên đời có rất nhiều người tài giỏi nên không phải ai cũng có thể bẻ được. Sư phụ năm đó đã để lại tâm nguyện này, nếu có người có thể bẻ khóa nó và thực hiện được tâm nguyện của sư phụ thì dù sư phụ không còn sống nhưng nếu có người biết đến sư phụ thì sẽ rất vui mừng.", "talkname52", 0);
 Talk(0, "Đáng tiếc tiểu bối không giỏi cờ vua, nếu không ta cũng muốn thử một lần.", "talkname0", 1);

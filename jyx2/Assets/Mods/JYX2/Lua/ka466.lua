@@ -1,8 +1,8 @@
 Talk(0, "Đàn em nhìn thấy Guo Daxia và Huang Nuxia.", "talkname0", 1);
-Talk(56, "Bạn đến đây để tìm "Truyền Thuyết Anh Hùng Xạ Điêu" phải không?", "talkname56", 0);
-Talk(0, "Lời đồn trong thiên hạ quả thực là sự thật, trí thông minh và sự hóm hỉnh của Huang Nuxia quả thực đáng khâm phục. Đúng vậy, mục đích chính của việc đến Đảo Đào Hoa gặp hai người lần này là để lấy cuốn sách "Truyền Thuyết Anh Hùng Xạ Điêu".", "talkname0", 1);
+Talk(56, "Bạn đến đây để tìm \"Truyền Thuyết Anh Hùng Xạ Điêu\" phải không?", "talkname56", 0);
+Talk(0, "Lời đồn trong thiên hạ quả thực là sự thật, trí thông minh và sự hóm hỉnh của Huang Nuxia quả thực đáng khâm phục. Đúng vậy, mục đích chính của việc đến Đảo Đào Hoa gặp hai người lần này là để lấy cuốn sách \"Truyền Thuyết Anh Hùng Xạ Điêu\".", "talkname0", 1);
 Talk(56, "Phải mất rất nhiều nỗ lực để đến được đây.", "talkname56", 0);
-Talk(0, "Phải tốn rất nhiều công sức nhưng nếu có được "Thần điêu đại hiệp" thì dù có khó khăn đến mấy cũng sẽ rất xứng đáng.", "talkname0", 1);
+Talk(0, "Phải tốn rất nhiều công sức nhưng nếu có được \"Thần điêu đại hiệp\" thì dù có khó khăn đến mấy cũng sẽ rất xứng đáng.", "talkname0", 1);
 Talk(55, "Đúng rồi, cuốn sách “Truyền thuyết anh hùng xạ điêu” đang nằm trong tay vợ chồng tôi nên tặng cho bạn cũng không sao.", "talkname55", 0);
 Talk(0, "Cảm ơn Daxia Guo và Nuxia Huang.", "talkname0", 1);
 Talk(55, "Em trai, hãy gọi anh là anh hùng. Ta hỏi ngươi, tại sao thiên hạ đều kính trọng gọi ta là Quách Đại Hạ?", "talkname55", 0);

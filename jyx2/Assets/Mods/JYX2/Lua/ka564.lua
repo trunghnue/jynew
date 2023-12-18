@@ -22,7 +22,7 @@ if UseItem(195) == true then goto label0 end;
     PlayAnimation(-1, 6702, 6702);
     LightScence();
 
-    Talk(0, "Ah! Thật sự là mệt mỏi, công việc cướp mộ thật sự không dễ dàng chút nào, may mắn thay cũng có chút khen thưởng. Đây là cái gì? Toàn bộ cuốn sách toàn là những từ ngữ quái đản, bìa lại ghi... "Quảng Lăng Tam"...", "talkname0", 1);
+    Talk(0, "Ah! Thật sự là mệt mỏi, công việc cướp mộ thật sự không dễ dàng chút nào, may mắn thay cũng có chút khen thưởng. Đây là cái gì? Toàn bộ cuốn sách toàn là những từ ngữ quái đản, bìa lại ghi... \"Quảng Lăng Tam\"...", "talkname0", 1);
     AddItem(177, 1);
     ModifyEvent(-2, -2, -2, -2, 565, -1, -1, -2, -2, -2, -2, -2, -2);
 do return end;

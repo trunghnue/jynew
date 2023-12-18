@@ -1,7 +1,7 @@
 if UseItem(178) == true then goto label0 end;
     do return end;
 ::label0::
-    Talk(33, "Đây... đây là... Tôi đã nhìn thấy ghi chép này trong sổ ghi chép của những người đi trước... Nó nói rằng Liu Zhongfu lúc đó là một tuyển thủ quốc gia, nhưng anh ta đã bị một ông già quê mùa đánh bại dưới chân núi Lishan Anh ta ngay lập tức nôn ra máu và tỷ số của trò chơi đó được gọi là "Phổ máu". Vốn tưởng rằng chỉ là lời đồn, nhưng làm sao biết trên thế giới thực sự có loại nôn ra máu như vậy? Anh hùng trẻ tuổi, bạn có thể cho tôi mượn một bản sao được không?", "talkname33", 0);
+    Talk(33, "Đây... đây là... Tôi đã nhìn thấy ghi chép này trong sổ ghi chép của những người đi trước... Nó nói rằng Liu Zhongfu lúc đó là một tuyển thủ quốc gia, nhưng anh ta đã bị một ông già quê mùa đánh bại dưới chân núi Lishan Anh ta ngay lập tức nôn ra máu và tỷ số của trò chơi đó được gọi là \"Phổ máu\". Vốn tưởng rằng chỉ là lời đồn, nhưng làm sao biết trên thế giới thực sự có loại nôn ra máu như vậy? Anh hùng trẻ tuổi, bạn có thể cho tôi mượn một bản sao được không?", "talkname33", 0);
     Talk(0, "ha! ha! “Kỷ lục cờ vua nôn ra máu” này tôi đã có được sau bao vất vả, xem một lần có thể lấy 50 triệu lượng vàng, muốn xem hay không là tùy bạn.", "talkname0", 1);
 
     Talk(31, "Anh hai, anh thấy đấy, anh chàng này tính tình tốt như vậy, không coi trọng Làng Mai của chúng ta chút nào, trước đó anh ta đã nói rằng ở Làng Mai không có ai là đối thủ của anh ta, tính cách này cực kỳ kiêu ngạo.", "talkname31", 0);

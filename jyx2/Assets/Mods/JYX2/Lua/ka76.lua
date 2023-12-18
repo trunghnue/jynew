@@ -1,7 +1,7 @@
 Talk(11, "Không biết em trai tôi là đệ tử của môn phái nào, năm môn phái còn lại ở đâu?", "talkname11", 0);
 Talk(0, "Tôi không phải người của sáu đại giáo phái, lần này tôi đến Mingjiao để hỏi thăm tung tích một cuốn sách.", "talkname0", 1);
-Talk(11, "Có phải là "Thanh kiếm rồng vĩnh cửu"?", "talkname11", 0);
-Talk(0, "Lời đồn trong thiên hạ quả nhiên là sự thật, cuốn "Vĩnh Thiên Long Kiếm" quả nhiên là Minh giáo. Tôi tự hỏi liệu tiền bối có thể cho tôi mượn nó được không.", "talkname0", 1);
+Talk(11, "Có phải là \"Thanh kiếm rồng vĩnh cửu\"?", "talkname11", 0);
+Talk(0, "Lời đồn trong thiên hạ quả nhiên là sự thật, cuốn \"Vĩnh Thiên Long Kiếm\" quả nhiên là Minh giáo. Tôi tự hỏi liệu tiền bối có thể cho tôi mượn nó được không.", "talkname0", 1);
 Talk(11, "Cho bạn mượn nó. khịt mũi! Ngươi không có để ý đến Minh Giao Quang Minh Tả Dương Tiêu, ngươi lợi dụng Minh Giao đại nạn để lợi dụng sao?", "talkname11", 0);
 Talk(0, "Không phải vậy đâu, thực ra cuốn sách này rất quan trọng với tôi và tôi phải lấy nó.", "talkname0", 1);
 Talk(11, "Vậy thì ta sẽ xử lý ngươi trước, để không để ngươi câu cá trong vùng nước khó khăn sau khi sáu giáo phái lớn tấn công.", "talkname11", 0);

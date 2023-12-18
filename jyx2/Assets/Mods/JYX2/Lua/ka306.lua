@@ -27,7 +27,7 @@ if AskJoin () == false then goto label0 end;
                 do return end;
 ::label3::
                 LightScence();
-                Talk(0, "Hôm nay tôi sẽ tha mạng cho bạn và hy vọng rằng bạn sẽ thay đổi tốt hơn. Bằng không sau này nếu gặp phải ngươi, ta sẽ "trút bỏ quyền lực của ngươi" để ngươi làm thái giám.", "talkname0", 1);
+                Talk(0, "Hôm nay tôi sẽ tha mạng cho bạn và hy vọng rằng bạn sẽ thay đổi tốt hơn. Bằng không sau này nếu gặp phải ngươi, ta sẽ \"trút bỏ quyền lực của ngươi\" để ngươi làm thái giám.", "talkname0", 1);
                 ModifyEvent(-2, -2, -2, -2, 305, -1, -1, -2, -2, -2, -2, -2, -2);
                 AddRepute(1);
 do return end;

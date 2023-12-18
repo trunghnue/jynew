@@ -1,4 +1,4 @@
-Talk(0, "Không biết Master Ren có thể mượn cuốn "Bộ sưu tập hướng dương" để đọc tiếp không.", "talkname0", 1);
+Talk(0, "Không biết Master Ren có thể mượn cuốn \"Bộ sưu tập hướng dương\" để đọc tiếp không.", "talkname0", 1);
 Talk(26, "Không, cuốn sách này là kho báu của tôn giáo chúng ta và không thể mượn từ người ngoài. Tiểu đệ, ta nghĩ ngươi không muốn học võ công của hoạn quan, đừng quá tham lam mà đi vào “con đường tà ác”.", "talkname26", 0);
 if AskBattle() == true then goto label0 end;
     Talk(0, "Đó là những gì người lãnh đạo đã nói.", "talkname0", 1);

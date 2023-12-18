@@ -1,5 +1,5 @@
 Talk(94, "Ai đang ở đây, xâm phạm vào Núi Cọ Sắt của chúng ta?", "talkname94", 0);
-Talk(0, "Núi Cọ Sắt? Tôi tưởng đó là "Núi chân khỉ"?", "talkname0", 1);
+Talk(0, "Núi Cọ Sắt? Tôi tưởng đó là \"Núi chân khỉ\"?", "talkname0", 1);
 Talk(94, "Đúng là một kẻ điên cuồng táo bạo, sao dám đến bang hội Chưởng Thiết của tôi để gây rắc rối.", "talkname94", 0);
 if TryBattle(70) == true then goto label0 end;
     Dead();

@@ -1,7 +1,7 @@
 Talk(0, "Ở đây chắc chắn bạn là ông chủ, tôi nghe nói bạn có cuốn sách tôi đang tìm... Tôi không nghĩ bạn sẽ dễ dàng đưa nó cho tôi... Bạn nghĩ sao? Bạn sắp đánh nhau à?", "talkname0", 1);
 Talk(71, "Gần đây tôi nghe nói có một thanh niên anh hùng từ Trung Quốc nổi lên, có lẽ là bạn! Những người có thể đột nhập vào giáo phái này chắc chắn sẽ gặp rất nhiều rắc rối.", "talkname71", 0);
 Talk(0, "Bạn biết tôi mạnh mẽ đến mức nào, vậy bạn muốn tôi ra tay hay chỉ nên ngoan ngoãn giao cuốn sách ra.", "talkname0", 1);
-Talk(71, "Bạn muốn cuốn sách "Con nai và cái vạc"! Thật tiếc là đã quá muộn.", "talkname71", 0);
+Talk(71, "Bạn muốn cuốn sách \"Con nai và cái vạc\"! Thật tiếc là đã quá muộn.", "talkname71", 0);
 Talk(0, "làm thế nào để tôi nói điều này?", "talkname0", 1);
 Talk(71, "Nửa tháng trước, có một người tên Vi Tiểu Bảo lẻn vào đảo, nhân cơ hội đánh cắp cuốn sách này. Người này bản tính xảo quyệt, xảo trá, giáo phái phái đại quân bao vây trấn áp hắn nhiều lần, nhưng lần nào hắn cũng trốn thoát. Nếu anh hùng trẻ tuổi có thể giết được hắn, hắn đương nhiên sẽ có được cuốn sách.", "talkname71", 0);
 Talk(0, "Khi thời điểm đến, bạn có đến lấy nó từ tay tôi lần nữa không?", "talkname0", 1);

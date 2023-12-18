@@ -1,8 +1,8 @@
 if UseItem(180) == true then goto label0 end;
     do return end;
 ::label0::
-    Talk(31, "Ah! Đây là bản gốc "Du ngoạn núi non" của Fan Kuan thời Bắc Tống, bạn... bạn lấy nó ở đâu?", "talkname31", 0);
-    Talk(0, "Bạn không cần phải lo lắng về điều này. Nghe trong thiên hạ có tin đồn rằng bốn ông chủ Mai Trang đều giỏi rượu, hội họa và kiếm thuật, được mệnh danh là tam chủ. Đó hẳn là một điều "ha" đối với tôi!", "talkname0", 1);
+    Talk(31, "Ah! Đây là bản gốc \"Du ngoạn núi non\" của Fan Kuan thời Bắc Tống, bạn... bạn lấy nó ở đâu?", "talkname31", 0);
+    Talk(0, "Bạn không cần phải lo lắng về điều này. Nghe trong thiên hạ có tin đồn rằng bốn ông chủ Mai Trang đều giỏi rượu, hội họa và kiếm thuật, được mệnh danh là tam chủ. Đó hẳn là một điều \"ha\" đối với tôi!", "talkname0", 1);
     Talk(31, "Này nhóc, mục đích của ngươi là gì?", "talkname31", 0);
     Talk(0, "Không có “ý định” nhưng có “bản đồ du lịch”.", "talkname0", 1);
     Talk(31, "Này nhóc, đừng nói nhiều nữa, ngươi đang tìm cái chết à?", "talkname31", 0);

@@ -19,7 +19,7 @@ if AskBattle() == true then goto label0 end;
                 Talk(5, "Em trai à, có vẻ như em vẫn cần phải cố gắng hơn nữa.", "talkname5", 0);
                 do return end;
 ::label3::
-                Talk(5, "Em trai tôi có trình độ tốt, kỹ năng cũng tiến bộ rất nhiều, không tệ cũng không tệ. Đây là một bộ kiếm pháp ta mới luyện chế gần đây, xin hãy cầm lấy và nghiên cứu kỹ. Hãy nhớ rằng, bạn phải hiểu "ý định kiếm" của kiếm hơn là "kiếm chiêu".", "talkname5", 0);
+                Talk(5, "Em trai tôi có trình độ tốt, kỹ năng cũng tiến bộ rất nhiều, không tệ cũng không tệ. Đây là một bộ kiếm pháp ta mới luyện chế gần đây, xin hãy cầm lấy và nghiên cứu kỹ. Hãy nhớ rằng, bạn phải hiểu \"ý định kiếm\" của kiếm hơn là \"kiếm chiêu\".", "talkname5", 0);
                 Talk(0, "Cảm ơn tiền bối, tôi sẽ ghi nhớ điều này.", "talkname0", 1);
                 AddItem(75, 1);
                 ModifyEvent(-2, -2, -2, -2, 158, -1, -1, -2, -2, -2, -2, -2, -2);

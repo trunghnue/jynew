@@ -1,4 +1,4 @@
-Talk(0, "Anh ơi, anh đang làm gì vậy, "ở đó" có đau không?", "talkname0", 1);
+Talk(0, "Anh ơi, anh đang làm gì vậy, \"ở đó\" có đau không?", "talkname0", 1);
 Talk(29, "Tôi đang luyện tập kỹ năng ma thuật cửa và tôi phải chịu đựng cơn đau. Bạn phải biết rằng sau khi luyện tập, tôi sẽ là người “mạnh nhất và hung hãn nhất” trong giới võ thuật.", "talkname29", 0);
 Talk(0, "Tôi hiểu rồi? Ngoài ra, tại sao bạn lại có một chiếc giường lớn như vậy trong nhà?", "talkname0", 1);
 Talk(29, "Chiếc giường lớn và dễ làm việc.", "talkname29", 0);
@@ -33,7 +33,7 @@ if AskJoin () == false then goto label0 end;
                 do return end;
 ::label3::
                 LightScence();
-                Talk(0, "Hôm nay tôi sẽ tha mạng cho bạn và hy vọng rằng bạn sẽ thay đổi tốt hơn. Bằng không sau này nếu gặp phải ngươi, ta sẽ "trút bỏ quyền lực của ngươi" để ngươi làm thái giám.", "talkname0", 1);
+                Talk(0, "Hôm nay tôi sẽ tha mạng cho bạn và hy vọng rằng bạn sẽ thay đổi tốt hơn. Bằng không sau này nếu gặp phải ngươi, ta sẽ \"trút bỏ quyền lực của ngươi\" để ngươi làm thái giám.", "talkname0", 1);
                 ModifyEvent(-2, -2, -2, -2, 305, -1, -1, -2, -2, -2, -2, -2, -2);
                 AddRepute(1);
 do return end;

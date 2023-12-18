@@ -1,5 +1,5 @@
 Talk(0, "Tôi không biết kiếm thuật của Anh Lin tốt đến mức nào.", "talkname0", 1);
-Talk(36, "ha! ha! Tôi đã tìm thấy "Cuốn sách tà ác" thực sự. Cuối cùng tôi đã hiểu được sự tinh tế của kiếm thuật xua đuổi tà ác. Tôi dự định đến Tứ Xuyên và tiêu diệt giáo phái Thanh Thành. Bạn có muốn đi cùng?", "talkname36", 0);
+Talk(36, "ha! ha! Tôi đã tìm thấy \"Cuốn sách tà ác\" thực sự. Cuối cùng tôi đã hiểu được sự tinh tế của kiếm thuật xua đuổi tà ác. Tôi dự định đến Tứ Xuyên và tiêu diệt giáo phái Thanh Thành. Bạn có muốn đi cùng?", "talkname36", 0);
 if AskJoin () == true then goto label0 end;
     Talk(0, "Dùng bạo lực chống bạo lực không phải là chính sách tốt nhất, anh Lâm nên suy nghĩ kỹ.", "talkname0", 1);
     Talk(36, "khịt mũi!", "talkname36", 0);

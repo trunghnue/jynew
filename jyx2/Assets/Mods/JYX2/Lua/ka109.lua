@@ -1,7 +1,7 @@
 Talk(0, "Cảm ơn tiền bối, cuối cùng anh cũng đã trở lại. Mọi việc của Mingjiao có suôn sẻ không?", "talkname0", 1);
 Talk(13, "Nhờ có bạn mà mọi thứ đều ổn. Sau khi chuyện giữa giáo phái của chúng tôi và sáu giáo phái lớn kết thúc, các thành viên trong giáo phái đã có thể kiềm chế bản thân và không còn xung đột với sáu giáo phái lớn nữa.", "talkname13", 0);
 Talk(0, "Thôi thế này thì tốt hơn, hòa bình là điều quan trọng nhất phải không?", "talkname0", 1);
-Talk(13, "Tôi nghe Fan Youshi nói, bạn đang tìm cuốn sách "Thiên đường vĩnh cửu và thanh kiếm của rồng"?", "talkname13", 0);
+Talk(13, "Tôi nghe Fan Youshi nói, bạn đang tìm cuốn sách \"Thiên đường vĩnh cửu và thanh kiếm của rồng\"?", "talkname13", 0);
 Talk(0, "Cái gì, có nơi nào ở không?", "talkname0", 1);
 Talk(13, "Cuốn sách này trước đây đã được Dương sư phụ nhắc đến, lần này sau khi trở về, tôi đã tìm thấy nó...", "talkname13", 0);
 Talk(0, "Thật tuyệt vời khi bạn tìm thấy nó.", "talkname0", 1);
@@ -9,8 +9,8 @@ Talk(13, "Tuy nhiên, Trưởng nhóm Yang cũng đề cập với tôi một đ
 Talk(0, "Có chuyện gì vậy?", "talkname0", 1);
 Talk(13, "Tôi nghĩ bạn cũng nên biết rằng cuốn sách này vốn không phải do Mingjiao viết mà là do một võ giả tiền bối viết.", "talkname13", 0);
 Talk(0, "Đúng rồi.", "talkname0", 1);
-Talk(13, "Vì vậy, người ngoài đương nhiên có thể lấy sách từ Minh Kiều. Tuy nhiên, các nhà lãnh đạo kế tiếp của Minh phái đã truyền lại một quy định rằng người muốn lấy đi cuốn sách phải phá vỡ "Bạch Quang Thánh Hỏa Trận".", "talkname13", 0);
-Talk(0, ""Sáng Thánh Hỏa Trận"?", "talkname0", 1);
+Talk(13, "Vì vậy, người ngoài đương nhiên có thể lấy sách từ Minh Kiều. Tuy nhiên, các nhà lãnh đạo kế tiếp của Minh phái đã truyền lại một quy định rằng người muốn lấy đi cuốn sách phải phá vỡ \"Bạch Quang Thánh Hỏa Trận\".", "talkname13", 0);
+Talk(0, "\"Sáng Thánh Hỏa Trận\"?", "talkname0", 1);
 Talk(13, "Đúng. Đội hình này là đội hình Liuhe bao gồm các sứ giả ánh sáng trái phải và bốn người bảo vệ. Mặc dù anh hùng trẻ tuổi rất tốt với Minh giáo của chúng ta nhưng Xie Xun không dám làm trái mệnh lệnh của tổ tiên. Vì vậy, nếu anh hùng trẻ tuổi muốn lấy được cuốn sách thì phải phá vỡ đội hình này.", "talkname13", 0);
 Talk(0, "Được rồi, vậy thì tôi phải cắn răng xin lời khuyên của các tiền bối.", "talkname0", 1);
 Talk(13, "Tuy nhiên, vẫn còn một người để tạo ra đội hình này.", "talkname13", 0);

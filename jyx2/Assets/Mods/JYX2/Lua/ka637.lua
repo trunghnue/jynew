@@ -1,6 +1,6 @@
 Talk(0, "Anh Viên, anh nghĩ bây giờ tôi có đủ tiêu chuẩn “nhân nghĩa” không?", "talkname0", 1);
 if JudgeEthics(0, 80, 100) == false then goto label0 end;
-    Talk(54, "Tốt lắm, bạn đã đi trên thế gian lâu như vậy mà vẫn có thể đi trên con đường đúng đắn, điều đó rất tốt. Chỉ cần lấy cuốn sách "Blue Blood Sword".", "talkname54", 0);
+    Talk(54, "Tốt lắm, bạn đã đi trên thế gian lâu như vậy mà vẫn có thể đi trên con đường đúng đắn, điều đó rất tốt. Chỉ cần lấy cuốn sách \"Blue Blood Sword\".", "talkname54", 0);
     AddItem(156, 1);
     ModifyEvent(-2, -2, -2, -2, 638, -1, -1, -2, -2, -2, -2, -2, -2);
     do return end;
@@ -9,7 +9,7 @@ if JudgeEthics(0, 80, 100) == false then goto label0 end;
     if AskBattle() == true then goto label1 end;
         do return end;
 ::label1::
-        Talk(0, "Anh Yuan, tôi không có nhiều thời gian để tăng điểm "nhân nghĩa" của mình nên đành phải xúc phạm anh.", "talkname0", 1);
+        Talk(0, "Anh Yuan, tôi không có nhiều thời gian để tăng điểm \"nhân nghĩa\" của mình nên đành phải xúc phạm anh.", "talkname0", 1);
         if TryBattle(101) == true then goto label2 end;
             LightScence();
             Talk(54, "Tôi vẫn khuyên bạn nên làm những điều hào hiệp hơn.", "talkname54", 0);

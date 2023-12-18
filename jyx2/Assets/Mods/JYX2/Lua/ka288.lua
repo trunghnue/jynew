@@ -5,7 +5,7 @@ Talk(0, "Đúng.", "talkname0", 1);
 Talk(36, "Vũ Thương Hải! ! Nếu không báo thù chuyện này, Lâm Bình ta sẽ còn tệ hơn cả dã thú!", "talkname36", 0);
 Talk(0, "Anh Lin, xin gửi lời chia buồn của tôi.", "talkname0", 1);
 Talk(36, "Gia đình Lin của tôi có ác cảm gì với anh ta?", "talkname36", 0);
-Talk(0, "Trên thế giới có tin đồn rằng nó dường như dành cho một cuốn sách bí mật có tên "Cẩm nang kiếm ác".", "talkname0", 1);
+Talk(0, "Trên thế giới có tin đồn rằng nó dường như dành cho một cuốn sách bí mật có tên \"Cẩm nang kiếm ác\".", "talkname0", 1);
 Talk(36, "Nhưng gia đình tôi thực sự không có sách hướng dẫn sử dụng kiếm để xua đuổi tà ma. Bảy mươi hai chiêu kiếm tà ác này là do chính cha tôi dạy nên không có sách hướng dẫn sử dụng kiếm.", "talkname36", 0);
 Talk(0, "Người trong giới võ lâm đồn đại kiếm pháp này cực kỳ lợi hại nên đã thu hút sự thèm muốn của Yu Canghai, một tên trộm già.", "talkname0", 1);
 Talk(36, "Nếu kiếm pháp chống ác của nhà họ Lâm thực sự mạnh mẽ thì nhà họ Lâm của ta đã không có kết cục như ngày hôm nay.", "talkname36", 0);

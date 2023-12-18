@@ -8,7 +8,7 @@ if AskJoin () == true then goto label0 end;
         Talk(58, "Nhóm của bạn đã đầy đủ và tôi không thể tham gia.", "talkname58", 0);
         do return end;
 ::label1::
-        Talk(58, "Có chuyện gì vậy? Không có gì khác ngoài "một cánh tay".", "talkname58", 0);
+        Talk(58, "Có chuyện gì vậy? Không có gì khác ngoài \"một cánh tay\".", "talkname58", 0);
         DarkScence();
         ModifyEvent(-2, -2, 0, -1, -1, -1, -1, -1, -1, -1, -1, -2, -2);
 		jyx2_ReplaceSceneObject("","NPC/杨过","");
