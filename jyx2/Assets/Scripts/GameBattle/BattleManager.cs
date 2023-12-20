@@ -174,7 +174,7 @@ namespace Jyx2
                     //---------------------------------------------------------------------------
                     //特定位置的翻译【战斗胜利的提示】
                     //---------------------------------------------------------------------------
-                    GameUtil.ShowFullSuggest(bonusText, "<color=yellow>战斗胜利</color>".GetContent(nameof(BattleManager)), delegate
+                    GameUtil.ShowFullSuggest(bonusText, "<color=yellow>Trận chiến thắng</color>".GetContent(nameof(BattleManager)), delegate
                     {
                         EndBattle();
                         m_battleParams.callback?.Invoke(result);
