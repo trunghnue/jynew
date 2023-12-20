@@ -200,7 +200,7 @@ namespace Jyx2
                     //---------------------------------------------------------------------------
                     //特定位置的翻译【战斗失败的提示】
                     //---------------------------------------------------------------------------
-                    GameUtil.ShowFullSuggest("胜败乃兵家常事，请大侠重新来过。".GetContent(nameof(BattleManager)), "<color=red>战斗失败！</color>".GetContent(nameof(BattleManager)), delegate
+                    GameUtil.ShowFullSuggest("Chiến thắng hoặc thất bại là một điều phổ biến, xin vui lòng quay lại。".GetContent(nameof(BattleManager)), "<color=red>Trận chiến đã thua！</color>".GetContent(nameof(BattleManager)), delegate
                     {
                         EndBattle();
                         m_battleParams.callback?.Invoke(result);
@@ -305,7 +305,7 @@ namespace Jyx2
                     //---------------------------------------------------------------------------
                     //特定位置的翻译【战斗胜利角色获得经验的提示】
                     //---------------------------------------------------------------------------
-                    bonusTextBuilder.AppendFormat("{0}获得经验{1}\n".GetContent(nameof(BattleManager)), role.Name, role.ExpGot);
+                    bonusTextBuilder.AppendFormat("{0}Lấy EXP{1}\n".GetContent(nameof(BattleManager)), role.Name, role.ExpGot);
                     //---------------------------------------------------------------------------
                     //---------------------------------------------------------------------------
                     role.Exp += role.ExpGot;

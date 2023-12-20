@@ -59,11 +59,11 @@ namespace Jyx2
                 return;
 
             string archiveIdxStr = GameConst.GetUPNumber(m_ArchiveIndex + 1).GetContent(nameof(SavePanel));
-            string archiveName = "存档".GetContent(nameof(SavePanel));
+            string archiveName = "Lưu trữ".GetContent(nameof(SavePanel));
             m_TitleTxt.text = archiveName + archiveIdxStr;
 
             var summaryText = GameSaveSummary.Load(m_ArchiveIndex).GetBrief();
-            summaryText = string.IsNullOrEmpty(summaryText) ? "空档位".GetContent(nameof(SavePanel)) : summaryText;
+            summaryText = string.IsNullOrEmpty(summaryText) ? "Thiết bị trống".GetContent(nameof(SavePanel)) : summaryText;
             m_SummaryTxt.text = summaryText;
 
             var dateText = GameRuntimeData.GetSaveDate(m_ArchiveIndex)?.ToLocalTime().ToString("yyyy年M月d日 H时m分");

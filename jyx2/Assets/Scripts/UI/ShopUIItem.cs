@@ -78,7 +78,7 @@ public class ShopUIItem : Selectable,INavigable
 		//---------------------------------------------------------------------------
 		//特定位置的翻译【价格显示】
 		//---------------------------------------------------------------------------
-		desText.text = string.Format("{0}\n价格：{1}".GetContent(nameof(ShopUIItem)), item.Name, shopItem.Price);
+		desText.text = string.Format("{0}\nGiá{1}".GetContent(nameof(ShopUIItem)), item.Name, shopItem.Price);
 		//---------------------------------------------------------------------------
 		//---------------------------------------------------------------------------
 		leftNum = shopItem.Count - hasBuyNum;
@@ -99,7 +99,7 @@ public class ShopUIItem : Selectable,INavigable
 		//---------------------------------------------------------------------------
 		//特定位置的翻译【花费显示】
 		//---------------------------------------------------------------------------
-		totalCost.text = "花费：".GetContent(nameof(ShopUIItem)) + needCount.ToString();
+		totalCost.text = "Tổng：".GetContent(nameof(ShopUIItem)) + needCount.ToString();
 		//---------------------------------------------------------------------------
 		//---------------------------------------------------------------------------
 		totalCost.color = textColor;

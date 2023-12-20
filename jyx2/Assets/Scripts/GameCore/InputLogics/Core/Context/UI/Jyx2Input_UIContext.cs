@@ -14,7 +14,7 @@ namespace Jyx2.InputCore.UI
         private GameObject m_LastSelect;
 
         [SerializeField]
-        [LabelText("手动控制激活时的UI对象选择")]
+        [LabelText("Kiểm soát thủ công việc lựa chọn đối tượng UI khi kích hoạt")]
         private bool m_ManualControlSelect = false;
 
         private int m_EnableFrame = int.MaxValue;

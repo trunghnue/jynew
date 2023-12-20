@@ -236,7 +236,7 @@ public class UIHelper
         if (!string.IsNullOrEmpty(useRequire))
         {
             strBuilder.Append($"\n\n");
-            strBuilder.Append("<size=28><color=#FFDB00>使用需求</color></size>\n");
+            strBuilder.Append("<size=28><color=#FFDB00>Yêu cầu sử dụng</color></size>\n");
             strBuilder.Append(useRequire);
         }
 
@@ -244,7 +244,7 @@ public class UIHelper
         if (!string.IsNullOrEmpty(output))
         {
             strBuilder.Append($"\n\n");
-            strBuilder.Append("<size=28><color=#FFDB00>练出</color></size>\n");
+            strBuilder.Append("<size=28><color=#FFDB00>Luyện tập</color></size>\n");
             strBuilder.Append(output);
         }
 
@@ -252,7 +252,7 @@ public class UIHelper
         if (!string.IsNullOrEmpty(needItem))
         {
             strBuilder.Append($"\n\n");
-            strBuilder.Append("<size=28><color=#FFDB00>需要物品</color></size>\n");
+            strBuilder.Append("<size=28><color=#FFDB00>Món đồ cần thiết</color></size>\n");
             strBuilder.Append(needItem);
         }
 

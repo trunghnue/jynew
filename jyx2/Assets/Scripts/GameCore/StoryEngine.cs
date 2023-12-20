@@ -98,7 +98,7 @@ public class StoryEngine : MonoBehaviour
         }
         catch (Exception ex)
         {
-            MessageBox.ShowMessage("错误，载入存档失败。请检查版本号和MOD是否匹配。");
+            MessageBox.ShowMessage("Lỗi, không tải được kho lưu trữ. Vui lòng kiểm tra xem số phiên bản và MOD có khớp nhau không。");
             Debug.LogErrorFormat("存档异常:{0}" , ex);
             return true;
         }

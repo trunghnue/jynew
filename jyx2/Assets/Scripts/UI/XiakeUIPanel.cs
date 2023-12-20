@@ -223,25 +223,25 @@ public partial class XiakeUIPanel : Jyx2_UIBase
         //---------------------------------------------------------------------------
         //特定位置的翻译【XiakePanel角色信息显示大框的信息】
         //---------------------------------------------------------------------------
-        sb.AppendLine(string.Format("等级 {0}".GetContent(nameof(XiakeUIPanel)), role.Level));
-        sb.AppendLine(string.Format("体力 {0}/{1}".GetContent(nameof(XiakeUIPanel)), role.Tili, GameConst.MAX_ROLE_TILI));
-        sb.AppendLine(string.Format("生命 <color={0}>{1}</color>/<color={2}>{3}</color>".GetContent(nameof(XiakeUIPanel)), color1, role.Hp, color2,
+        sb.AppendLine(string.Format("Level {0}".GetContent(nameof(XiakeUIPanel)), role.Level));
+        sb.AppendLine(string.Format("Thể lực {0}/{1}".GetContent(nameof(XiakeUIPanel)), role.Tili, GameConst.MAX_ROLE_TILI));
+        sb.AppendLine(string.Format("Mạng <color={0}>{1}</color>/<color={2}>{3}</color>".GetContent(nameof(XiakeUIPanel)), color1, role.Hp, color2,
             role.MaxHp));
-        sb.AppendLine(string.Format("内力 <color={0}>{1}/{2}</color>".GetContent(nameof(XiakeUIPanel)), color, role.Mp, role.MaxMp));
-        sb.AppendLine(string.Format("经验 {0}/{1}".GetContent(nameof(XiakeUIPanel)), role.Exp, role.GetLevelUpExp()));
+        sb.AppendLine(string.Format("Nội lực <color={0}>{1}/{2}</color>".GetContent(nameof(XiakeUIPanel)), color, role.Mp, role.MaxMp));
+        sb.AppendLine(string.Format("Kinh nghiệm {0}/{1}".GetContent(nameof(XiakeUIPanel)), role.Exp, role.GetLevelUpExp()));
         sb.AppendLine();
-        sb.AppendLine(string.Format("攻击 {0}".GetContent(nameof(XiakeUIPanel)), role.Attack));
-        sb.AppendLine(string.Format("防御 {0}".GetContent(nameof(XiakeUIPanel)), role.Defence));
-        sb.AppendLine(string.Format("轻功 {0}".GetContent(nameof(XiakeUIPanel)), role.Qinggong));
-        sb.AppendLine(string.Format("医疗 {0}".GetContent(nameof(XiakeUIPanel)), role.Heal));
-        sb.AppendLine(string.Format("解毒 {0}".GetContent(nameof(XiakeUIPanel)), role.DePoison));
-        sb.AppendLine(string.Format("用毒 {0}".GetContent(nameof(XiakeUIPanel)), role.UsePoison));
+        sb.AppendLine(string.Format("Công {0}".GetContent(nameof(XiakeUIPanel)), role.Attack));
+        sb.AppendLine(string.Format("Thủ {0}".GetContent(nameof(XiakeUIPanel)), role.Defence));
+        sb.AppendLine(string.Format("Khinh công {0}".GetContent(nameof(XiakeUIPanel)), role.Qinggong));
+        sb.AppendLine(string.Format("Heal {0}".GetContent(nameof(XiakeUIPanel)), role.Heal));
+        sb.AppendLine(string.Format("Giải độc {0}".GetContent(nameof(XiakeUIPanel)), role.DePoison));
+        sb.AppendLine(string.Format("Sử dụng chất độc {0}".GetContent(nameof(XiakeUIPanel)), role.UsePoison));
         sb.AppendLine();
-        sb.AppendLine(string.Format("拳掌 {0}".GetContent(nameof(XiakeUIPanel)), role.Quanzhang));
-        sb.AppendLine(string.Format("御剑 {0}".GetContent(nameof(XiakeUIPanel)), role.Yujian));
-        sb.AppendLine(string.Format("耍刀 {0}".GetContent(nameof(XiakeUIPanel)), role.Shuadao));
-        sb.AppendLine(string.Format("特殊 {0}".GetContent(nameof(XiakeUIPanel)), role.Qimen));
-        sb.AppendLine(string.Format("暗器 {0}".GetContent(nameof(XiakeUIPanel)), role.Anqi));
+        sb.AppendLine(string.Format("Quyền bàn tay {0}".GetContent(nameof(XiakeUIPanel)), role.Quanzhang));
+        sb.AppendLine(string.Format("Kiếm thuật {0}".GetContent(nameof(XiakeUIPanel)), role.Yujian));
+        sb.AppendLine(string.Format("Đao thuật {0}".GetContent(nameof(XiakeUIPanel)), role.Shuadao));
+        sb.AppendLine(string.Format("Đặc trưng {0}".GetContent(nameof(XiakeUIPanel)), role.Qimen));
+        sb.AppendLine(string.Format("Vũ khí ẩn {0}".GetContent(nameof(XiakeUIPanel)), role.Anqi));
         //---------------------------------------------------------------------------
         //---------------------------------------------------------------------------
 

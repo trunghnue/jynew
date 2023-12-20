@@ -83,7 +83,7 @@ namespace Jyx2
         /// <param name="callback"></param>
         public static void AskBattle(Action<bool> callback)
         {
-            ShowYesOrNoSelectPanel("是否与之过招？", callback);
+            ShowYesOrNoSelectPanel("Nó có phải là một mánh khóe?", callback);
         }
         /// <summary>
         /// 询问是否邀入队伍
@@ -91,7 +91,7 @@ namespace Jyx2
         /// <param name="callback"></param>
         public static void AskJoin(Action<bool> callback)
         {
-            ShowYesOrNoSelectPanel("是否要求加入？", callback);
+            ShowYesOrNoSelectPanel("Bạn có muốn tham gia không?", callback);
         }
         /// <summary>
         /// 询问是否休息
@@ -99,7 +99,7 @@ namespace Jyx2
         /// <param name="callback"></param>
         public static void AskRest(Action<bool> callback)
         {
-            ShowYesOrNoSelectPanel("是否休息？<color=red>（温馨提示：受伤太重或中毒不回复）</color>", callback);
+            ShowYesOrNoSelectPanel("Nghỉ ngơi 1 lát?<color=red>（Nhắc nhở：Không hồi phục nếu bị thương quá nặng hoặc bị nhiễm độc）</color>", callback);
         }
         /// <summary>
         /// 打开韦小宝商店
@@ -159,7 +159,7 @@ namespace Jyx2
         {
             UniTask.Void(async () =>
             {
-                List<string> selectionContent = new List<string>() { "是", "否" };
+                List<string> selectionContent = new List<string>() { "Yes", "No" };
                 StoryEngine.BlockPlayerControl = true;
                 await Jyx2_UIManager.Instance.ShowUIAsync(nameof(ChatUIPanel), ChatType.Selection, "0", selectMessage,
                     selectionContent, new Action<int>((index) =>
@@ -1262,7 +1262,7 @@ namespace Jyx2
                 //---------------------------------------------------------------------------
                 //特定位置的翻译【得到物品提示】
                 //---------------------------------------------------------------------------
-                stringBuilder.Append("得到物品：".GetContent(token));
+                stringBuilder.Append("Lấy item：".GetContent(token));
                 //---------------------------------------------------------------------------
                 //---------------------------------------------------------------------------
             }
@@ -2006,7 +2006,7 @@ namespace Jyx2
         {
             if (isQuickBattle)
             {
-                ShowYesOrNoSelectPanel("是否战斗胜利？", callback);
+                ShowYesOrNoSelectPanel("Trận chiến có thắng không?", callback);
                 return;
             }
 

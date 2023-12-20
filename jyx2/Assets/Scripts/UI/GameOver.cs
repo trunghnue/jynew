@@ -41,8 +41,8 @@ public class GameOver : Jyx2_UIBase
         IsBlockControl = true;
         name_text.text = GameRuntimeData.Instance.Player.Name;
         DateTime nowTime = DateTime.Now;
-        date_text.text = nowTime.Subtract(GameRuntimeData.Instance.startDate).Days.ToString()+"天前";
-        note_text.text = nowTime.ToLongDateString().ToString()+"\n在地球某处\n当地失踪人口又增加了\n一例……";
+        date_text.text = nowTime.Subtract(GameRuntimeData.Instance.startDate).Days.ToString()+"Ngày trước";
+        note_text.text = nowTime.ToLongDateString().ToString()+"\nỞ đâu đó trên Trái đất\nMột người mất tích khác đã được thêm vào\n...";
         LoadArchiveItems();
         SelectFirstItem();
     }

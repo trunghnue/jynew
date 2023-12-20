@@ -17,39 +17,39 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "金庸重制版/MOD/生成根配置文件", fileName = "ModRootConfig")]
 public class MODRootConfig : ScriptableObject
 {
-    [LabelText("MOD ID（全局唯一）")] public string ModId;
+    [LabelText("MOD ID")] public string ModId;
 
-    [LabelText("是否原生MOD（随打包一起发布）")] public bool IsNativeMod = false;
-    [Multiline][LabelText("MOD简介")] public string Desc;
-    [LabelText("MOD版本号")] public string Version;
-    [LabelText("MOD名称")] public string ModName;
-    [LabelText("游戏MOD的根目录")] public string ModRootDir;
-    [LabelText("游戏作者名")] public string Author;
+    [LabelText("Native MOD (released with packaging)")] public bool IsNativeMod = false;
+    [Multiline][LabelText("Giới thiệu")] public string Desc;
+    [LabelText("Phiên bản")] public string Version;
+    [LabelText("Tên mod")] public string ModName;
+    [LabelText("Thư mục gốc")] public string ModRootDir;
+    [LabelText("Tên tác giả")] public string Author;
 
-    [LabelText("LUA文件名配置")] public string LuaFilePatten = "ka{0}";
+    [LabelText("Cấu hình tên tệp Lua")] public string LuaFilePatten = "ka{0}";
 
-    [LabelText("MOD存档版本号")] public int ModArchiveVersion = 0;
+    [LabelText("Phiên bản lưu trữ")] public int ModArchiveVersion = 0;
 
-    [LabelText("主角姓名")] public string PlayerName;
+    [LabelText("Nhân vật chính")] public string PlayerName;
 
-    [LabelText("预加载的lua文件（比如热更新）")] public List<string> PreloadedLua;
+    [LabelText("Tệp LUA được tải sẵn (như Hot Fix)")] public List<string> PreloadedLua;
 
-    [LabelText("只允许大地图存档")] public bool EnableSaveBigMapOnly = true;
-    [LabelText("只允许大地图离队")] public bool EnableKickTeammateBigMapOnly = true;
-    [LabelText("只允许自动战斗")] public bool AutoBattleOnly = false;
-    [LabelText("默认战斗倍速")] public float BattleTimeScale = 1f;
-    [LabelText("战斗中显示招式名字")] public bool ShowSkillNameInBattle = false;
-    [LabelText("是否打开控制台")] public bool IsConsoleEnable = true;
-    [LabelText("在哪些难度中禁止使用控制台")] public List<Jyx2_GameDifficulty> ConsoleDisableDifficulty;
-    [LabelText("战斗中是否播放使用道具动作")] public bool IsPlayUseItemAnimation = true;
+    [LabelText("Chỉ cho phép bản đồ lưu trữ")] public bool EnableSaveBigMapOnly = true;
+    [LabelText("Chỉ cho phép bản đồ lớn rời khỏi đội")] public bool EnableKickTeammateBigMapOnly = true;
+    [LabelText("Chỉ cho phép các trận chiến tự động")] public bool AutoBattleOnly = false;
+    [LabelText("Trận chiến mặc định gấp đôi")] public float BattleTimeScale = 1f;
+    [LabelText("Hiển thị tên di chuyển trong trận chiến")] public bool ShowSkillNameInBattle = false;
+    [LabelText("Có mở bảng điều khiển không")] public bool IsConsoleEnable = true;
+    [LabelText("Trong những khó khăn, việc sử dụng bảng điều khiển")] public List<Jyx2_GameDifficulty> ConsoleDisableDifficulty;
+    [LabelText("Có nên chơi với đạo cụ trong trận chiến")] public bool IsPlayUseItemAnimation = true;
 
-    [InfoBox("某些角色名与人物ID不严格对应，在此修正。用于对话中正确显示名字")] [BoxGroup("对话人物ID修正")] [TableList] 
+    [InfoBox("Một số tên ký tự không tương ứng với ID ký tự và nó được sửa ở đây.Được sử dụng để hiển thị tên chính xác trong cuộc đối thoại")] [BoxGroup("对话人物ID修正")] [TableList] 
     [HideLabel]
     public List<StoryIdNameFix> StoryIdNameFixes;
     
     
-    [LabelText("俯视相机偏移（近，为0使用全局设置）")]public Vector3 CameraOffsetNear = Vector3.zero;
-    [LabelText("俯视相机偏移（远，为0使用全局设置）")]public Vector3 CameraOffsetFar = Vector3.zero;
+    [LabelText("Nhìn xuống bù máy ảnh (gần, sử dụng cài đặt toàn cầu cho 0)")]public Vector3 CameraOffsetNear = Vector3.zero;
+    [LabelText("Nhìn xuống bù camera (xa, sử dụng cài đặt toàn cầu cho 0)")]public Vector3 CameraOffsetFar = Vector3.zero;
 
 #if UNITY_EDITOR
     [Button("生成配置表")]
