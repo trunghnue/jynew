@@ -1,5 +1,5 @@
 Talk(1192, "买大买小，买定离手，猜中双倍返还，要试一试吗？");
-if ShowSelectPanel(0, "要试一试吗？", {"是", "否"}) == 0 then goto label0 end;
+if ShowSelectPanel(0, "要试一试吗？", {"Có", "Không"}) == 0 then goto label0 end;
     Talk(0, "我最近手头不宽裕，不好意思，下次再来吧。");
     do return end;
 ::label0::

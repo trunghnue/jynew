@@ -150,7 +150,7 @@ public static class GameUtil
         if (role.Sex == 0)//男
         {
             string msg = "修炼此书必须先行挥剑自宫，你是否仍要修炼？";
-            List<string> selectionContent = new List<string>() { "是", "否" };
+            List<string> selectionContent = new List<string>() { "Có", "Không" };
             await Jyx2_UIManager.Instance.ShowUIAsync(nameof(ChatUIPanel), ChatType.Selection, "0", msg, selectionContent, new Action<int>((index) =>
             {
                 if (index == 0)

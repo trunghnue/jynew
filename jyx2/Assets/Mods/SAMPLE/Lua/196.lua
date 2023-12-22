@@ -22,7 +22,7 @@ local items = {
 }
 
 Talk(1193, "公子来抽奖吗？100两银子一次，有机会获得我们无际坊收藏的各种稀世珍宝哟。");
-if ShowSelectPanel(0, "要抽一抽吗？", {"是", "否"}) == 0 then goto label0 end;
+if ShowSelectPanel(0, "要抽一抽吗？", {"Có", "Không"}) == 0 then goto label0 end;
     Talk(0, "我最近手头不宽裕，不好意思，下次再来吧。");
     do return end;
 ::label0::

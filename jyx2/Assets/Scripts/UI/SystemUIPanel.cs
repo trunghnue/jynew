@@ -77,7 +77,7 @@ public partial class SystemUIPanel : Jyx2_UIBase
 			if (!summary.ModId.ToLower().Equals(RuntimeEnvSetup.CurrentModId.ToLower()))
 			{
 				HidePanel();
-				List<string> selectionContent = new List<string>() { "是", "否" };
+				List<string> selectionContent = new List<string>() { "Có", "Không" };
 				string msg = "该存档MOD不匹配，载入可能导致数据错乱，是否继续？";
                 Action<int> onChatSelect = (selection) =>
                 {
@@ -110,7 +110,7 @@ public partial class SystemUIPanel : Jyx2_UIBase
 	async void Quit2MainMenu()
 	{
 		HidePanel();
-		List<string> selectionContent = new List<string>() { "是", "否" };
+		List<string> selectionContent = new List<string>() { "Có", "Không" };
 		await Jyx2_UIManager.Instance.ShowUIAsync(nameof(ChatUIPanel), ChatType.Selection, "0", "将丢失未保存进度，是否继续？", selectionContent, new Action<int>((index) =>
 		{
 			if (index == 0)

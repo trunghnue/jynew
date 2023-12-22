@@ -60,7 +60,7 @@ public class DebugPanel : MonoBehaviour,IJyx2_InputContext
         //场景快速跳转器
         m_ChangeScene.ClearOptions();
         List<string> activeMaps = new List<string>();
-        activeMaps.Add("选择场景");
+        activeMaps.Add("Chọn Scene");
         foreach (var map in LuaToCsBridge.MapTable.Values)
         {
             if (map.Tags.Contains("BATTLE")) continue;
@@ -76,7 +76,7 @@ public class DebugPanel : MonoBehaviour,IJyx2_InputContext
         if (triggerObj != null)
         {
             List<string> opts = new List<string>();
-            opts.Add("传送点");
+            opts.Add("Điểm dịch chuyển");
             for (int i = 0; i < triggerObj.transform.childCount; ++i)
             {
                 opts.Add(triggerObj.transform.GetChild(i).name);
@@ -97,8 +97,8 @@ public class DebugPanel : MonoBehaviour,IJyx2_InputContext
         var curMap = LevelMaster.GetCurrentGameMap();
         if (!curMap.Tags.Contains("WORLDMAP"))
         {
-            string msg = "<color=red>警告：不在大地图上执行传送可能会导致某些剧情中断，强烈建议您退到大地图再执行。是否强行执行？</color>";
-            List<string> selectionContent = new List<string>() { "是", "否" };
+            string msg = "<color=red>Cảnh báo: Không thực hiện dịch chuyển tức thời trên bản đồ lớn có thể gây ra một số gián đoạn cốt truyện. Bạn nên quay lại bản đồ lớn trước khi thực hiện. Nó có được thi hành không?</color>";
+            List<string> selectionContent = new List<string>() { "Có", "Không" };
             await Jyx2_UIManager.Instance.ShowUIAsync(nameof(ChatUIPanel), ChatType.Selection, "0", msg, selectionContent, new Action<int>((index) =>
             {
                 if (index == 0)
@@ -121,8 +121,8 @@ public class DebugPanel : MonoBehaviour,IJyx2_InputContext
         var curMap = LevelMaster.GetCurrentGameMap();
         if (!curMap.Tags.Contains("WORLDMAP"))
         {
-            string msg = "<color=red>警告：不在大地图上执行传送可能会导致某些剧情中断，强烈建议您退到大地图再执行。是否强行执行？</color>";
-            List<string> selectionContent = new List<string>() { "是", "否" };
+            string msg = "<color=red>Cảnh báo: Không thực hiện dịch chuyển tức thời trên bản đồ lớn có thể gây ra một số gián đoạn cốt truyện. Bạn nên quay lại bản đồ lớn trước khi thực hiện. Nó có được thi hành không?</color>";
+            List<string> selectionContent = new List<string>() { "Có", "Không" };
             await Jyx2_UIManager.Instance.ShowUIAsync(nameof(ChatUIPanel), ChatType.Selection, "0", msg, selectionContent, new Action<int>((index) =>
             {
                 if (index == 0)
@@ -176,7 +176,7 @@ public class DebugPanel : MonoBehaviour,IJyx2_InputContext
             if (newDifficulty == (int) dif)
             {
                 this.gameObject.SetActive(false);
-                Debug.Log($"难度{dif}下关闭控制台");
+                Debug.Log($"Đóng bảng điều khiển khi gặp khó khăn {dif}");
                 return;
             }
         }
