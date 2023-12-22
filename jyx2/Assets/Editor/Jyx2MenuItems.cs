@@ -18,73 +18,73 @@ namespace Jyx2Editor
     public class Jyx2MenuItems
     {
         
-        [MenuItem("项目快速导航/技能编辑器")]
+        [MenuItem("Quick Navigation/Skill Editor")]
         private static void OpenSkillEditor()
         {
             SceneHelper.StartScene("Assets/Jyx2Tools/Jyx2SkillEditor.unity");
         }
 
-        [MenuItem("项目快速导航/全模型预览")]
+        [MenuItem("Quick Navigation/All Models")]
         private static void OpenAllModels()
         {
             SceneHelper.StartScene("Assets/3D/AllModels.unity");
         }
 
-        [MenuItem("项目快速导航/游戏事件脚本/蓝图脚本")]
+        [MenuItem("Quick Navigation/Game event script/Blueprint script")]
         private static void OpenEventsGraphMenu()
         {
             NavigateToPath("Assets/BuildSource/EventsGraph/README.txt");
         }
 
-        [MenuItem("项目快速导航/游戏事件脚本/lua脚本")]
+        [MenuItem("Quick Navigation/Game event script/lua script")]
         private static void OpenLuaMenu()
         {
             EditorUtility.RevealInFinder("data/lua/jygame");
         }
 
-        [MenuItem("项目快速导航/资源/角色头像")]
+        [MenuItem("Quick Navigation/Resource/Character avatar")]
         private static void OpenRoleHeadsMenu()
         {
             NavigateToPath("Assets/BuildSource/head/0.png");
         }
 
-        [MenuItem("项目快速导航/资源/角色模型(FBX)")]
+        [MenuItem("Quick Navigation/Resource/Role Model(FBX)")]
         private static void OpenRoleModelsMenu()
         {
             NavigateToPath("Assets/3D/Jyx2RoleModels/Models/README.txt");
         }
 
-        [MenuItem("项目快速导航/资源/角色预设(Prefabs)")]
+        [MenuItem("Quick Navigation/Resource/Character preset(Prefabs)")]
         private static void OpenRolePrefabsMenu()
         {
             NavigateToPath("Assets/BuildSource/ModelCharacters/角色预设说明.txt");
         }
 
-        [MenuItem("项目快速导航/资源/角色动作(Animation)")]
+        [MenuItem("Quick Navigation/Resource/Character action(Animation)")]
         private static void OpenRoleAnimations()
         {
             NavigateToPath("Assets/BuildSource/Animations");
         }
 
-        [MenuItem("项目快速导航/资源/角色动作控制器(AnimationController)")]
+        [MenuItem("Quick Navigation/Resource/Character action controller(AnimationController)")]
         private static void OpenRoleAnimationControllers()
         {
             NavigateToPath("Assets/BuildSource/AnimationControllers");
         }
 
-        [MenuItem("项目快速导航/资源/道具图标")]
+        [MenuItem("Quick Navigation/Resource/Prop icon")]
         private static void OpenItemsMenu()
         {
             NavigateToPath("Assets/BuildSource/Items/0.png");
         }
 
-        [MenuItem("项目快速导航/资源/音乐")]
+        [MenuItem("Quick Navigation/Resource/Music")]
         private static void OpenMusicMenu()
         {
             NavigateToPath("Assets/BuildSource/Musics/0.mp3");
         }
 
-        [MenuItem("项目快速导航/资源/音效")]
+        [MenuItem("Quick Navigation/Resource/Sound effects")]
         private static void OpenWaveMenu()
         {
             NavigateToPath("Assets/BuildSource/sound/atk00.wav");

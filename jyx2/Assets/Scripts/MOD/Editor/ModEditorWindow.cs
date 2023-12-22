@@ -8,32 +8,32 @@ namespace Jyx2.MOD.Editor
 {
     public class ModEditorWindow : OdinEditorWindow
     {
-        [MenuItem("MOD开发者/工具集")]
+        [MenuItem("MOD Developer/Toolset")]
         private static void OpenModEditorWindow()
         { 
             var win = GetWindow<ModEditorWindow>();
-            win.titleContent.text = "MOD开发者工具箱";
+            win.titleContent.text = "MOD Developer Toolbox";
         }
 
-        [BoxGroup("MOD基本运行环境")]
-        [Button("打开MOD目录")]
+        [BoxGroup("MOD basic operating environment")]
+        [Button("Open the MOD directory")]
         void OpenModFolder()
         {
             Middleware.Tools.openURL(Application.dataPath + "/Mods/");
         }
 
-        [BoxGroup("MOD基本运行环境")]
-        [Button("打开MOD打包输出目录")]
+        [BoxGroup("MOD basic operating environment")]
+        [Button("Open the MOD packaging output directory")]
         void OpenModDir()
         {
             Middleware.Tools.openURL("ModBuild");
         }
 
-        [BoxGroup("新建MOD")]
-        [LabelText("MOD名称")] public string ModId = "输入新建的MOD ID";
+        [BoxGroup("New MOD")]
+        [LabelText("MOD name")] public string ModId = "Enter the new MOD ID";
         
-        [BoxGroup("新建MOD")]
-        [Button("新建MOD")]
+        [BoxGroup("New MOD")]
+        [Button("Create new MOD")]
         void CreateNewMod()
         {
             //ModName只允许包含英文数字下划线
@@ -63,7 +63,7 @@ namespace Jyx2.MOD.Editor
             System.IO.Directory.CreateDirectory(Application.dataPath + "/Mods/" + ModId + "/BuildSource");
             //创建RELEASENOTE文件
             var streamWriter = System.IO.File.CreateText(Application.dataPath + "/Mods/" + ModId + "/BuildSource/RELEASE_NOTE.txt");
-            streamWriter.WriteLine("添加更新说明..");
+            streamWriter.WriteLine("Add update instructions..");
             streamWriter.Close();
             
             
@@ -114,70 +114,70 @@ namespace Jyx2.MOD.Editor
         }
 
 
-        [BoxGroup("MOD编辑")]
-        [InfoBox("下列功能待实现，敬请期待\n引用依赖检查：OK\n发布待解决：无")]
-        [LabelText("当前正在编辑MOD")]
+        [BoxGroup("MOD Edit")]
+        [InfoBox("The following functions are to be implemented, so stay tuned\nReference dependency check: OK\nPublication pending: None")]
+        [LabelText("Currently editing MOD")]
         public MODRootConfig CurrentMod;
 
         
-        [BoxGroup("MOD编辑")]
-        [Button("定位到")]
+        [BoxGroup("Mod Edit")]
+        [Button("Targeting")]
         void SelectModMenu()
         {
             Selection.activeObject = CurrentMod;
         }
         
-        [BoxGroup("MOD编辑")]
-        [Button("创建Lua")]
+        [BoxGroup("Mod Edit")]
+        [Button("Create Lua")]
         void CreateLua()
         {
             EditorUtility.DisplayDialog("提示", $"待实现", "确定");
         }
         
-        [BoxGroup("MOD编辑")]
-        [Button("创建一个场景")]
+        [BoxGroup("Mod Edit")]
+        [Button("Create a scene")]
         void CreateGameScene()
         {
             EditorUtility.DisplayDialog("提示", $"待实现", "确定");
         }
         
-        [BoxGroup("MOD编辑")]
-        [Button("创建一个战斗场景")]
+        [BoxGroup("Mod Edit")]
+        [Button("Create a battle scene")]
         void CreateBattleScene()
         {
             EditorUtility.DisplayDialog("提示", $"待实现", "确定");
         }
         
-        [BoxGroup("MOD编辑")]
-        [Button("创建一个技能展示")]
+        [BoxGroup("Mod Edit")]
+        [Button("Create a skills showcase")]
         void CreateSkillDisplayAsset()
         {
             EditorUtility.DisplayDialog("提示", $"待实现", "确定");
         }
         
-        [BoxGroup("MOD编辑")]
-        [Button("创建一个角色模型预设")]
+        [BoxGroup("Mod Edit")]
+        [Button("Create a character model preset")]
         void CreateRoleModelAsset()
         {
             EditorUtility.DisplayDialog("提示", $"待实现", "确定");
         }
         
-        [BoxGroup("MOD编辑")]
-        [Button("检查本MOD的引用依赖")]
+        [BoxGroup("Mod Edit")]
+        [Button("Check the reference dependencies of this MOD")]
         void CheckRef()
         {
             EditorUtility.DisplayDialog("提示", $"待实现", "确定");
         }
         
-        [BoxGroup("MOD编辑")]
-        [Button("自动绑定和分配ab包")]
+        [BoxGroup("Mod Edit")]
+        [Button("Automatically bind and distribute ab packages")]
         void AutoAssetBundlePackingSet()
         {
             EditorUtility.DisplayDialog("提示", $"待实现", "确定");
         }
         
-        [BoxGroup("MOD编辑")]
-        [Button("MOD打包输出")]
+        [BoxGroup("Mod Edit")]
+        [Button("MOD package output")]
         void Build()
         {
             EditorUtility.DisplayDialog("提示", $"待实现", "确定");

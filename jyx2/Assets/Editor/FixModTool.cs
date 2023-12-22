@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FixModTool
 {
-    [MenuItem("Game Tools/修复启动MOD")]
+    [MenuItem("Game Tools/Fix startup MOD")]
     static void FixLaunchMod()
     {
         PlayerPrefs.DeleteKey("CURRENT_MOD_ID");

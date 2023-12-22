@@ -27,7 +27,7 @@ namespace Jyx2Editor.BuildTool
     
     class Jyx2ModExportWindow:OdinEditorWindow
     {
-        [MenuItem("Game Tools/Mod导出")]
+        [MenuItem("Game Tools/Mod export")]
         public static void OpenWindow()
         {
             var window = GetWindow<Jyx2ModExportWindow>();
